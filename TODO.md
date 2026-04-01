@@ -117,14 +117,17 @@ All workflows should:
 ### Step 4: Update simplesolat-api
 - [ ] Rewrite sync to read from simplesolat-data (GitHub raw) instead of upstream APIs
 - [ ] Remove upstream API client code (src/api/jakim.rs, muis.rs, equran.rs, kheu.rs, acju.rs)
-- [ ] Keep simple JSON parsing + DB upsert
+- [ ] Keep simple JSON parsing (local HH:MM → epoch conversion) + DB upsert
 - [ ] Move zones.yaml, mapping files, ACJU data out of simplesolat-api repo
+- [ ] Decide sync trigger: API polls on schedule, or CI webhook after data push?
 
 ### Step 5: Update simplesolat (mobile)
-- [ ] Fetch zones from API (GET /zones), cache for 1 month
-- [ ] Fetch GeoJSON and mappings from simplesolat-data (GitHub raw/Pages) on demand per country
-- [ ] Remove bundled zone mapping assets
-- [ ] Adding a new country no longer requires app update
+- [ ] On GPS country detection, check if country has official zones (via API or zones.yaml)
+- [ ] If official + no cached geojson for that country → fetch geojson + mapping from simplesolat-data, cache locally
+- [ ] Keep MY/SG geojson bundled (core user base), fetch others on demand
+- [ ] ADM0 (country detection) stays bundled — small and global
+- [ ] Calculated zones (adhan-js) remain the fallback for unsupported countries
+- [ ] Adding a new country no longer requires app update — just data repo + API changes
 
 ## Upstream API Notes
 
