@@ -15,18 +15,18 @@ simplesolat-data/
     BN/{zone_code}/{year}-{month}.json
     LK/{zone_code}/{year}-{month}.json
 
-  zones/
-    zones.yaml                   # all zone definitions (moved from simplesolat-api)
+  countries.yaml                   # country definitions: name, geojson/mapping URLs
+  zones.yaml                       # all zone definitions, keyed by country
 
-  mappings/                      # mobile zone resolution files
-    adm2_zone_mapping_id.json
-    adm2_zone_mapping_lk.json
-    adm1_zone_mapping_bn.json
+  geojson/                         # datestamped — URL change = cache invalidation
+    IDN-ADM2-20260401.geojson
+    LKA-ADM2-20260401.geojson
+    BRN-ADM1-20260401.geojson
 
-  geojson/                       # geoBoundaries files per country (for mobile)
-    IDN-ADM2.geojson
-    LKA-ADM2.geojson
-    BRN-ADM1.geojson
+  mappings/                        # datestamped — same caching strategy
+    adm2_zone_mapping_id-20260401.json
+    adm2_zone_mapping_lk-20260401.json
+    adm1_zone_mapping_bn-20260401.json
 
   sources/                       # raw non-API data (PDFs, etc.)
     acju/2026/*.pdf              # ACJU prayer time PDFs
@@ -73,10 +73,11 @@ Each file is one zone, one month. Array of daily records:
 ## Implementation Steps
 
 ### Step 1: Seed initial data
+- [ ] Create countries.yaml with official country definitions and geojson/mapping URLs
 - [ ] Copy zones.yaml from simplesolat-api
-- [ ] Copy mapping files from simplesolat-api
+- [ ] Copy and datestamp mapping files from simplesolat-api
+- [ ] Download and datestamp geoBoundaries files for ID, LK, BN
 - [ ] Commit ACJU PDFs to sources/acju/ (authoritative source)
-- [ ] Download geoBoundaries files for ID, LK, BN
 
 ### Step 2: Write fetch scripts
 
@@ -118,14 +119,18 @@ All workflows should:
 - [ ] Rewrite sync to read from simplesolat-data (GitHub raw) instead of upstream APIs
 - [ ] Remove upstream API client code (src/api/jakim.rs, muis.rs, equran.rs, kheu.rs, acju.rs)
 - [ ] Keep simple JSON parsing (local HH:MM → epoch conversion) + DB upsert
-- [ ] Sync zones.yaml from this repo (single source of truth for zone definitions)
+- [ ] Sync countries.yaml and zones.yaml from this repo (single source of truth)
+- [ ] New endpoint: GET /countries — returns official countries with geojson/mapping URLs
+- [ ] New endpoint: GET /zones?country=MY — zones filtered by country
 - [ ] Keep existing cron sync — just repoint to this repo's raw files
 - [ ] Flush tables on cutover to repopulate from this repo
 
 ### Step 5: Update simplesolat (mobile)
-- [ ] On GPS country detection, check if country has official zones (via API or zones.yaml)
-- [ ] If official + no cached geojson for that country → fetch geojson + mapping from simplesolat-data, cache locally
-- [ ] Keep MY/SG geojson bundled (core user base), fetch others on demand
+- [ ] Fetch countries list from API (GET /countries), cache for 1 month
+- [ ] On GPS country detection, check if country is in official list
+- [ ] If official + no cached geojson → fetch geojson + mapping via URLs from countries list, cache locally
+- [ ] Cache geojson/mapping by URL — URL change (datestamp) = new data
+- [ ] On countries refresh: compare cached URLs vs new URLs, delete old cached files, fetch new ones
 - [ ] ADM0 (country detection) stays bundled — small and global
 - [ ] Calculated zones (adhan-js) remain the fallback for unsupported countries
 - [ ] Adding a new country no longer requires app update — just data repo + API changes
@@ -165,11 +170,21 @@ All workflows should:
 - Extract directly from PDFs (authoritative source) — manual via Claude Code or scripted
 - No imsak — derive as fajr - 10 min
 
+## Caching Strategy
+
+| Data | Mobile cache | Invalidation |
+|------|-------------|-------------|
+| Countries list | 1 month | Refetch from API monthly |
+| GeoJSON / mappings | Indefinite | URL change (datestamp) triggers delete old + fetch new |
+| Zones per country | 1 month | Refetch from API monthly |
+| Prayer times | Current + next month | Trimmed on each fetch |
+
 ## Contributing a New Country
 
 1. Find official prayer times source (government authority, PDF, API)
 2. Write a script in `scripts/` that outputs JSON in the data format above
-3. Add zone definitions to `zones/zones.yaml`
-4. Add geoBoundaries mapping to `mappings/`
-5. If source is PDF, commit raw PDF to `sources/`
-6. Submit PR with all of the above
+3. Add country to `countries.yaml` with geojson/mapping URLs
+4. Add zone definitions to `zones.yaml`
+5. Add datestamped geojson + mapping files
+6. If source is PDF, commit raw PDF to `sources/`
+7. Submit PR with all of the above
