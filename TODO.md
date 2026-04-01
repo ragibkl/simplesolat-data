@@ -9,11 +9,11 @@ Centralized prayer times data repository. CI fetches from upstream sources and c
 ```
 simplesolat-data/
   data/                          # prayer times JSON (output)
-    MY/{zone_code}/{year}/{month}.json   # e.g. data/MY/SGR01/2026/01.json
-    SG/SGP01/{year}/{month}.json
-    ID/{zone_code}/{year}/{month}.json
-    BN/{zone_code}/{year}/{month}.json
-    LK/{zone_code}/{year}/{month}.json
+    MY/{zone_code}/{year}-{month}.json   # e.g. data/MY/SGR01/2026-01.json
+    SG/SGP01/{year}-{month}.json
+    ID/{zone_code}/{year}-{month}.json
+    BN/{zone_code}/{year}-{month}.json
+    LK/{zone_code}/{year}-{month}.json
 
   zones/
     zones.yaml                   # all zone definitions (moved from simplesolat-api)
@@ -39,7 +39,11 @@ simplesolat-data/
     extract_acju/                # sources/acju/*.pdf → data/LK/
 
   .github/workflows/
-    sync.yml                     # scheduled CI to fetch and commit
+    fetch_jakim.yml              # MY — monthly
+    fetch_muis.yml               # SG — monthly
+    fetch_equran.yml             # ID — monthly
+    fetch_kheu.yml               # BN — end of month (daily last 3 days)
+    extract_acju.yml             # LK — yearly
 ```
 
 ## Data Format
@@ -87,17 +91,28 @@ Reference code: https://github.com/ragibkl/simplesolat-api/tree/master/src/api
 
 Each script should:
 - Check what data already exists in data/
-- Only fetch missing months (skip if {month}.json already exists)
-- Write to data/{country}/{zone_code}/{year}/{month}.json
+- Only fetch missing months (skip if {year}-{month}.json already exists)
+- Write to data/{country}/{zone_code}/{year}-{month}.json
+- Validate output before writing (times in order: imsak < fajr < syuruk < dhuhr < asr < maghrib < isha, no gaps in month)
+- Retry transient failures (network errors, timeouts) with backoff
 - Be idempotent (safe to re-run)
 - Handle errors gracefully (log and continue)
 
-### Step 3: GitHub Actions workflow
-- [ ] Create .github/workflows/sync.yml
-- [ ] Schedule: 1st of every month at 3 AM UTC
-- [ ] Also support workflow_dispatch for manual trigger
-- [ ] Steps: checkout → run each fetch script → commit if changed → push
-- [ ] Store MUIS_API_KEY as GitHub secret
+### Step 3: GitHub Actions workflows (one per source)
+
+Each source gets its own workflow so failures are isolated and schedules can differ.
+All workflows run on the 27th and 28th of each month (idempotent — noop if data already exists).
+After fetching, each workflow must verify next month's data exists for all zones — fail loudly if missing.
+
+- [ ] fetch_jakim.yml — schedule: 27th & 28th
+- [ ] fetch_muis.yml — schedule: 27th & 28th, bulk fetch, needs MUIS_API_KEY as GitHub secret
+- [ ] fetch_equran.yml — schedule: 27th & 28th
+- [ ] fetch_kheu.yml — schedule: 27th & 28th
+- [ ] extract_acju.yml — schedule: yearly (Jan) or manual when new PDFs are published
+
+All workflows should:
+- [ ] Support workflow_dispatch for manual trigger
+- [ ] Steps: checkout → run fetch script → verify next month data → commit if changed → push
 
 ### Step 4: Update simplesolat-api
 - [ ] Rewrite sync to read from simplesolat-data (GitHub raw) instead of upstream APIs
