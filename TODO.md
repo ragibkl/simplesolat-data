@@ -39,11 +39,11 @@ simplesolat-data/
     extract_acju/                # sources/acju/*.pdf → data/LK/
 
   .github/workflows/
-    fetch_jakim.yml              # MY — monthly
-    fetch_muis.yml               # SG — monthly
-    fetch_equran.yml             # ID — monthly
-    fetch_kheu.yml               # BN — end of month (daily last 3 days)
-    extract_acju.yml             # LK — yearly
+    fetch_jakim.yml              # MY — 27th & 28th
+    fetch_muis.yml               # SG — 27th & 28th
+    fetch_equran.yml             # ID — 27th & 28th
+    fetch_kheu.yml               # BN — 27th & 28th
+    extract_acju.yml             # LK — yearly / manual
 ```
 
 ## Data Format
@@ -75,7 +75,7 @@ Each file is one zone, one month. Array of daily records:
 ### Step 1: Seed initial data
 - [ ] Copy zones.yaml from simplesolat-api
 - [ ] Copy mapping files from simplesolat-api
-- [ ] Copy ACJU JSON files from simplesolat-api (already in data/acju/2026/)
+- [ ] Commit ACJU PDFs to sources/acju/ (authoritative source)
 - [ ] Download geoBoundaries files for ID, LK, BN
 
 ### Step 2: Write fetch scripts
@@ -87,7 +87,7 @@ Reference code: https://github.com/ragibkl/simplesolat-api/tree/master/src/api
 - [ ] fetch_muis — GET data.gov.sg CKAN API, single bulk fetch, needs MUIS_API_KEY
 - [ ] fetch_equran — POST to equran.id, per zone per month, 200ms throttle
 - [ ] fetch_kheu — GET mora.gov.bn SharePoint, date range query, handle pagination
-- [ ] extract_acju — read PDFs from sources/acju/ (Python ok here if Rust PDF libs are lacking)
+- [ ] extract_acju — read PDFs from sources/acju/ (Python ok, or manual extraction via Claude Code)
 
 Each script should:
 - Check what data already exists in data/
@@ -118,8 +118,9 @@ All workflows should:
 - [ ] Rewrite sync to read from simplesolat-data (GitHub raw) instead of upstream APIs
 - [ ] Remove upstream API client code (src/api/jakim.rs, muis.rs, equran.rs, kheu.rs, acju.rs)
 - [ ] Keep simple JSON parsing (local HH:MM → epoch conversion) + DB upsert
-- [ ] Move zones.yaml, mapping files, ACJU data out of simplesolat-api repo
-- [ ] Decide sync trigger: API polls on schedule, or CI webhook after data push?
+- [ ] Sync zones.yaml from this repo (single source of truth for zone definitions)
+- [ ] Keep existing cron sync — just repoint to this repo's raw files
+- [ ] Flush tables on cutover to repopulate from this repo
 
 ### Step 5: Update simplesolat (mobile)
 - [ ] On GPS country detection, check if country has official zones (via API or zones.yaml)
@@ -161,8 +162,7 @@ All workflows should:
 ### ACJU (Sri Lanka)
 - No API — PDFs published yearly at https://www.acju.lk/prayer-times/
 - 13 official zones (multiple districts share same times)
-- Data from thani-sh/prayer-time-lk GitHub repo (MIT), verified against ACJU PDFs
-- Times in minutes-from-midnight format: [300, 382, 735, 937, 1087, 1161]
+- Extract directly from PDFs (authoritative source) — manual via Claude Code or scripted
 - No imsak — derive as fajr - 10 min
 
 ## Contributing a New Country
