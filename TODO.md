@@ -9,11 +9,11 @@ Centralized prayer times data repository. CI fetches from upstream sources and c
 ```
 simplesolat-data/
   data/                          # prayer times JSON (output)
-    MY/{zone_code}/{year}.json   # e.g. data/MY/SGR01/2026.json
-    SG/SGP01/{year}.json
-    ID/{zone_code}/{year}.json
-    BN/{zone_code}/{year}.json
-    LK/{zone_code}/{year}.json
+    MY/{zone_code}/{year}/{month}.json   # e.g. data/MY/SGR01/2026/01.json
+    SG/SGP01/{year}/{month}.json
+    ID/{zone_code}/{year}/{month}.json
+    BN/{zone_code}/{year}/{month}.json
+    LK/{zone_code}/{year}/{month}.json
 
   zones/
     zones.yaml                   # all zone definitions (moved from simplesolat-api)
@@ -44,7 +44,7 @@ simplesolat-data/
 
 ## Data Format
 
-Each file is one zone, one year. Array of daily records:
+Each file is one zone, one month. Array of daily records:
 
 ```json
 [
@@ -64,7 +64,7 @@ Each file is one zone, one year. Array of daily records:
 
 - Times are HH:MM in local timezone (no seconds, no timezone info)
 - Timezone is determined by zone metadata in zones.yaml
-- 365 or 366 records per file
+- 28–31 records per file (one per day of the month)
 
 ## Implementation Steps
 
@@ -87,8 +87,8 @@ Reference code: https://github.com/ragibkl/simplesolat-api/tree/master/src/api
 
 Each script should:
 - Check what data already exists in data/
-- Only fetch missing months/dates
-- Write to data/{country}/{zone_code}/{year}.json
+- Only fetch missing months (skip if {month}.json already exists)
+- Write to data/{country}/{zone_code}/{year}/{month}.json
 - Be idempotent (safe to re-run)
 - Handle errors gracefully (log and continue)
 
