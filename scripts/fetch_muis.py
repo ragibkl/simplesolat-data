@@ -13,6 +13,7 @@ import os
 import re
 import sys
 from collections import defaultdict
+from datetime import datetime
 from urllib.request import Request, urlopen
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -60,6 +61,19 @@ def main():
     api_key = os.environ.get("MUIS_API_KEY", "")
     if not api_key:
         print("WARNING: MUIS_API_KEY not set, may be rate limited")
+
+    # Check if current year and next year are fully populated
+    now = datetime.now()
+    years_to_check = [now.year, now.year + 1]
+    out_dir = os.path.join(ROOT, "data", "prayer-times", "SG", ZONE_CODE)
+    all_exist = all(
+        os.path.exists(os.path.join(out_dir, f"{y}-{m:02d}.json"))
+        for y in years_to_check
+        for m in range(1, 13)
+    )
+    if all_exist:
+        print(f"All months for {years_to_check[0]}-{years_to_check[1]} already exist, skipping fetch")
+        return
 
     print("Fetching MUIS prayer times...")
     records = fetch_all_records()
