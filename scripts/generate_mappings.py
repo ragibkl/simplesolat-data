@@ -98,11 +98,11 @@ def load_geojson_states(geojson_path):
 
 
 def main():
-    countries = parse_countries_yaml(os.path.join(ROOT, 'countries.yaml'))
+    countries = parse_countries_yaml(os.path.join(ROOT, 'data', 'countries.yaml'))
 
     for country in countries:
         cc = country['code']
-        zones_path = os.path.join(ROOT, 'zones', f'{cc}.yaml')
+        zones_path = os.path.join(ROOT, 'data', 'zones', f'{cc}.yaml')
         geojson_path = os.path.join(ROOT, country.get('geojson', ''))
         mapping_path = country.get('mapping', '')
 

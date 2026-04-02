@@ -1,0 +1,627 @@
+# ACJU prayer time PDF sources
+# Source: https://www.acju.lk/prayer-times/
+pdfs:
+  - zone: LK01
+    year: "2026"
+    month: "01"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/01-COLOMBO-DISTRICT-GAMPAHA-DISTRICT-KALUTARA-DISTRICT-1-Jan.pdf
+  - zone: LK01
+    year: "2026"
+    month: "10"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/01-COLOMBO-DISTRICT-GAMPAHA-DISTRICT-KALUTARA-DISTRICT-10-Oct.pdf
+  - zone: LK01
+    year: "2026"
+    month: "11"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/01-COLOMBO-DISTRICT-GAMPAHA-DISTRICT-KALUTARA-DISTRICT-11-Nov.pdf
+  - zone: LK01
+    year: "2026"
+    month: "12"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/01-COLOMBO-DISTRICT-GAMPAHA-DISTRICT-KALUTARA-DISTRICT-12-Dec.pdf
+  - zone: LK01
+    year: "2026"
+    month: "02"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/01-COLOMBO-DISTRICT-GAMPAHA-DISTRICT-KALUTARA-DISTRICT-2-Feb.pdf
+  - zone: LK01
+    year: "2026"
+    month: "03"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/01-COLOMBO-DISTRICT-GAMPAHA-DISTRICT-KALUTARA-DISTRICT-3-Mar.pdf
+  - zone: LK01
+    year: "2026"
+    month: "04"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/01-COLOMBO-DISTRICT-GAMPAHA-DISTRICT-KALUTARA-DISTRICT-4-Apr.pdf
+  - zone: LK01
+    year: "2026"
+    month: "05"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/01-COLOMBO-DISTRICT-GAMPAHA-DISTRICT-KALUTARA-DISTRICT-4-May.pdf
+  - zone: LK01
+    year: "2026"
+    month: "06"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/01-COLOMBO-DISTRICT-GAMPAHA-DISTRICT-KALUTARA-DISTRICT-6-June.pdf
+  - zone: LK01
+    year: "2026"
+    month: "07"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/01-COLOMBO-DISTRICT-GAMPAHA-DISTRICT-KALUTARA-DISTRICT-7-July.pdf
+  - zone: LK01
+    year: "2026"
+    month: "08"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/01-COLOMBO-DISTRICT-GAMPAHA-DISTRICT-KALUTARA-DISTRICT-8-Aug.pdf
+  - zone: LK01
+    year: "2026"
+    month: "09"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/01-COLOMBO-DISTRICT-GAMPAHA-DISTRICT-KALUTARA-DISTRICT-9-Sep.pdf
+  - zone: LK02
+    year: "2026"
+    month: "01"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/02-JAFFNA-DISTRICT-NALLUR-1-Jan.pdf
+  - zone: LK02
+    year: "2026"
+    month: "10"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/02-JAFFNA-DISTRICT-NALLUR-10-Oct.pdf
+  - zone: LK02
+    year: "2026"
+    month: "11"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/02-JAFFNA-DISTRICT-NALLUR-11-Nov.pdf
+  - zone: LK02
+    year: "2026"
+    month: "12"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/02-JAFFNA-DISTRICT-NALLUR-12-Dec.pdf
+  - zone: LK02
+    year: "2026"
+    month: "02"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/02-JAFFNA-DISTRICT-NALLUR-2-Feb.pdf
+  - zone: LK02
+    year: "2026"
+    month: "03"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/02-JAFFNA-DISTRICT-NALLUR-3-Mar.pdf
+  - zone: LK02
+    year: "2026"
+    month: "04"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/02-JAFFNA-DISTRICT-NALLUR-4-Apr.pdf
+  - zone: LK02
+    year: "2026"
+    month: "05"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/02-JAFFNA-DISTRICT-NALLUR-4-May.pdf
+  - zone: LK02
+    year: "2026"
+    month: "06"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/02-JAFFNA-DISTRICT-NALLUR-6-June.pdf
+  - zone: LK02
+    year: "2026"
+    month: "07"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/02-JAFFNA-DISTRICT-NALLUR-7-July.pdf
+  - zone: LK02
+    year: "2026"
+    month: "08"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/02-JAFFNA-DISTRICT-NALLUR-8-Aug.pdf
+  - zone: LK02
+    year: "2026"
+    month: "09"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/02-JAFFNA-DISTRICT-NALLUR-9-Sep.pdf
+  - zone: LK03
+    year: "2026"
+    month: "01"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/03-MULLAITIVU-DISTRICT-EXCEPT-NALLUR-KILINOCHCHI-DISTRICT-VAVUNIYA-DISTRICT-1-Jan.pdf
+  - zone: LK03
+    year: "2026"
+    month: "10"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/03-MULLAITIVU-DISTRICT-EXCEPT-NALLUR-KILINOCHCHI-DISTRICT-VAVUNIYA-DISTRICT-10-Oct.pdf
+  - zone: LK03
+    year: "2026"
+    month: "11"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/03-MULLAITIVU-DISTRICT-EXCEPT-NALLUR-KILINOCHCHI-DISTRICT-VAVUNIYA-DISTRICT-11-Nov.pdf
+  - zone: LK03
+    year: "2026"
+    month: "12"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/03-MULLAITIVU-DISTRICT-EXCEPT-NALLUR-KILINOCHCHI-DISTRICT-VAVUNIYA-DISTRICT-12-Dec.pdf
+  - zone: LK03
+    year: "2026"
+    month: "02"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/03-MULLAITIVU-DISTRICT-EXCEPT-NALLUR-KILINOCHCHI-DISTRICT-VAVUNIYA-DISTRICT-2-Feb.pdf
+  - zone: LK03
+    year: "2026"
+    month: "03"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/03-MULLAITIVU-DISTRICT-EXCEPT-NALLUR-KILINOCHCHI-DISTRICT-VAVUNIYA-DISTRICT-3-Mar.pdf
+  - zone: LK03
+    year: "2026"
+    month: "04"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/03-MULLAITIVU-DISTRICT-EXCEPT-NALLUR-KILINOCHCHI-DISTRICT-VAVUNIYA-DISTRICT-4-Apr.pdf
+  - zone: LK03
+    year: "2026"
+    month: "05"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/03-MULLAITIVU-DISTRICT-EXCEPT-NALLUR-KILINOCHCHI-DISTRICT-VAVUNIYA-DISTRICT-5-May.pdf
+  - zone: LK03
+    year: "2026"
+    month: "06"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/03-MULLAITIVU-DISTRICT-EXCEPT-NALLUR-KILINOCHCHI-DISTRICT-VAVUNIYA-DISTRICT-6-June.pdf
+  - zone: LK03
+    year: "2026"
+    month: "07"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/03-MULLAITIVU-DISTRICT-EXCEPT-NALLUR-KILINOCHCHI-DISTRICT-VAVUNIYA-DISTRICT-7-July.pdf
+  - zone: LK03
+    year: "2026"
+    month: "08"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/03-MULLAITIVU-DISTRICT-EXCEPT-NALLUR-KILINOCHCHI-DISTRICT-VAVUNIYA-DISTRICT-8-Aug.pdf
+  - zone: LK03
+    year: "2026"
+    month: "09"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/03-MULLAITIVU-DISTRICT-EXCEPT-NALLUR-KILINOCHCHI-DISTRICT-VAVUNIYA-DISTRICT-9-Sep.pdf
+  - zone: LK04
+    year: "2026"
+    month: "01"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/04-MANNAR-DISTRICT-PUTTALAM-DISTRICT-1-Jan.pdf
+  - zone: LK04
+    year: "2026"
+    month: "10"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/04-MANNAR-DISTRICT-PUTTALAM-DISTRICT-10-Oct.pdf
+  - zone: LK04
+    year: "2026"
+    month: "11"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/04-MANNAR-DISTRICT-PUTTALAM-DISTRICT-11-Nov.pdf
+  - zone: LK04
+    year: "2026"
+    month: "12"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/04-MANNAR-DISTRICT-PUTTALAM-DISTRICT-12-Dec.pdf
+  - zone: LK04
+    year: "2026"
+    month: "02"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/04-MANNAR-DISTRICT-PUTTALAM-DISTRICT-2-Feb.pdf
+  - zone: LK04
+    year: "2026"
+    month: "03"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/04-MANNAR-DISTRICT-PUTTALAM-DISTRICT-3-Mar.pdf
+  - zone: LK04
+    year: "2026"
+    month: "04"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/04-MANNAR-DISTRICT-PUTTALAM-DISTRICT-4-Apr.pdf
+  - zone: LK04
+    year: "2026"
+    month: "05"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/04-MANNAR-DISTRICT-PUTTALAM-DISTRICT-5-May.pdf
+  - zone: LK04
+    year: "2026"
+    month: "06"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/04-MANNAR-DISTRICT-PUTTALAM-DISTRICT-6-June.pdf
+  - zone: LK04
+    year: "2026"
+    month: "07"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/04-MANNAR-DISTRICT-PUTTALAM-DISTRICT-7-July.pdf
+  - zone: LK04
+    year: "2026"
+    month: "08"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/04-MANNAR-DISTRICT-PUTTALAM-DISTRICT-8-Aug.pdf
+  - zone: LK04
+    year: "2026"
+    month: "09"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/04-MANNAR-DISTRICT-PUTTALAM-DISTRICT-9-Sep.pdf
+  - zone: LK05
+    year: "2026"
+    month: "01"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/05-ANURADHAPURA-DISTRICT-POLONNARUWA-DISTRICT-1-Jan.pdf
+  - zone: LK05
+    year: "2026"
+    month: "10"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/05-ANURADHAPURA-DISTRICT-POLONNARUWA-DISTRICT-10-Oct.pdf
+  - zone: LK05
+    year: "2026"
+    month: "11"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/05-ANURADHAPURA-DISTRICT-POLONNARUWA-DISTRICT-11-Nov.pdf
+  - zone: LK05
+    year: "2026"
+    month: "12"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/05-ANURADHAPURA-DISTRICT-POLONNARUWA-DISTRICT-12-Dec.pdf
+  - zone: LK05
+    year: "2026"
+    month: "02"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/05-ANURADHAPURA-DISTRICT-POLONNARUWA-DISTRICT-2-Feb.pdf
+  - zone: LK05
+    year: "2026"
+    month: "03"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/05-ANURADHAPURA-DISTRICT-POLONNARUWA-DISTRICT-3-Mar.pdf
+  - zone: LK05
+    year: "2026"
+    month: "04"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/05-ANURADHAPURA-DISTRICT-POLONNARUWA-DISTRICT-4-Apr.pdf
+  - zone: LK05
+    year: "2026"
+    month: "05"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/05-ANURADHAPURA-DISTRICT-POLONNARUWA-DISTRICT-5-May.pdf
+  - zone: LK05
+    year: "2026"
+    month: "06"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/05-ANURADHAPURA-DISTRICT-POLONNARUWA-DISTRICT-6-June.pdf
+  - zone: LK05
+    year: "2026"
+    month: "07"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/05-ANURADHAPURA-DISTRICT-POLONNARUWA-DISTRICT-7-July.pdf
+  - zone: LK05
+    year: "2026"
+    month: "08"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/05-ANURADHAPURA-DISTRICT-POLONNARUWA-DISTRICT-8-Aug.pdf
+  - zone: LK05
+    year: "2026"
+    month: "09"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/05-ANURADHAPURA-DISTRICT-POLONNARUWA-DISTRICT-9-Sep.pdf
+  - zone: LK06
+    year: "2026"
+    month: "01"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/06-KURUNEGALA-DISTRICT-1-Jan.pdf
+  - zone: LK06
+    year: "2026"
+    month: "10"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/06-KURUNEGALA-DISTRICT-10-Oct.pdf
+  - zone: LK06
+    year: "2026"
+    month: "11"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/06-KURUNEGALA-DISTRICT-11-Nov.pdf
+  - zone: LK06
+    year: "2026"
+    month: "12"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/06-KURUNEGALA-DISTRICT-12-Dec.pdf
+  - zone: LK06
+    year: "2026"
+    month: "02"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/06-KURUNEGALA-DISTRICT-2-Feb.pdf
+  - zone: LK06
+    year: "2026"
+    month: "03"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/06-KURUNEGALA-DISTRICT-3-Mar.pdf
+  - zone: LK06
+    year: "2026"
+    month: "04"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/06-KURUNEGALA-DISTRICT-4-Apr.pdf
+  - zone: LK06
+    year: "2026"
+    month: "05"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/06-KURUNEGALA-DISTRICT-5-May.pdf
+  - zone: LK06
+    year: "2026"
+    month: "06"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/06-KURUNEGALA-DISTRICT-6-June.pdf
+  - zone: LK06
+    year: "2026"
+    month: "07"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/06-KURUNEGALA-DISTRICT-7-July.pdf
+  - zone: LK06
+    year: "2026"
+    month: "08"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/06-KURUNEGALA-DISTRICT-8-Aug.pdf
+  - zone: LK06
+    year: "2026"
+    month: "09"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/06-KURUNEGALA-DISTRICT-9-Sep.pdf
+  - zone: LK07
+    year: "2026"
+    month: "01"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/07-KANDY-DISTRICT-MATALE-DISTRICT-NUWARA-ELIYA-DISTRICT-1-Jan.pdf
+  - zone: LK07
+    year: "2026"
+    month: "10"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/07-KANDY-DISTRICT-MATALE-DISTRICT-NUWARA-ELIYA-DISTRICT-10-Oct.pdf
+  - zone: LK07
+    year: "2026"
+    month: "11"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/07-KANDY-DISTRICT-MATALE-DISTRICT-NUWARA-ELIYA-DISTRICT-11-Nov.pdf
+  - zone: LK07
+    year: "2026"
+    month: "12"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/07-KANDY-DISTRICT-MATALE-DISTRICT-NUWARA-ELIYA-DISTRICT-12-Dec.pdf
+  - zone: LK07
+    year: "2026"
+    month: "02"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/07-KANDY-DISTRICT-MATALE-DISTRICT-NUWARA-ELIYA-DISTRICT-2-Feb.pdf
+  - zone: LK07
+    year: "2026"
+    month: "03"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/07-KANDY-DISTRICT-MATALE-DISTRICT-NUWARA-ELIYA-DISTRICT-3-Mar.pdf
+  - zone: LK07
+    year: "2026"
+    month: "04"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/07-KANDY-DISTRICT-MATALE-DISTRICT-NUWARA-ELIYA-DISTRICT-4-Apr.pdf
+  - zone: LK07
+    year: "2026"
+    month: "05"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/07-KANDY-DISTRICT-MATALE-DISTRICT-NUWARA-ELIYA-DISTRICT-5-May.pdf
+  - zone: LK07
+    year: "2026"
+    month: "06"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/07-KANDY-DISTRICT-MATALE-DISTRICT-NUWARA-ELIYA-DISTRICT-6-June.pdf
+  - zone: LK07
+    year: "2026"
+    month: "07"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/07-KANDY-DISTRICT-MATALE-DISTRICT-NUWARA-ELIYA-DISTRICT-7-July.pdf
+  - zone: LK07
+    year: "2026"
+    month: "08"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/07-KANDY-DISTRICT-MATALE-DISTRICT-NUWARA-ELIYA-DISTRICT-8-Aug.pdf
+  - zone: LK07
+    year: "2026"
+    month: "09"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/07-KANDY-DISTRICT-MATALE-DISTRICT-NUWARA-ELIYA-DISTRICT-9-Sep.pdf
+  - zone: LK08
+    year: "2026"
+    month: "01"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/08-BATTICALOA-DISTRICT-AMPARA-DISTRICT-1-Jan.pdf
+  - zone: LK08
+    year: "2026"
+    month: "10"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/08-BATTICALOA-DISTRICT-AMPARA-DISTRICT-10-Oct.pdf
+  - zone: LK08
+    year: "2026"
+    month: "11"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/08-BATTICALOA-DISTRICT-AMPARA-DISTRICT-11-Nov.pdf
+  - zone: LK08
+    year: "2026"
+    month: "12"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/08-BATTICALOA-DISTRICT-AMPARA-DISTRICT-12-Dec.pdf
+  - zone: LK08
+    year: "2026"
+    month: "02"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/08-BATTICALOA-DISTRICT-AMPARA-DISTRICT-2-Feb.pdf
+  - zone: LK08
+    year: "2026"
+    month: "03"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/08-BATTICALOA-DISTRICT-AMPARA-DISTRICT-3-Mar.pdf
+  - zone: LK08
+    year: "2026"
+    month: "04"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/08-BATTICALOA-DISTRICT-AMPARA-DISTRICT-4-Apr.pdf
+  - zone: LK08
+    year: "2026"
+    month: "05"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/08-BATTICALOA-DISTRICT-AMPARA-DISTRICT-5-May.pdf
+  - zone: LK08
+    year: "2026"
+    month: "06"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/08-BATTICALOA-DISTRICT-AMPARA-DISTRICT-6-June.pdf
+  - zone: LK08
+    year: "2026"
+    month: "07"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/08-BATTICALOA-DISTRICT-AMPARA-DISTRICT-7-July.pdf
+  - zone: LK08
+    year: "2026"
+    month: "08"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/08-BATTICALOA-DISTRICT-AMPARA-DISTRICT-8-Aug.pdf
+  - zone: LK08
+    year: "2026"
+    month: "09"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/08-BATTICALOA-DISTRICT-AMPARA-DISTRICT-9-Sep.pdf
+  - zone: LK09
+    year: "2026"
+    month: "01"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/09-TRINCOMALEE-DISTRICT-1-Jan.pdf
+  - zone: LK09
+    year: "2026"
+    month: "10"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/09-TRINCOMALEE-DISTRICT-10-Oct.pdf
+  - zone: LK09
+    year: "2026"
+    month: "11"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/09-TRINCOMALEE-DISTRICT-11-Nov.pdf
+  - zone: LK09
+    year: "2026"
+    month: "12"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/09-TRINCOMALEE-DISTRICT-12-Dec.pdf
+  - zone: LK09
+    year: "2026"
+    month: "02"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/09-TRINCOMALEE-DISTRICT-2-Feb.pdf
+  - zone: LK09
+    year: "2026"
+    month: "03"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/09-TRINCOMALEE-DISTRICT-3-Mar.pdf
+  - zone: LK09
+    year: "2026"
+    month: "04"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/09-TRINCOMALEE-DISTRICT-4-Apr.pdf
+  - zone: LK09
+    year: "2026"
+    month: "05"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/09-TRINCOMALEE-DISTRICT-5-May.pdf
+  - zone: LK09
+    year: "2026"
+    month: "06"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/09-TRINCOMALEE-DISTRICT-6-June.pdf
+  - zone: LK09
+    year: "2026"
+    month: "07"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/09-TRINCOMALEE-DISTRICT-7-July.pdf
+  - zone: LK09
+    year: "2026"
+    month: "08"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/09-TRINCOMALEE-DISTRICT-8-Aug.pdf
+  - zone: LK09
+    year: "2026"
+    month: "09"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/09-TRINCOMALEE-DISTRICT-9-Sep.pdf
+  - zone: LK10
+    year: "2026"
+    month: "01"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/10-BADULLA-DISTRICT-MONARAGALA-DISTRICT-PADIYATALAWA-DEHIATHTHAKANDIYA.-1-Jan.pdf
+  - zone: LK10
+    year: "2026"
+    month: "10"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/10-BADULLA-DISTRICT-MONARAGALA-DISTRICT-PADIYATALAWA-DEHIATHTHAKANDIYA.-10-Oct.pdf
+  - zone: LK10
+    year: "2026"
+    month: "11"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/10-BADULLA-DISTRICT-MONARAGALA-DISTRICT-PADIYATALAWA-DEHIATHTHAKANDIYA.-11-Nov.pdf
+  - zone: LK10
+    year: "2026"
+    month: "12"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/10-BADULLA-DISTRICT-MONARAGALA-DISTRICT-PADIYATALAWA-DEHIATHTHAKANDIYA.-12-Dec.pdf
+  - zone: LK10
+    year: "2026"
+    month: "02"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/10-BADULLA-DISTRICT-MONARAGALA-DISTRICT-PADIYATALAWA-DEHIATHTHAKANDIYA.-2-Feb.pdf
+  - zone: LK10
+    year: "2026"
+    month: "03"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/10-BADULLA-DISTRICT-MONARAGALA-DISTRICT-PADIYATALAWA-DEHIATHTHAKANDIYA.-3-Mar.pdf
+  - zone: LK10
+    year: "2026"
+    month: "04"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/10-BADULLA-DISTRICT-MONARAGALA-DISTRICT-PADIYATALAWA-DEHIATHTHAKANDIYA.-4-Apr.pdf
+  - zone: LK10
+    year: "2026"
+    month: "05"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/10-BADULLA-DISTRICT-MONARAGALA-DISTRICT-PADIYATALAWA-DEHIATHTHAKANDIYA.-5-May.pdf
+  - zone: LK10
+    year: "2026"
+    month: "06"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/10-BADULLA-DISTRICT-MONARAGALA-DISTRICT-PADIYATALAWA-DEHIATHTHAKANDIYA.-6-June.pdf
+  - zone: LK10
+    year: "2026"
+    month: "07"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/10-BADULLA-DISTRICT-MONARAGALA-DISTRICT-PADIYATALAWA-DEHIATHTHAKANDIYA.-7-July.pdf
+  - zone: LK10
+    year: "2026"
+    month: "08"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/10-BADULLA-DISTRICT-MONARAGALA-DISTRICT-PADIYATALAWA-DEHIATHTHAKANDIYA.-8-Aug.pdf
+  - zone: LK10
+    year: "2026"
+    month: "09"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/10-BADULLA-DISTRICT-MONARAGALA-DISTRICT-PADIYATALAWA-DEHIATHTHAKANDIYA.-9-Sep.pdf
+  - zone: LK11
+    year: "2026"
+    month: "01"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/11-RATNAPURA-DISTRICT-KEGALLE-DISTRICT-1-Jan.pdf
+  - zone: LK11
+    year: "2026"
+    month: "10"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/11-RATNAPURA-DISTRICT-KEGALLE-DISTRICT-10-Oct.pdf
+  - zone: LK11
+    year: "2026"
+    month: "11"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/11-RATNAPURA-DISTRICT-KEGALLE-DISTRICT-11-Nov.pdf
+  - zone: LK11
+    year: "2026"
+    month: "12"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/11-RATNAPURA-DISTRICT-KEGALLE-DISTRICT-12-Dec.pdf
+  - zone: LK11
+    year: "2026"
+    month: "02"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/11-RATNAPURA-DISTRICT-KEGALLE-DISTRICT-2-Feb.pdf
+  - zone: LK11
+    year: "2026"
+    month: "03"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/11-RATNAPURA-DISTRICT-KEGALLE-DISTRICT-3-Mar.pdf
+  - zone: LK11
+    year: "2026"
+    month: "04"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/11-RATNAPURA-DISTRICT-KEGALLE-DISTRICT-4-Apr.pdf
+  - zone: LK11
+    year: "2026"
+    month: "05"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/11-RATNAPURA-DISTRICT-KEGALLE-DISTRICT-5-May.pdf
+  - zone: LK11
+    year: "2026"
+    month: "06"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/11-RATNAPURA-DISTRICT-KEGALLE-DISTRICT-6-June.pdf
+  - zone: LK11
+    year: "2026"
+    month: "07"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/11-RATNAPURA-DISTRICT-KEGALLE-DISTRICT-7-July.pdf
+  - zone: LK11
+    year: "2026"
+    month: "08"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/11-RATNAPURA-DISTRICT-KEGALLE-DISTRICT-8-Aug.pdf
+  - zone: LK11
+    year: "2026"
+    month: "09"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/11-RATNAPURA-DISTRICT-KEGALLE-DISTRICT-9-Sep.pdf
+  - zone: LK12
+    year: "2026"
+    month: "01"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/12-GALLE-DISTRICT-MATARA-DISTRICT-1-Jan.pdf
+  - zone: LK12
+    year: "2026"
+    month: "10"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/12-GALLE-DISTRICT-MATARA-DISTRICT-10-Oct.pdf
+  - zone: LK12
+    year: "2026"
+    month: "11"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/12-GALLE-DISTRICT-MATARA-DISTRICT-11-Nov.pdf
+  - zone: LK12
+    year: "2026"
+    month: "12"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/12-GALLE-DISTRICT-MATARA-DISTRICT-12-Dec.pdf
+  - zone: LK12
+    year: "2026"
+    month: "02"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/12-GALLE-DISTRICT-MATARA-DISTRICT-2-Feb.pdf
+  - zone: LK12
+    year: "2026"
+    month: "03"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/12-GALLE-DISTRICT-MATARA-DISTRICT-3-Mar.pdf
+  - zone: LK12
+    year: "2026"
+    month: "04"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/12-GALLE-DISTRICT-MATARA-DISTRICT-4-Apr.pdf
+  - zone: LK12
+    year: "2026"
+    month: "05"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/12-GALLE-DISTRICT-MATARA-DISTRICT-5-May.pdf
+  - zone: LK12
+    year: "2026"
+    month: "06"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/12-GALLE-DISTRICT-MATARA-DISTRICT-6-June.pdf
+  - zone: LK12
+    year: "2026"
+    month: "07"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/12-GALLE-DISTRICT-MATARA-DISTRICT-7-July.pdf
+  - zone: LK12
+    year: "2026"
+    month: "08"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/12-GALLE-DISTRICT-MATARA-DISTRICT-8-Aug.pdf
+  - zone: LK12
+    year: "2026"
+    month: "09"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/12-GALLE-DISTRICT-MATARA-DISTRICT-9-Sep.pdf
+  - zone: LK13
+    year: "2026"
+    month: "01"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/13-HAMBANTOTA-DISTRICT-1-Jan.pdf
+  - zone: LK13
+    year: "2026"
+    month: "10"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/13-HAMBANTOTA-DISTRICT-10-Oct.pdf
+  - zone: LK13
+    year: "2026"
+    month: "11"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/13-HAMBANTOTA-DISTRICT-11-Nov.pdf
+  - zone: LK13
+    year: "2026"
+    month: "02"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/13-HAMBANTOTA-DISTRICT-2-Feb.pdf
+  - zone: LK13
+    year: "2026"
+    month: "03"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/13-HAMBANTOTA-DISTRICT-3-Mar.pdf
+  - zone: LK13
+    year: "2026"
+    month: "04"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/13-HAMBANTOTA-DISTRICT-4-Apr.pdf
+  - zone: LK13
+    year: "2026"
+    month: "05"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/13-HAMBANTOTA-DISTRICT-5-May.pdf
+  - zone: LK13
+    year: "2026"
+    month: "06"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/13-HAMBANTOTA-DISTRICT-6-June.pdf
+  - zone: LK13
+    year: "2026"
+    month: "07"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/13-HAMBANTOTA-DISTRICT-7-July.pdf
+  - zone: LK13
+    year: "2026"
+    month: "08"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/13-HAMBANTOTA-DISTRICT-8-Aug.pdf
+  - zone: LK13
+    year: "2026"
+    month: "09"
+    url: https://www.acju.lk/wp-content/uploads/2025/07/13-HAMBANTOTA-DISTRICT-9-Sep.pdf
+  - zone: LK13
+    year: "2026"
+    month: "12"
+    url: https://www.acju.lk/wp-content/uploads/2025/12/13-HAMBANTOTA-DISTRICT-12-Dec.pdf

@@ -1,0 +1,4 @@
+# Downloaded source files (fetched by scripts on demand)
+sources/**/*.pdf
+sources/**/pdfs/
+__pycache__/
