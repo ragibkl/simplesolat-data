@@ -1,12 +1,4 @@
 {
-  "Pulau Aur": {
-    "zone": "JHR01",
-    "state": "Johor"
-  },
-  "Pulau Pemanggil": {
-    "zone": "JHR01",
-    "state": "Johor"
-  },
   "Johor Bahru": {
     "zone": "JHR02",
     "state": "Johor"
@@ -15,7 +7,7 @@
     "zone": "JHR02",
     "state": "Johor"
   },
-  "Kulai": {
+  "Kulaijaya": {
     "zone": "JHR02",
     "state": "Johor"
   },
@@ -35,15 +27,15 @@
     "zone": "JHR04",
     "state": "Johor"
   },
+  "Ledang": {
+    "zone": "JHR04",
+    "state": "Johor"
+  },
   "Muar": {
     "zone": "JHR04",
     "state": "Johor"
   },
   "Segamat": {
-    "zone": "JHR04",
-    "state": "Johor"
-  },
-  "Tangkak": {
     "zone": "JHR04",
     "state": "Johor"
   },
@@ -179,10 +171,6 @@
     "zone": "NGS03",
     "state": "Negeri Sembilan"
   },
-  "Pulau Tioman": {
-    "zone": "PHG01",
-    "state": "Pahang"
-  },
   "Kuantan": {
     "zone": "PHG02",
     "state": "Pahang"
@@ -279,36 +267,8 @@
     "zone": "PRK02",
     "state": "Perak"
   },
-  "Belukar Samang": {
+  "Hulu Perak": {
     "zone": "PRK03",
-    "state": "Perak"
-  },
-  "Gerik": {
-    "zone": "PRK03",
-    "state": "Perak"
-  },
-  "Kenering": {
-    "zone": "PRK03",
-    "state": "Perak"
-  },
-  "Kerunai": {
-    "zone": "PRK03",
-    "state": "Perak"
-  },
-  "Lenggong": {
-    "zone": "PRK03",
-    "state": "Perak"
-  },
-  "Pengkalan Hulu": {
-    "zone": "PRK03",
-    "state": "Perak"
-  },
-  "Belum": {
-    "zone": "PRK04",
-    "state": "Perak"
-  },
-  "Temengor": {
-    "zone": "PRK04",
     "state": "Perak"
   },
   "Bagan Datuk": {
@@ -323,7 +283,7 @@
     "zone": "PRK05",
     "state": "Perak"
   },
-  "Larut Dan Matang": {
+  "Larut dan Matang": {
     "zone": "PRK06",
     "state": "Perak"
   },
@@ -415,7 +375,7 @@
     "zone": "SBH08",
     "state": "Sabah"
   },
-  "Nabawan": {
+  "Nabawan / Persiangan": {
     "zone": "SBH08",
     "state": "Sabah"
   },
@@ -603,19 +563,19 @@
     "zone": "SGR01",
     "state": "Selangor"
   },
-  "Hulu Langat": {
-    "zone": "SGR01",
-    "state": "Selangor"
-  },
-  "Hulu Selangor": {
-    "zone": "SGR01",
-    "state": "Selangor"
-  },
   "Petaling": {
     "zone": "SGR01",
     "state": "Selangor"
   },
   "Sepang": {
+    "zone": "SGR01",
+    "state": "Selangor"
+  },
+  "Ulu Langat": {
+    "zone": "SGR01",
+    "state": "Selangor"
+  },
+  "Ulu Selangor": {
     "zone": "SGR01",
     "state": "Selangor"
   },
@@ -667,15 +627,11 @@
     "zone": "TRG04",
     "state": "Terengganu"
   },
-  "W.P. Kuala Lumpur": {
+  "Kuala Lumpur": {
     "zone": "WLY01",
     "state": "W.P. Kuala Lumpur"
   },
-  "W.P. Putrajaya": {
-    "zone": "WLY01",
-    "state": "W.P. Kuala Lumpur"
-  },
-  "W.P. Labuan": {
+  "Labuan": {
     "zone": "WLY02",
     "state": "W.P. Labuan"
   }
