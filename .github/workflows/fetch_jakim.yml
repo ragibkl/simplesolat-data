@@ -28,6 +28,7 @@ jobs:
             echo "No changes to commit"
           else
             git commit -m "fetch JAKIM prayer times (automated)"
+            git pull --rebase
             git push
           fi
 
