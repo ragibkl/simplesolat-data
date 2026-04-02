@@ -2,34 +2,34 @@ countries:
   - code: MY
     name: Malaysia
     source: JAKIM
-    geojson: https://ragibkl.github.io/simplesolat-data/geojson/MY-adm2-geojson-20260402.json
-    mapping: https://ragibkl.github.io/simplesolat-data/mappings/MY-adm2-mapping-20260402.json
+    geojson: https://simplesolat-data.netlify.app/geojson/MY-adm2-geojson-20260402.json
+    mapping: https://simplesolat-data.netlify.app/mappings/MY-adm2-mapping-20260402.json
     shape_property: shapeName
 
   - code: SG
     name: Singapore
     source: MUIS
-    geojson: https://ragibkl.github.io/simplesolat-data/geojson/SG-adm0-geojson-20260402.json
-    mapping: https://ragibkl.github.io/simplesolat-data/mappings/SG-adm0-mapping-20260402.json
+    geojson: https://simplesolat-data.netlify.app/geojson/SG-adm0-geojson-20260402.json
+    mapping: https://simplesolat-data.netlify.app/mappings/SG-adm0-mapping-20260402.json
     shape_property: shapeName
 
   - code: ID
     name: Indonesia
     source: Kemenag (equran.id)
-    geojson: https://ragibkl.github.io/simplesolat-data/geojson/ID-adm2-geojson-20260402.json
-    mapping: https://ragibkl.github.io/simplesolat-data/mappings/ID-adm2-mapping-20260402.json
+    geojson: https://simplesolat-data.netlify.app/geojson/ID-adm2-geojson-20260402.json
+    mapping: https://simplesolat-data.netlify.app/mappings/ID-adm2-mapping-20260402.json
     shape_property: shapeName
 
   - code: BN
     name: Brunei
     source: KHEU
-    geojson: https://ragibkl.github.io/simplesolat-data/geojson/BN-adm1-geojson-20260402.json
-    mapping: https://ragibkl.github.io/simplesolat-data/mappings/BN-adm1-mapping-20260402.json
+    geojson: https://simplesolat-data.netlify.app/geojson/BN-adm1-geojson-20260402.json
+    mapping: https://simplesolat-data.netlify.app/mappings/BN-adm1-mapping-20260402.json
     shape_property: shapeName
 
   - code: LK
     name: Sri Lanka
     source: ACJU
-    geojson: https://ragibkl.github.io/simplesolat-data/geojson/LK-adm2-geojson-20260402.json
-    mapping: https://ragibkl.github.io/simplesolat-data/mappings/LK-adm2-mapping-20260402.json
+    geojson: https://simplesolat-data.netlify.app/geojson/LK-adm2-geojson-20260402.json
+    mapping: https://simplesolat-data.netlify.app/mappings/LK-adm2-mapping-20260402.json
     shape_property: shapeName
