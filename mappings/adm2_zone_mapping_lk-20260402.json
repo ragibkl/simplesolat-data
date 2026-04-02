@@ -1,0 +1,102 @@
+{
+  "Colombo District": {
+    "zone": "LK01",
+    "district": "Colombo, Gampaha, Kalutara"
+  },
+  "Gampaha District": {
+    "zone": "LK01",
+    "district": "Colombo, Gampaha, Kalutara"
+  },
+  "Kalutara District": {
+    "zone": "LK01",
+    "district": "Colombo, Gampaha, Kalutara"
+  },
+  "Jaffna District": {
+    "zone": "LK02",
+    "district": "Jaffna, Nallur"
+  },
+  "Mullaitivu District": {
+    "zone": "LK03",
+    "district": "Mullaitivu, Kilinochchi, Vavuniya"
+  },
+  "Kilinochchi District": {
+    "zone": "LK03",
+    "district": "Mullaitivu, Kilinochchi, Vavuniya"
+  },
+  "Vavuniya District": {
+    "zone": "LK03",
+    "district": "Mullaitivu, Kilinochchi, Vavuniya"
+  },
+  "Mannar District": {
+    "zone": "LK04",
+    "district": "Mannar, Puttalam"
+  },
+  "Puttalam District": {
+    "zone": "LK04",
+    "district": "Mannar, Puttalam"
+  },
+  "Anuradhapura District": {
+    "zone": "LK05",
+    "district": "Anuradhapura, Polonnaruwa"
+  },
+  "Polonnaruwa District": {
+    "zone": "LK05",
+    "district": "Anuradhapura, Polonnaruwa"
+  },
+  "Kurunegala District": {
+    "zone": "LK06",
+    "district": "Kurunegala"
+  },
+  "Kandy District": {
+    "zone": "LK07",
+    "district": "Kandy, Matale, Nuwara Eliya"
+  },
+  "Matale District": {
+    "zone": "LK07",
+    "district": "Kandy, Matale, Nuwara Eliya"
+  },
+  "Nuwara Eliya District": {
+    "zone": "LK07",
+    "district": "Kandy, Matale, Nuwara Eliya"
+  },
+  "Batticaloa District": {
+    "zone": "LK08",
+    "district": "Batticaloa, Ampara"
+  },
+  "Ampara District": {
+    "zone": "LK08",
+    "district": "Batticaloa, Ampara"
+  },
+  "Trincomalee District": {
+    "zone": "LK09",
+    "district": "Trincomalee"
+  },
+  "Badulla District": {
+    "zone": "LK10",
+    "district": "Badulla, Monaragala"
+  },
+  "Monaragala District": {
+    "zone": "LK10",
+    "district": "Badulla, Monaragala"
+  },
+  "Ratnapura District": {
+    "zone": "LK11",
+    "district": "Ratnapura, Kegalle"
+  },
+  "Kegalle District": {
+    "zone": "LK11",
+    "district": "Ratnapura, Kegalle"
+  },
+  "Galle District": {
+    "zone": "LK12",
+    "district": "Galle, Matara"
+  },
+  "Matara District": {
+    "zone": "LK12",
+    "district": "Galle, Matara"
+  },
+  "Hambantota District": {
+    "zone": "LK13",
+    "district": "Hambantota"
+  }
+}

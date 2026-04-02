@@ -1,0 +1,18 @@
+{
+  "Belait": {
+    "zone": "BRN03",
+    "district": "Belait"
+  },
+  "Brunei-Muara": {
+    "zone": "BRN01",
+    "district": "Brunei-Muara"
+  },
+  "Temburong": {
+    "zone": "BRN04",
+    "district": "Temburong"
+  },
+  "Tutong": {
+    "zone": "BRN02",
+    "district": "Tutong"
+  }
+}

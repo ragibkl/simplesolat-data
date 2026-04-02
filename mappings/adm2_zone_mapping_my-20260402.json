@@ -1,0 +1,682 @@
+{
+  "Kuala Selangor": {
+    "zone": "SGR02",
+    "state": "SGR"
+  },
+  "Baling": {
+    "zone": "KDH04",
+    "state": "KDH"
+  },
+  "Johor Bahru": {
+    "zone": "JHR02",
+    "state": "JHR"
+  },
+  "Kluang": {
+    "zone": "JHR03",
+    "state": "JHR"
+  },
+  "Kota Tinggi": {
+    "zone": "JHR02",
+    "state": "JHR"
+  },
+  "Tangkak": {
+    "zone": "JHR04",
+    "state": "JHR"
+  },
+  "Segamat": {
+    "zone": "JHR04",
+    "state": "JHR"
+  },
+  "Mersing": {
+    "zone": "JHR02",
+    "state": "JHR"
+  },
+  "Pulau Aur": {
+    "zone": "JHR01",
+    "state": "JHR"
+  },
+  "Pulau Pemanggil": {
+    "zone": "JHR01",
+    "state": "JHR"
+  },
+  "Pontian": {
+    "zone": "JHR03",
+    "state": "JHR"
+  },
+  "Muar": {
+    "zone": "JHR04",
+    "state": "JHR"
+  },
+  "Kulai": {
+    "zone": "JHR02",
+    "state": "JHR"
+  },
+  "Jasin": {
+    "zone": "MLK01",
+    "state": "MLK"
+  },
+  "Melaka Tengah": {
+    "zone": "MLK01",
+    "state": "MLK"
+  },
+  "Alor Gajah": {
+    "zone": "MLK01",
+    "state": "MLK"
+  },
+  "Lundu": {
+    "zone": "SWK08",
+    "state": "SWK"
+  },
+  "Bau": {
+    "zone": "SWK08",
+    "state": "SWK"
+  },
+  "W.P. Labuan": {
+    "zone": "WLY02",
+    "state": "LBN"
+  },
+  "W.P. Putrajaya": {
+    "zone": "WLY01",
+    "state": "PJY"
+  },
+  "Kuching": {
+    "zone": "SWK08",
+    "state": "SWK"
+  },
+  "W.P. Kuala Lumpur": {
+    "zone": "WLY01",
+    "state": "KUL"
+  },
+  "Samarahan": {
+    "zone": "SWK07",
+    "state": "SWK"
+  },
+  "Serian": {
+    "zone": "SWK07",
+    "state": "SWK"
+  },
+  "Batu Pahat": {
+    "zone": "JHR04",
+    "state": "JHR"
+  },
+  "Lubok Antu": {
+    "zone": "SWK06",
+    "state": "SWK"
+  },
+  "Simunjan": {
+    "zone": "SWK07",
+    "state": "SWK"
+  },
+  "Sri Aman": {
+    "zone": "SWK06",
+    "state": "SWK"
+  },
+  "Sarikei": {
+    "zone": "SWK05",
+    "state": "SWK"
+  },
+  "Dalat": {
+    "zone": "SWK04",
+    "state": "SWK"
+  },
+  "Betong": {
+    "zone": "SWK06",
+    "state": "SWK"
+  },
+  "Daro": {
+    "zone": "SWK05",
+    "state": "SWK"
+  },
+  "Saratok": {
+    "zone": "SWK06",
+    "state": "SWK"
+  },
+  "Maradong": {
+    "zone": "SWK05",
+    "state": "SWK"
+  },
+  "Julau": {
+    "zone": "SWK05",
+    "state": "SWK"
+  },
+  "Mukah": {
+    "zone": "SWK04",
+    "state": "SWK"
+  },
+  "Sibu": {
+    "zone": "SWK04",
+    "state": "SWK"
+  },
+  "Kapit": {
+    "zone": "SWK04",
+    "state": "SWK"
+  },
+  "Bintulu": {
+    "zone": "SWK03",
+    "state": "SWK"
+  },
+  "Kanowit": {
+    "zone": "SWK04",
+    "state": "SWK"
+  },
+  "Tanjung Manis": {
+    "zone": "SWK05",
+    "state": "SWK"
+  },
+  "Sebauh": {
+    "zone": "SWK03",
+    "state": "SWK"
+  },
+  "Song": {
+    "zone": "SWK04",
+    "state": "SWK"
+  },
+  "Asajaya": {
+    "zone": "SWK07",
+    "state": "SWK"
+  },
+  "Pakan": {
+    "zone": "SWK05",
+    "state": "SWK"
+  },
+  "Lawas": {
+    "zone": "SWK01",
+    "state": "SWK"
+  },
+  "Tatau": {
+    "zone": "SWK03",
+    "state": "SWK"
+  },
+  "Selangau": {
+    "zone": "SWK04",
+    "state": "SWK"
+  },
+  "Matu": {
+    "zone": "SWK05",
+    "state": "SWK"
+  },
+  "Marudi": {
+    "zone": "SWK02",
+    "state": "SWK"
+  },
+  "Tebedu": {
+    "zone": "SWK07",
+    "state": "SWK"
+  },
+  "Kabong": {
+    "zone": "SWK06",
+    "state": "SWK"
+  },
+  "Limbang": {
+    "zone": "SWK01",
+    "state": "SWK"
+  },
+  "Pusa": {
+    "zone": "SWK06",
+    "state": "SWK"
+  },
+  "Miri": {
+    "zone": "SWK02",
+    "state": "SWK"
+  },
+  "Belaga": {
+    "zone": "SWK03",
+    "state": "SWK"
+  },
+  "Telang Usan": {
+    "zone": "SWK02",
+    "state": "SWK"
+  },
+  "Seberang Perai Tengah": {
+    "zone": "PNG01",
+    "state": "PNG"
+  },
+  "Subis": {
+    "zone": "SWK02",
+    "state": "SWK"
+  },
+  "Beluru": {
+    "zone": "SWK02",
+    "state": "SWK"
+  },
+  "Perlis": {
+    "zone": "PLS01",
+    "state": "PLS"
+  },
+  "Seberang Perai Selatan": {
+    "zone": "PNG01",
+    "state": "PNG"
+  },
+  "Bukit Mabong": {
+    "zone": "SWK03",
+    "state": "SWK"
+  },
+  "Bentong": {
+    "zone": "PHG04",
+    "state": "PHG"
+  },
+  "Jerantut": {
+    "zone": "PHG03",
+    "state": "PHG"
+  },
+  "Seberang Perai Utara": {
+    "zone": "PNG01",
+    "state": "PNG"
+  },
+  "Timur Laut": {
+    "zone": "PNG01",
+    "state": "PNG"
+  },
+  "Cameron Highlands": {
+    "zone": "PHG06",
+    "state": "PHG"
+  },
+  "Kuantan": {
+    "zone": "PHG02",
+    "state": "PHG"
+  },
+  "Kuala Pilah": {
+    "zone": "NGS02",
+    "state": "NSN"
+  },
+  "Seremban": {
+    "zone": "NGS03",
+    "state": "NSN"
+  },
+  "Jelebu": {
+    "zone": "NGS02",
+    "state": "NSN"
+  },
+  "Tampin": {
+    "zone": "NGS01",
+    "state": "NSN"
+  },
+  "Maran": {
+    "zone": "PHG03",
+    "state": "PHG"
+  },
+  "Barat Daya": {
+    "zone": "PNG01",
+    "state": "PNG"
+  },
+  "Rembau": {
+    "zone": "NGS02",
+    "state": "NSN"
+  },
+  "Temengor": {
+    "zone": "PRK04",
+    "state": "PRK"
+  },
+  "Belum": {
+    "zone": "PRK04",
+    "state": "PRK"
+  },
+  "Pengkalan Hulu": {
+    "zone": "PRK03",
+    "state": "PRK"
+  },
+  "Belukar Samang": {
+    "zone": "PRK03",
+    "state": "PRK"
+  },
+  "Kerunai": {
+    "zone": "PRK03",
+    "state": "PRK"
+  },
+  "Kenering": {
+    "zone": "PRK03",
+    "state": "PRK"
+  },
+  "Gerik": {
+    "zone": "PRK03",
+    "state": "PRK"
+  },
+  "Lenggong": {
+    "zone": "PRK03",
+    "state": "PRK"
+  },
+  "Batang Padang": {
+    "zone": "PRK01",
+    "state": "PRK"
+  },
+  "Bagan Datuk": {
+    "zone": "PRK05",
+    "state": "PRK"
+  },
+  "Jempol": {
+    "zone": "NGS01",
+    "state": "NSN"
+  },
+  "Manjung": {
+    "zone": "PRK05",
+    "state": "PRK"
+  },
+  "Perak Tengah": {
+    "zone": "PRK05",
+    "state": "PRK"
+  },
+  "Besut": {
+    "zone": "TRG02",
+    "state": "TRG"
+  },
+  "Sepang": {
+    "zone": "SGR01",
+    "state": "SGR"
+  },
+  "Klang": {
+    "zone": "SGR03",
+    "state": "SGR"
+  },
+  "Kuala Terengganu": {
+    "zone": "TRG01",
+    "state": "TRG"
+  },
+  "Setiu": {
+    "zone": "TRG02",
+    "state": "TRG"
+  },
+  "Kuala Penyu": {
+    "zone": "SBH09",
+    "state": "SBH"
+  },
+  "Ranau": {
+    "zone": "SBH07",
+    "state": "SBH"
+  },
+  "Machang": {
+    "zone": "KTN01",
+    "state": "KTN"
+  },
+  "Kecil Lojing": {
+    "zone": "KTN02",
+    "state": "KTN"
+  },
+  "Pekan": {
+    "zone": "PHG02",
+    "state": "PHG"
+  },
+  "Selama": {
+    "zone": "PRK06",
+    "state": "PRK"
+  },
+  "Hilir Perak": {
+    "zone": "PRK02",
+    "state": "PRK"
+  },
+  "Kerian": {
+    "zone": "PRK01",
+    "state": "PRK"
+  },
+  "Lipis": {
+    "zone": "PHG04",
+    "state": "PHG"
+  },
+  "Raub": {
+    "zone": "PHG04",
+    "state": "PHG"
+  },
+  "Rompin": {
+    "zone": "PHG02",
+    "state": "PHG"
+  },
+  "Pulau Tioman": {
+    "zone": "PHG01",
+    "state": "PHG"
+  },
+  "Kampar": {
+    "zone": "PRK02",
+    "state": "PRK"
+  },
+  "Temerloh": {
+    "zone": "PHG03",
+    "state": "PHG"
+  },
+  "Port Dickson": {
+    "zone": "NGS03",
+    "state": "NSN"
+  },
+  "Bera": {
+    "zone": "PHG03",
+    "state": "PHG"
+  },
+  "Muallim": {
+    "zone": "PRK01",
+    "state": "PRK"
+  },
+  "Kemaman": {
+    "zone": "TRG04",
+    "state": "TRG"
+  },
+  "Gombak": {
+    "zone": "SGR01",
+    "state": "SGR"
+  },
+  "Marang": {
+    "zone": "TRG01",
+    "state": "TRG"
+  },
+  "Hulu Terengganu": {
+    "zone": "TRG03",
+    "state": "TRG"
+  },
+  "Pendang": {
+    "zone": "KDH02",
+    "state": "KDH"
+  },
+  "Hulu Langat": {
+    "zone": "SGR01",
+    "state": "SGR"
+  },
+  "Hulu Selangor": {
+    "zone": "SGR01",
+    "state": "SGR"
+  },
+  "Kinta": {
+    "zone": "PRK01",
+    "state": "PRK"
+  },
+  "Sabak Bernam": {
+    "zone": "SGR02",
+    "state": "SGR"
+  },
+  "Kota Belud": {
+    "zone": "SBH07",
+    "state": "SBH"
+  },
+  "Kunak": {
+    "zone": "SBH03",
+    "state": "SBH"
+  },
+  "Petaling": {
+    "zone": "SGR01",
+    "state": "SGR"
+  },
+  "Dungun": {
+    "zone": "TRG04",
+    "state": "TRG"
+  },
+  "Kuala Nerus": {
+    "zone": "TRG01",
+    "state": "TRG"
+  },
+  "Jeli": {
+    "zone": "KTN02",
+    "state": "KTN"
+  },
+  "Tawau": {
+    "zone": "SBH04",
+    "state": "SBH"
+  },
+  "Kuala Langat": {
+    "zone": "SGR03",
+    "state": "SGR"
+  },
+  "Semporna": {
+    "zone": "SBH03",
+    "state": "SBH"
+  },
+  "Beaufort": {
+    "zone": "SBH09",
+    "state": "SBH"
+  },
+  "Sipitang": {
+    "zone": "SBH09",
+    "state": "SBH"
+  },
+  "Beluran": {
+    "zone": "SBH02",
+    "state": "SBH"
+  },
+  "Sandakan": {
+    "zone": "SBH01",
+    "state": "SBH"
+  },
+  "Kinabatangan": {
+    "zone": "SBH02",
+    "state": "SBH"
+  },
+  "Pasir Puteh": {
+    "zone": "KTN01",
+    "state": "KTN"
+  },
+  "Padang Terap": {
+    "zone": "KDH03",
+    "state": "KDH"
+  },
+  "Telupid": {
+    "zone": "SBH02",
+    "state": "SBH"
+  },
+  "Kuala Kangsar": {
+    "zone": "PRK02",
+    "state": "PRK"
+  },
+  "Kota Kinabalu": {
+    "zone": "SBH07",
+    "state": "SBH"
+  },
+  "Lahad Datu": {
+    "zone": "SBH03",
+    "state": "SBH"
+  },
+  "Larut Dan Matang": {
+    "zone": "PRK06",
+    "state": "PRK"
+  },
+  "Kuala Krai": {
+    "zone": "KTN01",
+    "state": "KTN"
+  },
+  "Pitas": {
+    "zone": "SBH05",
+    "state": "SBH"
+  },
+  "Kuala Muda": {
+    "zone": "KDH02",
+    "state": "KDH"
+  },
+  "Tumpat": {
+    "zone": "KTN01",
+    "state": "KTN"
+  },
+  "Bandar Baharu": {
+    "zone": "KDH05",
+    "state": "KDH"
+  },
+  "Putatan": {
+    "zone": "SBH07",
+    "state": "SBH"
+  },
+  "Yan": {
+    "zone": "KDH02",
+    "state": "KDH"
+  },
+  "Keningau": {
+    "zone": "SBH08",
+    "state": "SBH"
+  },
+  "Tambunan": {
+    "zone": "SBH08",
+    "state": "SBH"
+  },
+  "Papar": {
+    "zone": "SBH07",
+    "state": "SBH"
+  },
+  "Kota Setar": {
+    "zone": "KDH01",
+    "state": "KDH"
+  },
+  "Kudat": {
+    "zone": "SBH05",
+    "state": "SBH"
+  },
+  "Kota Marudu": {
+    "zone": "SBH05",
+    "state": "SBH"
+  },
+  "Tongod": {
+    "zone": "SBH02",
+    "state": "SBH"
+  },
+  "Nabawan": {
+    "zone": "SBH08",
+    "state": "SBH"
+  },
+  "Tenom": {
+    "zone": "SBH09",
+    "state": "SBH"
+  },
+  "Bachok": {
+    "zone": "KTN01",
+    "state": "KTN"
+  },
+  "Kulim": {
+    "zone": "KDH05",
+    "state": "KDH"
+  },
+  "Kota Bharu": {
+    "zone": "KTN01",
+    "state": "KTN"
+  },
+  "Penampang": {
+    "zone": "SBH07",
+    "state": "SBH"
+  },
+  "Kubang Pasu": {
+    "zone": "KDH01",
+    "state": "KDH"
+  },
+  "Kalabakan": {
+    "zone": "SBH04",
+    "state": "SBH"
+  },
+  "Tanah Merah": {
+    "zone": "KTN01",
+    "state": "KTN"
+  },
+  "Sik": {
+    "zone": "KDH03",
+    "state": "KDH"
+  },
+  "Gua Musang": {
+    "zone": "KTN02",
+    "state": "KTN"
+  },
+  "Pokok Sena": {
+    "zone": "KDH01",
+    "state": "KDH"
+  },
+  "Tuaran": {
+    "zone": "SBH07",
+    "state": "SBH"
+  },
+  "Pasir Mas": {
+    "zone": "KTN01",
+    "state": "KTN"
+  },
+  "Langkawi": {
+    "zone": "KDH06",
+    "state": "KDH"
+  }
+}

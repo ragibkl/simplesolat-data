@@ -1,0 +1,2058 @@
+{
+  "Aceh Barat": {
+    "zone": "ACH01",
+    "province": "Aceh"
+  },
+  "Aceh Barat Daya": {
+    "zone": "ACH02",
+    "province": "Aceh"
+  },
+  "Aceh Besar": {
+    "zone": "ACH03",
+    "province": "Aceh"
+  },
+  "Aceh Jaya": {
+    "zone": "ACH04",
+    "province": "Aceh"
+  },
+  "Aceh Selatan": {
+    "zone": "ACH05",
+    "province": "Aceh"
+  },
+  "Aceh Singkil": {
+    "zone": "ACH06",
+    "province": "Aceh"
+  },
+  "Aceh Tamiang": {
+    "zone": "ACH07",
+    "province": "Aceh"
+  },
+  "Aceh Tengah": {
+    "zone": "ACH08",
+    "province": "Aceh"
+  },
+  "Aceh Tenggara": {
+    "zone": "ACH09",
+    "province": "Aceh"
+  },
+  "Aceh Timur": {
+    "zone": "ACH10",
+    "province": "Aceh"
+  },
+  "Aceh Utara": {
+    "zone": "ACH11",
+    "province": "Aceh"
+  },
+  "Bener Meriah": {
+    "zone": "ACH12",
+    "province": "Aceh"
+  },
+  "Bireuen": {
+    "zone": "ACH13",
+    "province": "Aceh"
+  },
+  "Gayo Lues": {
+    "zone": "ACH14",
+    "province": "Aceh"
+  },
+  "Nagan Raya": {
+    "zone": "ACH15",
+    "province": "Aceh"
+  },
+  "Pidie": {
+    "zone": "ACH16",
+    "province": "Aceh"
+  },
+  "Pidie Jaya": {
+    "zone": "ACH17",
+    "province": "Aceh"
+  },
+  "Simeulue": {
+    "zone": "ACH18",
+    "province": "Aceh"
+  },
+  "Kota Banda Aceh": {
+    "zone": "ACH19",
+    "province": "Aceh"
+  },
+  "Kota Langsa": {
+    "zone": "ACH20",
+    "province": "Aceh"
+  },
+  "Kota Lhokseumawe": {
+    "zone": "ACH21",
+    "province": "Aceh"
+  },
+  "Kota Sabang": {
+    "zone": "ACH22",
+    "province": "Aceh"
+  },
+  "Kota Subulussalam": {
+    "zone": "ACH23",
+    "province": "Aceh"
+  },
+  "Badung": {
+    "zone": "BAL01",
+    "province": "Bali"
+  },
+  "Bangli": {
+    "zone": "BAL02",
+    "province": "Bali"
+  },
+  "Buleleng": {
+    "zone": "BAL03",
+    "province": "Bali"
+  },
+  "Gianyar": {
+    "zone": "BAL04",
+    "province": "Bali"
+  },
+  "Jembrana": {
+    "zone": "BAL05",
+    "province": "Bali"
+  },
+  "Karang Asem": {
+    "zone": "BAL06",
+    "province": "Bali"
+  },
+  "Klungkung": {
+    "zone": "BAL07",
+    "province": "Bali"
+  },
+  "Tabanan": {
+    "zone": "BAL08",
+    "province": "Bali"
+  },
+  "Kota Denpasar": {
+    "zone": "BAL09",
+    "province": "Bali"
+  },
+  "Bengkulu Selatan": {
+    "zone": "BKL01",
+    "province": "Bengkulu"
+  },
+  "Bengkulu Tengah": {
+    "zone": "BKL02",
+    "province": "Bengkulu"
+  },
+  "Bengkulu Utara": {
+    "zone": "BKL03",
+    "province": "Bengkulu"
+  },
+  "Kaur": {
+    "zone": "BKL04",
+    "province": "Bengkulu"
+  },
+  "Kepahiang": {
+    "zone": "BKL05",
+    "province": "Bengkulu"
+  },
+  "Lebong": {
+    "zone": "BKL06",
+    "province": "Bengkulu"
+  },
+  "Mukomuko": {
+    "zone": "BKL07",
+    "province": "Bengkulu"
+  },
+  "Rejang Lebong": {
+    "zone": "BKL08",
+    "province": "Bengkulu"
+  },
+  "Seluma": {
+    "zone": "BKL09",
+    "province": "Bengkulu"
+  },
+  "Kota Bengkulu": {
+    "zone": "BKL10",
+    "province": "Bengkulu"
+  },
+  "Lebak": {
+    "zone": "BTN01",
+    "province": "Banten"
+  },
+  "Pandeglang": {
+    "zone": "BTN02",
+    "province": "Banten"
+  },
+  "Serang": {
+    "zone": "BTN03",
+    "province": "Banten"
+  },
+  "Tangerang": {
+    "zone": "BTN04",
+    "province": "Banten"
+  },
+  "Kota Cilegon": {
+    "zone": "BTN05",
+    "province": "Banten"
+  },
+  "Kota Serang": {
+    "zone": "BTN06",
+    "province": "Banten"
+  },
+  "Kota Tangerang": {
+    "zone": "BTN07",
+    "province": "Banten"
+  },
+  "Kota Tangerang Selatan": {
+    "zone": "BTN08",
+    "province": "Banten"
+  },
+  "Bantul": {
+    "zone": "DIY01",
+    "province": "D.I. Yogyakarta"
+  },
+  "Gunung Kidul": {
+    "zone": "DIY02",
+    "province": "D.I. Yogyakarta"
+  },
+  "Kulon Progo": {
+    "zone": "DIY03",
+    "province": "D.I. Yogyakarta"
+  },
+  "Sleman": {
+    "zone": "DIY04",
+    "province": "D.I. Yogyakarta"
+  },
+  "Kota Yogyakarta": {
+    "zone": "DIY05",
+    "province": "D.I. Yogyakarta"
+  },
+  "Kepulauan Seribu": {
+    "zone": "DKI01",
+    "province": "DKI Jakarta"
+  },
+  "Kota Jakarta Barat": {
+    "zone": "DKI02",
+    "province": "DKI Jakarta"
+  },
+  "Kota Jakarta Pusat": {
+    "zone": "DKI02",
+    "province": "DKI Jakarta"
+  },
+  "Kota Jakarta Selatan": {
+    "zone": "DKI02",
+    "province": "DKI Jakarta"
+  },
+  "Kota Jakarta Timur": {
+    "zone": "DKI02",
+    "province": "DKI Jakarta"
+  },
+  "Kota Jakarta Utara": {
+    "zone": "DKI02",
+    "province": "DKI Jakarta"
+  },
+  "Boalemo": {
+    "zone": "GTO01",
+    "province": "Gorontalo"
+  },
+  "Bone Bolango": {
+    "zone": "GTO02",
+    "province": "Gorontalo"
+  },
+  "Gorontalo": {
+    "zone": "GTO03",
+    "province": "Gorontalo"
+  },
+  "Gorontalo Utara": {
+    "zone": "GTO04",
+    "province": "Gorontalo"
+  },
+  "Pohuwato": {
+    "zone": "GTO05",
+    "province": "Gorontalo"
+  },
+  "Kota Gorontalo": {
+    "zone": "GTO06",
+    "province": "Gorontalo"
+  },
+  "Bandung": {
+    "zone": "JBR01",
+    "province": "Jawa Barat"
+  },
+  "Bandung Barat": {
+    "zone": "JBR02",
+    "province": "Jawa Barat"
+  },
+  "Bekasi": {
+    "zone": "JBR03",
+    "province": "Jawa Barat"
+  },
+  "Bogor": {
+    "zone": "JBR04",
+    "province": "Jawa Barat"
+  },
+  "Ciamis": {
+    "zone": "JBR05",
+    "province": "Jawa Barat"
+  },
+  "Cianjur": {
+    "zone": "JBR06",
+    "province": "Jawa Barat"
+  },
+  "Cirebon": {
+    "zone": "JBR07",
+    "province": "Jawa Barat"
+  },
+  "Garut": {
+    "zone": "JBR08",
+    "province": "Jawa Barat"
+  },
+  "Indramayu": {
+    "zone": "JBR09",
+    "province": "Jawa Barat"
+  },
+  "Karawang": {
+    "zone": "JBR10",
+    "province": "Jawa Barat"
+  },
+  "Kuningan": {
+    "zone": "JBR11",
+    "province": "Jawa Barat"
+  },
+  "Majalengka": {
+    "zone": "JBR12",
+    "province": "Jawa Barat"
+  },
+  "Pangandaran": {
+    "zone": "JBR13",
+    "province": "Jawa Barat"
+  },
+  "Purwakarta": {
+    "zone": "JBR14",
+    "province": "Jawa Barat"
+  },
+  "Subang": {
+    "zone": "JBR15",
+    "province": "Jawa Barat"
+  },
+  "Sukabumi": {
+    "zone": "JBR16",
+    "province": "Jawa Barat"
+  },
+  "Sumedang": {
+    "zone": "JBR17",
+    "province": "Jawa Barat"
+  },
+  "Tasikmalaya": {
+    "zone": "JBR18",
+    "province": "Jawa Barat"
+  },
+  "Kota Bandung": {
+    "zone": "JBR19",
+    "province": "Jawa Barat"
+  },
+  "Kota Banjar": {
+    "zone": "JBR20",
+    "province": "Jawa Barat"
+  },
+  "Kota Bekasi": {
+    "zone": "JBR21",
+    "province": "Jawa Barat"
+  },
+  "Kota Bogor": {
+    "zone": "JBR22",
+    "province": "Jawa Barat"
+  },
+  "Kota Cimahi": {
+    "zone": "JBR23",
+    "province": "Jawa Barat"
+  },
+  "Kota Cirebon": {
+    "zone": "JBR24",
+    "province": "Jawa Barat"
+  },
+  "Kota Depok": {
+    "zone": "JBR25",
+    "province": "Jawa Barat"
+  },
+  "Kota Sukabumi": {
+    "zone": "JBR26",
+    "province": "Jawa Barat"
+  },
+  "Kota Tasikmalaya": {
+    "zone": "JBR27",
+    "province": "Jawa Barat"
+  },
+  "Batang Hari": {
+    "zone": "JMB01",
+    "province": "Jambi"
+  },
+  "Bungo": {
+    "zone": "JMB02",
+    "province": "Jambi"
+  },
+  "Kerinci": {
+    "zone": "JMB03",
+    "province": "Jambi"
+  },
+  "Merangin": {
+    "zone": "JMB04",
+    "province": "Jambi"
+  },
+  "Muaro Jambi": {
+    "zone": "JMB05",
+    "province": "Jambi"
+  },
+  "Sarolangun": {
+    "zone": "JMB06",
+    "province": "Jambi"
+  },
+  "Tanjung Jabung Barat": {
+    "zone": "JMB07",
+    "province": "Jambi"
+  },
+  "Tanjung Jabung Timur": {
+    "zone": "JMB08",
+    "province": "Jambi"
+  },
+  "Tebo": {
+    "zone": "JMB09",
+    "province": "Jambi"
+  },
+  "Kota Jambi": {
+    "zone": "JMB10",
+    "province": "Jambi"
+  },
+  "Kota Sungai Penuh": {
+    "zone": "JMB11",
+    "province": "Jambi"
+  },
+  "Banjarnegara": {
+    "zone": "JTG01",
+    "province": "Jawa Tengah"
+  },
+  "Banyumas": {
+    "zone": "JTG02",
+    "province": "Jawa Tengah"
+  },
+  "Batang": {
+    "zone": "JTG03",
+    "province": "Jawa Tengah"
+  },
+  "Blora": {
+    "zone": "JTG04",
+    "province": "Jawa Tengah"
+  },
+  "Boyolali": {
+    "zone": "JTG05",
+    "province": "Jawa Tengah"
+  },
+  "Brebes": {
+    "zone": "JTG06",
+    "province": "Jawa Tengah"
+  },
+  "Cilacap": {
+    "zone": "JTG07",
+    "province": "Jawa Tengah"
+  },
+  "Demak": {
+    "zone": "JTG08",
+    "province": "Jawa Tengah"
+  },
+  "Grobogan": {
+    "zone": "JTG09",
+    "province": "Jawa Tengah"
+  },
+  "Jepara": {
+    "zone": "JTG10",
+    "province": "Jawa Tengah"
+  },
+  "Karanganyar": {
+    "zone": "JTG11",
+    "province": "Jawa Tengah"
+  },
+  "Kebumen": {
+    "zone": "JTG12",
+    "province": "Jawa Tengah"
+  },
+  "Kendal": {
+    "zone": "JTG13",
+    "province": "Jawa Tengah"
+  },
+  "Klaten": {
+    "zone": "JTG14",
+    "province": "Jawa Tengah"
+  },
+  "Kudus": {
+    "zone": "JTG15",
+    "province": "Jawa Tengah"
+  },
+  "Magelang": {
+    "zone": "JTG16",
+    "province": "Jawa Tengah"
+  },
+  "Pati": {
+    "zone": "JTG17",
+    "province": "Jawa Tengah"
+  },
+  "Pekalongan": {
+    "zone": "JTG18",
+    "province": "Jawa Tengah"
+  },
+  "Pemalang": {
+    "zone": "JTG19",
+    "province": "Jawa Tengah"
+  },
+  "Purbalingga": {
+    "zone": "JTG20",
+    "province": "Jawa Tengah"
+  },
+  "Purworejo": {
+    "zone": "JTG21",
+    "province": "Jawa Tengah"
+  },
+  "Rembang": {
+    "zone": "JTG22",
+    "province": "Jawa Tengah"
+  },
+  "Semarang": {
+    "zone": "JTG23",
+    "province": "Jawa Tengah"
+  },
+  "Sragen": {
+    "zone": "JTG24",
+    "province": "Jawa Tengah"
+  },
+  "Sukoharjo": {
+    "zone": "JTG25",
+    "province": "Jawa Tengah"
+  },
+  "Tegal": {
+    "zone": "JTG26",
+    "province": "Jawa Tengah"
+  },
+  "Temanggung": {
+    "zone": "JTG27",
+    "province": "Jawa Tengah"
+  },
+  "Wonogiri": {
+    "zone": "JTG28",
+    "province": "Jawa Tengah"
+  },
+  "Wonosobo": {
+    "zone": "JTG29",
+    "province": "Jawa Tengah"
+  },
+  "Kota Magelang": {
+    "zone": "JTG30",
+    "province": "Jawa Tengah"
+  },
+  "Kota Pekalongan": {
+    "zone": "JTG31",
+    "province": "Jawa Tengah"
+  },
+  "Kota Salatiga": {
+    "zone": "JTG32",
+    "province": "Jawa Tengah"
+  },
+  "Kota Semarang": {
+    "zone": "JTG33",
+    "province": "Jawa Tengah"
+  },
+  "Kota Surakarta": {
+    "zone": "JTG34",
+    "province": "Jawa Tengah"
+  },
+  "Kota Tegal": {
+    "zone": "JTG35",
+    "province": "Jawa Tengah"
+  },
+  "Bangkalan": {
+    "zone": "JTM01",
+    "province": "Jawa Timur"
+  },
+  "Banyuwangi": {
+    "zone": "JTM02",
+    "province": "Jawa Timur"
+  },
+  "Blitar": {
+    "zone": "JTM03",
+    "province": "Jawa Timur"
+  },
+  "Bojonegoro": {
+    "zone": "JTM04",
+    "province": "Jawa Timur"
+  },
+  "Bondowoso": {
+    "zone": "JTM05",
+    "province": "Jawa Timur"
+  },
+  "Gresik": {
+    "zone": "JTM06",
+    "province": "Jawa Timur"
+  },
+  "Jember": {
+    "zone": "JTM07",
+    "province": "Jawa Timur"
+  },
+  "Jombang": {
+    "zone": "JTM08",
+    "province": "Jawa Timur"
+  },
+  "Kediri": {
+    "zone": "JTM09",
+    "province": "Jawa Timur"
+  },
+  "Lamongan": {
+    "zone": "JTM10",
+    "province": "Jawa Timur"
+  },
+  "Lumajang": {
+    "zone": "JTM11",
+    "province": "Jawa Timur"
+  },
+  "Madiun": {
+    "zone": "JTM12",
+    "province": "Jawa Timur"
+  },
+  "Magetan": {
+    "zone": "JTM13",
+    "province": "Jawa Timur"
+  },
+  "Malang": {
+    "zone": "JTM14",
+    "province": "Jawa Timur"
+  },
+  "Mojokerto": {
+    "zone": "JTM15",
+    "province": "Jawa Timur"
+  },
+  "Nganjuk": {
+    "zone": "JTM16",
+    "province": "Jawa Timur"
+  },
+  "Ngawi": {
+    "zone": "JTM17",
+    "province": "Jawa Timur"
+  },
+  "Pacitan": {
+    "zone": "JTM18",
+    "province": "Jawa Timur"
+  },
+  "Pamekasan": {
+    "zone": "JTM19",
+    "province": "Jawa Timur"
+  },
+  "Pasuruan": {
+    "zone": "JTM20",
+    "province": "Jawa Timur"
+  },
+  "Ponorogo": {
+    "zone": "JTM21",
+    "province": "Jawa Timur"
+  },
+  "Probolinggo": {
+    "zone": "JTM22",
+    "province": "Jawa Timur"
+  },
+  "Sampang": {
+    "zone": "JTM23",
+    "province": "Jawa Timur"
+  },
+  "Sidoarjo": {
+    "zone": "JTM24",
+    "province": "Jawa Timur"
+  },
+  "Situbondo": {
+    "zone": "JTM25",
+    "province": "Jawa Timur"
+  },
+  "Sumenep": {
+    "zone": "JTM26",
+    "province": "Jawa Timur"
+  },
+  "Trenggalek": {
+    "zone": "JTM27",
+    "province": "Jawa Timur"
+  },
+  "Tuban": {
+    "zone": "JTM28",
+    "province": "Jawa Timur"
+  },
+  "Tulungagung": {
+    "zone": "JTM29",
+    "province": "Jawa Timur"
+  },
+  "Kota Batu": {
+    "zone": "JTM30",
+    "province": "Jawa Timur"
+  },
+  "Kota Blitar": {
+    "zone": "JTM31",
+    "province": "Jawa Timur"
+  },
+  "Kota Kediri": {
+    "zone": "JTM32",
+    "province": "Jawa Timur"
+  },
+  "Kota Madiun": {
+    "zone": "JTM33",
+    "province": "Jawa Timur"
+  },
+  "Kota Malang": {
+    "zone": "JTM34",
+    "province": "Jawa Timur"
+  },
+  "Kota Mojokerto": {
+    "zone": "JTM35",
+    "province": "Jawa Timur"
+  },
+  "Kota Pasuruan": {
+    "zone": "JTM36",
+    "province": "Jawa Timur"
+  },
+  "Kota Probolinggo": {
+    "zone": "JTM37",
+    "province": "Jawa Timur"
+  },
+  "Kota Surabaya": {
+    "zone": "JTM38",
+    "province": "Jawa Timur"
+  },
+  "Bangka": {
+    "zone": "KBB01",
+    "province": "Kepulauan Bangka Belitung"
+  },
+  "Bangka Barat": {
+    "zone": "KBB02",
+    "province": "Kepulauan Bangka Belitung"
+  },
+  "Bangka Selatan": {
+    "zone": "KBB03",
+    "province": "Kepulauan Bangka Belitung"
+  },
+  "Bangka Tengah": {
+    "zone": "KBB04",
+    "province": "Kepulauan Bangka Belitung"
+  },
+  "Belitung": {
+    "zone": "KBB05",
+    "province": "Kepulauan Bangka Belitung"
+  },
+  "Belitung Timur": {
+    "zone": "KBB06",
+    "province": "Kepulauan Bangka Belitung"
+  },
+  "Kota Pangkal Pinang": {
+    "zone": "KBB07",
+    "province": "Kepulauan Bangka Belitung"
+  },
+  "Bengkayang": {
+    "zone": "KBR01",
+    "province": "Kalimantan Barat"
+  },
+  "Kapuas Hulu": {
+    "zone": "KBR02",
+    "province": "Kalimantan Barat"
+  },
+  "Kayong Utara": {
+    "zone": "KBR03",
+    "province": "Kalimantan Barat"
+  },
+  "Ketapang": {
+    "zone": "KBR04",
+    "province": "Kalimantan Barat"
+  },
+  "Kubu Raya": {
+    "zone": "KBR05",
+    "province": "Kalimantan Barat"
+  },
+  "Landak": {
+    "zone": "KBR06",
+    "province": "Kalimantan Barat"
+  },
+  "Melawi": {
+    "zone": "KBR07",
+    "province": "Kalimantan Barat"
+  },
+  "Mempawah": {
+    "zone": "KBR08",
+    "province": "Kalimantan Barat"
+  },
+  "Sambas": {
+    "zone": "KBR09",
+    "province": "Kalimantan Barat"
+  },
+  "Sanggau": {
+    "zone": "KBR10",
+    "province": "Kalimantan Barat"
+  },
+  "Sekadau": {
+    "zone": "KBR11",
+    "province": "Kalimantan Barat"
+  },
+  "Sintang": {
+    "zone": "KBR12",
+    "province": "Kalimantan Barat"
+  },
+  "Kota Pontianak": {
+    "zone": "KBR13",
+    "province": "Kalimantan Barat"
+  },
+  "Kota Singkawang": {
+    "zone": "KBR14",
+    "province": "Kalimantan Barat"
+  },
+  "Bintan": {
+    "zone": "KRI01",
+    "province": "Kepulauan Riau"
+  },
+  "Karimun": {
+    "zone": "KRI02",
+    "province": "Kepulauan Riau"
+  },
+  "Kepulauan Anambas": {
+    "zone": "KRI03",
+    "province": "Kepulauan Riau"
+  },
+  "Lingga": {
+    "zone": "KRI04",
+    "province": "Kepulauan Riau"
+  },
+  "Natuna": {
+    "zone": "KRI05",
+    "province": "Kepulauan Riau"
+  },
+  "Kota Batam": {
+    "zone": "KRI06",
+    "province": "Kepulauan Riau"
+  },
+  "Kota Tanjung Pinang": {
+    "zone": "KRI07",
+    "province": "Kepulauan Riau"
+  },
+  "Balangan": {
+    "zone": "KSL01",
+    "province": "Kalimantan Selatan"
+  },
+  "Banjar": {
+    "zone": "KSL02",
+    "province": "Kalimantan Selatan"
+  },
+  "Barito Kuala": {
+    "zone": "KSL03",
+    "province": "Kalimantan Selatan"
+  },
+  "Hulu Sungai Selatan": {
+    "zone": "KSL04",
+    "province": "Kalimantan Selatan"
+  },
+  "Hulu Sungai Tengah": {
+    "zone": "KSL05",
+    "province": "Kalimantan Selatan"
+  },
+  "Hulu Sungai Utara": {
+    "zone": "KSL06",
+    "province": "Kalimantan Selatan"
+  },
+  "Kota Baru": {
+    "zone": "KSL07",
+    "province": "Kalimantan Selatan"
+  },
+  "Tabalong": {
+    "zone": "KSL08",
+    "province": "Kalimantan Selatan"
+  },
+  "Tanah Bumbu": {
+    "zone": "KSL09",
+    "province": "Kalimantan Selatan"
+  },
+  "Tanah Laut": {
+    "zone": "KSL10",
+    "province": "Kalimantan Selatan"
+  },
+  "Tapin": {
+    "zone": "KSL11",
+    "province": "Kalimantan Selatan"
+  },
+  "Kota Banjar Baru": {
+    "zone": "KSL12",
+    "province": "Kalimantan Selatan"
+  },
+  "Kota Banjarmasin": {
+    "zone": "KSL13",
+    "province": "Kalimantan Selatan"
+  },
+  "Barito Selatan": {
+    "zone": "KTG01",
+    "province": "Kalimantan Tengah"
+  },
+  "Barito Timur": {
+    "zone": "KTG02",
+    "province": "Kalimantan Tengah"
+  },
+  "Barito Utara": {
+    "zone": "KTG03",
+    "province": "Kalimantan Tengah"
+  },
+  "Gunung Mas": {
+    "zone": "KTG04",
+    "province": "Kalimantan Tengah"
+  },
+  "Kapuas": {
+    "zone": "KTG05",
+    "province": "Kalimantan Tengah"
+  },
+  "Katingan": {
+    "zone": "KTG06",
+    "province": "Kalimantan Tengah"
+  },
+  "Kotawaringin Barat": {
+    "zone": "KTG07",
+    "province": "Kalimantan Tengah"
+  },
+  "Kotawaringin Timur": {
+    "zone": "KTG08",
+    "province": "Kalimantan Tengah"
+  },
+  "Lamandau": {
+    "zone": "KTG09",
+    "province": "Kalimantan Tengah"
+  },
+  "Murung Raya": {
+    "zone": "KTG10",
+    "province": "Kalimantan Tengah"
+  },
+  "Pulang Pisau": {
+    "zone": "KTG11",
+    "province": "Kalimantan Tengah"
+  },
+  "Seruyan": {
+    "zone": "KTG12",
+    "province": "Kalimantan Tengah"
+  },
+  "Sukamara": {
+    "zone": "KTG13",
+    "province": "Kalimantan Tengah"
+  },
+  "Kota Palangka Raya": {
+    "zone": "KTG14",
+    "province": "Kalimantan Tengah"
+  },
+  "Berau": {
+    "zone": "KTM01",
+    "province": "Kalimantan Timur"
+  },
+  "Kutai Barat": {
+    "zone": "KTM02",
+    "province": "Kalimantan Timur"
+  },
+  "Kutai Kartanegara": {
+    "zone": "KTM03",
+    "province": "Kalimantan Timur"
+  },
+  "Kutai Timur": {
+    "zone": "KTM04",
+    "province": "Kalimantan Timur"
+  },
+  "Mahakam Hulu": {
+    "zone": "KTM05",
+    "province": "Kalimantan Timur"
+  },
+  "Paser": {
+    "zone": "KTM06",
+    "province": "Kalimantan Timur"
+  },
+  "Penajam Paser Utara": {
+    "zone": "KTM07",
+    "province": "Kalimantan Timur"
+  },
+  "Kota Balikpapan": {
+    "zone": "KTM08",
+    "province": "Kalimantan Timur"
+  },
+  "Kota Bontang": {
+    "zone": "KTM09",
+    "province": "Kalimantan Timur"
+  },
+  "Kota Samarinda": {
+    "zone": "KTM10",
+    "province": "Kalimantan Timur"
+  },
+  "Bulungan": {
+    "zone": "KUT01",
+    "province": "Kalimantan Utara"
+  },
+  "Malinau": {
+    "zone": "KUT02",
+    "province": "Kalimantan Utara"
+  },
+  "Nunukan": {
+    "zone": "KUT03",
+    "province": "Kalimantan Utara"
+  },
+  "Tana Tidung": {
+    "zone": "KUT04",
+    "province": "Kalimantan Utara"
+  },
+  "Kota Tarakan": {
+    "zone": "KUT05",
+    "province": "Kalimantan Utara"
+  },
+  "Lampung Barat": {
+    "zone": "LPG01",
+    "province": "Lampung"
+  },
+  "Lampung Selatan": {
+    "zone": "LPG02",
+    "province": "Lampung"
+  },
+  "Lampung Tengah": {
+    "zone": "LPG03",
+    "province": "Lampung"
+  },
+  "Lampung Timur": {
+    "zone": "LPG04",
+    "province": "Lampung"
+  },
+  "Lampung Utara": {
+    "zone": "LPG05",
+    "province": "Lampung"
+  },
+  "Mesuji": {
+    "zone": "LPG06",
+    "province": "Lampung"
+  },
+  "Pesawaran": {
+    "zone": "LPG07",
+    "province": "Lampung"
+  },
+  "Pesisir Barat": {
+    "zone": "LPG08",
+    "province": "Lampung"
+  },
+  "Pringsewu": {
+    "zone": "LPG09",
+    "province": "Lampung"
+  },
+  "Tanggamus": {
+    "zone": "LPG10",
+    "province": "Lampung"
+  },
+  "Tulangbawang": {
+    "zone": "LPG11",
+    "province": "Lampung"
+  },
+  "Tulang Bawang Barat": {
+    "zone": "LPG12",
+    "province": "Lampung"
+  },
+  "Way Kanan": {
+    "zone": "LPG13",
+    "province": "Lampung"
+  },
+  "Kota Bandar Lampung": {
+    "zone": "LPG14",
+    "province": "Lampung"
+  },
+  "Kota Metro": {
+    "zone": "LPG15",
+    "province": "Lampung"
+  },
+  "Buru": {
+    "zone": "MLK01",
+    "province": "Maluku"
+  },
+  "Buru Selatan": {
+    "zone": "MLK02",
+    "province": "Maluku"
+  },
+  "Kepulauan Aru": {
+    "zone": "MLK03",
+    "province": "Maluku"
+  },
+  "Maluku Barat Daya": {
+    "zone": "MLK04",
+    "province": "Maluku"
+  },
+  "Maluku Tengah": {
+    "zone": "MLK05",
+    "province": "Maluku"
+  },
+  "Maluku Tenggara": {
+    "zone": "MLK06",
+    "province": "Maluku"
+  },
+  "Maluku Tenggara Barat": {
+    "zone": "MLK07",
+    "province": "Maluku"
+  },
+  "Seram Bagian Barat": {
+    "zone": "MLK08",
+    "province": "Maluku"
+  },
+  "Seram Bagian Timur": {
+    "zone": "MLK09",
+    "province": "Maluku"
+  },
+  "Kota Ambon": {
+    "zone": "MLK10",
+    "province": "Maluku"
+  },
+  "Kota Tual": {
+    "zone": "MLK11",
+    "province": "Maluku"
+  },
+  "Halmahera Barat": {
+    "zone": "MLU01",
+    "province": "Maluku Utara"
+  },
+  "Halmahera Selatan": {
+    "zone": "MLU02",
+    "province": "Maluku Utara"
+  },
+  "Halmahera Tengah": {
+    "zone": "MLU03",
+    "province": "Maluku Utara"
+  },
+  "Halmahera Timur": {
+    "zone": "MLU04",
+    "province": "Maluku Utara"
+  },
+  "Halmahera Utara": {
+    "zone": "MLU05",
+    "province": "Maluku Utara"
+  },
+  "Kepulauan Sula": {
+    "zone": "MLU06",
+    "province": "Maluku Utara"
+  },
+  "Pulau Morotai": {
+    "zone": "MLU07",
+    "province": "Maluku Utara"
+  },
+  "Pulau Taliabu": {
+    "zone": "MLU08",
+    "province": "Maluku Utara"
+  },
+  "Kota Ternate": {
+    "zone": "MLU10",
+    "province": "Maluku Utara"
+  },
+  "Kota Tidore Kepulauan": {
+    "zone": "MLU11",
+    "province": "Maluku Utara"
+  },
+  "Bima": {
+    "zone": "NTB01",
+    "province": "Nusa Tenggara Barat"
+  },
+  "Dompu": {
+    "zone": "NTB02",
+    "province": "Nusa Tenggara Barat"
+  },
+  "Lombok Barat": {
+    "zone": "NTB03",
+    "province": "Nusa Tenggara Barat"
+  },
+  "Lombok Tengah": {
+    "zone": "NTB04",
+    "province": "Nusa Tenggara Barat"
+  },
+  "Lombok Timur": {
+    "zone": "NTB05",
+    "province": "Nusa Tenggara Barat"
+  },
+  "Lombok Utara": {
+    "zone": "NTB06",
+    "province": "Nusa Tenggara Barat"
+  },
+  "Sumbawa": {
+    "zone": "NTB07",
+    "province": "Nusa Tenggara Barat"
+  },
+  "Sumbawa Barat": {
+    "zone": "NTB08",
+    "province": "Nusa Tenggara Barat"
+  },
+  "Kota Bima": {
+    "zone": "NTB09",
+    "province": "Nusa Tenggara Barat"
+  },
+  "Kota Mataram": {
+    "zone": "NTB10",
+    "province": "Nusa Tenggara Barat"
+  },
+  "Alor": {
+    "zone": "NTT01",
+    "province": "Nusa Tenggara Timur"
+  },
+  "Belu": {
+    "zone": "NTT02",
+    "province": "Nusa Tenggara Timur"
+  },
+  "Ende": {
+    "zone": "NTT03",
+    "province": "Nusa Tenggara Timur"
+  },
+  "Flores Timur": {
+    "zone": "NTT04",
+    "province": "Nusa Tenggara Timur"
+  },
+  "Kupang": {
+    "zone": "NTT05",
+    "province": "Nusa Tenggara Timur"
+  },
+  "Lembata": {
+    "zone": "NTT06",
+    "province": "Nusa Tenggara Timur"
+  },
+  "Malaka": {
+    "zone": "NTT07",
+    "province": "Nusa Tenggara Timur"
+  },
+  "Manggarai": {
+    "zone": "NTT08",
+    "province": "Nusa Tenggara Timur"
+  },
+  "Manggarai Barat": {
+    "zone": "NTT09",
+    "province": "Nusa Tenggara Timur"
+  },
+  "Manggarai Timur": {
+    "zone": "NTT10",
+    "province": "Nusa Tenggara Timur"
+  },
+  "Nagekeo": {
+    "zone": "NTT11",
+    "province": "Nusa Tenggara Timur"
+  },
+  "Ngada": {
+    "zone": "NTT12",
+    "province": "Nusa Tenggara Timur"
+  },
+  "Rote Ndao": {
+    "zone": "NTT13",
+    "province": "Nusa Tenggara Timur"
+  },
+  "Sabu Raijua": {
+    "zone": "NTT14",
+    "province": "Nusa Tenggara Timur"
+  },
+  "Sikka": {
+    "zone": "NTT15",
+    "province": "Nusa Tenggara Timur"
+  },
+  "Sumba Barat": {
+    "zone": "NTT16",
+    "province": "Nusa Tenggara Timur"
+  },
+  "Sumba Barat Daya": {
+    "zone": "NTT17",
+    "province": "Nusa Tenggara Timur"
+  },
+  "Sumba Tengah": {
+    "zone": "NTT18",
+    "province": "Nusa Tenggara Timur"
+  },
+  "Sumba Timur": {
+    "zone": "NTT19",
+    "province": "Nusa Tenggara Timur"
+  },
+  "Timor Tengah Selatan": {
+    "zone": "NTT20",
+    "province": "Nusa Tenggara Timur"
+  },
+  "Timor Tengah Utara": {
+    "zone": "NTT21",
+    "province": "Nusa Tenggara Timur"
+  },
+  "Kota Kupang": {
+    "zone": "NTT22",
+    "province": "Nusa Tenggara Timur"
+  },
+  "Asmat": {
+    "zone": "PAP01",
+    "province": "Papua"
+  },
+  "Biak Numfor": {
+    "zone": "PAP02",
+    "province": "Papua"
+  },
+  "Boven Digoel": {
+    "zone": "PAP03",
+    "province": "Papua"
+  },
+  "Deiyai": {
+    "zone": "PAP04",
+    "province": "Papua"
+  },
+  "Dogiyai": {
+    "zone": "PAP05",
+    "province": "Papua"
+  },
+  "Intan Jaya": {
+    "zone": "PAP06",
+    "province": "Papua"
+  },
+  "Jayapura": {
+    "zone": "PAP07",
+    "province": "Papua"
+  },
+  "Jayawijaya": {
+    "zone": "PAP08",
+    "province": "Papua"
+  },
+  "Keerom": {
+    "zone": "PAP09",
+    "province": "Papua"
+  },
+  "Kepulauan Yapen": {
+    "zone": "PAP10",
+    "province": "Papua"
+  },
+  "Lanny Jaya": {
+    "zone": "PAP11",
+    "province": "Papua"
+  },
+  "Mamberamo Raya": {
+    "zone": "PAP12",
+    "province": "Papua"
+  },
+  "Mamberamo Tengah": {
+    "zone": "PAP13",
+    "province": "Papua"
+  },
+  "Mappi": {
+    "zone": "PAP14",
+    "province": "Papua"
+  },
+  "Merauke": {
+    "zone": "PAP15",
+    "province": "Papua"
+  },
+  "Mimika": {
+    "zone": "PAP16",
+    "province": "Papua"
+  },
+  "Nabire": {
+    "zone": "PAP17",
+    "province": "Papua"
+  },
+  "Nduga": {
+    "zone": "PAP18",
+    "province": "Papua"
+  },
+  "Paniai": {
+    "zone": "PAP19",
+    "province": "Papua"
+  },
+  "Pegunungan Bintang": {
+    "zone": "PAP20",
+    "province": "Papua"
+  },
+  "Puncak": {
+    "zone": "PAP21",
+    "province": "Papua"
+  },
+  "Puncak Jaya": {
+    "zone": "PAP22",
+    "province": "Papua"
+  },
+  "Sarmi": {
+    "zone": "PAP23",
+    "province": "Papua"
+  },
+  "Supiori": {
+    "zone": "PAP24",
+    "province": "Papua"
+  },
+  "Tolikara": {
+    "zone": "PAP25",
+    "province": "Papua"
+  },
+  "Waropen": {
+    "zone": "PAP26",
+    "province": "Papua"
+  },
+  "Yahukimo": {
+    "zone": "PAP27",
+    "province": "Papua"
+  },
+  "Yalimo": {
+    "zone": "PAP28",
+    "province": "Papua"
+  },
+  "Kota Jayapura": {
+    "zone": "PAP30",
+    "province": "Papua"
+  },
+  "Fakfak": {
+    "zone": "PBR01",
+    "province": "Papua Barat"
+  },
+  "Kaimana": {
+    "zone": "PBR02",
+    "province": "Papua Barat"
+  },
+  "Manokwari": {
+    "zone": "PBR03",
+    "province": "Papua Barat"
+  },
+  "Manokwari Selatan": {
+    "zone": "PBR04",
+    "province": "Papua Barat"
+  },
+  "Maybrat": {
+    "zone": "PBR05",
+    "province": "Papua Barat"
+  },
+  "Pegunungan Arfak": {
+    "zone": "PBR06",
+    "province": "Papua Barat"
+  },
+  "Raja Ampat": {
+    "zone": "PBR07",
+    "province": "Papua Barat"
+  },
+  "Sorong": {
+    "zone": "PBR08",
+    "province": "Papua Barat"
+  },
+  "Sorong Selatan": {
+    "zone": "PBR09",
+    "province": "Papua Barat"
+  },
+  "Tambrauw": {
+    "zone": "PBR10",
+    "province": "Papua Barat"
+  },
+  "Teluk Bintuni": {
+    "zone": "PBR11",
+    "province": "Papua Barat"
+  },
+  "Teluk Wondama": {
+    "zone": "PBR12",
+    "province": "Papua Barat"
+  },
+  "Kota Sorong": {
+    "zone": "PBR13",
+    "province": "Papua Barat"
+  },
+  "Bengkalis": {
+    "zone": "RIA01",
+    "province": "Riau"
+  },
+  "Indragiri Hilir": {
+    "zone": "RIA02",
+    "province": "Riau"
+  },
+  "Indragiri Hulu": {
+    "zone": "RIA03",
+    "province": "Riau"
+  },
+  "Kampar": {
+    "zone": "RIA04",
+    "province": "Riau"
+  },
+  "Kepulauan Meranti": {
+    "zone": "RIA05",
+    "province": "Riau"
+  },
+  "Kuantan Singingi": {
+    "zone": "RIA06",
+    "province": "Riau"
+  },
+  "Pelalawan": {
+    "zone": "RIA07",
+    "province": "Riau"
+  },
+  "Rokan Hilir": {
+    "zone": "RIA08",
+    "province": "Riau"
+  },
+  "Rokan Hulu": {
+    "zone": "RIA09",
+    "province": "Riau"
+  },
+  "Siak": {
+    "zone": "RIA10",
+    "province": "Riau"
+  },
+  "Kota Dumai": {
+    "zone": "RIA11",
+    "province": "Riau"
+  },
+  "Kota Pekanbaru": {
+    "zone": "RIA12",
+    "province": "Riau"
+  },
+  "Majene": {
+    "zone": "SBR01",
+    "province": "Sulawesi Barat"
+  },
+  "Mamasa": {
+    "zone": "SBR02",
+    "province": "Sulawesi Barat"
+  },
+  "Mamuju": {
+    "zone": "SBR03",
+    "province": "Sulawesi Barat"
+  },
+  "Mamuju Tengah": {
+    "zone": "SBR04",
+    "province": "Sulawesi Barat"
+  },
+  "Mamuju Utara": {
+    "zone": "SBR05",
+    "province": "Sulawesi Barat"
+  },
+  "Polewali Mandar": {
+    "zone": "SBR06",
+    "province": "Sulawesi Barat"
+  },
+  "Agam": {
+    "zone": "SMB01",
+    "province": "Sumatera Barat"
+  },
+  "Dharmasraya": {
+    "zone": "SMB02",
+    "province": "Sumatera Barat"
+  },
+  "Kepulauan Mentawai": {
+    "zone": "SMB03",
+    "province": "Sumatera Barat"
+  },
+  "Lima Puluh Kota": {
+    "zone": "SMB04",
+    "province": "Sumatera Barat"
+  },
+  "Padang Pariaman": {
+    "zone": "SMB05",
+    "province": "Sumatera Barat"
+  },
+  "Pasaman": {
+    "zone": "SMB06",
+    "province": "Sumatera Barat"
+  },
+  "Pasaman Barat": {
+    "zone": "SMB07",
+    "province": "Sumatera Barat"
+  },
+  "Pesisir Selatan": {
+    "zone": "SMB08",
+    "province": "Sumatera Barat"
+  },
+  "Sijunjung": {
+    "zone": "SMB09",
+    "province": "Sumatera Barat"
+  },
+  "Solok": {
+    "zone": "SMB10",
+    "province": "Sumatera Barat"
+  },
+  "Solok Selatan": {
+    "zone": "SMB11",
+    "province": "Sumatera Barat"
+  },
+  "Tanah Datar": {
+    "zone": "SMB12",
+    "province": "Sumatera Barat"
+  },
+  "Kota Bukittinggi": {
+    "zone": "SMB13",
+    "province": "Sumatera Barat"
+  },
+  "Kota Padang": {
+    "zone": "SMB14",
+    "province": "Sumatera Barat"
+  },
+  "Kota Padang Panjang": {
+    "zone": "SMB15",
+    "province": "Sumatera Barat"
+  },
+  "Kota Pariaman": {
+    "zone": "SMB16",
+    "province": "Sumatera Barat"
+  },
+  "Kota Payakumbuh": {
+    "zone": "SMB17",
+    "province": "Sumatera Barat"
+  },
+  "Kota Sawah Lunto": {
+    "zone": "SMB18",
+    "province": "Sumatera Barat"
+  },
+  "Kota Solok": {
+    "zone": "SMB19",
+    "province": "Sumatera Barat"
+  },
+  "Banyu Asin": {
+    "zone": "SMS01",
+    "province": "Sumatera Selatan"
+  },
+  "Empat Lawang": {
+    "zone": "SMS02",
+    "province": "Sumatera Selatan"
+  },
+  "Lahat": {
+    "zone": "SMS03",
+    "province": "Sumatera Selatan"
+  },
+  "Muara Enim": {
+    "zone": "SMS04",
+    "province": "Sumatera Selatan"
+  },
+  "Musi Banyuasin": {
+    "zone": "SMS05",
+    "province": "Sumatera Selatan"
+  },
+  "Musi Rawas": {
+    "zone": "SMS06",
+    "province": "Sumatera Selatan"
+  },
+  "Musi Rawas Utara": {
+    "zone": "SMS07",
+    "province": "Sumatera Selatan"
+  },
+  "Ogan Ilir": {
+    "zone": "SMS08",
+    "province": "Sumatera Selatan"
+  },
+  "Ogan Komering Ilir": {
+    "zone": "SMS09",
+    "province": "Sumatera Selatan"
+  },
+  "Ogan Komering Ulu": {
+    "zone": "SMS10",
+    "province": "Sumatera Selatan"
+  },
+  "Ogan Komering Ulu Selatan": {
+    "zone": "SMS11",
+    "province": "Sumatera Selatan"
+  },
+  "Ogan Komering Ulu Timur": {
+    "zone": "SMS12",
+    "province": "Sumatera Selatan"
+  },
+  "Penukal Abab Lematang Ilir": {
+    "zone": "SMS13",
+    "province": "Sumatera Selatan"
+  },
+  "Kota Lubuklinggau": {
+    "zone": "SMS14",
+    "province": "Sumatera Selatan"
+  },
+  "Kota Pagar Alam": {
+    "zone": "SMS15",
+    "province": "Sumatera Selatan"
+  },
+  "Kota Palembang": {
+    "zone": "SMS16",
+    "province": "Sumatera Selatan"
+  },
+  "Kota Prabumulih": {
+    "zone": "SMS17",
+    "province": "Sumatera Selatan"
+  },
+  "Asahan": {
+    "zone": "SMU01",
+    "province": "Sumatera Utara"
+  },
+  "Batu Bara": {
+    "zone": "SMU02",
+    "province": "Sumatera Utara"
+  },
+  "Dairi": {
+    "zone": "SMU03",
+    "province": "Sumatera Utara"
+  },
+  "Deli Serdang": {
+    "zone": "SMU04",
+    "province": "Sumatera Utara"
+  },
+  "Humbang Hasundutan": {
+    "zone": "SMU05",
+    "province": "Sumatera Utara"
+  },
+  "Karo": {
+    "zone": "SMU06",
+    "province": "Sumatera Utara"
+  },
+  "Labuhan Batu": {
+    "zone": "SMU07",
+    "province": "Sumatera Utara"
+  },
+  "Labuhan Batu Selatan": {
+    "zone": "SMU08",
+    "province": "Sumatera Utara"
+  },
+  "Labuhan Batu Utara": {
+    "zone": "SMU09",
+    "province": "Sumatera Utara"
+  },
+  "Langkat": {
+    "zone": "SMU10",
+    "province": "Sumatera Utara"
+  },
+  "Mandailing Natal": {
+    "zone": "SMU11",
+    "province": "Sumatera Utara"
+  },
+  "Nias": {
+    "zone": "SMU12",
+    "province": "Sumatera Utara"
+  },
+  "Nias Barat": {
+    "zone": "SMU13",
+    "province": "Sumatera Utara"
+  },
+  "Nias Selatan": {
+    "zone": "SMU14",
+    "province": "Sumatera Utara"
+  },
+  "Nias Utara": {
+    "zone": "SMU15",
+    "province": "Sumatera Utara"
+  },
+  "Padang Lawas": {
+    "zone": "SMU16",
+    "province": "Sumatera Utara"
+  },
+  "Padang Lawas Utara": {
+    "zone": "SMU17",
+    "province": "Sumatera Utara"
+  },
+  "Pakpak Bharat": {
+    "zone": "SMU18",
+    "province": "Sumatera Utara"
+  },
+  "Samosir": {
+    "zone": "SMU19",
+    "province": "Sumatera Utara"
+  },
+  "Serdang Bedagai": {
+    "zone": "SMU20",
+    "province": "Sumatera Utara"
+  },
+  "Simalungun": {
+    "zone": "SMU21",
+    "province": "Sumatera Utara"
+  },
+  "Tapanuli Selatan": {
+    "zone": "SMU22",
+    "province": "Sumatera Utara"
+  },
+  "Tapanuli Tengah": {
+    "zone": "SMU23",
+    "province": "Sumatera Utara"
+  },
+  "Tapanuli Utara": {
+    "zone": "SMU24",
+    "province": "Sumatera Utara"
+  },
+  "Toba Samosir": {
+    "zone": "SMU25",
+    "province": "Sumatera Utara"
+  },
+  "Kota Binjai": {
+    "zone": "SMU26",
+    "province": "Sumatera Utara"
+  },
+  "Kota Gunungsitoli": {
+    "zone": "SMU27",
+    "province": "Sumatera Utara"
+  },
+  "Kota Medan": {
+    "zone": "SMU28",
+    "province": "Sumatera Utara"
+  },
+  "Kota Padangsidimpuan": {
+    "zone": "SMU29",
+    "province": "Sumatera Utara"
+  },
+  "Kota Pematang Siantar": {
+    "zone": "SMU30",
+    "province": "Sumatera Utara"
+  },
+  "Kota Sibolga": {
+    "zone": "SMU31",
+    "province": "Sumatera Utara"
+  },
+  "Kota Tanjung Balai": {
+    "zone": "SMU32",
+    "province": "Sumatera Utara"
+  },
+  "Kota Tebing Tinggi": {
+    "zone": "SMU33",
+    "province": "Sumatera Utara"
+  },
+  "Bantaeng": {
+    "zone": "SSL01",
+    "province": "Sulawesi Selatan"
+  },
+  "Barru": {
+    "zone": "SSL02",
+    "province": "Sulawesi Selatan"
+  },
+  "Bone": {
+    "zone": "SSL03",
+    "province": "Sulawesi Selatan"
+  },
+  "Bulukumba": {
+    "zone": "SSL04",
+    "province": "Sulawesi Selatan"
+  },
+  "Enrekang": {
+    "zone": "SSL05",
+    "province": "Sulawesi Selatan"
+  },
+  "Gowa": {
+    "zone": "SSL06",
+    "province": "Sulawesi Selatan"
+  },
+  "Jeneponto": {
+    "zone": "SSL07",
+    "province": "Sulawesi Selatan"
+  },
+  "Kepulauan Selayar": {
+    "zone": "SSL08",
+    "province": "Sulawesi Selatan"
+  },
+  "Luwu": {
+    "zone": "SSL09",
+    "province": "Sulawesi Selatan"
+  },
+  "Luwu Timur": {
+    "zone": "SSL10",
+    "province": "Sulawesi Selatan"
+  },
+  "Luwu Utara": {
+    "zone": "SSL11",
+    "province": "Sulawesi Selatan"
+  },
+  "Maros": {
+    "zone": "SSL12",
+    "province": "Sulawesi Selatan"
+  },
+  "Pangkajene Dan Kepulauan": {
+    "zone": "SSL13",
+    "province": "Sulawesi Selatan"
+  },
+  "Pinrang": {
+    "zone": "SSL14",
+    "province": "Sulawesi Selatan"
+  },
+  "Sidenreng Rappang": {
+    "zone": "SSL15",
+    "province": "Sulawesi Selatan"
+  },
+  "Sinjai": {
+    "zone": "SSL16",
+    "province": "Sulawesi Selatan"
+  },
+  "Soppeng": {
+    "zone": "SSL17",
+    "province": "Sulawesi Selatan"
+  },
+  "Takalar": {
+    "zone": "SSL18",
+    "province": "Sulawesi Selatan"
+  },
+  "Tana Toraja": {
+    "zone": "SSL19",
+    "province": "Sulawesi Selatan"
+  },
+  "Toraja Utara": {
+    "zone": "SSL20",
+    "province": "Sulawesi Selatan"
+  },
+  "Wajo": {
+    "zone": "SSL21",
+    "province": "Sulawesi Selatan"
+  },
+  "Kota Makassar": {
+    "zone": "SSL22",
+    "province": "Sulawesi Selatan"
+  },
+  "Kota Palopo": {
+    "zone": "SSL23",
+    "province": "Sulawesi Selatan"
+  },
+  "Kota Parepare": {
+    "zone": "SSL24",
+    "province": "Sulawesi Selatan"
+  },
+  "Bombana": {
+    "zone": "STA01",
+    "province": "Sulawesi Tenggara"
+  },
+  "Buton": {
+    "zone": "STA02",
+    "province": "Sulawesi Tenggara"
+  },
+  "Buton Selatan": {
+    "zone": "STA03",
+    "province": "Sulawesi Tenggara"
+  },
+  "Buton Tengah": {
+    "zone": "STA04",
+    "province": "Sulawesi Tenggara"
+  },
+  "Buton Utara": {
+    "zone": "STA05",
+    "province": "Sulawesi Tenggara"
+  },
+  "Kolaka": {
+    "zone": "STA06",
+    "province": "Sulawesi Tenggara"
+  },
+  "Kolaka Timur": {
+    "zone": "STA07",
+    "province": "Sulawesi Tenggara"
+  },
+  "Kolaka Utara": {
+    "zone": "STA08",
+    "province": "Sulawesi Tenggara"
+  },
+  "Konawe": {
+    "zone": "STA09",
+    "province": "Sulawesi Tenggara"
+  },
+  "Konawe Kepulauan": {
+    "zone": "STA10",
+    "province": "Sulawesi Tenggara"
+  },
+  "Konawe Selatan": {
+    "zone": "STA11",
+    "province": "Sulawesi Tenggara"
+  },
+  "Konawe Utara": {
+    "zone": "STA12",
+    "province": "Sulawesi Tenggara"
+  },
+  "Muna": {
+    "zone": "STA13",
+    "province": "Sulawesi Tenggara"
+  },
+  "Muna Barat": {
+    "zone": "STA14",
+    "province": "Sulawesi Tenggara"
+  },
+  "Wakatobi": {
+    "zone": "STA15",
+    "province": "Sulawesi Tenggara"
+  },
+  "Kota Baubau": {
+    "zone": "STA16",
+    "province": "Sulawesi Tenggara"
+  },
+  "Kota Kendari": {
+    "zone": "STA17",
+    "province": "Sulawesi Tenggara"
+  },
+  "Banggai": {
+    "zone": "STG01",
+    "province": "Sulawesi Tengah"
+  },
+  "Banggai Kepulauan": {
+    "zone": "STG02",
+    "province": "Sulawesi Tengah"
+  },
+  "Banggai Laut": {
+    "zone": "STG03",
+    "province": "Sulawesi Tengah"
+  },
+  "Buol": {
+    "zone": "STG04",
+    "province": "Sulawesi Tengah"
+  },
+  "Donggala": {
+    "zone": "STG05",
+    "province": "Sulawesi Tengah"
+  },
+  "Morowali": {
+    "zone": "STG06",
+    "province": "Sulawesi Tengah"
+  },
+  "Morowali Utara": {
+    "zone": "STG07",
+    "province": "Sulawesi Tengah"
+  },
+  "Parigi Moutong": {
+    "zone": "STG08",
+    "province": "Sulawesi Tengah"
+  },
+  "Poso": {
+    "zone": "STG09",
+    "province": "Sulawesi Tengah"
+  },
+  "Sigi": {
+    "zone": "STG10",
+    "province": "Sulawesi Tengah"
+  },
+  "Tojo Una-Una": {
+    "zone": "STG11",
+    "province": "Sulawesi Tengah"
+  },
+  "Toli-Toli": {
+    "zone": "STG12",
+    "province": "Sulawesi Tengah"
+  },
+  "Kota Palu": {
+    "zone": "STG13",
+    "province": "Sulawesi Tengah"
+  },
+  "Bolaang Mongondow": {
+    "zone": "SUT01",
+    "province": "Sulawesi Utara"
+  },
+  "Bolaang Mongondow Selatan": {
+    "zone": "SUT02",
+    "province": "Sulawesi Utara"
+  },
+  "Bolaang Mongondow Timur": {
+    "zone": "SUT03",
+    "province": "Sulawesi Utara"
+  },
+  "Bolaang Mongondow Utara": {
+    "zone": "SUT04",
+    "province": "Sulawesi Utara"
+  },
+  "Kepulauan Sangihe": {
+    "zone": "SUT05",
+    "province": "Sulawesi Utara"
+  },
+  "Siau Tagulandang Biaro": {
+    "zone": "SUT06",
+    "province": "Sulawesi Utara"
+  },
+  "Kepulauan Talaud": {
+    "zone": "SUT07",
+    "province": "Sulawesi Utara"
+  },
+  "Minahasa": {
+    "zone": "SUT08",
+    "province": "Sulawesi Utara"
+  },
+  "Minahasa Selatan": {
+    "zone": "SUT09",
+    "province": "Sulawesi Utara"
+  },
+  "Minahasa Tenggara": {
+    "zone": "SUT10",
+    "province": "Sulawesi Utara"
+  },
+  "Minahasa Utara": {
+    "zone": "SUT11",
+    "province": "Sulawesi Utara"
+  },
+  "Kota Bitung": {
+    "zone": "SUT12",
+    "province": "Sulawesi Utara"
+  },
+  "Kota Kotamobagu": {
+    "zone": "SUT13",
+    "province": "Sulawesi Utara"
+  },
+  "Kota Manado": {
+    "zone": "SUT14",
+    "province": "Sulawesi Utara"
+  },
+  "Kota Tomohon": {
+    "zone": "SUT15",
+    "province": "Sulawesi Utara"
+  }
+}
