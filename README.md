@@ -5,7 +5,7 @@ Centralized prayer times data for Malaysia, Singapore, Indonesia, Brunei, and Sr
 Data is served via GitHub Pages at:
 
 ```
-https://ragibkl.github.io/simplesolat-data/
+https://simplesolat-data.netlify.app/
 ```
 
 ## Data available
