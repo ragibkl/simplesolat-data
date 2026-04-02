@@ -152,7 +152,7 @@ All workflows: checkout → run script → commit if changed → pull --rebase �
 - [x] Add MUIS_API_KEY as GitHub repository secret (required for fetch_muis.yml)
 
 ### Known data gaps
-- [ ] EQuran ID: 3 zone/months return no data (MLK10/2026-01, STA13/2026-09, SMU05/2026-11) — contact equran.id devs
+- [x] EQuran ID: 3 zone/months returned no data (MLK10/2026-01, STA13/2026-09, SMU05/2026-11) — filled manually from KEMENAG (bimasislam.kemenag.go.id)
 
 ### Step 4: Update simplesolat-api
 - [ ] Rewrite sync to read from simplesolat-data (GitHub raw) instead of upstream APIs
