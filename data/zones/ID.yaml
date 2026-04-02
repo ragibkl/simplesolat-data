@@ -2105,7 +2105,7 @@ zones:
     shapes:
       - Kota Metro
 
-  - code: MLK01
+  - code: MLA01
     country: ID
     state: Maluku
     location: Kab. Buru
@@ -2113,7 +2113,7 @@ zones:
     shapes:
       - Buru
 
-  - code: MLK02
+  - code: MLA02
     country: ID
     state: Maluku
     location: Kab. Buru Selatan
@@ -2121,7 +2121,7 @@ zones:
     shapes:
       - Buru Selatan
 
-  - code: MLK03
+  - code: MLA03
     country: ID
     state: Maluku
     location: Kab. Kepulauan Aru
@@ -2129,7 +2129,7 @@ zones:
     shapes:
       - Kepulauan Aru
 
-  - code: MLK04
+  - code: MLA04
     country: ID
     state: Maluku
     location: Kab. Maluku Barat Daya
@@ -2137,7 +2137,7 @@ zones:
     shapes:
       - Maluku Barat Daya
 
-  - code: MLK05
+  - code: MLA05
     country: ID
     state: Maluku
     location: Kab. Maluku Tengah
@@ -2145,7 +2145,7 @@ zones:
     shapes:
       - Maluku Tengah
 
-  - code: MLK06
+  - code: MLA06
     country: ID
     state: Maluku
     location: Kab. Maluku Tenggara
@@ -2153,7 +2153,7 @@ zones:
     shapes:
       - Maluku Tenggara
 
-  - code: MLK07
+  - code: MLA07
     country: ID
     state: Maluku
     location: Kab. Maluku Tenggara Barat
@@ -2161,7 +2161,7 @@ zones:
     shapes:
       - Maluku Tenggara Barat
 
-  - code: MLK08
+  - code: MLA08
     country: ID
     state: Maluku
     location: Kab. Seram Bagian Barat
@@ -2169,7 +2169,7 @@ zones:
     shapes:
       - Seram Bagian Barat
 
-  - code: MLK09
+  - code: MLA09
     country: ID
     state: Maluku
     location: Kab. Seram Bagian Timur
@@ -2177,7 +2177,7 @@ zones:
     shapes:
       - Seram Bagian Timur
 
-  - code: MLK10
+  - code: MLA10
     country: ID
     state: Maluku
     location: Kota Ambon
@@ -2185,7 +2185,7 @@ zones:
     shapes:
       - Kota Ambon
 
-  - code: MLK11
+  - code: MLA11
     country: ID
     state: Maluku
     location: Kota Tual
