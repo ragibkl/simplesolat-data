@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """
-Verify prayer time data completeness.
+Verify prayer time data completeness and zone code integrity.
 
 Modes:
   python3 scripts/verify_data.py next-month          # check next month (used by CI)
@@ -8,13 +8,15 @@ Modes:
   python3 scripts/verify_data.py year 2026            # check all 12 months of 2026
   python3 scripts/verify_data.py year 2026 2027       # check 2026 and 2027
   python3 scripts/verify_data.py year 2026 MY ID      # check 2026 for specific countries
+  python3 scripts/verify_data.py zones                # check for zone code collisions
 
-Exits with code 1 if any data is missing.
+Exits with code 1 if any issues found.
 """
 
 import os
 import re
 import sys
+from collections import defaultdict
 from datetime import datetime, timedelta
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
@@ -115,12 +117,37 @@ def main():
         print(f"Checking years: {', '.join(years)} for {', '.join(countries)}")
         total_ok, missing = check_months(countries, year_months)
 
+    elif mode == "zones":
+        print("Checking for zone code collisions...")
+        all_codes = []
+        for cc, zones_file in COUNTRY_FILES.items():
+            zones_path = os.path.join(ROOT, zones_file)
+            if not os.path.exists(zones_path):
+                continue
+            for code in parse_zone_codes(zones_path):
+                all_codes.append((code, cc))
+
+        seen = defaultdict(list)
+        for code, cc in all_codes:
+            seen[code].append(cc)
+
+        collisions = {k: v for k, v in seen.items() if len(v) > 1}
+        if collisions:
+            print(f"  FAIL: {len(collisions)} zone code collisions:")
+            for code, countries in sorted(collisions.items()):
+                print(f"    {code}: {', '.join(countries)}")
+            missing = list(collisions.keys())
+        else:
+            print(f"  OK: no collisions across {len(all_codes)} zones")
+            missing = []
+        total_ok = len(all_codes) - len(missing)
+
     else:
         print(f"Unknown mode: {mode}")
         print(__doc__)
         sys.exit(1)
 
-    print(f"\nTotal: {total_ok} zones complete, {len(missing)} files missing")
+    print(f"\nTotal: {total_ok} ok, {len(missing)} issues")
     if missing:
         sys.exit(1)
 
