@@ -1,30 +1,30 @@
 countries:
   - code: MY
     name: Malaysia
-    geojson: data/geojson/malaysia-adm2-20260402.json
-    mapping: data/mappings/adm2_zone_mapping_my-20260402.json
+    geojson: data/geojson/MY-adm2-geojson-20260402.json
+    mapping: data/mappings/MY-adm2-mapping-20260402.json
     shape_property: shapeName
 
   - code: SG
     name: Singapore
-    geojson: data/geojson/singapore-adm0-20260402.json
-    mapping: data/mappings/adm0_zone_mapping_sg-20260402.json
+    geojson: data/geojson/SG-adm0-geojson-20260402.json
+    mapping: data/mappings/SG-adm0-mapping-20260402.json
     shape_property: shapeName
 
   - code: ID
     name: Indonesia
-    geojson: data/geojson/indonesia-adm2-20260402.json
-    mapping: data/mappings/adm2_zone_mapping_id-20260402.json
+    geojson: data/geojson/ID-adm2-geojson-20260402.json
+    mapping: data/mappings/ID-adm2-mapping-20260402.json
     shape_property: shapeName
 
   - code: BN
     name: Brunei
-    geojson: data/geojson/brunei-adm1-20260402.json
-    mapping: data/mappings/adm1_zone_mapping_bn-20260402.json
+    geojson: data/geojson/BN-adm1-geojson-20260402.json
+    mapping: data/mappings/BN-adm1-mapping-20260402.json
     shape_property: shapeName
 
   - code: LK
     name: Sri Lanka
-    geojson: data/geojson/sri-lanka-adm2-20260402.json
-    mapping: data/mappings/adm2_zone_mapping_lk-20260402.json
+    geojson: data/geojson/LK-adm2-geojson-20260402.json
+    mapping: data/mappings/LK-adm2-mapping-20260402.json
     shape_property: shapeName
