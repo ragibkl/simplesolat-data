@@ -1,0 +1,66 @@
+name: Fetch EQuran (ID)
+
+on:
+  schedule:
+    - cron: '0 3 27 * *'
+    - cron: '0 3 28 * *'
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch EQuran prayer times
+        run: python3 scripts/fetch_equran.py
+
+      - name: Verify next month data
+        run: |
+          python3 -c "
+          import os, re
+          from datetime import datetime, timedelta
+
+          next_month = (datetime.now().replace(day=28) + timedelta(days=4)).replace(day=1)
+          year = next_month.strftime('%Y')
+          month = next_month.strftime('%m')
+
+          zones = []
+          with open('data/zones/ID.yaml') as f:
+              for line in f:
+                  m = re.match(r'\s+- code:\s+(\S+)', line)
+                  if m:
+                      zones.append(m.group(1))
+
+          missing = []
+          for zone in zones:
+              path = f'data/prayer-times/ID/{zone}/{year}-{month}.json'
+              if not os.path.exists(path):
+                  missing.append(f'{zone}/{year}-{month}')
+
+          if missing:
+              print(f'MISSING next month data for {len(missing)} zones:')
+              for m in missing[:10]:
+                  print(f'  {m}')
+              if len(missing) > 10:
+                  print(f'  ... and {len(missing) - 10} more')
+              exit(1)
+          else:
+              print(f'All {len(zones)} zones have data for {year}-{month}')
+          "
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/prayer-times/ID/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "fetch EQuran prayer times (automated)"
+            git push
+          fi

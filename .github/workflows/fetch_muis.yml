@@ -1,0 +1,52 @@
+name: Fetch MUIS (SG)
+
+on:
+  schedule:
+    - cron: '0 3 27 * *'
+    - cron: '0 3 28 * *'
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    env:
+      MUIS_API_KEY: ${{ secrets.MUIS_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Fetch MUIS prayer times
+        run: python3 scripts/fetch_muis.py
+
+      - name: Verify next month data
+        run: |
+          python3 -c "
+          import os
+          from datetime import datetime, timedelta
+
+          next_month = (datetime.now().replace(day=28) + timedelta(days=4)).replace(day=1)
+          year = next_month.strftime('%Y')
+          month = next_month.strftime('%m')
+
+          path = f'data/prayer-times/SG/SGP01/{year}-{month}.json'
+          if not os.path.exists(path):
+              print(f'MISSING: {path}')
+              exit(1)
+          else:
+              print(f'SGP01 has data for {year}-{month}')
+          "
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/prayer-times/SG/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "fetch MUIS prayer times (automated)"
+            git push
+          fi
