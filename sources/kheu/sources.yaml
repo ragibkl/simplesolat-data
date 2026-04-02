@@ -1,0 +1,5 @@
+# KHEU (Brunei) prayer time PDF sources
+# Source: https://www.mora.gov.bn
+pdfs:
+  - year: "2026"
+    url: https://www.mora.gov.bn/Muat%20Turun%20Library/PDI/TAQWIM%202026%20%C2%A9PDI2025.pdf
