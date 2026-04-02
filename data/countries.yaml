@@ -1,30 +1,30 @@
 countries:
   - code: MY
     name: Malaysia
-    geojson: data/geojson/MY-adm2-geojson-20260402.json
-    mapping: data/mappings/MY-adm2-mapping-20260402.json
+    geojson: https://ragibkl.github.io/simplesolat-data/geojson/MY-adm2-geojson-20260402.json
+    mapping: https://ragibkl.github.io/simplesolat-data/mappings/MY-adm2-mapping-20260402.json
     shape_property: shapeName
 
   - code: SG
     name: Singapore
-    geojson: data/geojson/SG-adm0-geojson-20260402.json
-    mapping: data/mappings/SG-adm0-mapping-20260402.json
+    geojson: https://ragibkl.github.io/simplesolat-data/geojson/SG-adm0-geojson-20260402.json
+    mapping: https://ragibkl.github.io/simplesolat-data/mappings/SG-adm0-mapping-20260402.json
     shape_property: shapeName
 
   - code: ID
     name: Indonesia
-    geojson: data/geojson/ID-adm2-geojson-20260402.json
-    mapping: data/mappings/ID-adm2-mapping-20260402.json
+    geojson: https://ragibkl.github.io/simplesolat-data/geojson/ID-adm2-geojson-20260402.json
+    mapping: https://ragibkl.github.io/simplesolat-data/mappings/ID-adm2-mapping-20260402.json
     shape_property: shapeName
 
   - code: BN
     name: Brunei
-    geojson: data/geojson/BN-adm1-geojson-20260402.json
-    mapping: data/mappings/BN-adm1-mapping-20260402.json
+    geojson: https://ragibkl.github.io/simplesolat-data/geojson/BN-adm1-geojson-20260402.json
+    mapping: https://ragibkl.github.io/simplesolat-data/mappings/BN-adm1-mapping-20260402.json
     shape_property: shapeName
 
   - code: LK
     name: Sri Lanka
-    geojson: data/geojson/LK-adm2-geojson-20260402.json
-    mapping: data/mappings/LK-adm2-mapping-20260402.json
+    geojson: https://ragibkl.github.io/simplesolat-data/geojson/LK-adm2-geojson-20260402.json
+    mapping: https://ragibkl.github.io/simplesolat-data/mappings/LK-adm2-mapping-20260402.json
     shape_property: shapeName
