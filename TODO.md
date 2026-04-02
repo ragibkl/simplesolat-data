@@ -28,22 +28,23 @@ simplesolat-data/
       LK/{zone_code}/{year}-{month}.json
 
   sources/                         # upstream source metadata (committed, not PDFs)
-    acju/sources.yaml              # PDF URLs for ACJU (downloaded on demand by script)
+    acju/sources.yaml              # PDF URLs for ACJU (downloaded on demand)
+    kheu/sources.yaml              # PDF URL for KHEU Taqwim (downloaded on demand)
 
   scripts/                         # fetch, extraction, and generation scripts
     generate_mappings.py           # data/zones/*.yaml → data/mappings/*.json
-    fetch_acju.py                # sources/acju/sources.yaml → data/prayer-times/LK/
-    fetch_jakim/                   # API → data/prayer-times/MY/
-    fetch_muis/                    # API → data/prayer-times/SG/
-    fetch_equran/                  # API → data/prayer-times/ID/
-    fetch_kheu/                    # API → data/prayer-times/BN/
+    verify_next_month.py           # verify next month data exists for all zones
+    fetch_jakim.py                 # API → data/prayer-times/MY/
+    fetch_muis.py                  # API → data/prayer-times/SG/
+    fetch_equran.py                # API → data/prayer-times/ID/
+    fetch_kheu.py                  # PDF → data/prayer-times/BN/
+    fetch_acju.py                  # PDF → data/prayer-times/LK/
 
   .github/workflows/
-    fetch_jakim.yml                # MY — 27th & 28th
-    fetch_muis.yml                 # SG — 27th & 28th
-    fetch_equran.yml               # ID — 27th & 28th
-    fetch_kheu.yml                 # BN — 27th & 28th
-    fetch_acju.yml               # LK — yearly / manual
+    fetch_jakim.yml                # MY — cron 27th & 28th
+    fetch_muis.yml                 # SG — cron 27th & 28th
+    fetch_equran.yml               # ID — cron 27th & 28th
+    keepalive.yml                  # prevent GitHub from disabling workflows
 ```
 
 ## Data Format
@@ -145,7 +146,10 @@ All workflows verify next month's data exists — fail loudly if missing.
 - [x] keepalive.yml — prevents GitHub from disabling scheduled workflows
 - KHEU and ACJU: no workflow — PDF extraction is fragile, run locally and review output
 
-All workflows: checkout → run script → verify next month → commit if changed → push
+All workflows: checkout → run script → commit if changed → pull --rebase → push → verify next month
+
+### Setup: GitHub Secrets
+- [x] Add MUIS_API_KEY as GitHub repository secret (required for fetch_muis.yml)
 
 ### Step 4: Update simplesolat-api
 - [ ] Rewrite sync to read from simplesolat-data (GitHub raw) instead of upstream APIs
@@ -183,10 +187,10 @@ All workflows: checkout → run script → verify next month → commit if chang
 
 ### EQuran (Indonesia)
 - POST https://equran.id/api/v2/shalat
-- Per zone per month
-- 200ms throttle
-- 517 zones × 12 months = ~6200 requests per year
-- Returns 404 for unavailable data (don't retry)
+- Per zone per month, parallel (10 workers, no rate limiting observed)
+- 517 zones × 12 months = ~6200 requests per year (~7 min with parallel)
+- Returns 404 for unavailable data (3 zones have no data)
+- Request body: {"provinsi": zone.state, "kabkota": zone.location, "bulan": month, "tahun": year}
 
 ### KHEU (Brunei)
 - Using Taqwim PDF from https://www.mora.gov.bn (full year, published annually)
