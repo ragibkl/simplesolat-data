@@ -14,6 +14,7 @@ import re
 import subprocess
 import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
+from datetime import date as Date
 
 import pdfplumber
 
@@ -129,6 +130,12 @@ def extract_pdf(pdf_path, year, month):
             imsak = subtract_minutes(fajr, 10)
         except (ValueError, IndexError) as e:
             print(f"  WARNING: Failed to parse row {row}: {e}")
+            continue
+
+        # Validate date exists (e.g. skip Feb 29 in non-leap years)
+        try:
+            Date(int(year), int(month), day)
+        except ValueError:
             continue
 
         date = f"{year}-{month}-{day:02d}"
