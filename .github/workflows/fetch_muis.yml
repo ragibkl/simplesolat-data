@@ -18,26 +18,11 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Fetch MUIS prayer times
+      - name: Fetch prayer times
         run: python3 scripts/fetch_muis.py
 
       - name: Verify next month data
-        run: |
-          python3 -c "
-          import os
-          from datetime import datetime, timedelta
-
-          next_month = (datetime.now().replace(day=28) + timedelta(days=4)).replace(day=1)
-          year = next_month.strftime('%Y')
-          month = next_month.strftime('%m')
-
-          path = f'data/prayer-times/SG/SGP01/{year}-{month}.json'
-          if not os.path.exists(path):
-              print(f'MISSING: {path}')
-              exit(1)
-          else:
-              print(f'SGP01 has data for {year}-{month}')
-          "
+        run: python3 scripts/verify_next_month.py SG
 
       - name: Commit and push if changed
         run: |
