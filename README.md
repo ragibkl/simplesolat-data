@@ -112,25 +112,26 @@ Maps geojson `shapeName` to zone code and state. Derived from zone files.
 ### GPS to prayer times (mobile app flow)
 
 1. Detect country from GPS using ADM0 geojson (bundled in app)
-2. Fetch `/countries.yaml` — check if country is officially supported
-3. If supported, fetch the country's geojson and mapping files (cache indefinitely, URLs are datestamped — new URL = new data)
+2. Fetch `/countries.yaml` (cache 1 month) — check if country is officially supported
+3. If supported, fetch the country's geojson and mapping files (cache indefinitely by URL — new URL in countries.yaml = new data, delete old cached file)
 4. Point-in-polygon lookup: GPS → `shapeName` → mapping → zone code
-5. Look up zone timezone from `/zones/{CC}.yaml`
-6. Fetch `/prayer-times/{CC}/{zone}/{year}-{month}.json`
+5. Fetch `/zones/{CC}.yaml` (cache 1 month) — get zone timezone
+6. Fetch `/prayer-times/{CC}/{zone}/{year}-{month}.json` for current + next month
 7. Convert local HH:MM to absolute time using the zone's IANA timezone for comparison with `Date.now()`
 
 ### Manual zone selection (web app flow)
 
-1. Fetch `/countries.yaml` for country list
-2. Fetch `/zones/{CC}.yaml` for zone list — use `state` for grouping, `location` for display
+1. Fetch `/countries.yaml` (cache 1 month) for country list
+2. Fetch `/zones/{CC}.yaml` (cache 1 month) for zone list — use `state` for grouping, `location` for display
 3. User selects zone
-4. Fetch `/prayer-times/{CC}/{zone}/{year}-{month}.json`
+4. Fetch `/prayer-times/{CC}/{zone}/{year}-{month}.json` for current + next month
 
 ### API sync flow
 
-1. Read prayer time JSON files from this repo (GitHub raw or Pages)
-2. Parse local HH:MM, convert to epoch using zone timezone
-3. Store in database, serve to clients
+1. Fetch `/countries.yaml` and `/zones/{CC}.yaml` on cron
+2. Read prayer time JSON files from this repo (GitHub raw or Pages)
+3. Parse local HH:MM, convert to epoch using zone timezone
+4. Store in database, serve to clients
 
 ## Time format
 
