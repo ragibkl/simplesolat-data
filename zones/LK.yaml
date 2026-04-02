@@ -1,0 +1,117 @@
+zones:
+  - code: LK01
+    country: LK
+    state: Western
+    location: Colombo, Gampaha, Kalutara
+    timezone: Asia/Colombo
+    shapes:
+      - Colombo District
+      - Gampaha District
+      - Kalutara District
+
+  - code: LK02
+    country: LK
+    state: Northern
+    location: Jaffna, Nallur
+    timezone: Asia/Colombo
+    shapes:
+      - Jaffna District
+
+  - code: LK03
+    country: LK
+    state: Northern
+    location: Mullaitivu, Kilinochchi, Vavuniya
+    timezone: Asia/Colombo
+    shapes:
+      - Kilinochchi District
+      - Mullaitivu District
+      - Vavuniya District
+
+  - code: LK04
+    country: LK
+    state: Northern
+    location: Mannar, Puttalam
+    timezone: Asia/Colombo
+    shapes:
+      - Mannar District
+      - Puttalam District
+
+  - code: LK05
+    country: LK
+    state: North Central
+    location: Anuradhapura, Polonnaruwa
+    timezone: Asia/Colombo
+    shapes:
+      - Anuradhapura District
+      - Polonnaruwa District
+
+  - code: LK06
+    country: LK
+    state: North Western
+    location: Kurunegala
+    timezone: Asia/Colombo
+    shapes:
+      - Kurunegala District
+
+  - code: LK07
+    country: LK
+    state: Central
+    location: Kandy, Matale, Nuwara Eliya
+    timezone: Asia/Colombo
+    shapes:
+      - Kandy District
+      - Matale District
+      - Nuwara Eliya District
+
+  - code: LK08
+    country: LK
+    state: Eastern
+    location: Batticaloa, Ampara
+    timezone: Asia/Colombo
+    shapes:
+      - Ampara District
+      - Batticaloa District
+
+  - code: LK09
+    country: LK
+    state: Eastern
+    location: Trincomalee
+    timezone: Asia/Colombo
+    shapes:
+      - Trincomalee District
+
+  - code: LK10
+    country: LK
+    state: Uva
+    location: Badulla, Monaragala
+    timezone: Asia/Colombo
+    shapes:
+      - Badulla District
+      - Monaragala District
+
+  - code: LK11
+    country: LK
+    state: Sabaragamuwa
+    location: Ratnapura, Kegalle
+    timezone: Asia/Colombo
+    shapes:
+      - Kegalle District
+      - Ratnapura District
+
+  - code: LK12
+    country: LK
+    state: Southern
+    location: Galle, Matara
+    timezone: Asia/Colombo
+    shapes:
+      - Galle District
+      - Matara District
+
+  - code: LK13
+    country: LK
+    state: Southern
+    location: Hambantota
+    timezone: Asia/Colombo
+    shapes:
+      - Hambantota District
+

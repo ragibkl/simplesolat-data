@@ -1,1867 +1,1959 @@
 zones:
-  # Johor
-  - code: JHR01
-    country: MY
-    state: Johor
-    location: Pulau Aur dan Pulau Pemanggil
-    timezone: Asia/Kuala_Lumpur
-
-  - code: JHR02
-    country: MY
-    state: Johor
-    location: Johor Bahru, Kota Tinggi, Mersing, Kulai
-    timezone: Asia/Kuala_Lumpur
-
-  - code: JHR03
-    country: MY
-    state: Johor
-    location: Kluang, Pontian
-    timezone: Asia/Kuala_Lumpur
-
-  - code: JHR04
-    country: MY
-    state: Johor
-    location: Batu Pahat, Muar, Segamat, Gemas Johor, Tangkak
-    timezone: Asia/Kuala_Lumpur
-
-  # Kedah
-  - code: KDH01
-    country: MY
-    state: Kedah
-    location: Kota Setar, Kubang Pasu, Pokok Sena (Daerah Kecil)
-    timezone: Asia/Kuala_Lumpur
-
-  - code: KDH02
-    country: MY
-    state: Kedah
-    location: Kuala Muda, Yan, Pendang
-    timezone: Asia/Kuala_Lumpur
-
-  - code: KDH03
-    country: MY
-    state: Kedah
-    location: Padang Terap, Sik
-    timezone: Asia/Kuala_Lumpur
-
-  - code: KDH04
-    country: MY
-    state: Kedah
-    location: Baling
-    timezone: Asia/Kuala_Lumpur
-
-  - code: KDH05
-    country: MY
-    state: Kedah
-    location: Bandar Baharu, Kulim
-    timezone: Asia/Kuala_Lumpur
-
-  - code: KDH06
-    country: MY
-    state: Kedah
-    location: Langkawi
-    timezone: Asia/Kuala_Lumpur
-
-  - code: KDH07
-    country: MY
-    state: Kedah
-    location: Puncak Gunung Jerai
-    timezone: Asia/Kuala_Lumpur
-
-  # Kelantan
-  - code: KTN01
-    country: MY
-    state: Kelantan
-    location: Bachok, Kota Bharu, Machang, Pasir Mas, Pasir Puteh, Tanah Merah, Tumpat, Kuala Krai, Mukim Chiku
-    timezone: Asia/Kuala_Lumpur
-
-  - code: KTN02
-    country: MY
-    state: Kelantan
-    location: Gua Musang (Daerah Galas Dan Bertam), Jeli, Jajahan Kecil Lojing
-    timezone: Asia/Kuala_Lumpur
-
-  # Melaka
-  - code: MLK01
-    country: MY
-    state: Melaka
-    location: SELURUH NEGERI MELAKA
-    timezone: Asia/Kuala_Lumpur
-
-  # Negeri Sembilan
-  - code: NGS01
-    country: MY
-    state: Negeri Sembilan
-    location: Tampin, Jempol
-    timezone: Asia/Kuala_Lumpur
-
-  - code: NGS02
-    country: MY
-    state: Negeri Sembilan
-    location: Jelebu, Kuala Pilah, Rembau
-    timezone: Asia/Kuala_Lumpur
-
-  - code: NGS03
-    country: MY
-    state: Negeri Sembilan
-    location: Port Dickson, Seremban
-    timezone: Asia/Kuala_Lumpur
-
-  # Pahang
-  - code: PHG01
-    country: MY
-    state: Pahang
-    location: Pulau Tioman
-    timezone: Asia/Kuala_Lumpur
-
-  - code: PHG02
-    country: MY
-    state: Pahang
-    location: Kuantan, Pekan, Muadzam Shah
-    timezone: Asia/Kuala_Lumpur
-
-  - code: PHG03
-    country: MY
-    state: Pahang
-    location: Jerantut, Temerloh, Maran, Bera, Chenor, Jengka
-    timezone: Asia/Kuala_Lumpur
-
-  - code: PHG04
-    country: MY
-    state: Pahang
-    location: Bentong, Lipis, Raub
-    timezone: Asia/Kuala_Lumpur
-
-  - code: PHG05
-    country: MY
-    state: Pahang
-    location: Genting Sempah, Janda Baik, Bukit Tinggi
-    timezone: Asia/Kuala_Lumpur
-
-  - code: PHG06
-    country: MY
-    state: Pahang
-    location: Cameron Highlands, Genting Higlands, Bukit Fraser
-    timezone: Asia/Kuala_Lumpur
-
-  - code: PHG07
-    country: MY
-    state: Pahang
-    location: Zon Khas Daerah Rompin, (Mukim Rompin, Mukim Endau, Mukim Pontian)
-    timezone: Asia/Kuala_Lumpur
-
-  # Perlis
-  - code: PLS01
-    country: MY
-    state: Perlis
-    location: Kangar, Padang Besar, Arau
-    timezone: Asia/Kuala_Lumpur
-
-  # Penang
-  - code: PNG01
-    country: MY
-    state: Pulau Pinang
-    location: Seluruh Negeri Pulau Pinang
-    timezone: Asia/Kuala_Lumpur
-
-  # Perak
-  - code: PRK01
-    country: MY
-    state: Perak
-    location: Tapah, Slim River, Tanjung Malim
-    timezone: Asia/Kuala_Lumpur
-
-  - code: PRK02
-    country: MY
-    state: Perak
-    location: Kuala Kangsar, Sg. Siput , Ipoh, Batu Gajah, Kampar
-    timezone: Asia/Kuala_Lumpur
-
-  - code: PRK03
-    country: MY
-    state: Perak
-    location: Lenggong, Pengkalan Hulu, Grik
-    timezone: Asia/Kuala_Lumpur
-
-  - code: PRK04
-    country: MY
-    state: Perak
-    location: Temengor, Belum
-    timezone: Asia/Kuala_Lumpur
-
-  - code: PRK05
-    country: MY
-    state: Perak
-    location: Kg Gajah, Teluk Intan, Bagan Datuk, Seri Iskandar, Beruas, Parit, Lumut, Sitiawan, Pulau Pangkor
-    timezone: Asia/Kuala_Lumpur
-
-  - code: PRK06
-    country: MY
-    state: Perak
-    location: Selama, Taiping, Bagan Serai, Parit Buntar
-    timezone: Asia/Kuala_Lumpur
-
-  - code: PRK07
-    country: MY
-    state: Perak
-    location: Bukit Larut
-    timezone: Asia/Kuala_Lumpur
-
-  # Sabah
-  - code: SBH01
-    country: MY
-    state: Sabah
-    location: Bahagian Sandakan (Timur), Bukit Garam, Semawang, Temanggong, Tambisan, Bandar Sandakan, Sukau
-    timezone: Asia/Kuala_Lumpur
-
-  - code: SBH02
-    country: MY
-    state: Sabah
-    location: Beluran, Telupid, Pinangah, Terusan, Kuamut, Bahagian Sandakan (Barat)
-    timezone: Asia/Kuala_Lumpur
-
-  - code: SBH03
-    country: MY
-    state: Sabah
-    location: Lahad Datu, Silabukan, Kunak, Sahabat, Semporna, Tungku, Bahagian Tawau (Timur)
-    timezone: Asia/Kuala_Lumpur
-
-  - code: SBH04
-    country: MY
-    state: Sabah
-    location: Bandar Tawau, Balong, Merotai, Kalabakan, Bahagian Tawau (Barat)
-    timezone: Asia/Kuala_Lumpur
-
-  - code: SBH05
-    country: MY
-    state: Sabah
-    location: Kudat, Kota Marudu, Pitas, Pulau Banggi, Bahagian Kudat
-    timezone: Asia/Kuala_Lumpur
-
-  - code: SBH06
-    country: MY
-    state: Sabah
-    location: Gunung Kinabalu
-    timezone: Asia/Kuala_Lumpur
-
-  - code: SBH07
-    country: MY
-    state: Sabah
-    location: Kota Kinabalu, Ranau, Kota Belud, Tuaran, Penampang, Papar, Putatan, Bahagian Pantai Barat
-    timezone: Asia/Kuala_Lumpur
-
-  - code: SBH08
-    country: MY
-    state: Sabah
-    location: Pensiangan, Keningau, Tambunan, Nabawan, Bahagian Pendalaman (Atas)
-    timezone: Asia/Kuala_Lumpur
-
-  - code: SBH09
-    country: MY
-    state: Sabah
-    location: Beaufort, Kuala Penyu, Sipitang, Tenom, Long Pasia, Membakut, Weston, Bahagian Pendalaman (Bawah)
-    timezone: Asia/Kuala_Lumpur
-
-  # Sarawak
-  - code: SWK01
-    country: MY
-    state: Sarawak
-    location: Limbang, Lawas, Sundar, Trusan
-    timezone: Asia/Kuala_Lumpur
-
-  - code: SWK02
-    country: MY
-    state: Sarawak
-    location: Miri, Niah, Bekenu, Sibuti, Marudi
-    timezone: Asia/Kuala_Lumpur
-
-  - code: SWK03
-    country: MY
-    state: Sarawak
-    location: Pandan, Belaga, Suai, Tatau, Sebauh, Bintulu
-    timezone: Asia/Kuala_Lumpur
-
-  - code: SWK04
-    country: MY
-    state: Sarawak
-    location: Sibu, Mukah, Dalat, Song, Igan, Oya, Balingian, Kanowit, Kapit
-    timezone: Asia/Kuala_Lumpur
-
-  - code: SWK05
-    country: MY
-    state: Sarawak
-    location: Sarikei, Matu, Julau, Rajang, Daro, Bintangor, Belawai
-    timezone: Asia/Kuala_Lumpur
-
-  - code: SWK06
-    country: MY
-    state: Sarawak
-    location: Lubok Antu, Sri Aman, Roban, Debak, Kabong, Lingga, Engkelili, Betong, Spaoh, Pusa, Saratok
-    timezone: Asia/Kuala_Lumpur
-
-  - code: SWK07
-    country: MY
-    state: Sarawak
-    location: Serian, Simunjan, Samarahan, Sebuyau, Meludam
-    timezone: Asia/Kuala_Lumpur
-
-  - code: SWK08
-    country: MY
-    state: Sarawak
-    location: Kuching, Bau, Lundu, Sematan
-    timezone: Asia/Kuala_Lumpur
-
-  - code: SWK09
-    country: MY
-    state: Sarawak
-    location: Zon Khas (Kampung Patarikan)
-    timezone: Asia/Kuala_Lumpur
-
-  # Selangor (3 zones) - SGR01 updated (no Rawang)
-  - code: SGR01
-    country: MY
-    state: Selangor
-    location: Gombak, Petaling, Sepang, Hulu Langat, Hulu Selangor, S.Alam
-    timezone: Asia/Kuala_Lumpur
-
-  - code: SGR02
-    country: MY
-    state: Selangor
-    location: Kuala Selangor, Sabak Bernam
-    timezone: Asia/Kuala_Lumpur
-
-  - code: SGR03
-    country: MY
-    state: Selangor
-    location: Klang, Kuala Langat
-    timezone: Asia/Kuala_Lumpur
-
-  # Terengganu
-  - code: TRG01
-    country: MY
-    state: Terengganu
-    location: Kuala Terengganu, Marang, Kuala Nerus
-    timezone: Asia/Kuala_Lumpur
-
-  - code: TRG02
-    country: MY
-    state: Terengganu
-    location: Besut, Setiu
-    timezone: Asia/Kuala_Lumpur
-
-  - code: TRG03
-    country: MY
-    state: Terengganu
-    location: Hulu Terengganu
-    timezone: Asia/Kuala_Lumpur
-
-  - code: TRG04
-    country: MY
-    state: Terengganu
-    location: Dungun, Kemaman
-    timezone: Asia/Kuala_Lumpur
-
-  # Wilayah Persekutuan
-  - code: WLY01
-    country: MY
-    state: W.P. Kuala Lumpur
-    location: Kuala Lumpur, Putrajaya
-    timezone: Asia/Kuala_Lumpur
-
-  - code: WLY02
-    country: MY
-    state: W.P. Labuan
-    location: Labuan
-    timezone: Asia/Kuala_Lumpur
-
-  # Singapore (1 zone)
-  - code: SGP01
-    country: SG
-    state: Singapore
-    location: Seluruh Singapura
-    timezone: Asia/Singapore
-
-  # Indonesia (517 zones)
-  # Aceh
   - code: ACH01
     country: ID
     state: Aceh
     location: Kab. Aceh Barat
     timezone: Asia/Jakarta
+    shapes:
+      - Aceh Barat
 
   - code: ACH02
     country: ID
     state: Aceh
     location: Kab. Aceh Barat Daya
     timezone: Asia/Jakarta
+    shapes:
+      - Aceh Barat Daya
 
   - code: ACH03
     country: ID
     state: Aceh
     location: Kab. Aceh Besar
     timezone: Asia/Jakarta
+    shapes:
+      - Aceh Besar
 
   - code: ACH04
     country: ID
     state: Aceh
     location: Kab. Aceh Jaya
     timezone: Asia/Jakarta
+    shapes:
+      - Aceh Jaya
 
   - code: ACH05
     country: ID
     state: Aceh
     location: Kab. Aceh Selatan
     timezone: Asia/Jakarta
+    shapes:
+      - Aceh Selatan
 
   - code: ACH06
     country: ID
     state: Aceh
     location: Kab. Aceh Singkil
     timezone: Asia/Jakarta
+    shapes:
+      - Aceh Singkil
 
   - code: ACH07
     country: ID
     state: Aceh
     location: Kab. Aceh Tamiang
     timezone: Asia/Jakarta
+    shapes:
+      - Aceh Tamiang
 
   - code: ACH08
     country: ID
     state: Aceh
     location: Kab. Aceh Tengah
     timezone: Asia/Jakarta
+    shapes:
+      - Aceh Tengah
 
   - code: ACH09
     country: ID
     state: Aceh
     location: Kab. Aceh Tenggara
     timezone: Asia/Jakarta
+    shapes:
+      - Aceh Tenggara
 
   - code: ACH10
     country: ID
     state: Aceh
     location: Kab. Aceh Timur
     timezone: Asia/Jakarta
+    shapes:
+      - Aceh Timur
 
   - code: ACH11
     country: ID
     state: Aceh
     location: Kab. Aceh Utara
     timezone: Asia/Jakarta
+    shapes:
+      - Aceh Utara
 
   - code: ACH12
     country: ID
     state: Aceh
     location: Kab. Bener Meriah
     timezone: Asia/Jakarta
+    shapes:
+      - Bener Meriah
 
   - code: ACH13
     country: ID
     state: Aceh
     location: Kab. Bireuen
     timezone: Asia/Jakarta
+    shapes:
+      - Bireuen
 
   - code: ACH14
     country: ID
     state: Aceh
     location: Kab. Gayo Lues
     timezone: Asia/Jakarta
+    shapes:
+      - Gayo Lues
 
   - code: ACH15
     country: ID
     state: Aceh
     location: Kab. Nagan Raya
     timezone: Asia/Jakarta
+    shapes:
+      - Nagan Raya
 
   - code: ACH16
     country: ID
     state: Aceh
     location: Kab. Pidie
     timezone: Asia/Jakarta
+    shapes:
+      - Pidie
 
   - code: ACH17
     country: ID
     state: Aceh
     location: Kab. Pidie Jaya
     timezone: Asia/Jakarta
+    shapes:
+      - Pidie Jaya
 
   - code: ACH18
     country: ID
     state: Aceh
     location: Kab. Simeulue
     timezone: Asia/Jakarta
+    shapes:
+      - Simeulue
 
   - code: ACH19
     country: ID
     state: Aceh
     location: Kota Banda Aceh
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Banda Aceh
 
   - code: ACH20
     country: ID
     state: Aceh
     location: Kota Langsa
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Langsa
 
   - code: ACH21
     country: ID
     state: Aceh
     location: Kota Lhokseumawe
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Lhokseumawe
 
   - code: ACH22
     country: ID
     state: Aceh
     location: Kota Sabang
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Sabang
 
   - code: ACH23
     country: ID
     state: Aceh
     location: Kota Subulussalam
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Subulussalam
 
-  # Bali
   - code: BAL01
     country: ID
     state: Bali
     location: Kab. Badung
     timezone: Asia/Makassar
+    shapes:
+      - Badung
 
   - code: BAL02
     country: ID
     state: Bali
     location: Kab. Bangli
     timezone: Asia/Makassar
+    shapes:
+      - Bangli
 
   - code: BAL03
     country: ID
     state: Bali
     location: Kab. Buleleng
     timezone: Asia/Makassar
+    shapes:
+      - Buleleng
 
   - code: BAL04
     country: ID
     state: Bali
     location: Kab. Gianyar
     timezone: Asia/Makassar
+    shapes:
+      - Gianyar
 
   - code: BAL05
     country: ID
     state: Bali
     location: Kab. Jembrana
     timezone: Asia/Makassar
+    shapes:
+      - Jembrana
 
   - code: BAL06
     country: ID
     state: Bali
     location: Kab. Karangasem
     timezone: Asia/Makassar
+    shapes:
+      - Karang Asem
 
   - code: BAL07
     country: ID
     state: Bali
     location: Kab. Klungkung
     timezone: Asia/Makassar
+    shapes:
+      - Klungkung
 
   - code: BAL08
     country: ID
     state: Bali
     location: Kab. Tabanan
     timezone: Asia/Makassar
+    shapes:
+      - Tabanan
 
   - code: BAL09
     country: ID
     state: Bali
     location: Kota Denpasar
     timezone: Asia/Makassar
+    shapes:
+      - Kota Denpasar
 
-  # Banten
   - code: BTN01
     country: ID
     state: Banten
     location: Kab. Lebak
     timezone: Asia/Jakarta
+    shapes:
+      - Lebak
 
   - code: BTN02
     country: ID
     state: Banten
     location: Kab. Pandeglang
     timezone: Asia/Jakarta
+    shapes:
+      - Pandeglang
 
   - code: BTN03
     country: ID
     state: Banten
     location: Kab. Serang
     timezone: Asia/Jakarta
+    shapes:
+      - Serang
 
   - code: BTN04
     country: ID
     state: Banten
     location: Kab. Tangerang
     timezone: Asia/Jakarta
+    shapes:
+      - Tangerang
 
   - code: BTN05
     country: ID
     state: Banten
     location: Kota Cilegon
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Cilegon
 
   - code: BTN06
     country: ID
     state: Banten
     location: Kota Serang
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Serang
 
   - code: BTN07
     country: ID
     state: Banten
     location: Kota Tangerang
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Tangerang
 
   - code: BTN08
     country: ID
     state: Banten
     location: Kota Tangerang Selatan
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Tangerang Selatan
 
-  # Bengkulu
   - code: BKL01
     country: ID
     state: Bengkulu
     location: Kab. Bengkulu Selatan
     timezone: Asia/Jakarta
+    shapes:
+      - Bengkulu Selatan
 
   - code: BKL02
     country: ID
     state: Bengkulu
     location: Kab. Bengkulu Tengah
     timezone: Asia/Jakarta
+    shapes:
+      - Bengkulu Tengah
 
   - code: BKL03
     country: ID
     state: Bengkulu
     location: Kab. Bengkulu Utara
     timezone: Asia/Jakarta
+    shapes:
+      - Bengkulu Utara
 
   - code: BKL04
     country: ID
     state: Bengkulu
     location: Kab. Kaur
     timezone: Asia/Jakarta
+    shapes:
+      - Kaur
 
   - code: BKL05
     country: ID
     state: Bengkulu
     location: Kab. Kepahiang
     timezone: Asia/Jakarta
+    shapes:
+      - Kepahiang
 
   - code: BKL06
     country: ID
     state: Bengkulu
     location: Kab. Lebong
     timezone: Asia/Jakarta
+    shapes:
+      - Lebong
 
   - code: BKL07
     country: ID
     state: Bengkulu
     location: Kab. Mukomuko
     timezone: Asia/Jakarta
+    shapes:
+      - Mukomuko
 
   - code: BKL08
     country: ID
     state: Bengkulu
     location: Kab. Rejang Lebong
     timezone: Asia/Jakarta
+    shapes:
+      - Rejang Lebong
 
   - code: BKL09
     country: ID
     state: Bengkulu
     location: Kab. Seluma
     timezone: Asia/Jakarta
+    shapes:
+      - Seluma
 
   - code: BKL10
     country: ID
     state: Bengkulu
     location: Kota Bengkulu
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Bengkulu
 
-  # D.I. Yogyakarta
   - code: DIY01
     country: ID
     state: D.I. Yogyakarta
     location: Kab. Bantul
     timezone: Asia/Jakarta
+    shapes:
+      - Bantul
 
   - code: DIY02
     country: ID
     state: D.I. Yogyakarta
     location: Kab. Gunungkidul
     timezone: Asia/Jakarta
+    shapes:
+      - Gunung Kidul
 
   - code: DIY03
     country: ID
     state: D.I. Yogyakarta
     location: Kab. Kulon Progo
     timezone: Asia/Jakarta
+    shapes:
+      - Kulon Progo
 
   - code: DIY04
     country: ID
     state: D.I. Yogyakarta
     location: Kab. Sleman
     timezone: Asia/Jakarta
+    shapes:
+      - Sleman
 
   - code: DIY05
     country: ID
     state: D.I. Yogyakarta
     location: Kota Yogyakarta
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Yogyakarta
 
-  # DKI Jakarta
   - code: DKI01
     country: ID
     state: DKI Jakarta
     location: Kab. Kepulauan Seribu
     timezone: Asia/Jakarta
+    shapes:
+      - Kepulauan Seribu
 
   - code: DKI02
     country: ID
     state: DKI Jakarta
     location: Kota Jakarta
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Jakarta Barat
+      - Kota Jakarta Pusat
+      - Kota Jakarta Selatan
+      - Kota Jakarta Timur
+      - Kota Jakarta Utara
 
-  # Gorontalo
   - code: GTO01
     country: ID
     state: Gorontalo
     location: Kab. Boalemo
     timezone: Asia/Makassar
+    shapes:
+      - Boalemo
 
   - code: GTO02
     country: ID
     state: Gorontalo
     location: Kab. Bone Bolango
     timezone: Asia/Makassar
+    shapes:
+      - Bone Bolango
 
   - code: GTO03
     country: ID
     state: Gorontalo
     location: Kab. Gorontalo
     timezone: Asia/Makassar
+    shapes:
+      - Gorontalo
 
   - code: GTO04
     country: ID
     state: Gorontalo
     location: Kab. Gorontalo Utara
     timezone: Asia/Makassar
+    shapes:
+      - Gorontalo Utara
 
   - code: GTO05
     country: ID
     state: Gorontalo
     location: Kab. Pahuwato
     timezone: Asia/Makassar
+    shapes:
+      - Pohuwato
 
   - code: GTO06
     country: ID
     state: Gorontalo
     location: Kota Gorontalo
     timezone: Asia/Makassar
+    shapes:
+      - Kota Gorontalo
 
-  # Jambi
   - code: JMB01
     country: ID
     state: Jambi
     location: Kab. Batanghari
     timezone: Asia/Jakarta
+    shapes:
+      - Batang Hari
 
   - code: JMB02
     country: ID
     state: Jambi
     location: Kab. Bungo
     timezone: Asia/Jakarta
+    shapes:
+      - Bungo
 
   - code: JMB03
     country: ID
     state: Jambi
     location: Kab. Kerinci
     timezone: Asia/Jakarta
+    shapes:
+      - Kerinci
 
   - code: JMB04
     country: ID
     state: Jambi
     location: Kab. Merangin
     timezone: Asia/Jakarta
+    shapes:
+      - Merangin
 
   - code: JMB05
     country: ID
     state: Jambi
     location: Kab. Muaro Jambi
     timezone: Asia/Jakarta
+    shapes:
+      - Muaro Jambi
 
   - code: JMB06
     country: ID
     state: Jambi
     location: Kab. Sarolangun
     timezone: Asia/Jakarta
+    shapes:
+      - Sarolangun
 
   - code: JMB07
     country: ID
     state: Jambi
     location: Kab. Tanjung Jabung Barat
     timezone: Asia/Jakarta
+    shapes:
+      - Tanjung Jabung Barat
 
   - code: JMB08
     country: ID
     state: Jambi
     location: Kab. Tanjung Jabung Timur
     timezone: Asia/Jakarta
+    shapes:
+      - Tanjung Jabung Timur
 
   - code: JMB09
     country: ID
     state: Jambi
     location: Kab. Tebo
     timezone: Asia/Jakarta
+    shapes:
+      - Tebo
 
   - code: JMB10
     country: ID
     state: Jambi
     location: Kota Jambi
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Jambi
 
   - code: JMB11
     country: ID
     state: Jambi
     location: Kota Sungai Penuh
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Sungai Penuh
 
-  # Jawa Barat
   - code: JBR01
     country: ID
     state: Jawa Barat
     location: Kab. Bandung
     timezone: Asia/Jakarta
+    shapes:
+      - Bandung
 
   - code: JBR02
     country: ID
     state: Jawa Barat
     location: Kab. Bandung Barat
     timezone: Asia/Jakarta
+    shapes:
+      - Bandung Barat
 
   - code: JBR03
     country: ID
     state: Jawa Barat
     location: Kab. Bekasi
     timezone: Asia/Jakarta
+    shapes:
+      - Bekasi
 
   - code: JBR04
     country: ID
     state: Jawa Barat
     location: Kab. Bogor
     timezone: Asia/Jakarta
+    shapes:
+      - Bogor
 
   - code: JBR05
     country: ID
     state: Jawa Barat
     location: Kab. Ciamis
     timezone: Asia/Jakarta
+    shapes:
+      - Ciamis
 
   - code: JBR06
     country: ID
     state: Jawa Barat
     location: Kab. Cianjur
     timezone: Asia/Jakarta
+    shapes:
+      - Cianjur
 
   - code: JBR07
     country: ID
     state: Jawa Barat
     location: Kab. Cirebon
     timezone: Asia/Jakarta
+    shapes:
+      - Cirebon
 
   - code: JBR08
     country: ID
     state: Jawa Barat
     location: Kab. Garut
     timezone: Asia/Jakarta
+    shapes:
+      - Garut
 
   - code: JBR09
     country: ID
     state: Jawa Barat
     location: Kab. Indramayu
     timezone: Asia/Jakarta
+    shapes:
+      - Indramayu
 
   - code: JBR10
     country: ID
     state: Jawa Barat
     location: Kab. Karawang
     timezone: Asia/Jakarta
+    shapes:
+      - Karawang
 
   - code: JBR11
     country: ID
     state: Jawa Barat
     location: Kab. Kuningan
     timezone: Asia/Jakarta
+    shapes:
+      - Kuningan
 
   - code: JBR12
     country: ID
     state: Jawa Barat
     location: Kab. Majalengka
     timezone: Asia/Jakarta
+    shapes:
+      - Majalengka
 
   - code: JBR13
     country: ID
     state: Jawa Barat
     location: Kab. Pangandaran
     timezone: Asia/Jakarta
+    shapes:
+      - Pangandaran
 
   - code: JBR14
     country: ID
     state: Jawa Barat
     location: Kab. Purwakarta
     timezone: Asia/Jakarta
+    shapes:
+      - Purwakarta
 
   - code: JBR15
     country: ID
     state: Jawa Barat
     location: Kab. Subang
     timezone: Asia/Jakarta
+    shapes:
+      - Subang
 
   - code: JBR16
     country: ID
     state: Jawa Barat
     location: Kab. Sukabumi
     timezone: Asia/Jakarta
+    shapes:
+      - Sukabumi
 
   - code: JBR17
     country: ID
     state: Jawa Barat
     location: Kab. Sumedang
     timezone: Asia/Jakarta
+    shapes:
+      - Sumedang
 
   - code: JBR18
     country: ID
     state: Jawa Barat
     location: Kab. Tasikmalaya
     timezone: Asia/Jakarta
+    shapes:
+      - Tasikmalaya
 
   - code: JBR19
     country: ID
     state: Jawa Barat
     location: Kota Bandung
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Bandung
 
   - code: JBR20
     country: ID
     state: Jawa Barat
     location: Kota Banjar
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Banjar
 
   - code: JBR21
     country: ID
     state: Jawa Barat
     location: Kota Bekasi
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Bekasi
 
   - code: JBR22
     country: ID
     state: Jawa Barat
     location: Kota Bogor
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Bogor
 
   - code: JBR23
     country: ID
     state: Jawa Barat
     location: Kota Cimahi
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Cimahi
 
   - code: JBR24
     country: ID
     state: Jawa Barat
     location: Kota Cirebon
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Cirebon
 
   - code: JBR25
     country: ID
     state: Jawa Barat
     location: Kota Depok
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Depok
 
   - code: JBR26
     country: ID
     state: Jawa Barat
     location: Kota Sukabumi
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Sukabumi
 
   - code: JBR27
     country: ID
     state: Jawa Barat
     location: Kota Tasikmalaya
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Tasikmalaya
 
-  # Jawa Tengah
   - code: JTG01
     country: ID
     state: Jawa Tengah
     location: Kab. Banjarnegara
     timezone: Asia/Jakarta
+    shapes:
+      - Banjarnegara
 
   - code: JTG02
     country: ID
     state: Jawa Tengah
     location: Kab. Banyumas
     timezone: Asia/Jakarta
+    shapes:
+      - Banyumas
 
   - code: JTG03
     country: ID
     state: Jawa Tengah
     location: Kab. Batang
     timezone: Asia/Jakarta
+    shapes:
+      - Batang
 
   - code: JTG04
     country: ID
     state: Jawa Tengah
     location: Kab. Blora
     timezone: Asia/Jakarta
+    shapes:
+      - Blora
 
   - code: JTG05
     country: ID
     state: Jawa Tengah
     location: Kab. Boyolali
     timezone: Asia/Jakarta
+    shapes:
+      - Boyolali
 
   - code: JTG06
     country: ID
     state: Jawa Tengah
     location: Kab. Brebes
     timezone: Asia/Jakarta
+    shapes:
+      - Brebes
 
   - code: JTG07
     country: ID
     state: Jawa Tengah
     location: Kab. Cilacap
     timezone: Asia/Jakarta
+    shapes:
+      - Cilacap
 
   - code: JTG08
     country: ID
     state: Jawa Tengah
     location: Kab. Demak
     timezone: Asia/Jakarta
+    shapes:
+      - Demak
 
   - code: JTG09
     country: ID
     state: Jawa Tengah
     location: Kab. Grobogan
     timezone: Asia/Jakarta
+    shapes:
+      - Grobogan
 
   - code: JTG10
     country: ID
     state: Jawa Tengah
     location: Kab. Jepara
     timezone: Asia/Jakarta
+    shapes:
+      - Jepara
 
   - code: JTG11
     country: ID
     state: Jawa Tengah
     location: Kab. Karanganyar
     timezone: Asia/Jakarta
+    shapes:
+      - Karanganyar
 
   - code: JTG12
     country: ID
     state: Jawa Tengah
     location: Kab. Kebumen
     timezone: Asia/Jakarta
+    shapes:
+      - Kebumen
 
   - code: JTG13
     country: ID
     state: Jawa Tengah
     location: Kab. Kendal
     timezone: Asia/Jakarta
+    shapes:
+      - Kendal
 
   - code: JTG14
     country: ID
     state: Jawa Tengah
     location: Kab. Klaten
     timezone: Asia/Jakarta
+    shapes:
+      - Klaten
 
   - code: JTG15
     country: ID
     state: Jawa Tengah
     location: Kab. Kudus
     timezone: Asia/Jakarta
+    shapes:
+      - Kudus
 
   - code: JTG16
     country: ID
     state: Jawa Tengah
     location: Kab. Magelang
     timezone: Asia/Jakarta
+    shapes:
+      - Magelang
 
   - code: JTG17
     country: ID
     state: Jawa Tengah
     location: Kab. Pati
     timezone: Asia/Jakarta
+    shapes:
+      - Pati
 
   - code: JTG18
     country: ID
     state: Jawa Tengah
     location: Kab. Pekalongan
     timezone: Asia/Jakarta
+    shapes:
+      - Pekalongan
 
   - code: JTG19
     country: ID
     state: Jawa Tengah
     location: Kab. Pemalang
     timezone: Asia/Jakarta
+    shapes:
+      - Pemalang
 
   - code: JTG20
     country: ID
     state: Jawa Tengah
     location: Kab. Purbalingga
     timezone: Asia/Jakarta
+    shapes:
+      - Purbalingga
 
   - code: JTG21
     country: ID
     state: Jawa Tengah
     location: Kab. Purworejo
     timezone: Asia/Jakarta
+    shapes:
+      - Purworejo
 
   - code: JTG22
     country: ID
     state: Jawa Tengah
     location: Kab. Rembang
     timezone: Asia/Jakarta
+    shapes:
+      - Rembang
 
   - code: JTG23
     country: ID
     state: Jawa Tengah
     location: Kab. Semarang
     timezone: Asia/Jakarta
+    shapes:
+      - Semarang
 
   - code: JTG24
     country: ID
     state: Jawa Tengah
     location: Kab. Sragen
     timezone: Asia/Jakarta
+    shapes:
+      - Sragen
 
   - code: JTG25
     country: ID
     state: Jawa Tengah
     location: Kab. Sukoharjo
     timezone: Asia/Jakarta
+    shapes:
+      - Sukoharjo
 
   - code: JTG26
     country: ID
     state: Jawa Tengah
     location: Kab. Tegal
     timezone: Asia/Jakarta
+    shapes:
+      - Tegal
 
   - code: JTG27
     country: ID
     state: Jawa Tengah
     location: Kab. Temanggung
     timezone: Asia/Jakarta
+    shapes:
+      - Temanggung
 
   - code: JTG28
     country: ID
     state: Jawa Tengah
     location: Kab. Wonogiri
     timezone: Asia/Jakarta
+    shapes:
+      - Wonogiri
 
   - code: JTG29
     country: ID
     state: Jawa Tengah
     location: Kab. Wonosobo
     timezone: Asia/Jakarta
+    shapes:
+      - Wonosobo
 
   - code: JTG30
     country: ID
     state: Jawa Tengah
     location: Kota Magelang
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Magelang
 
   - code: JTG31
     country: ID
     state: Jawa Tengah
     location: Kota Pekalongan
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Pekalongan
 
   - code: JTG32
     country: ID
     state: Jawa Tengah
     location: Kota Salatiga
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Salatiga
 
   - code: JTG33
     country: ID
     state: Jawa Tengah
     location: Kota Semarang
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Semarang
 
   - code: JTG34
     country: ID
     state: Jawa Tengah
     location: Kota Surakarta
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Surakarta
 
   - code: JTG35
     country: ID
     state: Jawa Tengah
     location: Kota Tegal
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Tegal
 
-  # Jawa Timur
   - code: JTM01
     country: ID
     state: Jawa Timur
     location: Kab. Bangkalan
     timezone: Asia/Jakarta
+    shapes:
+      - Bangkalan
 
   - code: JTM02
     country: ID
     state: Jawa Timur
     location: Kab. Banyuwangi
     timezone: Asia/Jakarta
+    shapes:
+      - Banyuwangi
 
   - code: JTM03
     country: ID
     state: Jawa Timur
     location: Kab. Blitar
     timezone: Asia/Jakarta
+    shapes:
+      - Blitar
 
   - code: JTM04
     country: ID
     state: Jawa Timur
     location: Kab. Bojonegoro
     timezone: Asia/Jakarta
+    shapes:
+      - Bojonegoro
 
   - code: JTM05
     country: ID
     state: Jawa Timur
     location: Kab. Bondowoso
     timezone: Asia/Jakarta
+    shapes:
+      - Bondowoso
 
   - code: JTM06
     country: ID
     state: Jawa Timur
     location: Kab. Gresik
     timezone: Asia/Jakarta
+    shapes:
+      - Gresik
 
   - code: JTM07
     country: ID
     state: Jawa Timur
     location: Kab. Jember
     timezone: Asia/Jakarta
+    shapes:
+      - Jember
 
   - code: JTM08
     country: ID
     state: Jawa Timur
     location: Kab. Jombang
     timezone: Asia/Jakarta
+    shapes:
+      - Jombang
 
   - code: JTM09
     country: ID
     state: Jawa Timur
     location: Kab. Kediri
     timezone: Asia/Jakarta
+    shapes:
+      - Kediri
 
   - code: JTM10
     country: ID
     state: Jawa Timur
     location: Kab. Lamongan
     timezone: Asia/Jakarta
+    shapes:
+      - Lamongan
 
   - code: JTM11
     country: ID
     state: Jawa Timur
     location: Kab. Lumajang
     timezone: Asia/Jakarta
+    shapes:
+      - Lumajang
 
   - code: JTM12
     country: ID
     state: Jawa Timur
     location: Kab. Madiun
     timezone: Asia/Jakarta
+    shapes:
+      - Madiun
 
   - code: JTM13
     country: ID
     state: Jawa Timur
     location: Kab. Magetan
     timezone: Asia/Jakarta
+    shapes:
+      - Magetan
 
   - code: JTM14
     country: ID
     state: Jawa Timur
     location: Kab. Malang
     timezone: Asia/Jakarta
+    shapes:
+      - Malang
 
   - code: JTM15
     country: ID
     state: Jawa Timur
     location: Kab. Mojokerto
     timezone: Asia/Jakarta
+    shapes:
+      - Mojokerto
 
   - code: JTM16
     country: ID
     state: Jawa Timur
     location: Kab. Nganjuk
     timezone: Asia/Jakarta
+    shapes:
+      - Nganjuk
 
   - code: JTM17
     country: ID
     state: Jawa Timur
     location: Kab. Ngawi
     timezone: Asia/Jakarta
+    shapes:
+      - Ngawi
 
   - code: JTM18
     country: ID
     state: Jawa Timur
     location: Kab. Pacitan
     timezone: Asia/Jakarta
+    shapes:
+      - Pacitan
 
   - code: JTM19
     country: ID
     state: Jawa Timur
     location: Kab. Pamekasan
     timezone: Asia/Jakarta
+    shapes:
+      - Pamekasan
 
   - code: JTM20
     country: ID
     state: Jawa Timur
     location: Kab. Pasuruan
     timezone: Asia/Jakarta
+    shapes:
+      - Pasuruan
 
   - code: JTM21
     country: ID
     state: Jawa Timur
     location: Kab. Ponorogo
     timezone: Asia/Jakarta
+    shapes:
+      - Ponorogo
 
   - code: JTM22
     country: ID
     state: Jawa Timur
     location: Kab. Probolinggo
     timezone: Asia/Jakarta
+    shapes:
+      - Probolinggo
 
   - code: JTM23
     country: ID
     state: Jawa Timur
     location: Kab. Sampang
     timezone: Asia/Jakarta
+    shapes:
+      - Sampang
 
   - code: JTM24
     country: ID
     state: Jawa Timur
     location: Kab. Sidoarjo
     timezone: Asia/Jakarta
+    shapes:
+      - Sidoarjo
 
   - code: JTM25
     country: ID
     state: Jawa Timur
     location: Kab. Situbondo
     timezone: Asia/Jakarta
+    shapes:
+      - Situbondo
 
   - code: JTM26
     country: ID
     state: Jawa Timur
     location: Kab. Sumenep
     timezone: Asia/Jakarta
+    shapes:
+      - Sumenep
 
   - code: JTM27
     country: ID
     state: Jawa Timur
     location: Kab. Trenggalek
     timezone: Asia/Jakarta
+    shapes:
+      - Trenggalek
 
   - code: JTM28
     country: ID
     state: Jawa Timur
     location: Kab. Tuban
     timezone: Asia/Jakarta
+    shapes:
+      - Tuban
 
   - code: JTM29
     country: ID
     state: Jawa Timur
     location: Kab. Tulungagung
     timezone: Asia/Jakarta
+    shapes:
+      - Tulungagung
 
   - code: JTM30
     country: ID
     state: Jawa Timur
     location: Kota Batu
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Batu
 
   - code: JTM31
     country: ID
     state: Jawa Timur
     location: Kota Blitar
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Blitar
 
   - code: JTM32
     country: ID
     state: Jawa Timur
     location: Kota Kediri
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Kediri
 
   - code: JTM33
     country: ID
     state: Jawa Timur
     location: Kota Madiun
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Madiun
 
   - code: JTM34
     country: ID
     state: Jawa Timur
     location: Kota Malang
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Malang
 
   - code: JTM35
     country: ID
     state: Jawa Timur
     location: Kota Mojokerto
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Mojokerto
 
   - code: JTM36
     country: ID
     state: Jawa Timur
     location: Kota Pasuruan
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Pasuruan
 
   - code: JTM37
     country: ID
     state: Jawa Timur
     location: Kota Probolinggo
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Probolinggo
 
   - code: JTM38
     country: ID
     state: Jawa Timur
     location: Kota Surabaya
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Surabaya
 
-  # Kalimantan Barat
   - code: KBR01
     country: ID
     state: Kalimantan Barat
     location: Kab. Bengkayang
     timezone: Asia/Makassar
+    shapes:
+      - Bengkayang
 
   - code: KBR02
     country: ID
     state: Kalimantan Barat
     location: Kab. Kapuas Hulu
     timezone: Asia/Makassar
+    shapes:
+      - Kapuas Hulu
 
   - code: KBR03
     country: ID
     state: Kalimantan Barat
     location: Kab. Kayong Utara
     timezone: Asia/Makassar
+    shapes:
+      - Kayong Utara
 
   - code: KBR04
     country: ID
     state: Kalimantan Barat
     location: Kab. Ketapang
     timezone: Asia/Makassar
+    shapes:
+      - Ketapang
 
   - code: KBR05
     country: ID
     state: Kalimantan Barat
     location: Kab. Kubu Raya
     timezone: Asia/Makassar
+    shapes:
+      - Kubu Raya
 
   - code: KBR06
     country: ID
     state: Kalimantan Barat
     location: Kab. Landak
     timezone: Asia/Makassar
+    shapes:
+      - Landak
 
   - code: KBR07
     country: ID
     state: Kalimantan Barat
     location: Kab. Melawi
     timezone: Asia/Makassar
+    shapes:
+      - Melawi
 
   - code: KBR08
     country: ID
     state: Kalimantan Barat
     location: Kab. Mempawah
     timezone: Asia/Makassar
+    shapes:
+      - Mempawah
 
   - code: KBR09
     country: ID
     state: Kalimantan Barat
     location: Kab. Sambas
     timezone: Asia/Makassar
+    shapes:
+      - Sambas
 
   - code: KBR10
     country: ID
     state: Kalimantan Barat
     location: Kab. Sanggau
     timezone: Asia/Makassar
+    shapes:
+      - Sanggau
 
   - code: KBR11
     country: ID
     state: Kalimantan Barat
     location: Kab. Sekadau
     timezone: Asia/Makassar
+    shapes:
+      - Sekadau
 
   - code: KBR12
     country: ID
     state: Kalimantan Barat
     location: Kab. Sintang
     timezone: Asia/Makassar
+    shapes:
+      - Sintang
 
   - code: KBR13
     country: ID
     state: Kalimantan Barat
     location: Kota Pontianak
     timezone: Asia/Makassar
+    shapes:
+      - Kota Pontianak
 
   - code: KBR14
     country: ID
     state: Kalimantan Barat
     location: Kota Singkawang
     timezone: Asia/Makassar
+    shapes:
+      - Kota Singkawang
 
-  # Kalimantan Selatan
   - code: KSL01
     country: ID
     state: Kalimantan Selatan
     location: Kab. Balangan
     timezone: Asia/Makassar
+    shapes:
+      - Balangan
 
   - code: KSL02
     country: ID
     state: Kalimantan Selatan
     location: Kab. Banjar
     timezone: Asia/Makassar
+    shapes:
+      - Banjar
 
   - code: KSL03
     country: ID
     state: Kalimantan Selatan
     location: Kab. Barito Kuala
     timezone: Asia/Makassar
+    shapes:
+      - Barito Kuala
 
   - code: KSL04
     country: ID
     state: Kalimantan Selatan
     location: Kab. Hulu Sungai Selatan
     timezone: Asia/Makassar
+    shapes:
+      - Hulu Sungai Selatan
 
   - code: KSL05
     country: ID
     state: Kalimantan Selatan
     location: Kab. Hulu Sungai Tengah
     timezone: Asia/Makassar
+    shapes:
+      - Hulu Sungai Tengah
 
   - code: KSL06
     country: ID
     state: Kalimantan Selatan
     location: Kab. Hulu Sungai Utara
     timezone: Asia/Makassar
+    shapes:
+      - Hulu Sungai Utara
 
   - code: KSL07
     country: ID
     state: Kalimantan Selatan
     location: Kab. Kotabaru
     timezone: Asia/Makassar
+    shapes:
+      - Kota Baru
 
   - code: KSL08
     country: ID
     state: Kalimantan Selatan
     location: Kab. Tabalong
     timezone: Asia/Makassar
+    shapes:
+      - Tabalong
 
   - code: KSL09
     country: ID
     state: Kalimantan Selatan
     location: Kab. Tanah Bumbu
     timezone: Asia/Makassar
+    shapes:
+      - Tanah Bumbu
 
   - code: KSL10
     country: ID
     state: Kalimantan Selatan
     location: Kab. Tanah Laut
     timezone: Asia/Makassar
+    shapes:
+      - Tanah Laut
 
   - code: KSL11
     country: ID
     state: Kalimantan Selatan
     location: Kab. Tapin
     timezone: Asia/Makassar
+    shapes:
+      - Tapin
 
   - code: KSL12
     country: ID
     state: Kalimantan Selatan
     location: Kota Banjarbaru
     timezone: Asia/Makassar
+    shapes:
+      - Kota Banjar Baru
 
   - code: KSL13
     country: ID
     state: Kalimantan Selatan
     location: Kota Banjarmasin
     timezone: Asia/Makassar
+    shapes:
+      - Kota Banjarmasin
 
-  # Kalimantan Tengah
   - code: KTG01
     country: ID
     state: Kalimantan Tengah
     location: Kab. Barito Selatan
     timezone: Asia/Makassar
+    shapes:
+      - Barito Selatan
 
   - code: KTG02
     country: ID
     state: Kalimantan Tengah
     location: Kab. Barito Timur
     timezone: Asia/Makassar
+    shapes:
+      - Barito Timur
 
   - code: KTG03
     country: ID
     state: Kalimantan Tengah
     location: Kab. Barito Utara
     timezone: Asia/Makassar
+    shapes:
+      - Barito Utara
 
   - code: KTG04
     country: ID
     state: Kalimantan Tengah
     location: Kab. Gunung Mas
     timezone: Asia/Makassar
+    shapes:
+      - Gunung Mas
 
   - code: KTG05
     country: ID
     state: Kalimantan Tengah
     location: Kab. Kapuas
     timezone: Asia/Makassar
+    shapes:
+      - Kapuas
 
   - code: KTG06
     country: ID
     state: Kalimantan Tengah
     location: Kab. Katingan
     timezone: Asia/Makassar
+    shapes:
+      - Katingan
 
   - code: KTG07
     country: ID
     state: Kalimantan Tengah
     location: Kab. Kotawaringin Barat
     timezone: Asia/Makassar
+    shapes:
+      - Kotawaringin Barat
 
   - code: KTG08
     country: ID
     state: Kalimantan Tengah
     location: Kab. Kotawaringin Timur
     timezone: Asia/Makassar
+    shapes:
+      - Kotawaringin Timur
 
   - code: KTG09
     country: ID
     state: Kalimantan Tengah
     location: Kab. Lamandau
     timezone: Asia/Makassar
+    shapes:
+      - Lamandau
 
   - code: KTG10
     country: ID
     state: Kalimantan Tengah
     location: Kab. Murung Raya
     timezone: Asia/Makassar
+    shapes:
+      - Murung Raya
 
   - code: KTG11
     country: ID
     state: Kalimantan Tengah
     location: Kab. Pulang Pisau
     timezone: Asia/Makassar
+    shapes:
+      - Pulang Pisau
 
   - code: KTG12
     country: ID
     state: Kalimantan Tengah
     location: Kab. Seruyan
     timezone: Asia/Makassar
+    shapes:
+      - Seruyan
 
   - code: KTG13
     country: ID
     state: Kalimantan Tengah
     location: Kab. Sukamara
     timezone: Asia/Makassar
+    shapes:
+      - Sukamara
 
   - code: KTG14
     country: ID
     state: Kalimantan Tengah
     location: Kota Palangkaraya
     timezone: Asia/Makassar
+    shapes:
+      - Kota Palangka Raya
 
-  # Kalimantan Timur
   - code: KTM01
     country: ID
     state: Kalimantan Timur
     location: Kab. Berau
     timezone: Asia/Makassar
+    shapes:
+      - Berau
 
   - code: KTM02
     country: ID
     state: Kalimantan Timur
     location: Kab. Kutai Barat
     timezone: Asia/Makassar
+    shapes:
+      - Kutai Barat
 
   - code: KTM03
     country: ID
     state: Kalimantan Timur
     location: Kab. Kutai Kartanegara
     timezone: Asia/Makassar
+    shapes:
+      - Kutai Kartanegara
 
   - code: KTM04
     country: ID
     state: Kalimantan Timur
     location: Kab. Kutai Timur
     timezone: Asia/Makassar
+    shapes:
+      - Kutai Timur
 
   - code: KTM05
     country: ID
     state: Kalimantan Timur
     location: Kab. Mahakam ULU
     timezone: Asia/Makassar
+    shapes:
+      - Mahakam Hulu
 
   - code: KTM06
     country: ID
     state: Kalimantan Timur
     location: Kab. Paser
     timezone: Asia/Makassar
+    shapes:
+      - Paser
 
   - code: KTM07
     country: ID
     state: Kalimantan Timur
     location: Kab. Penajam Paser Utara
     timezone: Asia/Makassar
+    shapes:
+      - Penajam Paser Utara
 
   - code: KTM08
     country: ID
     state: Kalimantan Timur
     location: Kota Balikpapan
     timezone: Asia/Makassar
+    shapes:
+      - Kota Balikpapan
 
   - code: KTM09
     country: ID
     state: Kalimantan Timur
     location: Kota Bontang
     timezone: Asia/Makassar
+    shapes:
+      - Kota Bontang
 
   - code: KTM10
     country: ID
     state: Kalimantan Timur
     location: Kota Samarinda
     timezone: Asia/Makassar
+    shapes:
+      - Kota Samarinda
 
-  # Kalimantan Utara
   - code: KUT01
     country: ID
     state: Kalimantan Utara
     location: Kab. Bulungan
     timezone: Asia/Makassar
+    shapes:
+      - Bulungan
 
   - code: KUT02
     country: ID
     state: Kalimantan Utara
     location: Kab. Malinau
     timezone: Asia/Makassar
+    shapes:
+      - Malinau
 
   - code: KUT03
     country: ID
     state: Kalimantan Utara
     location: Kab. Nunukan
     timezone: Asia/Makassar
+    shapes:
+      - Nunukan
 
   - code: KUT04
     country: ID
     state: Kalimantan Utara
     location: Kab. Tana Tidung
     timezone: Asia/Makassar
+    shapes:
+      - Tana Tidung
 
   - code: KUT05
     country: ID
     state: Kalimantan Utara
     location: Kota Tarakan
     timezone: Asia/Makassar
+    shapes:
+      - Kota Tarakan
 
-  # Kepulauan Bangka Belitung
   - code: KBB01
     country: ID
     state: Kepulauan Bangka Belitung
     location: Kab. Bangka
     timezone: Asia/Jakarta
+    shapes:
+      - Bangka
 
   - code: KBB02
     country: ID
     state: Kepulauan Bangka Belitung
     location: Kab. Bangka Barat
     timezone: Asia/Jakarta
+    shapes:
+      - Bangka Barat
 
   - code: KBB03
     country: ID
     state: Kepulauan Bangka Belitung
     location: Kab. Bangka Selatan
     timezone: Asia/Jakarta
+    shapes:
+      - Bangka Selatan
 
   - code: KBB04
     country: ID
     state: Kepulauan Bangka Belitung
     location: Kab. Bangka Tengah
     timezone: Asia/Jakarta
+    shapes:
+      - Bangka Tengah
 
   - code: KBB05
     country: ID
     state: Kepulauan Bangka Belitung
     location: Kab. Belitung
     timezone: Asia/Jakarta
+    shapes:
+      - Belitung
 
   - code: KBB06
     country: ID
     state: Kepulauan Bangka Belitung
     location: Kab. Belitung Timur
     timezone: Asia/Jakarta
+    shapes:
+      - Belitung Timur
 
   - code: KBB07
     country: ID
     state: Kepulauan Bangka Belitung
     location: Kota Pangkal Pinang
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Pangkal Pinang
 
-  # Kepulauan Riau
   - code: KRI01
     country: ID
     state: Kepulauan Riau
     location: Kab. Bintan
     timezone: Asia/Jakarta
+    shapes:
+      - Bintan
 
   - code: KRI02
     country: ID
     state: Kepulauan Riau
     location: Kab. Karimun
     timezone: Asia/Jakarta
+    shapes:
+      - Karimun
 
   - code: KRI03
     country: ID
     state: Kepulauan Riau
     location: Kab. Kepulauan Anambas
     timezone: Asia/Jakarta
+    shapes:
+      - Kepulauan Anambas
 
   - code: KRI04
     country: ID
     state: Kepulauan Riau
     location: Kab. Lingga
     timezone: Asia/Jakarta
+    shapes:
+      - Lingga
 
   - code: KRI05
     country: ID
     state: Kepulauan Riau
     location: Kab. Natuna
     timezone: Asia/Jakarta
+    shapes:
+      - Natuna
 
   - code: KRI06
     country: ID
     state: Kepulauan Riau
     location: Kota Batam
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Batam
 
   - code: KRI07
     country: ID
     state: Kepulauan Riau
     location: Kota Tanjung Pinang
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Tanjung Pinang
 
   - code: KRI08
     country: ID
@@ -1893,212 +1985,277 @@ zones:
     location: Pulau Tambelan Kab. Bintan
     timezone: Asia/Jakarta
 
-  # Lampung
   - code: LPG01
     country: ID
     state: Lampung
     location: Kab. Lampung Barat
     timezone: Asia/Jakarta
+    shapes:
+      - Lampung Barat
 
   - code: LPG02
     country: ID
     state: Lampung
     location: Kab. Lampung Selatan
     timezone: Asia/Jakarta
+    shapes:
+      - Lampung Selatan
 
   - code: LPG03
     country: ID
     state: Lampung
     location: Kab. Lampung Tengah
     timezone: Asia/Jakarta
+    shapes:
+      - Lampung Tengah
 
   - code: LPG04
     country: ID
     state: Lampung
     location: Kab. Lampung Timur
     timezone: Asia/Jakarta
+    shapes:
+      - Lampung Timur
 
   - code: LPG05
     country: ID
     state: Lampung
     location: Kab. Lampung Utara
     timezone: Asia/Jakarta
+    shapes:
+      - Lampung Utara
 
   - code: LPG06
     country: ID
     state: Lampung
     location: Kab. Mesuji
     timezone: Asia/Jakarta
+    shapes:
+      - Mesuji
 
   - code: LPG07
     country: ID
     state: Lampung
     location: Kab. Pesawaran
     timezone: Asia/Jakarta
+    shapes:
+      - Pesawaran
 
   - code: LPG08
     country: ID
     state: Lampung
     location: Kab. Pesisir Barat
     timezone: Asia/Jakarta
+    shapes:
+      - Pesisir Barat
 
   - code: LPG09
     country: ID
     state: Lampung
     location: Kab. Pringsewu
     timezone: Asia/Jakarta
+    shapes:
+      - Pringsewu
 
   - code: LPG10
     country: ID
     state: Lampung
     location: Kab. Tanggamus
     timezone: Asia/Jakarta
+    shapes:
+      - Tanggamus
 
   - code: LPG11
     country: ID
     state: Lampung
     location: Kab. Tulang Bawang
     timezone: Asia/Jakarta
+    shapes:
+      - Tulangbawang
 
   - code: LPG12
     country: ID
     state: Lampung
     location: Kab. Tulang Bawang Barat
     timezone: Asia/Jakarta
+    shapes:
+      - Tulang Bawang Barat
 
   - code: LPG13
     country: ID
     state: Lampung
     location: Kab. Way Kanan
     timezone: Asia/Jakarta
+    shapes:
+      - Way Kanan
 
   - code: LPG14
     country: ID
     state: Lampung
     location: Kota Bandar Lampung
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Bandar Lampung
 
   - code: LPG15
     country: ID
     state: Lampung
     location: Kota Metro
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Metro
 
-  # Maluku
   - code: MLK01
     country: ID
     state: Maluku
     location: Kab. Buru
     timezone: Asia/Jayapura
+    shapes:
+      - Buru
 
   - code: MLK02
     country: ID
     state: Maluku
     location: Kab. Buru Selatan
     timezone: Asia/Jayapura
+    shapes:
+      - Buru Selatan
 
   - code: MLK03
     country: ID
     state: Maluku
     location: Kab. Kepulauan Aru
     timezone: Asia/Jayapura
+    shapes:
+      - Kepulauan Aru
 
   - code: MLK04
     country: ID
     state: Maluku
     location: Kab. Maluku Barat Daya
     timezone: Asia/Jayapura
+    shapes:
+      - Maluku Barat Daya
 
   - code: MLK05
     country: ID
     state: Maluku
     location: Kab. Maluku Tengah
     timezone: Asia/Jayapura
+    shapes:
+      - Maluku Tengah
 
   - code: MLK06
     country: ID
     state: Maluku
     location: Kab. Maluku Tenggara
     timezone: Asia/Jayapura
+    shapes:
+      - Maluku Tenggara
 
   - code: MLK07
     country: ID
     state: Maluku
     location: Kab. Maluku Tenggara Barat
     timezone: Asia/Jayapura
+    shapes:
+      - Maluku Tenggara Barat
 
   - code: MLK08
     country: ID
     state: Maluku
     location: Kab. Seram Bagian Barat
     timezone: Asia/Jayapura
+    shapes:
+      - Seram Bagian Barat
 
   - code: MLK09
     country: ID
     state: Maluku
     location: Kab. Seram Bagian Timur
     timezone: Asia/Jayapura
+    shapes:
+      - Seram Bagian Timur
 
   - code: MLK10
     country: ID
     state: Maluku
     location: Kota Ambon
     timezone: Asia/Jayapura
+    shapes:
+      - Kota Ambon
 
   - code: MLK11
     country: ID
     state: Maluku
     location: Kota Tual
     timezone: Asia/Jayapura
+    shapes:
+      - Kota Tual
 
-  # Maluku Utara
   - code: MLU01
     country: ID
     state: Maluku Utara
     location: Kab. Halmahera Barat
     timezone: Asia/Jayapura
+    shapes:
+      - Halmahera Barat
 
   - code: MLU02
     country: ID
     state: Maluku Utara
     location: Kab. Halmahera Selatan
     timezone: Asia/Jayapura
+    shapes:
+      - Halmahera Selatan
 
   - code: MLU03
     country: ID
     state: Maluku Utara
     location: Kab. Halmahera Tengah
     timezone: Asia/Jayapura
+    shapes:
+      - Halmahera Tengah
 
   - code: MLU04
     country: ID
     state: Maluku Utara
     location: Kab. Halmahera Timur
     timezone: Asia/Jayapura
+    shapes:
+      - Halmahera Timur
 
   - code: MLU05
     country: ID
     state: Maluku Utara
     location: Kab. Halmahera Utara
     timezone: Asia/Jayapura
+    shapes:
+      - Halmahera Utara
 
   - code: MLU06
     country: ID
     state: Maluku Utara
     location: Kab. Kepulauan Sula
     timezone: Asia/Jayapura
+    shapes:
+      - Kepulauan Sula
 
   - code: MLU07
     country: ID
     state: Maluku Utara
     location: Kab. Pulau Morotai
     timezone: Asia/Jayapura
+    shapes:
+      - Pulau Morotai
 
   - code: MLU08
     country: ID
     state: Maluku Utara
     location: Kab. Pulau Taliabu
     timezone: Asia/Jayapura
+    shapes:
+      - Pulau Taliabu
 
   - code: MLU09
     country: ID
@@ -2111,375 +2268,496 @@ zones:
     state: Maluku Utara
     location: Kota Ternate
     timezone: Asia/Jayapura
+    shapes:
+      - Kota Ternate
 
   - code: MLU11
     country: ID
     state: Maluku Utara
     location: Kota Tidore Kepulauan
     timezone: Asia/Jayapura
+    shapes:
+      - Kota Tidore Kepulauan
 
-  # Nusa Tenggara Barat
   - code: NTB01
     country: ID
     state: Nusa Tenggara Barat
     location: Kab. Bima
     timezone: Asia/Makassar
+    shapes:
+      - Bima
 
   - code: NTB02
     country: ID
     state: Nusa Tenggara Barat
     location: Kab. Dompu
     timezone: Asia/Makassar
+    shapes:
+      - Dompu
 
   - code: NTB03
     country: ID
     state: Nusa Tenggara Barat
     location: Kab. Lombok Barat
     timezone: Asia/Makassar
+    shapes:
+      - Lombok Barat
 
   - code: NTB04
     country: ID
     state: Nusa Tenggara Barat
     location: Kab. Lombok Tengah
     timezone: Asia/Makassar
+    shapes:
+      - Lombok Tengah
 
   - code: NTB05
     country: ID
     state: Nusa Tenggara Barat
     location: Kab. Lombok Timur
     timezone: Asia/Makassar
+    shapes:
+      - Lombok Timur
 
   - code: NTB06
     country: ID
     state: Nusa Tenggara Barat
     location: Kab. Lombok Utara
     timezone: Asia/Makassar
+    shapes:
+      - Lombok Utara
 
   - code: NTB07
     country: ID
     state: Nusa Tenggara Barat
     location: Kab. Sumbawa
     timezone: Asia/Makassar
+    shapes:
+      - Sumbawa
 
   - code: NTB08
     country: ID
     state: Nusa Tenggara Barat
     location: Kab. Sumbawa Barat
     timezone: Asia/Makassar
+    shapes:
+      - Sumbawa Barat
 
   - code: NTB09
     country: ID
     state: Nusa Tenggara Barat
     location: Kota Bima
     timezone: Asia/Makassar
+    shapes:
+      - Kota Bima
 
   - code: NTB10
     country: ID
     state: Nusa Tenggara Barat
     location: Kota Mataram
     timezone: Asia/Makassar
+    shapes:
+      - Kota Mataram
 
-  # Nusa Tenggara Timur
   - code: NTT01
     country: ID
     state: Nusa Tenggara Timur
     location: Kab. Alor
     timezone: Asia/Makassar
+    shapes:
+      - Alor
 
   - code: NTT02
     country: ID
     state: Nusa Tenggara Timur
     location: Kab. Belu
     timezone: Asia/Makassar
+    shapes:
+      - Belu
 
   - code: NTT03
     country: ID
     state: Nusa Tenggara Timur
     location: Kab. Ende
     timezone: Asia/Makassar
+    shapes:
+      - Ende
 
   - code: NTT04
     country: ID
     state: Nusa Tenggara Timur
     location: Kab. Flores Timur
     timezone: Asia/Makassar
+    shapes:
+      - Flores Timur
 
   - code: NTT05
     country: ID
     state: Nusa Tenggara Timur
     location: Kab. Kupang
     timezone: Asia/Makassar
+    shapes:
+      - Kupang
 
   - code: NTT06
     country: ID
     state: Nusa Tenggara Timur
     location: Kab. Lembata
     timezone: Asia/Makassar
+    shapes:
+      - Lembata
 
   - code: NTT07
     country: ID
     state: Nusa Tenggara Timur
     location: Kab. Malaka
     timezone: Asia/Makassar
+    shapes:
+      - Malaka
 
   - code: NTT08
     country: ID
     state: Nusa Tenggara Timur
     location: Kab. Manggarai
     timezone: Asia/Makassar
+    shapes:
+      - Manggarai
 
   - code: NTT09
     country: ID
     state: Nusa Tenggara Timur
     location: Kab. Manggarai Barat
     timezone: Asia/Makassar
+    shapes:
+      - Manggarai Barat
 
   - code: NTT10
     country: ID
     state: Nusa Tenggara Timur
     location: Kab. Manggarai Timur
     timezone: Asia/Makassar
+    shapes:
+      - Manggarai Timur
 
   - code: NTT11
     country: ID
     state: Nusa Tenggara Timur
     location: Kab. Nagekeo
     timezone: Asia/Makassar
+    shapes:
+      - Nagekeo
 
   - code: NTT12
     country: ID
     state: Nusa Tenggara Timur
     location: Kab. Ngada
     timezone: Asia/Makassar
+    shapes:
+      - Ngada
 
   - code: NTT13
     country: ID
     state: Nusa Tenggara Timur
     location: Kab. Rote Ndao
     timezone: Asia/Makassar
+    shapes:
+      - Rote Ndao
 
   - code: NTT14
     country: ID
     state: Nusa Tenggara Timur
     location: Kab. Sabu Raijua
     timezone: Asia/Makassar
+    shapes:
+      - Sabu Raijua
 
   - code: NTT15
     country: ID
     state: Nusa Tenggara Timur
     location: Kab. Sikka
     timezone: Asia/Makassar
+    shapes:
+      - Sikka
 
   - code: NTT16
     country: ID
     state: Nusa Tenggara Timur
     location: Kab. Sumba Barat
     timezone: Asia/Makassar
+    shapes:
+      - Sumba Barat
 
   - code: NTT17
     country: ID
     state: Nusa Tenggara Timur
     location: Kab. Sumba Barat Daya
     timezone: Asia/Makassar
+    shapes:
+      - Sumba Barat Daya
 
   - code: NTT18
     country: ID
     state: Nusa Tenggara Timur
     location: Kab. Sumba Tengah
     timezone: Asia/Makassar
+    shapes:
+      - Sumba Tengah
 
   - code: NTT19
     country: ID
     state: Nusa Tenggara Timur
     location: Kab. Sumba Timur
     timezone: Asia/Makassar
+    shapes:
+      - Sumba Timur
 
   - code: NTT20
     country: ID
     state: Nusa Tenggara Timur
     location: Kab. Timor Tengah Selatan
     timezone: Asia/Makassar
+    shapes:
+      - Timor Tengah Selatan
 
   - code: NTT21
     country: ID
     state: Nusa Tenggara Timur
     location: Kab. Timor Tengah Utara
     timezone: Asia/Makassar
+    shapes:
+      - Timor Tengah Utara
 
   - code: NTT22
     country: ID
     state: Nusa Tenggara Timur
     location: Kota Kupang
     timezone: Asia/Makassar
+    shapes:
+      - Kota Kupang
 
-  # Papua
   - code: PAP01
     country: ID
     state: Papua
     location: Kab. Asmat
     timezone: Asia/Jayapura
+    shapes:
+      - Asmat
 
   - code: PAP02
     country: ID
     state: Papua
     location: Kab. Biak Numfor
     timezone: Asia/Jayapura
+    shapes:
+      - Biak Numfor
 
   - code: PAP03
     country: ID
     state: Papua
     location: Kab. Boven Digoel
     timezone: Asia/Jayapura
+    shapes:
+      - Boven Digoel
 
   - code: PAP04
     country: ID
     state: Papua
     location: Kab. Deiyai
     timezone: Asia/Jayapura
+    shapes:
+      - Deiyai
 
   - code: PAP05
     country: ID
     state: Papua
     location: Kab. Dogiyai
     timezone: Asia/Jayapura
+    shapes:
+      - Dogiyai
 
   - code: PAP06
     country: ID
     state: Papua
     location: Kab. Intan Jaya
     timezone: Asia/Jayapura
+    shapes:
+      - Intan Jaya
 
   - code: PAP07
     country: ID
     state: Papua
     location: Kab. Jayapura
     timezone: Asia/Jayapura
+    shapes:
+      - Jayapura
 
   - code: PAP08
     country: ID
     state: Papua
     location: Kab. Jayawijaya
     timezone: Asia/Jayapura
+    shapes:
+      - Jayawijaya
 
   - code: PAP09
     country: ID
     state: Papua
     location: Kab. Keerom
     timezone: Asia/Jayapura
+    shapes:
+      - Keerom
 
   - code: PAP10
     country: ID
     state: Papua
     location: Kab. Kepulauan Yapen
     timezone: Asia/Jayapura
+    shapes:
+      - Kepulauan Yapen
 
   - code: PAP11
     country: ID
     state: Papua
     location: Kab. Lanny Jaya
     timezone: Asia/Jayapura
+    shapes:
+      - Lanny Jaya
 
   - code: PAP12
     country: ID
     state: Papua
     location: Kab. Mamberamo Raya
     timezone: Asia/Jayapura
+    shapes:
+      - Mamberamo Raya
 
   - code: PAP13
     country: ID
     state: Papua
     location: Kab. Mamberamo Tengah
     timezone: Asia/Jayapura
+    shapes:
+      - Mamberamo Tengah
 
   - code: PAP14
     country: ID
     state: Papua
     location: Kab. Mappi
     timezone: Asia/Jayapura
+    shapes:
+      - Mappi
 
   - code: PAP15
     country: ID
     state: Papua
     location: Kab. Merauke
     timezone: Asia/Jayapura
+    shapes:
+      - Merauke
 
   - code: PAP16
     country: ID
     state: Papua
     location: Kab. Mimika
     timezone: Asia/Jayapura
+    shapes:
+      - Mimika
 
   - code: PAP17
     country: ID
     state: Papua
     location: Kab. Nabire
     timezone: Asia/Jayapura
+    shapes:
+      - Nabire
 
   - code: PAP18
     country: ID
     state: Papua
     location: Kab. Nduga
     timezone: Asia/Jayapura
+    shapes:
+      - Nduga
 
   - code: PAP19
     country: ID
     state: Papua
     location: Kab. Paniai
     timezone: Asia/Jayapura
+    shapes:
+      - Paniai
 
   - code: PAP20
     country: ID
     state: Papua
     location: Kab. Pegunungan Bintang
     timezone: Asia/Jayapura
+    shapes:
+      - Pegunungan Bintang
 
   - code: PAP21
     country: ID
     state: Papua
     location: Kab. Puncak
     timezone: Asia/Jayapura
+    shapes:
+      - Puncak
 
   - code: PAP22
     country: ID
     state: Papua
     location: Kab. Puncak Jaya
     timezone: Asia/Jayapura
+    shapes:
+      - Puncak Jaya
 
   - code: PAP23
     country: ID
     state: Papua
     location: Kab. Sarmi
     timezone: Asia/Jayapura
+    shapes:
+      - Sarmi
 
   - code: PAP24
     country: ID
     state: Papua
     location: Kab. Supiori
     timezone: Asia/Jayapura
+    shapes:
+      - Supiori
 
   - code: PAP25
     country: ID
     state: Papua
     location: Kab. Tolikara
     timezone: Asia/Jayapura
+    shapes:
+      - Tolikara
 
   - code: PAP26
     country: ID
     state: Papua
     location: Kab. Waropen
     timezone: Asia/Jayapura
+    shapes:
+      - Waropen
 
   - code: PAP27
     country: ID
     state: Papua
     location: Kab. Yahukimo
     timezone: Asia/Jayapura
+    shapes:
+      - Yahukimo
 
   - code: PAP28
     country: ID
     state: Papua
     location: Kab. Yalimo
     timezone: Asia/Jayapura
+    shapes:
+      - Yalimo
 
   - code: PAP29
     country: ID
@@ -2492,1131 +2770,1358 @@ zones:
     state: Papua
     location: Kota Jayapura
     timezone: Asia/Jayapura
+    shapes:
+      - Kota Jayapura
 
-  # Papua Barat
   - code: PBR01
     country: ID
     state: Papua Barat
     location: Kab. Fakfak
     timezone: Asia/Jayapura
+    shapes:
+      - Fakfak
 
   - code: PBR02
     country: ID
     state: Papua Barat
     location: Kab. Kaimana
     timezone: Asia/Jayapura
+    shapes:
+      - Kaimana
 
   - code: PBR03
     country: ID
     state: Papua Barat
     location: Kab. Manokwari
     timezone: Asia/Jayapura
+    shapes:
+      - Manokwari
 
   - code: PBR04
     country: ID
     state: Papua Barat
     location: Kab. Manokwari Selatan
     timezone: Asia/Jayapura
+    shapes:
+      - Manokwari Selatan
 
   - code: PBR05
     country: ID
     state: Papua Barat
     location: Kab. Maybrat
     timezone: Asia/Jayapura
+    shapes:
+      - Maybrat
 
   - code: PBR06
     country: ID
     state: Papua Barat
     location: Kab. Pegunungan Arfak
     timezone: Asia/Jayapura
+    shapes:
+      - Pegunungan Arfak
 
   - code: PBR07
     country: ID
     state: Papua Barat
     location: Kab. Raja Ampat
     timezone: Asia/Jayapura
+    shapes:
+      - Raja Ampat
 
   - code: PBR08
     country: ID
     state: Papua Barat
     location: Kab. Sorong
     timezone: Asia/Jayapura
+    shapes:
+      - Sorong
 
   - code: PBR09
     country: ID
     state: Papua Barat
     location: Kab. Sorong Selatan
     timezone: Asia/Jayapura
+    shapes:
+      - Sorong Selatan
 
   - code: PBR10
     country: ID
     state: Papua Barat
     location: Kab. Tambrauw
     timezone: Asia/Jayapura
+    shapes:
+      - Tambrauw
 
   - code: PBR11
     country: ID
     state: Papua Barat
     location: Kab. Teluk Bintuni
     timezone: Asia/Jayapura
+    shapes:
+      - Teluk Bintuni
 
   - code: PBR12
     country: ID
     state: Papua Barat
     location: Kab. Teluk Wondama
     timezone: Asia/Jayapura
+    shapes:
+      - Teluk Wondama
 
   - code: PBR13
     country: ID
     state: Papua Barat
     location: Kota Sorong
     timezone: Asia/Jayapura
+    shapes:
+      - Kota Sorong
 
-  # Riau
   - code: RIA01
     country: ID
     state: Riau
     location: Kab. Bengkalis
     timezone: Asia/Jakarta
+    shapes:
+      - Bengkalis
 
   - code: RIA02
     country: ID
     state: Riau
     location: Kab. Indragiri Hilir
     timezone: Asia/Jakarta
+    shapes:
+      - Indragiri Hilir
 
   - code: RIA03
     country: ID
     state: Riau
     location: Kab. Indragiri Hulu
     timezone: Asia/Jakarta
+    shapes:
+      - Indragiri Hulu
 
   - code: RIA04
     country: ID
     state: Riau
     location: Kab. Kampar
     timezone: Asia/Jakarta
+    shapes:
+      - Kampar
 
   - code: RIA05
     country: ID
     state: Riau
     location: Kab. Kepulauan Meranti
     timezone: Asia/Jakarta
+    shapes:
+      - Kepulauan Meranti
 
   - code: RIA06
     country: ID
     state: Riau
     location: Kab. Kuantan Singingi
     timezone: Asia/Jakarta
+    shapes:
+      - Kuantan Singingi
 
   - code: RIA07
     country: ID
     state: Riau
     location: Kab. Pelalawan
     timezone: Asia/Jakarta
+    shapes:
+      - Pelalawan
 
   - code: RIA08
     country: ID
     state: Riau
     location: Kab. Rokan Hilir
     timezone: Asia/Jakarta
+    shapes:
+      - Rokan Hilir
 
   - code: RIA09
     country: ID
     state: Riau
     location: Kab. Rokan Hulu
     timezone: Asia/Jakarta
+    shapes:
+      - Rokan Hulu
 
   - code: RIA10
     country: ID
     state: Riau
     location: Kab. Siak
     timezone: Asia/Jakarta
+    shapes:
+      - Siak
 
   - code: RIA11
     country: ID
     state: Riau
     location: Kota Dumai
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Dumai
 
   - code: RIA12
     country: ID
     state: Riau
     location: Kota Pekanbaru
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Pekanbaru
 
-  # Sulawesi Barat
   - code: SBR01
     country: ID
     state: Sulawesi Barat
     location: Kab. Majene
     timezone: Asia/Makassar
+    shapes:
+      - Majene
 
   - code: SBR02
     country: ID
     state: Sulawesi Barat
     location: Kab. Mamasa
     timezone: Asia/Makassar
+    shapes:
+      - Mamasa
 
   - code: SBR03
     country: ID
     state: Sulawesi Barat
     location: Kab. Mamuju
     timezone: Asia/Makassar
+    shapes:
+      - Mamuju
 
   - code: SBR04
     country: ID
     state: Sulawesi Barat
     location: Kab. Mamuju Tengah
     timezone: Asia/Makassar
+    shapes:
+      - Mamuju Tengah
 
   - code: SBR05
     country: ID
     state: Sulawesi Barat
     location: Kab. Mamuju Utara
     timezone: Asia/Makassar
+    shapes:
+      - Mamuju Utara
 
   - code: SBR06
     country: ID
     state: Sulawesi Barat
     location: Kab. Polewali Mandar
     timezone: Asia/Makassar
+    shapes:
+      - Polewali Mandar
 
-  # Sulawesi Selatan
   - code: SSL01
     country: ID
     state: Sulawesi Selatan
     location: Kab. Bantaeng
     timezone: Asia/Makassar
+    shapes:
+      - Bantaeng
 
   - code: SSL02
     country: ID
     state: Sulawesi Selatan
     location: Kab. Barru
     timezone: Asia/Makassar
+    shapes:
+      - Barru
 
   - code: SSL03
     country: ID
     state: Sulawesi Selatan
     location: Kab. Bone
     timezone: Asia/Makassar
+    shapes:
+      - Bone
 
   - code: SSL04
     country: ID
     state: Sulawesi Selatan
     location: Kab. Bulukumba
     timezone: Asia/Makassar
+    shapes:
+      - Bulukumba
 
   - code: SSL05
     country: ID
     state: Sulawesi Selatan
     location: Kab. Enrekang
     timezone: Asia/Makassar
+    shapes:
+      - Enrekang
 
   - code: SSL06
     country: ID
     state: Sulawesi Selatan
     location: Kab. Gowa
     timezone: Asia/Makassar
+    shapes:
+      - Gowa
 
   - code: SSL07
     country: ID
     state: Sulawesi Selatan
     location: Kab. Jeneponto
     timezone: Asia/Makassar
+    shapes:
+      - Jeneponto
 
   - code: SSL08
     country: ID
     state: Sulawesi Selatan
     location: Kab. Kepulauan Selayar
     timezone: Asia/Makassar
+    shapes:
+      - Kepulauan Selayar
 
   - code: SSL09
     country: ID
     state: Sulawesi Selatan
     location: Kab. Luwu
     timezone: Asia/Makassar
+    shapes:
+      - Luwu
 
   - code: SSL10
     country: ID
     state: Sulawesi Selatan
     location: Kab. Luwu Timur
     timezone: Asia/Makassar
+    shapes:
+      - Luwu Timur
 
   - code: SSL11
     country: ID
     state: Sulawesi Selatan
     location: Kab. Luwu Utara
     timezone: Asia/Makassar
+    shapes:
+      - Luwu Utara
 
   - code: SSL12
     country: ID
     state: Sulawesi Selatan
     location: Kab. Maros
     timezone: Asia/Makassar
+    shapes:
+      - Maros
 
   - code: SSL13
     country: ID
     state: Sulawesi Selatan
     location: Kab. Pangkajene Dan Kepulauan
     timezone: Asia/Makassar
+    shapes:
+      - Pangkajene Dan Kepulauan
 
   - code: SSL14
     country: ID
     state: Sulawesi Selatan
     location: Kab. Pinrang
     timezone: Asia/Makassar
+    shapes:
+      - Pinrang
 
   - code: SSL15
     country: ID
     state: Sulawesi Selatan
     location: Kab. Sidenreng Rappang
     timezone: Asia/Makassar
+    shapes:
+      - Sidenreng Rappang
 
   - code: SSL16
     country: ID
     state: Sulawesi Selatan
     location: Kab. Sinjai
     timezone: Asia/Makassar
+    shapes:
+      - Sinjai
 
   - code: SSL17
     country: ID
     state: Sulawesi Selatan
     location: Kab. Soppeng
     timezone: Asia/Makassar
+    shapes:
+      - Soppeng
 
   - code: SSL18
     country: ID
     state: Sulawesi Selatan
     location: Kab. Takalar
     timezone: Asia/Makassar
+    shapes:
+      - Takalar
 
   - code: SSL19
     country: ID
     state: Sulawesi Selatan
     location: Kab. Tana Toraja
     timezone: Asia/Makassar
+    shapes:
+      - Tana Toraja
 
   - code: SSL20
     country: ID
     state: Sulawesi Selatan
     location: Kab. Toraja Utara
     timezone: Asia/Makassar
+    shapes:
+      - Toraja Utara
 
   - code: SSL21
     country: ID
     state: Sulawesi Selatan
     location: Kab. Wajo
     timezone: Asia/Makassar
+    shapes:
+      - Wajo
 
   - code: SSL22
     country: ID
     state: Sulawesi Selatan
     location: Kota Makassar
     timezone: Asia/Makassar
+    shapes:
+      - Kota Makassar
 
   - code: SSL23
     country: ID
     state: Sulawesi Selatan
     location: Kota Palopo
     timezone: Asia/Makassar
+    shapes:
+      - Kota Palopo
 
   - code: SSL24
     country: ID
     state: Sulawesi Selatan
     location: Kota Parepare
     timezone: Asia/Makassar
+    shapes:
+      - Kota Parepare
 
-  # Sulawesi Tengah
   - code: STG01
     country: ID
     state: Sulawesi Tengah
     location: Kab. Banggai
     timezone: Asia/Makassar
+    shapes:
+      - Banggai
 
   - code: STG02
     country: ID
     state: Sulawesi Tengah
     location: Kab. Banggai Kepulauan
     timezone: Asia/Makassar
+    shapes:
+      - Banggai Kepulauan
 
   - code: STG03
     country: ID
     state: Sulawesi Tengah
     location: Kab. Banggai Laut
     timezone: Asia/Makassar
+    shapes:
+      - Banggai Laut
 
   - code: STG04
     country: ID
     state: Sulawesi Tengah
     location: Kab. Buol
     timezone: Asia/Makassar
+    shapes:
+      - Buol
 
   - code: STG05
     country: ID
     state: Sulawesi Tengah
     location: Kab. Donggala
     timezone: Asia/Makassar
+    shapes:
+      - Donggala
 
   - code: STG06
     country: ID
     state: Sulawesi Tengah
     location: Kab. Morowali
     timezone: Asia/Makassar
+    shapes:
+      - Morowali
 
   - code: STG07
     country: ID
     state: Sulawesi Tengah
     location: Kab. Morowali Utara
     timezone: Asia/Makassar
+    shapes:
+      - Morowali Utara
 
   - code: STG08
     country: ID
     state: Sulawesi Tengah
     location: Kab. Parigi Moutong
     timezone: Asia/Makassar
+    shapes:
+      - Parigi Moutong
 
   - code: STG09
     country: ID
     state: Sulawesi Tengah
     location: Kab. Poso
     timezone: Asia/Makassar
+    shapes:
+      - Poso
 
   - code: STG10
     country: ID
     state: Sulawesi Tengah
     location: Kab. Sigi
     timezone: Asia/Makassar
+    shapes:
+      - Sigi
 
   - code: STG11
     country: ID
     state: Sulawesi Tengah
     location: Kab. Tojo UNA-UNA
     timezone: Asia/Makassar
+    shapes:
+      - Tojo Una-Una
 
   - code: STG12
     country: ID
     state: Sulawesi Tengah
     location: Kab. Toli-Toli
     timezone: Asia/Makassar
+    shapes:
+      - Toli-Toli
 
   - code: STG13
     country: ID
     state: Sulawesi Tengah
     location: Kota Palu
     timezone: Asia/Makassar
+    shapes:
+      - Kota Palu
 
-  # Sulawesi Tenggara
   - code: STA01
     country: ID
     state: Sulawesi Tenggara
     location: Kab. Bombana
     timezone: Asia/Makassar
+    shapes:
+      - Bombana
 
   - code: STA02
     country: ID
     state: Sulawesi Tenggara
     location: Kab. Buton
     timezone: Asia/Makassar
+    shapes:
+      - Buton
 
   - code: STA03
     country: ID
     state: Sulawesi Tenggara
     location: Kab. Buton Selatan
     timezone: Asia/Makassar
+    shapes:
+      - Buton Selatan
 
   - code: STA04
     country: ID
     state: Sulawesi Tenggara
     location: Kab. Buton Tengah
     timezone: Asia/Makassar
+    shapes:
+      - Buton Tengah
 
   - code: STA05
     country: ID
     state: Sulawesi Tenggara
     location: Kab. Buton Utara
     timezone: Asia/Makassar
+    shapes:
+      - Buton Utara
 
   - code: STA06
     country: ID
     state: Sulawesi Tenggara
     location: Kab. Kolaka
     timezone: Asia/Makassar
+    shapes:
+      - Kolaka
 
   - code: STA07
     country: ID
     state: Sulawesi Tenggara
     location: Kab. Kolaka Timur
     timezone: Asia/Makassar
+    shapes:
+      - Kolaka Timur
 
   - code: STA08
     country: ID
     state: Sulawesi Tenggara
     location: Kab. Kolaka Utara
     timezone: Asia/Makassar
+    shapes:
+      - Kolaka Utara
 
   - code: STA09
     country: ID
     state: Sulawesi Tenggara
     location: Kab. Konawe
     timezone: Asia/Makassar
+    shapes:
+      - Konawe
 
   - code: STA10
     country: ID
     state: Sulawesi Tenggara
     location: Kab. Konawe Kepulauan
     timezone: Asia/Makassar
+    shapes:
+      - Konawe Kepulauan
 
   - code: STA11
     country: ID
     state: Sulawesi Tenggara
     location: Kab. Konawe Selatan
     timezone: Asia/Makassar
+    shapes:
+      - Konawe Selatan
 
   - code: STA12
     country: ID
     state: Sulawesi Tenggara
     location: Kab. Konawe Utara
     timezone: Asia/Makassar
+    shapes:
+      - Konawe Utara
 
   - code: STA13
     country: ID
     state: Sulawesi Tenggara
     location: Kab. Muna
     timezone: Asia/Makassar
+    shapes:
+      - Muna
 
   - code: STA14
     country: ID
     state: Sulawesi Tenggara
     location: Kab. Muna Barat
     timezone: Asia/Makassar
+    shapes:
+      - Muna Barat
 
   - code: STA15
     country: ID
     state: Sulawesi Tenggara
     location: Kab. Wakatobi
     timezone: Asia/Makassar
+    shapes:
+      - Wakatobi
 
   - code: STA16
     country: ID
     state: Sulawesi Tenggara
     location: Kota Bau-Bau
     timezone: Asia/Makassar
+    shapes:
+      - Kota Baubau
 
   - code: STA17
     country: ID
     state: Sulawesi Tenggara
     location: Kota Kendari
     timezone: Asia/Makassar
+    shapes:
+      - Kota Kendari
 
-  # Sulawesi Utara
   - code: SUT01
     country: ID
     state: Sulawesi Utara
     location: Kab. Bolaang Mongondow
     timezone: Asia/Makassar
+    shapes:
+      - Bolaang Mongondow
 
   - code: SUT02
     country: ID
     state: Sulawesi Utara
     location: Kab. Bolaang Mongondow Selatan
     timezone: Asia/Makassar
+    shapes:
+      - Bolaang Mongondow Selatan
 
   - code: SUT03
     country: ID
     state: Sulawesi Utara
     location: Kab. Bolaang Mongondow Timur
     timezone: Asia/Makassar
+    shapes:
+      - Bolaang Mongondow Timur
 
   - code: SUT04
     country: ID
     state: Sulawesi Utara
     location: Kab. Bolaang Mongondow Utara
     timezone: Asia/Makassar
+    shapes:
+      - Bolaang Mongondow Utara
 
   - code: SUT05
     country: ID
     state: Sulawesi Utara
     location: Kab. Kepulauan Sangihe
     timezone: Asia/Makassar
+    shapes:
+      - Kepulauan Sangihe
 
   - code: SUT06
     country: ID
     state: Sulawesi Utara
     location: Kab. Kepulauan Siau Tagulandang Biaro
     timezone: Asia/Makassar
+    shapes:
+      - Siau Tagulandang Biaro
 
   - code: SUT07
     country: ID
     state: Sulawesi Utara
     location: Kab. Kepulauan Talaud
     timezone: Asia/Makassar
+    shapes:
+      - Kepulauan Talaud
 
   - code: SUT08
     country: ID
     state: Sulawesi Utara
     location: Kab. Minahasa
     timezone: Asia/Makassar
+    shapes:
+      - Minahasa
 
   - code: SUT09
     country: ID
     state: Sulawesi Utara
     location: Kab. Minahasa Selatan
     timezone: Asia/Makassar
+    shapes:
+      - Minahasa Selatan
 
   - code: SUT10
     country: ID
     state: Sulawesi Utara
     location: Kab. Minahasa Tenggara
     timezone: Asia/Makassar
+    shapes:
+      - Minahasa Tenggara
 
   - code: SUT11
     country: ID
     state: Sulawesi Utara
     location: Kab. Minahasa Utara
     timezone: Asia/Makassar
+    shapes:
+      - Minahasa Utara
 
   - code: SUT12
     country: ID
     state: Sulawesi Utara
     location: Kota Bitung
     timezone: Asia/Makassar
+    shapes:
+      - Kota Bitung
 
   - code: SUT13
     country: ID
     state: Sulawesi Utara
     location: Kota Kotamobagu
     timezone: Asia/Makassar
+    shapes:
+      - Kota Kotamobagu
 
   - code: SUT14
     country: ID
     state: Sulawesi Utara
     location: Kota Manado
     timezone: Asia/Makassar
+    shapes:
+      - Kota Manado
 
   - code: SUT15
     country: ID
     state: Sulawesi Utara
     location: Kota Tomohon
     timezone: Asia/Makassar
+    shapes:
+      - Kota Tomohon
 
-  # Sumatera Barat
   - code: SMB01
     country: ID
     state: Sumatera Barat
     location: Kab. Agam
     timezone: Asia/Jakarta
+    shapes:
+      - Agam
 
   - code: SMB02
     country: ID
     state: Sumatera Barat
     location: Kab. Dharmasraya
     timezone: Asia/Jakarta
+    shapes:
+      - Dharmasraya
 
   - code: SMB03
     country: ID
     state: Sumatera Barat
     location: Kab. Kepulauan Mentawai
     timezone: Asia/Jakarta
+    shapes:
+      - Kepulauan Mentawai
 
   - code: SMB04
     country: ID
     state: Sumatera Barat
     location: Kab. Lima Puluh Kota
     timezone: Asia/Jakarta
+    shapes:
+      - Lima Puluh Kota
 
   - code: SMB05
     country: ID
     state: Sumatera Barat
     location: Kab. Padang Pariaman
     timezone: Asia/Jakarta
+    shapes:
+      - Padang Pariaman
 
   - code: SMB06
     country: ID
     state: Sumatera Barat
     location: Kab. Pasaman
     timezone: Asia/Jakarta
+    shapes:
+      - Pasaman
 
   - code: SMB07
     country: ID
     state: Sumatera Barat
     location: Kab. Pasaman Barat
     timezone: Asia/Jakarta
+    shapes:
+      - Pasaman Barat
 
   - code: SMB08
     country: ID
     state: Sumatera Barat
     location: Kab. Pesisir Selatan
     timezone: Asia/Jakarta
+    shapes:
+      - Pesisir Selatan
 
   - code: SMB09
     country: ID
     state: Sumatera Barat
     location: Kab. Sijunjung
     timezone: Asia/Jakarta
+    shapes:
+      - Sijunjung
 
   - code: SMB10
     country: ID
     state: Sumatera Barat
     location: Kab. Solok
     timezone: Asia/Jakarta
+    shapes:
+      - Solok
 
   - code: SMB11
     country: ID
     state: Sumatera Barat
     location: Kab. Solok Selatan
     timezone: Asia/Jakarta
+    shapes:
+      - Solok Selatan
 
   - code: SMB12
     country: ID
     state: Sumatera Barat
     location: Kab. Tanah Datar
     timezone: Asia/Jakarta
+    shapes:
+      - Tanah Datar
 
   - code: SMB13
     country: ID
     state: Sumatera Barat
     location: Kota Bukittinggi
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Bukittinggi
 
   - code: SMB14
     country: ID
     state: Sumatera Barat
     location: Kota Padang
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Padang
 
   - code: SMB15
     country: ID
     state: Sumatera Barat
     location: Kota Padangpanjang
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Padang Panjang
 
   - code: SMB16
     country: ID
     state: Sumatera Barat
     location: Kota Pariaman
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Pariaman
 
   - code: SMB17
     country: ID
     state: Sumatera Barat
     location: Kota Payakumbuh
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Payakumbuh
 
   - code: SMB18
     country: ID
     state: Sumatera Barat
     location: Kota Sawahlunto
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Sawah Lunto
 
   - code: SMB19
     country: ID
     state: Sumatera Barat
     location: Kota Solok
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Solok
 
-  # Sumatera Selatan
   - code: SMS01
     country: ID
     state: Sumatera Selatan
     location: Kab. Banyuasin
     timezone: Asia/Jakarta
+    shapes:
+      - Banyu Asin
 
   - code: SMS02
     country: ID
     state: Sumatera Selatan
     location: Kab. Empat Lawang
     timezone: Asia/Jakarta
+    shapes:
+      - Empat Lawang
 
   - code: SMS03
     country: ID
     state: Sumatera Selatan
     location: Kab. Lahat
     timezone: Asia/Jakarta
+    shapes:
+      - Lahat
 
   - code: SMS04
     country: ID
     state: Sumatera Selatan
     location: Kab. Muara Enim
     timezone: Asia/Jakarta
+    shapes:
+      - Muara Enim
 
   - code: SMS05
     country: ID
     state: Sumatera Selatan
     location: Kab. Musi Banyuasin
     timezone: Asia/Jakarta
+    shapes:
+      - Musi Banyuasin
 
   - code: SMS06
     country: ID
     state: Sumatera Selatan
     location: Kab. Musi Rawas
     timezone: Asia/Jakarta
+    shapes:
+      - Musi Rawas
 
   - code: SMS07
     country: ID
     state: Sumatera Selatan
     location: Kab. Musi Rawas Utara
     timezone: Asia/Jakarta
+    shapes:
+      - Musi Rawas Utara
 
   - code: SMS08
     country: ID
     state: Sumatera Selatan
     location: Kab. Ogan ILIR
     timezone: Asia/Jakarta
+    shapes:
+      - Ogan Ilir
 
   - code: SMS09
     country: ID
     state: Sumatera Selatan
     location: Kab. Ogan Komering ILIR
     timezone: Asia/Jakarta
+    shapes:
+      - Ogan Komering Ilir
 
   - code: SMS10
     country: ID
     state: Sumatera Selatan
     location: Kab. Ogan Komering ULU
     timezone: Asia/Jakarta
+    shapes:
+      - Ogan Komering Ulu
 
   - code: SMS11
     country: ID
     state: Sumatera Selatan
     location: Kab. Ogan Komering ULU Selatan
     timezone: Asia/Jakarta
+    shapes:
+      - Ogan Komering Ulu Selatan
 
   - code: SMS12
     country: ID
     state: Sumatera Selatan
     location: Kab. Ogan Komering ULU Timur
     timezone: Asia/Jakarta
+    shapes:
+      - Ogan Komering Ulu Timur
 
   - code: SMS13
     country: ID
     state: Sumatera Selatan
     location: Kab. Penukal Abab Lematang ILIR
     timezone: Asia/Jakarta
+    shapes:
+      - Penukal Abab Lematang Ilir
 
   - code: SMS14
     country: ID
     state: Sumatera Selatan
     location: Kota Lubuklinggau
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Lubuklinggau
 
   - code: SMS15
     country: ID
     state: Sumatera Selatan
     location: Kota Pagar Alam
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Pagar Alam
 
   - code: SMS16
     country: ID
     state: Sumatera Selatan
     location: Kota Palembang
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Palembang
 
   - code: SMS17
     country: ID
     state: Sumatera Selatan
     location: Kota Prabumulih
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Prabumulih
 
-  # Sumatera Utara
   - code: SMU01
     country: ID
     state: Sumatera Utara
     location: Kab. Asahan
     timezone: Asia/Jakarta
+    shapes:
+      - Asahan
 
   - code: SMU02
     country: ID
     state: Sumatera Utara
     location: Kab. Batu Bara
     timezone: Asia/Jakarta
+    shapes:
+      - Batu Bara
 
   - code: SMU03
     country: ID
     state: Sumatera Utara
     location: Kab. Dairi
     timezone: Asia/Jakarta
+    shapes:
+      - Dairi
 
   - code: SMU04
     country: ID
     state: Sumatera Utara
     location: Kab. Deli Serdang
     timezone: Asia/Jakarta
+    shapes:
+      - Deli Serdang
 
   - code: SMU05
     country: ID
     state: Sumatera Utara
     location: Kab. Humbang Hasundutan
     timezone: Asia/Jakarta
+    shapes:
+      - Humbang Hasundutan
 
   - code: SMU06
     country: ID
     state: Sumatera Utara
     location: Kab. Karo
     timezone: Asia/Jakarta
+    shapes:
+      - Karo
 
   - code: SMU07
     country: ID
     state: Sumatera Utara
     location: Kab. Labuhanbatu
     timezone: Asia/Jakarta
+    shapes:
+      - Labuhan Batu
 
   - code: SMU08
     country: ID
     state: Sumatera Utara
     location: Kab. Labuhanbatu Selatan
     timezone: Asia/Jakarta
+    shapes:
+      - Labuhan Batu Selatan
 
   - code: SMU09
     country: ID
     state: Sumatera Utara
     location: Kab. Labuhanbatu Utara
     timezone: Asia/Jakarta
+    shapes:
+      - Labuhan Batu Utara
 
   - code: SMU10
     country: ID
     state: Sumatera Utara
     location: Kab. Langkat
     timezone: Asia/Jakarta
+    shapes:
+      - Langkat
 
   - code: SMU11
     country: ID
     state: Sumatera Utara
     location: Kab. Mandailing Natal
     timezone: Asia/Jakarta
+    shapes:
+      - Mandailing Natal
 
   - code: SMU12
     country: ID
     state: Sumatera Utara
     location: Kab. Nias
     timezone: Asia/Jakarta
+    shapes:
+      - Nias
 
   - code: SMU13
     country: ID
     state: Sumatera Utara
     location: Kab. Nias Barat
     timezone: Asia/Jakarta
+    shapes:
+      - Nias Barat
 
   - code: SMU14
     country: ID
     state: Sumatera Utara
     location: Kab. Nias Selatan
     timezone: Asia/Jakarta
+    shapes:
+      - Nias Selatan
 
   - code: SMU15
     country: ID
     state: Sumatera Utara
     location: Kab. Nias Utara
     timezone: Asia/Jakarta
+    shapes:
+      - Nias Utara
 
   - code: SMU16
     country: ID
     state: Sumatera Utara
     location: Kab. Padang Lawas
     timezone: Asia/Jakarta
+    shapes:
+      - Padang Lawas
 
   - code: SMU17
     country: ID
     state: Sumatera Utara
     location: Kab. Padang Lawas Utara
     timezone: Asia/Jakarta
+    shapes:
+      - Padang Lawas Utara
 
   - code: SMU18
     country: ID
     state: Sumatera Utara
     location: Kab. Pakpak Bharat
     timezone: Asia/Jakarta
+    shapes:
+      - Pakpak Bharat
 
   - code: SMU19
     country: ID
     state: Sumatera Utara
     location: Kab. Samosir
     timezone: Asia/Jakarta
+    shapes:
+      - Samosir
 
   - code: SMU20
     country: ID
     state: Sumatera Utara
     location: Kab. Serdang Bedagai
     timezone: Asia/Jakarta
+    shapes:
+      - Serdang Bedagai
 
   - code: SMU21
     country: ID
     state: Sumatera Utara
     location: Kab. Simalungun
     timezone: Asia/Jakarta
+    shapes:
+      - Simalungun
 
   - code: SMU22
     country: ID
     state: Sumatera Utara
     location: Kab. Tapanuli Selatan
     timezone: Asia/Jakarta
+    shapes:
+      - Tapanuli Selatan
 
   - code: SMU23
     country: ID
     state: Sumatera Utara
     location: Kab. Tapanuli Tengah
     timezone: Asia/Jakarta
+    shapes:
+      - Tapanuli Tengah
 
   - code: SMU24
     country: ID
     state: Sumatera Utara
     location: Kab. Tapanuli Utara
     timezone: Asia/Jakarta
+    shapes:
+      - Tapanuli Utara
 
   - code: SMU25
     country: ID
     state: Sumatera Utara
     location: Kab. Toba Samosir
     timezone: Asia/Jakarta
+    shapes:
+      - Toba Samosir
 
   - code: SMU26
     country: ID
     state: Sumatera Utara
     location: Kota Binjai
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Binjai
 
   - code: SMU27
     country: ID
     state: Sumatera Utara
     location: Kota Gunungsitoli
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Gunungsitoli
 
   - code: SMU28
     country: ID
     state: Sumatera Utara
     location: Kota Medan
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Medan
 
   - code: SMU29
     country: ID
     state: Sumatera Utara
     location: Kota Padangsidempuan
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Padangsidimpuan
 
   - code: SMU30
     country: ID
     state: Sumatera Utara
     location: Kota Pematangsiantar
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Pematang Siantar
 
   - code: SMU31
     country: ID
     state: Sumatera Utara
     location: Kota Sibolga
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Sibolga
 
   - code: SMU32
     country: ID
     state: Sumatera Utara
     location: Kota Tanjungbalai
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Tanjung Balai
 
   - code: SMU33
     country: ID
     state: Sumatera Utara
     location: Kota Tebing Tinggi
     timezone: Asia/Jakarta
+    shapes:
+      - Kota Tebing Tinggi
 
-  # Brunei (4 zones)
-  - code: BRN01
-    country: BN
-    state: Brunei-Muara
-    location: Daerah Brunei-Muara
-    timezone: Asia/Brunei
-
-  - code: BRN02
-    country: BN
-    state: Tutong
-    location: Daerah Tutong
-    timezone: Asia/Brunei
-
-  - code: BRN03
-    country: BN
-    state: Belait
-    location: Daerah Belait
-    timezone: Asia/Brunei
-
-  - code: BRN04
-    country: BN
-    state: Temburong
-    location: Daerah Temburong
-    timezone: Asia/Brunei
-
-  # Sri Lanka (13 zones, matching ACJU official zones)
-  - code: LK01
-    country: LK
-    state: Western
-    location: Colombo, Gampaha, Kalutara
-    timezone: Asia/Colombo
-
-  - code: LK02
-    country: LK
-    state: Northern
-    location: Jaffna, Nallur
-    timezone: Asia/Colombo
-
-  - code: LK03
-    country: LK
-    state: Northern
-    location: Mullaitivu, Kilinochchi, Vavuniya
-    timezone: Asia/Colombo
-
-  - code: LK04
-    country: LK
-    state: Northern
-    location: Mannar, Puttalam
-    timezone: Asia/Colombo
-
-  - code: LK05
-    country: LK
-    state: North Central
-    location: Anuradhapura, Polonnaruwa
-    timezone: Asia/Colombo
-
-  - code: LK06
-    country: LK
-    state: North Western
-    location: Kurunegala
-    timezone: Asia/Colombo
-
-  - code: LK07
-    country: LK
-    state: Central
-    location: Kandy, Matale, Nuwara Eliya
-    timezone: Asia/Colombo
-
-  - code: LK08
-    country: LK
-    state: Eastern
-    location: Batticaloa, Ampara
-    timezone: Asia/Colombo
-
-  - code: LK09
-    country: LK
-    state: Eastern
-    location: Trincomalee
-    timezone: Asia/Colombo
-
-  - code: LK10
-    country: LK
-    state: Uva
-    location: Badulla, Monaragala
-    timezone: Asia/Colombo
-
-  - code: LK11
-    country: LK
-    state: Sabaragamuwa
-    location: Ratnapura, Kegalle
-    timezone: Asia/Colombo
-
-  - code: LK12
-    country: LK
-    state: Southern
-    location: Galle, Matara
-    timezone: Asia/Colombo
-
-  - code: LK13
-    country: LK
-    state: Southern
-    location: Hambantota
-    timezone: Asia/Colombo

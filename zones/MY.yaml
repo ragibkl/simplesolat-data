@@ -1,0 +1,585 @@
+zones:
+  - code: JHR01
+    country: MY
+    state: Johor
+    location: Pulau Aur dan Pulau Pemanggil
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Pulau Aur
+      - Pulau Pemanggil
+
+  - code: JHR02
+    country: MY
+    state: Johor
+    location: Johor Bahru, Kota Tinggi, Mersing, Kulai
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Johor Bahru
+      - Kota Tinggi
+      - Kulai
+      - Mersing
+
+  - code: JHR03
+    country: MY
+    state: Johor
+    location: Kluang, Pontian
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Kluang
+      - Pontian
+
+  - code: JHR04
+    country: MY
+    state: Johor
+    location: Batu Pahat, Muar, Segamat, Gemas Johor, Tangkak
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Batu Pahat
+      - Muar
+      - Segamat
+      - Tangkak
+
+  - code: KDH01
+    country: MY
+    state: Kedah
+    location: Kota Setar, Kubang Pasu, Pokok Sena (Daerah Kecil)
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Kota Setar
+      - Kubang Pasu
+      - Pokok Sena
+
+  - code: KDH02
+    country: MY
+    state: Kedah
+    location: Kuala Muda, Yan, Pendang
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Kuala Muda
+      - Pendang
+      - Yan
+
+  - code: KDH03
+    country: MY
+    state: Kedah
+    location: Padang Terap, Sik
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Padang Terap
+      - Sik
+
+  - code: KDH04
+    country: MY
+    state: Kedah
+    location: Baling
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Baling
+
+  - code: KDH05
+    country: MY
+    state: Kedah
+    location: Bandar Baharu, Kulim
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Bandar Baharu
+      - Kulim
+
+  - code: KDH06
+    country: MY
+    state: Kedah
+    location: Langkawi
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Langkawi
+
+  - code: KDH07
+    country: MY
+    state: Kedah
+    location: Puncak Gunung Jerai
+    timezone: Asia/Kuala_Lumpur
+
+  - code: KTN01
+    country: MY
+    state: Kelantan
+    location: Bachok, Kota Bharu, Machang, Pasir Mas, Pasir Puteh, Tanah Merah, Tumpat, Kuala Krai, Mukim Chiku
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Bachok
+      - Kota Bharu
+      - Kuala Krai
+      - Machang
+      - Pasir Mas
+      - Pasir Puteh
+      - Tanah Merah
+      - Tumpat
+
+  - code: KTN02
+    country: MY
+    state: Kelantan
+    location: Gua Musang (Daerah Galas Dan Bertam), Jeli, Jajahan Kecil Lojing
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Gua Musang
+      - Jeli
+      - Kecil Lojing
+
+  - code: MLK01
+    country: MY
+    state: Melaka
+    location: SELURUH NEGERI MELAKA
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Alor Gajah
+      - Jasin
+      - Melaka Tengah
+
+  - code: NGS01
+    country: MY
+    state: Negeri Sembilan
+    location: Tampin, Jempol
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Jempol
+      - Tampin
+
+  - code: NGS02
+    country: MY
+    state: Negeri Sembilan
+    location: Jelebu, Kuala Pilah, Rembau
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Jelebu
+      - Kuala Pilah
+      - Rembau
+
+  - code: NGS03
+    country: MY
+    state: Negeri Sembilan
+    location: Port Dickson, Seremban
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Port Dickson
+      - Seremban
+
+  - code: PHG01
+    country: MY
+    state: Pahang
+    location: Pulau Tioman
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Pulau Tioman
+
+  - code: PHG02
+    country: MY
+    state: Pahang
+    location: Kuantan, Pekan, Muadzam Shah
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Kuantan
+      - Pekan
+      - Rompin
+
+  - code: PHG03
+    country: MY
+    state: Pahang
+    location: Jerantut, Temerloh, Maran, Bera, Chenor, Jengka
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Bera
+      - Jerantut
+      - Maran
+      - Temerloh
+
+  - code: PHG04
+    country: MY
+    state: Pahang
+    location: Bentong, Lipis, Raub
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Bentong
+      - Lipis
+      - Raub
+
+  - code: PHG05
+    country: MY
+    state: Pahang
+    location: Genting Sempah, Janda Baik, Bukit Tinggi
+    timezone: Asia/Kuala_Lumpur
+
+  - code: PHG06
+    country: MY
+    state: Pahang
+    location: Cameron Highlands, Genting Higlands, Bukit Fraser
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Cameron Highlands
+
+  - code: PHG07
+    country: MY
+    state: Pahang
+    location: Zon Khas Daerah Rompin, (Mukim Rompin, Mukim Endau, Mukim Pontian)
+    timezone: Asia/Kuala_Lumpur
+
+  - code: PLS01
+    country: MY
+    state: Perlis
+    location: Kangar, Padang Besar, Arau
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Perlis
+
+  - code: PNG01
+    country: MY
+    state: Pulau Pinang
+    location: Seluruh Negeri Pulau Pinang
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Barat Daya
+      - Seberang Perai Selatan
+      - Seberang Perai Tengah
+      - Seberang Perai Utara
+      - Timur Laut
+
+  - code: PRK01
+    country: MY
+    state: Perak
+    location: Tapah, Slim River, Tanjung Malim
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Batang Padang
+      - Kerian
+      - Kinta
+      - Muallim
+
+  - code: PRK02
+    country: MY
+    state: Perak
+    location: Kuala Kangsar, Sg. Siput , Ipoh, Batu Gajah, Kampar
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Hilir Perak
+      - Kampar
+      - Kuala Kangsar
+
+  - code: PRK03
+    country: MY
+    state: Perak
+    location: Lenggong, Pengkalan Hulu, Grik
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Belukar Samang
+      - Gerik
+      - Kenering
+      - Kerunai
+      - Lenggong
+      - Pengkalan Hulu
+
+  - code: PRK04
+    country: MY
+    state: Perak
+    location: Temengor, Belum
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Belum
+      - Temengor
+
+  - code: PRK05
+    country: MY
+    state: Perak
+    location: Kg Gajah, Teluk Intan, Bagan Datuk, Seri Iskandar, Beruas, Parit, Lumut, Sitiawan, Pulau Pangkor
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Bagan Datuk
+      - Manjung
+      - Perak Tengah
+
+  - code: PRK06
+    country: MY
+    state: Perak
+    location: Selama, Taiping, Bagan Serai, Parit Buntar
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Larut Dan Matang
+      - Selama
+
+  - code: PRK07
+    country: MY
+    state: Perak
+    location: Bukit Larut
+    timezone: Asia/Kuala_Lumpur
+
+  - code: SBH01
+    country: MY
+    state: Sabah
+    location: Bahagian Sandakan (Timur), Bukit Garam, Semawang, Temanggong, Tambisan, Bandar Sandakan, Sukau
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Sandakan
+
+  - code: SBH02
+    country: MY
+    state: Sabah
+    location: Beluran, Telupid, Pinangah, Terusan, Kuamut, Bahagian Sandakan (Barat)
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Beluran
+      - Kinabatangan
+      - Telupid
+      - Tongod
+
+  - code: SBH03
+    country: MY
+    state: Sabah
+    location: Lahad Datu, Silabukan, Kunak, Sahabat, Semporna, Tungku, Bahagian Tawau (Timur)
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Kunak
+      - Lahad Datu
+      - Semporna
+
+  - code: SBH04
+    country: MY
+    state: Sabah
+    location: Bandar Tawau, Balong, Merotai, Kalabakan, Bahagian Tawau (Barat)
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Kalabakan
+      - Tawau
+
+  - code: SBH05
+    country: MY
+    state: Sabah
+    location: Kudat, Kota Marudu, Pitas, Pulau Banggi, Bahagian Kudat
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Kota Marudu
+      - Kudat
+      - Pitas
+
+  - code: SBH06
+    country: MY
+    state: Sabah
+    location: Gunung Kinabalu
+    timezone: Asia/Kuala_Lumpur
+
+  - code: SBH07
+    country: MY
+    state: Sabah
+    location: Kota Kinabalu, Ranau, Kota Belud, Tuaran, Penampang, Papar, Putatan, Bahagian Pantai Barat
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Kota Belud
+      - Kota Kinabalu
+      - Papar
+      - Penampang
+      - Putatan
+      - Ranau
+      - Tuaran
+
+  - code: SBH08
+    country: MY
+    state: Sabah
+    location: Pensiangan, Keningau, Tambunan, Nabawan, Bahagian Pendalaman (Atas)
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Keningau
+      - Nabawan
+      - Tambunan
+
+  - code: SBH09
+    country: MY
+    state: Sabah
+    location: Beaufort, Kuala Penyu, Sipitang, Tenom, Long Pasia, Membakut, Weston, Bahagian Pendalaman (Bawah)
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Beaufort
+      - Kuala Penyu
+      - Sipitang
+      - Tenom
+
+  - code: SWK01
+    country: MY
+    state: Sarawak
+    location: Limbang, Lawas, Sundar, Trusan
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Lawas
+      - Limbang
+
+  - code: SWK02
+    country: MY
+    state: Sarawak
+    location: Miri, Niah, Bekenu, Sibuti, Marudi
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Beluru
+      - Marudi
+      - Miri
+      - Subis
+      - Telang Usan
+
+  - code: SWK03
+    country: MY
+    state: Sarawak
+    location: Pandan, Belaga, Suai, Tatau, Sebauh, Bintulu
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Belaga
+      - Bintulu
+      - Bukit Mabong
+      - Sebauh
+      - Tatau
+
+  - code: SWK04
+    country: MY
+    state: Sarawak
+    location: Sibu, Mukah, Dalat, Song, Igan, Oya, Balingian, Kanowit, Kapit
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Dalat
+      - Kanowit
+      - Kapit
+      - Mukah
+      - Selangau
+      - Sibu
+      - Song
+
+  - code: SWK05
+    country: MY
+    state: Sarawak
+    location: Sarikei, Matu, Julau, Rajang, Daro, Bintangor, Belawai
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Daro
+      - Julau
+      - Maradong
+      - Matu
+      - Pakan
+      - Sarikei
+      - Tanjung Manis
+
+  - code: SWK06
+    country: MY
+    state: Sarawak
+    location: Lubok Antu, Sri Aman, Roban, Debak, Kabong, Lingga, Engkelili, Betong, Spaoh, Pusa, Saratok
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Betong
+      - Kabong
+      - Lubok Antu
+      - Pusa
+      - Saratok
+      - Sri Aman
+
+  - code: SWK07
+    country: MY
+    state: Sarawak
+    location: Serian, Simunjan, Samarahan, Sebuyau, Meludam
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Asajaya
+      - Samarahan
+      - Serian
+      - Simunjan
+      - Tebedu
+
+  - code: SWK08
+    country: MY
+    state: Sarawak
+    location: Kuching, Bau, Lundu, Sematan
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Bau
+      - Kuching
+      - Lundu
+
+  - code: SWK09
+    country: MY
+    state: Sarawak
+    location: Zon Khas (Kampung Patarikan)
+    timezone: Asia/Kuala_Lumpur
+
+  - code: SGR01
+    country: MY
+    state: Selangor
+    location: Gombak, Petaling, Sepang, Hulu Langat, Hulu Selangor, S.Alam
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Gombak
+      - Hulu Langat
+      - Hulu Selangor
+      - Petaling
+      - Sepang
+
+  - code: SGR02
+    country: MY
+    state: Selangor
+    location: Kuala Selangor, Sabak Bernam
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Kuala Selangor
+      - Sabak Bernam
+
+  - code: SGR03
+    country: MY
+    state: Selangor
+    location: Klang, Kuala Langat
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Klang
+      - Kuala Langat
+
+  - code: TRG01
+    country: MY
+    state: Terengganu
+    location: Kuala Terengganu, Marang, Kuala Nerus
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Kuala Nerus
+      - Kuala Terengganu
+      - Marang
+
+  - code: TRG02
+    country: MY
+    state: Terengganu
+    location: Besut, Setiu
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Besut
+      - Setiu
+
+  - code: TRG03
+    country: MY
+    state: Terengganu
+    location: Hulu Terengganu
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Hulu Terengganu
+
+  - code: TRG04
+    country: MY
+    state: Terengganu
+    location: Dungun, Kemaman
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - Dungun
+      - Kemaman
+
+  - code: WLY01
+    country: MY
+    state: W.P. Kuala Lumpur
+    location: Kuala Lumpur, Putrajaya
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - W.P. Kuala Lumpur
+      - W.P. Putrajaya
+
+  - code: WLY02
+    country: MY
+    state: W.P. Labuan
+    location: Labuan
+    timezone: Asia/Kuala_Lumpur
+    shapes:
+      - W.P. Labuan
+

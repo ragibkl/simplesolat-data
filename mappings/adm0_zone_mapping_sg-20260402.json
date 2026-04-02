@@ -1,3 +1,6 @@
 {
-  "Singapore": { "zone": "SGP01", "district": "Singapore" }
+  "Singapore": {
+    "zone": "SGP01",
+    "state": "Singapore"
+  }
 }
