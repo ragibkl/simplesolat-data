@@ -1,58 +1,11 @@
-# simplesolat-data — Project Status
+# simplesolat-data — TODO
 
 See [README.md](README.md) for data format, usage flows, and API reference.
 
-## Implementation Steps
+## Open issues
 
-### Step 1: Seed initial data
-- [x] Create countries.yaml with official country definitions and geojson/mapping URLs
-- [x] Split zones.yaml into per-country files with shapes and timezone
-- [x] Copy and datestamp mapping files (now generated from zones)
-- [x] Download and datestamp geoBoundaries files for ID, LK, BN
-- [x] Normalize MY geojson to standard shapeName format
-- [x] Create mapping generation script (scripts/generate_mappings.py)
-- [x] Create sources/acju/sources.yaml with PDF URLs
-- [x] Create fetch_acju.py (parallel download + pdfplumber extraction)
-- [x] Extract all LK prayer times for 2026 (13 zones × 12 months = 156 files)
-- [x] Reorganize all consumable data under data/
-
-### Step 2: Write fetch scripts
-- [x] fetch_jakim — POST to e-solat.gov.my, per zone per year, 1s throttle
-- [x] fetch_muis — GET data.gov.sg CKAN API, single bulk fetch, needs MUIS_API_KEY
-- [x] fetch_equran — POST to equran.id, per zone per month, parallel (10 workers)
-- [x] fetch_kheu — extracts from Taqwim PDF (mora.gov.bn), applies zone offsets
-- [x] fetch_acju — downloads PDFs from sources.yaml, extracts via pdfplumber
-- [x] fetch_diyanet — headless browser for WAF cookies, curl for bulk HTML scrape
-
-### Step 3: GitHub Actions workflows
-- [x] fetch_jakim.yml — cron 27th & 28th + workflow_dispatch
-- [x] fetch_muis.yml — cron 27th & 28th + workflow_dispatch, needs MUIS_API_KEY secret
-- [x] fetch_equran.yml — cron 27th & 28th + workflow_dispatch
-- [x] keepalive.yml — prevents GitHub from disabling scheduled workflows
-- KHEU, ACJU, Diyanet: no workflow — PDF/web scrape extraction is fragile, run locally and review output
-
-### Setup
-- [x] Add MUIS_API_KEY as GitHub repository secret
-- [x] Enable GitHub Pages (serves data/ at ragibkl.github.io/simplesolat-data/)
-- [x] Netlify deployment (simplesolat-data.netlify.app — better perf for TM/MY users)
-
-### Known data gaps
-- [x] EQuran ID: 3 zone/months returned no data (MLK10/2026-01, STA13/2026-09, SMU05/2026-11) — filled manually from KEMENAG
-- [x] ACJU LK: Feb 29 in non-leap year 2026 — stripped invalid date, added validation to script
 - [ ] Diyanet TR: 2 districts under maintenance (TR17876/Çukurova, TR17898/Akköy) — retry when Diyanet fixes
 - [ ] Diyanet TR: 2 geoBoundaries shapes unmapped (Hamur, Merkez) — not in Diyanet district list
-
-### Step 4: Update simplesolat-api
-- [x] Rewrite sync to read from simplesolat-data instead of upstream APIs
-- [x] Remove old upstream API client code
-- [x] New endpoint: GET /countries
-- [x] New endpoint: GET /zones?country=MY
-
-### Step 5: Update simplesolat (mobile)
-- [x] Fetch prayer times directly from Netlify CDN
-- [x] On-demand geojson/mapping fetch with caching
-- [x] Support shape_property (shapeName or shapeID) for zone resolution
-- [x] Adding a new country no longer requires app update — just data repo changes
 
 ## Decisions & Rationale
 
@@ -68,6 +21,8 @@ See [README.md](README.md) for data format, usage flows, and API reference.
 
 ## Upstream API Notes
 
+Reference for script authors — how each source works and its quirks.
+
 ### JAKIM (Malaysia)
 - POST https://www.e-solat.gov.my/index.php?r=esolatApi/takwimsolat
 - Per zone, per year date range, 1s throttle
@@ -82,7 +37,7 @@ See [README.md](README.md) for data format, usage flows, and API reference.
 - POST https://equran.id/api/v2/shalat
 - Per zone per month, parallel OK (no rate limiting observed)
 - Request body: {"provinsi": zone.state, "kabkota": zone.location, "bulan": month, "tahun": year}
-- 3 zone/months return 404 (filled from KEMENAG)
+- 3 zone/months returned 404 (filled from KEMENAG)
 
 ### KHEU (Brunei)
 - Taqwim PDF from https://www.mora.gov.bn, published annually
@@ -101,53 +56,12 @@ See [README.md](README.md) for data format, usage flows, and API reference.
 - 23 duplicate district names resolved via shapeID mapping
 - Official REST API exists (awqatsalah.diyanet.gov.tr) but requires paper registration and has harsh rate limits
 
-## Future Data Source Coverage
+## Future countries
 
-### Official sources to investigate (potential integration)
+### Official sources to investigate
 
 | Country | Authority | Source | Notes |
 |---------|-----------|--------|-------|
 | Bangladesh | Islamic Foundation | [islamicfoundation.gov.bd](https://islamicfoundation.gov.bd) | Publishes district-level schedules, check if scrapeable |
 | UAE | IACAD | [iacad.gov.ae](https://www.iacad.gov.ae/en/open-data/prayer-time-open-data) | Open data portal (link may be broken) |
 | Morocco | Habous Ministry | [habous.gov.ma](https://habous.gov.ma) | Unofficial GitHub scraper exists |
-
-### Worldwide coverage (calculation on mobile via adhan-js)
-
-For countries without official API sources, the mobile app calculates prayer times client-side using [adhan-js](https://github.com/batoulapps/adhan-js) with region-appropriate methods.
-
-**High confidence** — well-defined official method, supported by adhan-js:
-
-| Country | Method | Fajr / Isha | Notes |
-|---------|--------|-------------|-------|
-| Saudi Arabia | Umm Al-Qura University | 18.5° / 90min | Official govt standard, used by Haramain |
-| Egypt | Egyptian General Authority of Survey | 19.5° / 17.5° | Widely used across Africa |
-| Qatar | Qatar | 18° / 90min | |
-| Kuwait | Kuwait | 18° / 17.5° | |
-| Iran | Geophysics Institute Tehran | 17.7° / 14° | |
-| US / Canada | ISNA | 15° / 15° | |
-
-**Moderate confidence** — named method, not verified against local authority:
-
-| Country | Method | Fajr / Isha | Notes |
-|---------|--------|-------------|-------|
-| Turkey | Diyanet | 18° / 17° | Fallback only — official data integrated |
-| UAE | Dubai | 18.2° / 18.2° | Pending official API integration |
-| Jordan | Jordan | 18° / 18° | |
-| Algeria | Algerian Ministry | 18° / 17° | |
-| Tunisia | Tunisia | 18° / 18° | |
-| France | UOIF | 12° / 12° | |
-| Pakistan | Karachi | 18° / 18° | Multiple methods used regionally |
-| Russia | Russia | 16° / 15° | Regional variation |
-
-**Low confidence** — no documented official method, best guess:
-
-| Country | Best guess | Notes |
-|---------|-----------|-------|
-| Thailand | MWL or JAKIM-like (20°/18°) | CICOT is official body but method undocumented |
-| Philippines | MWL (18°/17°) | NCMF announces Ramadan dates but no prayer times method |
-| India | Karachi or MWL | No single authority, varies by region |
-| Bangladesh | Karachi (assumed) | Islamic Foundation publishes times but angles undocumented |
-| Oman, Bahrain, Yemen, Iraq | MWL (assumed) | Gulf states, no documented methods found |
-| Libya, Sudan, Somalia | Egyptian or MWL (assumed) | No documented methods found |
-| Maldives | MWL (assumed) | No documented method |
-| All other countries | Muslim World League | Default fallback |
