@@ -1,0 +1,30 @@
+{
+  "Abu Dhabi": {
+    "zone": "AE1",
+    "state": "Abu Dhabi"
+  },
+  "Dubai": {
+    "zone": "AE32",
+    "state": "Dubai"
+  },
+  "Sharjah": {
+    "zone": "AE33",
+    "state": "Sharjah"
+  },
+  "Ajman": {
+    "zone": "AE41",
+    "state": "Ajman"
+  },
+  "Umm al-Quwain": {
+    "zone": "AE44",
+    "state": "Um Al Quwain"
+  },
+  "Ras al-Khaimah": {
+    "zone": "AE45",
+    "state": "Ras AlKhaimah"
+  },
+  "Fujairah": {
+    "zone": "AE52",
+    "state": "Fujairah"
+  }
+}
