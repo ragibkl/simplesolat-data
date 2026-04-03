@@ -101,17 +101,7 @@ Administrative boundary data for GPS-to-zone resolution. All from [geoBoundaries
 GET /mappings/{CC}-{adm}-mapping-{date}.json
 ```
 
-Maps geojson shape property to zone code and state. Derived from zone files via `scripts/generate_mappings.py`.
-
-The mapping key depends on the country's `shape_property` — `shapeName` for most countries, `shapeID` for Turkey.
-
-```json
-{
-  "Gombak": { "zone": "SGR01", "state": "Selangor" },
-  "Petaling": { "zone": "SGR01", "state": "Selangor" },
-  ...
-}
-```
+Maps geojson shape property to zone code and state. Derived from zone files via `scripts/generate_mappings.py`. Key is `shapeName` or `shapeID` depending on country's `shape_property`.
 
 ## How to use
 
@@ -132,31 +122,6 @@ The mapping key depends on the country's `shape_property` — `shapeName` for mo
 3. User selects zone
 4. Fetch `/prayer-times/{CC}/{zone}/{year}-{month}.json` for current + next month
 
-### API sync flow
-
-1. Fetch `/countries.yaml` and `/zones/{CC}.yaml` on cron
-2. Read prayer time JSON files from this repo
-3. Parse local HH:MM, convert to epoch using zone timezone
-4. Store in database, serve to clients
-
-## Time format
-
-- All prayer times are **local HH:MM** in the zone's timezone
-- Timezone is specified per zone in `zones/{CC}.yaml` as an IANA timezone (e.g. `Asia/Kuala_Lumpur`)
-- To convert to absolute time, use the IANA timezone — this handles UTC offsets, DST, and political timezone changes automatically
-- No seconds, no timezone info embedded in the time strings
-
-## Zone codes
-
-| Country | Prefix | Example | Source |
-|---------|--------|---------|--------|
-| MY | State abbreviation | JHR01, SGR01, WLY01 | JAKIM official codes |
-| SG | SGP | SGP01 | Single zone |
-| ID | Province abbreviation | ACH01, JKT01 | Generated convention |
-| BN | BRN | BRN01-04 | Generated convention |
-| LK | LK | LK01-13 | Generated convention |
-| TR | TR + Diyanet ID | TR9206, TR9541 | Diyanet official district IDs |
-
 ## Data sources
 
 | Country | Source | Type | Update frequency |
@@ -168,15 +133,6 @@ The mapping key depends on the country's `shape_property` — `shapeName` for mo
 | LK | [ACJU PDFs](https://www.acju.lk/prayer-times/) | PDF | Manual, yearly |
 | TR | [Diyanet](https://namazvakitleri.diyanet.gov.tr) | Web scrape | Manual, yearly |
 
-## File naming conventions
-
-- Prayer times: `{year}-{month}.json` (e.g. `2026-01.json`)
-- GeoJSON: `{CC}-{adm_level}-geojson-{date}.json` (e.g. `MY-adm2-geojson-20260402.json`)
-- Mappings: `{CC}-{adm_level}-mapping-{date}.json` (e.g. `MY-adm2-mapping-20260402.json`)
-- Zones: `{CC}.yaml` (e.g. `MY.yaml`)
-
-GeoJSON and mapping files are datestamped. When data is updated, a new file with a new date is committed and `countries.yaml` is updated to point to it. Consumers cache by URL — a new URL means new data.
-
 ## Caching recommendations
 
 | Data | Cache duration | Invalidation |
@@ -185,6 +141,12 @@ GeoJSON and mapping files are datestamped. When data is updated, a new file with
 | zones/{CC}.yaml | 1 month | Refetch monthly |
 | GeoJSON / mappings | Indefinite | URL change in countries.yaml |
 | Prayer times | Until month passes | Fetch current + next month |
+
+## Contributing
+
+To add a new country or fix data issues, see [docs/maintenance.md](docs/maintenance.md).
+
+For how the data pipeline, mapping system, and zone resolution work, see [docs/architecture.md](docs/architecture.md).
 
 ## Setup
 
