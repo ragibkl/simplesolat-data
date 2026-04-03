@@ -21,15 +21,17 @@ from datetime import datetime, timedelta
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-COUNTRY_FILES = {
-    "MY": "data/zones/MY.yaml",
-    "SG": "data/zones/SG.yaml",
-    "ID": "data/zones/ID.yaml",
-    "BN": "data/zones/BN.yaml",
-    "LK": "data/zones/LK.yaml",
-    "TR": "data/zones/TR.yaml",
-    "AE": "data/zones/AE.yaml",
-}
+def discover_countries():
+    """Find all country codes from zone files in data/zones/."""
+    zones_dir = os.path.join(ROOT, "data", "zones")
+    countries = {}
+    for f in sorted(os.listdir(zones_dir)):
+        if f.endswith('.yaml'):
+            cc = f.replace('.yaml', '')
+            countries[cc] = os.path.join("data", "zones", f)
+    return countries
+
+COUNTRY_FILES = discover_countries()
 
 
 def parse_zone_codes(path):
