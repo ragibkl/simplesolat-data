@@ -22,21 +22,25 @@ See [README.md](README.md) for data format, usage flows, and API reference.
 - [x] fetch_equran — POST to equran.id, per zone per month, parallel (10 workers)
 - [x] fetch_kheu — extracts from Taqwim PDF (mora.gov.bn), applies zone offsets
 - [x] fetch_acju — downloads PDFs from sources.yaml, extracts via pdfplumber
+- [x] fetch_diyanet — headless browser for WAF cookies, curl for bulk HTML scrape
 
 ### Step 3: GitHub Actions workflows
 - [x] fetch_jakim.yml — cron 27th & 28th + workflow_dispatch
 - [x] fetch_muis.yml — cron 27th & 28th + workflow_dispatch, needs MUIS_API_KEY secret
 - [x] fetch_equran.yml — cron 27th & 28th + workflow_dispatch
 - [x] keepalive.yml — prevents GitHub from disabling scheduled workflows
-- KHEU and ACJU: no workflow — PDF extraction is fragile, run locally and review output
+- KHEU, ACJU, Diyanet: no workflow — PDF/web scrape extraction is fragile, run locally and review output
 
 ### Setup
 - [x] Add MUIS_API_KEY as GitHub repository secret
 - [x] Enable GitHub Pages (serves data/ at ragibkl.github.io/simplesolat-data/)
+- [x] Netlify deployment (simplesolat-data.netlify.app — better perf for TM/MY users)
 
 ### Known data gaps
 - [x] EQuran ID: 3 zone/months returned no data (MLK10/2026-01, STA13/2026-09, SMU05/2026-11) — filled manually from KEMENAG
 - [x] ACJU LK: Feb 29 in non-leap year 2026 — stripped invalid date, added validation to script
+- [ ] Diyanet TR: 2 districts under maintenance (TR17876/Çukurova, TR17898/Akköy) — retry when Diyanet fixes
+- [ ] Diyanet TR: 2 geoBoundaries shapes unmapped (Hamur, Merkez) — not in Diyanet district list
 
 ### Step 4: Update simplesolat-api
 - [x] Rewrite sync to read from simplesolat-data (GitHub Pages) instead of upstream APIs
@@ -45,23 +49,22 @@ See [README.md](README.md) for data format, usage flows, and API reference.
 - [ ] New endpoint: GET /zones?country=MY
 
 ### Step 5: Update simplesolat (mobile)
-- [ ] Fetch countries list from API (GET /countries), cache for 1 month
-- [ ] On GPS country detection, check if country is in official list
-- [ ] If official + no cached geojson → fetch geojson + mapping via URLs from countries list, cache locally
-- [ ] Cache geojson/mapping by URL — URL change (datestamp) = new data
-- [ ] On countries refresh: compare cached URLs vs new URLs, delete old cached files, fetch new ones
-- [ ] ADM0 (country detection) stays bundled — small and global
-- [ ] Calculated zones (adhan-js) remain the fallback for unsupported countries
-- [ ] Adding a new country no longer requires app update — just data repo + API changes
+- [x] Prototype: fetch prayer times directly from Netlify CDN
+- [x] On-demand geojson/mapping fetch with caching
+- [x] Support shape_property (shapeName or shapeID) for zone resolution
+- [ ] Adding a new country no longer requires app update — just data repo changes
 
 ## Decisions & Rationale
 
 - **Per-month files** over per-year — matches upstream publication cadence, simpler idempotency
 - **Local HH:MM** over epoch or UTC — source-faithful, human-readable, timezone conversion done by consumers using IANA timezone from zone metadata
 - **PDF over SharePoint API for KHEU** — SharePoint was flaky, late to update, had typos. Taqwim PDF is authoritative, has full year data
-- **No workflows for PDF sources** — PDF extraction is fragile (layout changes break parsers), run locally and review output
-- **GitHub Pages over API for data serving** — free, CDN-backed, no infrastructure to maintain, outlives API infra
+- **Web scrape over API for Diyanet** — official API requires paper registration, harsh rate limits. Web scrape gets full year per district from the yearly table
+- **No workflows for PDF/scrape sources** — extraction is fragile (layout changes break parsers), run locally and review output
+- **Netlify over GitHub Pages** — better CDN performance for Malaysian TM ISP users
 - **Datestamped geojson/mapping filenames** — URL change = cache invalidation, no versioning needed
+- **shapeID over shapeName for TR** — Turkey has 23 duplicate district names across provinces. shapeID is unique per geoBoundaries feature. Other countries use shapeName (no duplicates)
+- **Pristine geoBoundaries** — geojson files are unmodified from geoBoundaries.org. Disambiguation handled in mapping layer, not by patching source data
 
 ## Upstream API Notes
 
@@ -91,6 +94,13 @@ See [README.md](README.md) for data format, usage flows, and API reference.
 - 13 zones, times in 12h AM/PM, no imsak (derive as fajr-10)
 - Some PDFs have Feb 29 in non-leap years (validated in parser)
 
+### Diyanet (Turkey)
+- Web scrape from https://namazvakitleri.diyanet.gov.tr
+- Headless browser (Playwright) extracts WAF cookies, curl fetches yearly HTML tables
+- 867 districts, times in 24h HH:MM, no imsak (derive as fajr-10)
+- 23 duplicate district names resolved via shapeID mapping
+- Official REST API exists (awqatsalah.diyanet.gov.tr) but requires paper registration and has harsh rate limits
+
 ## Future Data Source Coverage
 
 ### Official sources to investigate (potential integration)
@@ -98,8 +108,7 @@ See [README.md](README.md) for data format, usage flows, and API reference.
 | Country | Authority | Source | Notes |
 |---------|-----------|--------|-------|
 | Bangladesh | Islamic Foundation | [islamicfoundation.gov.bd](https://islamicfoundation.gov.bd) | Publishes district-level schedules, check if scrapeable |
-| Turkey | Diyanet | [awqatsalah.diyanet.gov.tr](https://awqatsalah.diyanet.gov.tr) | Has REST API, heavily rate-limited. Currently calculated on mobile. |
-| UAE | IACAD | [iacad.gov.ae](https://www.iacad.gov.ae/en/open-data/prayer-time-open-data) | Open data portal. Currently calculated on mobile. |
+| UAE | IACAD | [iacad.gov.ae](https://www.iacad.gov.ae/en/open-data/prayer-time-open-data) | Open data portal (link may be broken) |
 | Morocco | Habous Ministry | [habous.gov.ma](https://habous.gov.ma) | Unofficial GitHub scraper exists |
 
 ### Worldwide coverage (calculation on mobile via adhan-js)
@@ -121,7 +130,7 @@ For countries without official API sources, the mobile app calculates prayer tim
 
 | Country | Method | Fajr / Isha | Notes |
 |---------|--------|-------------|-------|
-| Turkey | Diyanet | 18° / 17° | Pending official API integration |
+| Turkey | Diyanet | 18° / 17° | Now integrated with official data |
 | UAE | Dubai | 18.2° / 18.2° | Pending official API integration |
 | Jordan | Jordan | 18° / 18° | |
 | Algeria | Algerian Ministry | 18° / 17° | |
