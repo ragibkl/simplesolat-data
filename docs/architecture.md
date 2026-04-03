@@ -121,6 +121,7 @@ Datestamp defaults to the geojson file's date. Use `--date` to force a new date 
 
 ## Decisions
 
+- **Official published sources only** — no calculation APIs (aladhan, adhan-js, etc.). The whole point of this repo is authoritative data from government/religious authorities. Calculated times are a mobile app fallback for unsupported countries, not a data source for this repo.
 - **Per-month files** over per-year — matches upstream publication cadence, simpler idempotency
 - **Local HH:MM** over epoch or UTC — source-faithful, human-readable, timezone conversion done by consumers using IANA timezone
 - **Netlify over GitHub Pages** — better CDN performance for Malaysian TM ISP users
