@@ -43,16 +43,16 @@ See [README.md](README.md) for data format, usage flows, and API reference.
 - [ ] Diyanet TR: 2 geoBoundaries shapes unmapped (Hamur, Merkez) — not in Diyanet district list
 
 ### Step 4: Update simplesolat-api
-- [x] Rewrite sync to read from simplesolat-data (GitHub Pages) instead of upstream APIs
-- [ ] Remove old upstream API client code
-- [ ] New endpoint: GET /countries
-- [ ] New endpoint: GET /zones?country=MY
+- [x] Rewrite sync to read from simplesolat-data instead of upstream APIs
+- [x] Remove old upstream API client code
+- [x] New endpoint: GET /countries
+- [x] New endpoint: GET /zones?country=MY
 
 ### Step 5: Update simplesolat (mobile)
-- [x] Prototype: fetch prayer times directly from Netlify CDN
+- [x] Fetch prayer times directly from Netlify CDN
 - [x] On-demand geojson/mapping fetch with caching
 - [x] Support shape_property (shapeName or shapeID) for zone resolution
-- [ ] Adding a new country no longer requires app update — just data repo changes
+- [x] Adding a new country no longer requires app update — just data repo changes
 
 ## Decisions & Rationale
 
