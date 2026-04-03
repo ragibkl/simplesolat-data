@@ -1,4 +1,5 @@
 # Downloaded source files (fetched by scripts on demand)
 sources/**/*.pdf
 sources/**/pdfs/
+sources/**/cookies/
 __pycache__/

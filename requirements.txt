@@ -1,0 +1,4 @@
+pyyaml
+pdfplumber
+openpyxl
+playwright

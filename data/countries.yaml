@@ -33,3 +33,10 @@ countries:
     geojson: https://simplesolat-data.netlify.app/geojson/LK-adm2-geojson-20260402.json
     mapping: https://simplesolat-data.netlify.app/mappings/LK-adm2-mapping-20260402.json
     shape_property: shapeName
+
+  - code: TR
+    name: Turkey
+    source: Diyanet
+    geojson: https://simplesolat-data.netlify.app/geojson/TR-adm2-geojson-20260403.json
+    mapping: https://simplesolat-data.netlify.app/mappings/TR-adm2-mapping-20260403.json
+    shape_property: shapeID

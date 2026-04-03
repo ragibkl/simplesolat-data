@@ -1,0 +1,7041 @@
+zones:
+  - code: TR9146
+    country: TR
+    state: ADANA
+    location: ADANA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B19023122389933  # Seyhan
+      - 54988432B61783843665987  # Yüreğir
+      - 54988432B81913319762602  # Sarıçam
+
+  - code: TR9147
+    country: TR
+    state: ADANA
+    location: ALADAĞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B39717738295698  # Aladağ
+
+  - code: TR9148
+    country: TR
+    state: ADANA
+    location: CEYHAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B85758697491434  # Ceyhan
+
+  - code: TR9149
+    country: TR
+    state: ADANA
+    location: FEKE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B98169837554418  # Feke
+
+  - code: TR9151
+    country: TR
+    state: ADANA
+    location: KARAISALI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B43554953634888  # Karaisalı
+
+  - code: TR9152
+    country: TR
+    state: ADANA
+    location: KARATAŞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B87370140672235  # Karataş
+
+  - code: TR9153
+    country: TR
+    state: ADANA
+    location: KOZAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B64680094373147  # Kozan
+
+  - code: TR9154
+    country: TR
+    state: ADANA
+    location: POZANTI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B51986121551962  # Pozantı
+
+  - code: TR9155
+    country: TR
+    state: ADANA
+    location: SAİMBEYLİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B5911690801414  # Saimbeyli
+
+  - code: TR9156
+    country: TR
+    state: ADANA
+    location: TUFANBEYLİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B71285314938898  # Tufanbeyli
+
+  - code: TR9157
+    country: TR
+    state: ADANA
+    location: YUMURTALIK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B41479825758135  # Yumurtalık
+
+  - code: TR17876
+    country: TR
+    state: ADANA
+    location: ÇUKUROVA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B84437905813511  # Çukurova
+
+  - code: TR9150
+    country: TR
+    state: ADANA
+    location: İMAMOĞLU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B92605767261652  # İmamoğlu
+
+  - code: TR9158
+    country: TR
+    state: ADIYAMAN
+    location: ADIYAMAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B21974085302576  # Adıyaman merkez
+
+  - code: TR9159
+    country: TR
+    state: ADIYAMAN
+    location: BESNİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B34754350739794  # Besni
+
+  - code: TR9161
+    country: TR
+    state: ADIYAMAN
+    location: GERGER
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B41213332539670  # Gerger
+
+  - code: TR9162
+    country: TR
+    state: ADIYAMAN
+    location: GÖLBAŞI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B45526631886391  # Gölbaşı (ADIYAMAN)
+
+  - code: TR9163
+    country: TR
+    state: ADIYAMAN
+    location: KAHTA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B9057851226548  # Kahta
+
+  - code: TR9164
+    country: TR
+    state: ADIYAMAN
+    location: SAMSAT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B89653427211969  # Samsat
+
+  - code: TR9165
+    country: TR
+    state: ADIYAMAN
+    location: SİNCİK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B70424898114793  # Sincik
+
+  - code: TR9166
+    country: TR
+    state: ADIYAMAN
+    location: TUT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B66516402107678  # Tut
+
+  - code: TR9160
+    country: TR
+    state: ADIYAMAN
+    location: ÇELİKHAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B67214587682111  # Çelikhan
+
+  - code: TR9167
+    country: TR
+    state: AFYONKARAHİSAR
+    location: AFYONKARAHİSAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B49774996339871  # Afyonkarahisar (Merkez İlçe)
+
+  - code: TR9169
+    country: TR
+    state: AFYONKARAHİSAR
+    location: BAYAT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B62918956167575  # Bayat (AFYONKARAHİSAR)
+
+  - code: TR9168
+    country: TR
+    state: AFYONKARAHİSAR
+    location: BAŞMAKÇI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B46629415876767  # Başmakçı
+
+  - code: TR9170
+    country: TR
+    state: AFYONKARAHİSAR
+    location: BOLVADİN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B94200918295696  # Bolvadin
+
+  - code: TR9173
+    country: TR
+    state: AFYONKARAHİSAR
+    location: DAZKIRI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B22219772223336  # Dazkırı
+
+  - code: TR9174
+    country: TR
+    state: AFYONKARAHİSAR
+    location: DİNAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B85338768534815  # Dinar
+
+  - code: TR9175
+    country: TR
+    state: AFYONKARAHİSAR
+    location: EMİRDAĞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B60464897415028  # Emirdağ
+
+  - code: TR9176
+    country: TR
+    state: AFYONKARAHİSAR
+    location: EVCİLER
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B92026614951064  # Evciler
+
+  - code: TR9177
+    country: TR
+    state: AFYONKARAHİSAR
+    location: HOCALAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B85980099192103  # Hocalar
+
+  - code: TR9180
+    country: TR
+    state: AFYONKARAHİSAR
+    location: KIZILÖREN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B81292966390728  # Kızılören
+
+  - code: TR9181
+    country: TR
+    state: AFYONKARAHİSAR
+    location: SANDIKLI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B6966801542176  # Sandıklı
+
+  - code: TR9183
+    country: TR
+    state: AFYONKARAHİSAR
+    location: SUHUT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B19989775131060  # Şuhut
+
+  - code: TR9184
+    country: TR
+    state: AFYONKARAHİSAR
+    location: SULTANDAĞI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B402287673455  # Sultandağı
+
+  - code: TR9182
+    country: TR
+    state: AFYONKARAHİSAR
+    location: SİNANPAŞA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B61684087584661  # Sinanpaşa
+
+  - code: TR9171
+    country: TR
+    state: AFYONKARAHİSAR
+    location: ÇAY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B17518540104638  # Çay
+
+  - code: TR9172
+    country: TR
+    state: AFYONKARAHİSAR
+    location: ÇOBANLAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B23570910336885  # Çobanlar
+
+  - code: TR9178
+    country: TR
+    state: AFYONKARAHİSAR
+    location: İHSANİYE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B54459736325466  # İhsaniye
+
+  - code: TR9179
+    country: TR
+    state: AFYONKARAHİSAR
+    location: İSCEHİSAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B89770527018948  # İscehisar
+
+  - code: TR9193
+    country: TR
+    state: AKSARAY
+    location: AKSARAY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B86037969006851  # Aksaray merkez
+
+  - code: TR9192
+    country: TR
+    state: AKSARAY
+    location: AĞAÇÖREN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B86802398359191  # Ağaçören
+
+  - code: TR9194
+    country: TR
+    state: AKSARAY
+    location: ESKİL
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B22791175863711  # Eskil
+
+  - code: TR9195
+    country: TR
+    state: AKSARAY
+    location: GÜLAĞAÇ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B45288450631555  # Gülağaç
+
+  - code: TR9196
+    country: TR
+    state: AKSARAY
+    location: GÜZELYURT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B11359051677875  # Güzelyurt
+
+  - code: TR17877
+    country: TR
+    state: AKSARAY
+    location: ORTAKÖY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B99817490386194  # Ortaköy (AKSARAY)
+
+  - code: TR9197
+    country: TR
+    state: AKSARAY
+    location: SARIYAHŞİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B79821561664997  # Sarıyahşi
+
+  - code: TR9198
+    country: TR
+    state: AMASYA
+    location: AMASYA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B92706545600609  # Amasya merkez
+
+  - code: TR9199
+    country: TR
+    state: AMASYA
+    location: GÖYNÜCEK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B56207670393992  # Göynücek
+
+  - code: TR9200
+    country: TR
+    state: AMASYA
+    location: GÜMÜŞHACIKÖY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B13628237636764  # Gümüşhacıköy
+
+  - code: TR9201
+    country: TR
+    state: AMASYA
+    location: HAMAMÖZÜ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B1769560269502  # Hamamözü
+
+  - code: TR9202
+    country: TR
+    state: AMASYA
+    location: MERZİFON
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B94698647501880  # Merzifon
+
+  - code: TR9203
+    country: TR
+    state: AMASYA
+    location: SULUOVA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B84935584659514  # Suluova
+
+  - code: TR9204
+    country: TR
+    state: AMASYA
+    location: TAŞOVA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B63110195465705  # Taşova
+
+  - code: TR9205
+    country: TR
+    state: ANKARA
+    location: AKYURT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B10964336547790  # Akyurt
+
+  - code: TR9206
+    country: TR
+    state: ANKARA
+    location: ANKARA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B21059504662364  # Keçiören
+      - 54988432B23708733321039  # Mamak
+      - 54988432B29207959806558  # Etimesgut
+      - 54988432B35345810127315  # Gölbaşı (ANKARA)
+      - 54988432B58223508141681  # Yenimahalle
+      - 54988432B72030220276956  # Çankaya
+      - 54988432B73322112171643  # Altındağ
+      - 54988432B81083365712780  # Sincan
+      - 54988432B870340746196  # Pursaklar
+
+  - code: TR9207
+    country: TR
+    state: ANKARA
+    location: AYAŞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B82014905265154  # Ayaş
+
+  - code: TR9208
+    country: TR
+    state: ANKARA
+    location: BALA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B88316498186109  # Bala
+
+  - code: TR9209
+    country: TR
+    state: ANKARA
+    location: BEYPAZARI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B87892506897385  # Beypazarı
+
+  - code: TR9211
+    country: TR
+    state: ANKARA
+    location: CUBUK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B84973807429467  # Çubuk
+
+  - code: TR9212
+    country: TR
+    state: ANKARA
+    location: ELMADAĞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B18647546937138  # Elmadağ
+
+  - code: TR9213
+    country: TR
+    state: ANKARA
+    location: EVREN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B65496848768167  # Evren
+
+  - code: TR9214
+    country: TR
+    state: ANKARA
+    location: GÜDÜL
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B82471311142852  # Güdül
+
+  - code: TR9215
+    country: TR
+    state: ANKARA
+    location: HAYMANA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B89555629027377  # Haymana
+
+  - code: TR9217
+    country: TR
+    state: ANKARA
+    location: KAHRAMANKAZAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B59635057977952  # Kahramankazan
+
+  - code: TR9216
+    country: TR
+    state: ANKARA
+    location: KALECİK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B64260003407372  # Kalecik
+
+  - code: TR9218
+    country: TR
+    state: ANKARA
+    location: KIZILCAHAMAM
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B2925959455693  # Kızılcahamam
+
+  - code: TR9219
+    country: TR
+    state: ANKARA
+    location: NALLIHAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B12089273300588  # Nallıhan
+
+  - code: TR9220
+    country: TR
+    state: ANKARA
+    location: POLATLI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B893295612098  # Polatlı
+
+  - code: TR9210
+    country: TR
+    state: ANKARA
+    location: ÇAMLIDERE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B25326258827765  # Çamlıdere
+
+  - code: TR9221
+    country: TR
+    state: ANKARA
+    location: ŞEREFLİKOÇHİSAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B97717565208806  # Şereflikoçhisar
+
+  - code: TR9222
+    country: TR
+    state: ANTALYA
+    location: AKSEKİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B50828281350950  # Akseki
+
+  - code: TR9223
+    country: TR
+    state: ANTALYA
+    location: AKSU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B64920064899617  # Aksu (ANTALYA)
+
+  - code: TR9224
+    country: TR
+    state: ANTALYA
+    location: ALANYA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B84070698117276  # Alanya
+
+  - code: TR9225
+    country: TR
+    state: ANTALYA
+    location: ANTALYA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B17723605206621  # Muratpaşa
+      - 54988432B34226837880284  # Kepez
+      - 54988432B8852789210155  # Konyaaltı
+      - 54988432B91005720032741  # Döşemealtı
+
+  - code: TR9226
+    country: TR
+    state: ANTALYA
+    location: DEMRE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B94897839100366  # Demre
+
+  - code: TR9227
+    country: TR
+    state: ANTALYA
+    location: ELMALI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B92223927432104  # Elmalı
+
+  - code: TR9228
+    country: TR
+    state: ANTALYA
+    location: FİNİKE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B8890840155709  # Finike
+
+  - code: TR9229
+    country: TR
+    state: ANTALYA
+    location: GAZİPAŞA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B8015815916555  # Gazipaşa
+
+  - code: TR9230
+    country: TR
+    state: ANTALYA
+    location: GÜNDOĞMUŞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B40899353462768  # Gündoğmuş
+
+  - code: TR9232
+    country: TR
+    state: ANTALYA
+    location: KAŞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B35906022990026  # Kaş
+
+  - code: TR9233
+    country: TR
+    state: ANTALYA
+    location: KEMER
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B82979993724988  # Kemer (ANTALYA)
+
+  - code: TR9234
+    country: TR
+    state: ANTALYA
+    location: KORKUTELİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B50626886861490  # Korkuteli
+
+  - code: TR9235
+    country: TR
+    state: ANTALYA
+    location: KUMLUCA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B29828557517044  # Kumluca
+
+  - code: TR9236
+    country: TR
+    state: ANTALYA
+    location: MANAVGAT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B19409093219384  # Manavgat
+
+  - code: TR9237
+    country: TR
+    state: ANTALYA
+    location: SERİK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B4509527375863  # Serik
+
+  - code: TR9231
+    country: TR
+    state: ANTALYA
+    location: İBRADI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B73618387821891  # İbradi
+
+  - code: TR9238
+    country: TR
+    state: ARDAHAN
+    location: ARDAHAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B9128675861083  # Ardahan
+
+  - code: TR9240
+    country: TR
+    state: ARDAHAN
+    location: DAMAL
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B66719827251090  # Damal
+
+  - code: TR9241
+    country: TR
+    state: ARDAHAN
+    location: GÖLE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B3051798529844  # Göle
+
+  - code: TR9242
+    country: TR
+    state: ARDAHAN
+    location: HANAK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B46569875882636  # Hanak
+
+  - code: TR9243
+    country: TR
+    state: ARDAHAN
+    location: POSOF
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B14970064024432  # Posof
+
+  - code: TR9239
+    country: TR
+    state: ARDAHAN
+    location: ÇILDIR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B4842956932504  # Çıldır
+
+  - code: TR9244
+    country: TR
+    state: ARTVİN
+    location: ARDANUÇ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B9206806134552  # Ardanuç
+
+  - code: TR9245
+    country: TR
+    state: ARTVİN
+    location: ARHAVİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B58047018778260  # Arhavi
+
+  - code: TR9246
+    country: TR
+    state: ARTVİN
+    location: ARTVİN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B31165455278537  # Artvin Merkez
+      - 54988432B96920408348513  # Kemalpaşa (ARTVİN)
+
+  - code: TR9247
+    country: TR
+    state: ARTVİN
+    location: BORÇKA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B55907978535703  # Borçka
+
+  - code: TR9248
+    country: TR
+    state: ARTVİN
+    location: HOPA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B76694666867888  # Hopa
+
+  - code: TR9249
+    country: TR
+    state: ARTVİN
+    location: MURGUL
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B45520240817550  # Murgul
+
+  - code: TR9251
+    country: TR
+    state: ARTVİN
+    location: YUSUFELİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B99037585062650  # Yusufeli
+
+  - code: TR9250
+    country: TR
+    state: ARTVİN
+    location: ŞAVŞAT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B74865173574888  # Şavşat
+
+  - code: TR9252
+    country: TR
+    state: AYDIN
+    location: AYDIN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B9070985819609  # Efeler
+
+  - code: TR9253
+    country: TR
+    state: AYDIN
+    location: BOZDOĞAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B58741997056063  # Bozdoğan
+
+  - code: TR9254
+    country: TR
+    state: AYDIN
+    location: BUHARKENT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B81969335457168  # Buharkent
+
+  - code: TR9256
+    country: TR
+    state: AYDIN
+    location: DİDİM
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B81237191806076  # Didim
+
+  - code: TR9257
+    country: TR
+    state: AYDIN
+    location: GERMENCİK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B19168401993834  # Germencik
+
+  - code: TR9259
+    country: TR
+    state: AYDIN
+    location: KARACASU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B38192653794481  # Karacasu
+
+  - code: TR9260
+    country: TR
+    state: AYDIN
+    location: KARPUZLU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B62800627366200  # Karpuzlu
+
+  - code: TR9261
+    country: TR
+    state: AYDIN
+    location: KOÇARLI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B34008430678481  # Koçarlı
+
+  - code: TR9264
+    country: TR
+    state: AYDIN
+    location: KUYUCAK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B40127483323381  # Kuyucak
+
+  - code: TR9263
+    country: TR
+    state: AYDIN
+    location: KUŞADASI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B96933409073399  # Kuşadası
+
+  - code: TR9262
+    country: TR
+    state: AYDIN
+    location: KÖŞK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B84046531787884  # Köşk
+
+  - code: TR9265
+    country: TR
+    state: AYDIN
+    location: NAZİLLİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B8459545237186  # Nazilli
+
+  - code: TR9267
+    country: TR
+    state: AYDIN
+    location: SULTANHİSAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B23701812134716  # Sultanhisar
+
+  - code: TR9266
+    country: TR
+    state: AYDIN
+    location: SÖKE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B61168253276741  # Söke
+
+  - code: TR9268
+    country: TR
+    state: AYDIN
+    location: YENİPAZAR (A)
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B11123047057176  # Yenipazar (AYDIN)
+
+  - code: TR9255
+    country: TR
+    state: AYDIN
+    location: ÇİNE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B34790562397224  # Çine
+
+  - code: TR9258
+    country: TR
+    state: AYDIN
+    location: İNCİRLİOVA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B35969765693903  # İncirliova
+
+  - code: TR9185
+    country: TR
+    state: AĞRI
+    location: AĞRI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B81567150601582  # Ağrı merkez
+
+  - code: TR9187
+    country: TR
+    state: AĞRI
+    location: DOĞUBEYAZIT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B79438437943955  # Doğubayazıt
+
+  - code: TR9186
+    country: TR
+    state: AĞRI
+    location: DİYADİN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B59251116366587  # Diyadin
+
+  - code: TR9188
+    country: TR
+    state: AĞRI
+    location: ELEŞKİRT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B7371544527763  # Eleşkirt
+
+  - code: TR9189
+    country: TR
+    state: AĞRI
+    location: PATNOS
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B6281772994077  # Patnos
+
+  - code: TR9190
+    country: TR
+    state: AĞRI
+    location: TAŞLIÇAY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B97639118870532  # Taşlıçay
+
+  - code: TR9191
+    country: TR
+    state: AĞRI
+    location: TUTAK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B71225398808763  # Tutak
+
+  - code: TR9269
+    country: TR
+    state: BALIKESİR
+    location: AYVALIK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B67777118952628  # Ayvalık
+
+  - code: TR9270
+    country: TR
+    state: BALIKESİR
+    location: BALIKESİR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B32280148114029  # Altıeylül
+      - 54988432B55699950689124  # Karesi
+
+  - code: TR9271
+    country: TR
+    state: BALIKESİR
+    location: BALYA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B39847004244827  # Balya
+
+  - code: TR17917
+    country: TR
+    state: BALIKESİR
+    location: BANDIRMA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B9710176470958  # Bandırma
+
+  - code: TR9273
+    country: TR
+    state: BALIKESİR
+    location: BURHANİYE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B88971047069977  # Burhaniye
+
+  - code: TR9272
+    country: TR
+    state: BALIKESİR
+    location: BİGADİÇ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B77607425257095  # Bigadiç
+
+  - code: TR9274
+    country: TR
+    state: BALIKESİR
+    location: DURSUNBEY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B2869647225389  # Dursunbey
+
+  - code: TR9275
+    country: TR
+    state: BALIKESİR
+    location: EDREMİT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B80772091068357  # Edremit (BALIKESİR)
+
+  - code: TR17881
+    country: TR
+    state: BALIKESİR
+    location: ERDEK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B4616590264443  # Erdek
+
+  - code: TR9276
+    country: TR
+    state: BALIKESİR
+    location: GÖMEÇ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B98947703445317  # Gömeç
+
+  - code: TR9277
+    country: TR
+    state: BALIKESİR
+    location: GÖNEN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B20934882721919  # Gönen (BALIKESİR)
+
+  - code: TR9278
+    country: TR
+    state: BALIKESİR
+    location: HAVRAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B42480062552941  # Havran
+
+  - code: TR9280
+    country: TR
+    state: BALIKESİR
+    location: KEPSUT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B31401632471854  # Kepsut
+
+  - code: TR17918
+    country: TR
+    state: BALIKESİR
+    location: MANYAS
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B32155349148151  # Manyas
+
+  - code: TR9281
+    country: TR
+    state: BALIKESİR
+    location: MARMARA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B53536564577953  # Marmara
+
+  - code: TR9282
+    country: TR
+    state: BALIKESİR
+    location: SAVAŞTEPE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B33750113115729  # Savaştepe
+
+  - code: TR9283
+    country: TR
+    state: BALIKESİR
+    location: SINDIRGI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B96952912352901  # Sındırgı
+
+  - code: TR9284
+    country: TR
+    state: BALIKESİR
+    location: SUSURLUK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B38711157277910  # Susurluk
+
+  - code: TR9279
+    country: TR
+    state: BALIKESİR
+    location: İVRİNDİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B63915674608769  # İvrindi
+
+  - code: TR9285
+    country: TR
+    state: BARTIN
+    location: BARTIN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B37474601695355  # Bartın merkez
+      - 54988432B47711735094491  # Amasra
+
+  - code: TR9286
+    country: TR
+    state: BARTIN
+    location: KURUCAŞİLE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B33062852785358  # Kurucaşile
+
+  - code: TR9287
+    country: TR
+    state: BARTIN
+    location: ULUS
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B58678972551568  # Ulus
+
+  - code: TR9288
+    country: TR
+    state: BATMAN
+    location: BATMAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B23323224712482  # Batman Merkez
+
+  - code: TR9289
+    country: TR
+    state: BATMAN
+    location: BEŞİRİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B69064282981007  # Beşiri
+
+  - code: TR9290
+    country: TR
+    state: BATMAN
+    location: GERCÜŞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B97750786537608  # Gercüş
+
+  - code: TR9291
+    country: TR
+    state: BATMAN
+    location: HASANKEYF
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B17733923685340  # Hasankeyf
+
+  - code: TR9292
+    country: TR
+    state: BATMAN
+    location: KOZLUK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B86910929123877  # Kozluk
+
+  - code: TR9293
+    country: TR
+    state: BATMAN
+    location: SASON
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B77479397394986  # Sason
+
+  - code: TR9294
+    country: TR
+    state: BAYBURT
+    location: AYDINTEPE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B86380728470389  # Aydıntepe
+
+  - code: TR9295
+    country: TR
+    state: BAYBURT
+    location: BAYBURT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B27026287555316  # Bayburt merkez
+
+  - code: TR9296
+    country: TR
+    state: BAYBURT
+    location: DEMİRÖZÜ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B98497297447828  # Demirözü
+
+  - code: TR9315
+    country: TR
+    state: BOLU
+    location: BOLU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B29554911606653  # Bolu Merkez
+
+  - code: TR9316
+    country: TR
+    state: BOLU
+    location: DÖRTDİVAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B17114220369178  # Dörtdivan
+
+  - code: TR9317
+    country: TR
+    state: BOLU
+    location: GEREDE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B33125693367385  # Gerede
+
+  - code: TR9318
+    country: TR
+    state: BOLU
+    location: GÖYNÜK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B11965473551698  # Göynük
+
+  - code: TR9319
+    country: TR
+    state: BOLU
+    location: KIBRISCIK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B18782972179490  # Kıbrıscık
+
+  - code: TR9320
+    country: TR
+    state: BOLU
+    location: MENGEN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B30163162134141  # Mengen
+
+  - code: TR9321
+    country: TR
+    state: BOLU
+    location: MUDURNU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B7043343413230  # Mudurnu
+
+  - code: TR9322
+    country: TR
+    state: BOLU
+    location: SEBEN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B7698417663735  # Seben
+
+  - code: TR9323
+    country: TR
+    state: BOLU
+    location: YENİÇAĞA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B52977689381309  # Yeniçağa
+
+  - code: TR9325
+    country: TR
+    state: BURDUR
+    location: ALTINYAYLA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B28682407811483  # Altınyayla (BURDUR)
+
+  - code: TR9324
+    country: TR
+    state: BURDUR
+    location: AĞLASUN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B90803924076576  # Ağlasun
+
+  - code: TR9326
+    country: TR
+    state: BURDUR
+    location: BUCAK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B80615389544588  # Bucak
+
+  - code: TR9327
+    country: TR
+    state: BURDUR
+    location: BURDUR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B51915781882505  # Burdur (merkez)
+
+  - code: TR9330
+    country: TR
+    state: BURDUR
+    location: GÖLHİSAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B57845000399714  # Gölhisar
+
+  - code: TR9331
+    country: TR
+    state: BURDUR
+    location: KARAMANLI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B83298049825125  # Karamanlı
+
+  - code: TR9332
+    country: TR
+    state: BURDUR
+    location: KEMER (B)
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B11094776022203  # Kemer (BURDUR)
+
+  - code: TR9333
+    country: TR
+    state: BURDUR
+    location: TEFENNİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B16358110737710  # Tefenni
+
+  - code: TR9334
+    country: TR
+    state: BURDUR
+    location: YEŞİLOVA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B34891185513050  # Yeşilova
+
+  - code: TR9328
+    country: TR
+    state: BURDUR
+    location: ÇAVDIR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B96423732732859  # Çavdır
+
+  - code: TR9329
+    country: TR
+    state: BURDUR
+    location: ÇELTİKCİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B58500670466408  # Çeltikçi
+
+  - code: TR9335
+    country: TR
+    state: BURSA
+    location: BURSA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B29894117930942  # Yıldırım
+      - 54988432B337940392373  # Nilüfer
+      - 54988432B42778469156443  # Gürsu
+      - 54988432B50709390359139  # Osmangazi
+
+  - code: TR9336
+    country: TR
+    state: BURSA
+    location: BÜYÜK ORHAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B8063224387677  # Büyükorhan
+
+  - code: TR9337
+    country: TR
+    state: BURSA
+    location: GEMLİK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B38576388688416  # Gemlik
+
+  - code: TR9338
+    country: TR
+    state: BURSA
+    location: HARMANCIK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B69574392637180  # Harmancık
+
+  - code: TR9341
+    country: TR
+    state: BURSA
+    location: KARACABEY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B69692013830482  # Karacabey
+
+  - code: TR9342
+    country: TR
+    state: BURSA
+    location: KELES
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B18249389019037  # Keles
+
+  - code: TR17893
+    country: TR
+    state: BURSA
+    location: KESTEL
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B22653723739411  # Kestel
+
+  - code: TR9343
+    country: TR
+    state: BURSA
+    location: MUDANYA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B70813006049679  # Mudanya
+
+  - code: TR9344
+    country: TR
+    state: BURSA
+    location: MUSTAFA KEMALPAŞA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B65548594921961  # Mustafakemalpaşa
+
+  - code: TR17894
+    country: TR
+    state: BURSA
+    location: ORHANELİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B70315199389199  # Orhaneli
+
+  - code: TR9345
+    country: TR
+    state: BURSA
+    location: ORHANGAZİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B65769294434717  # Orhangazi
+
+  - code: TR9346
+    country: TR
+    state: BURSA
+    location: YENİŞEHİR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B28826403720694  # Yenişehir (BURSA)
+
+  - code: TR9339
+    country: TR
+    state: BURSA
+    location: İNEGÖL
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B21454530006409  # İnegöl
+
+  - code: TR9340
+    country: TR
+    state: BURSA
+    location: İZNİK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B21829167543516  # İznik
+
+  - code: TR9298
+    country: TR
+    state: BİLECİK
+    location: BOZÜYÜK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B74473203693004  # Bozüyük
+
+  - code: TR9297
+    country: TR
+    state: BİLECİK
+    location: BİLECİK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B60280442746441  # Bilecik (merkez)
+
+  - code: TR9299
+    country: TR
+    state: BİLECİK
+    location: GÖLPAZARI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B58590356155974  # Gölpazarı
+
+  - code: TR17895
+    country: TR
+    state: BİLECİK
+    location: OSMANELİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B41170442786608  # Osmaneli
+
+  - code: TR17896
+    country: TR
+    state: BİLECİK
+    location: PAZARYERİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B54046828010394  # Pazaryeri
+
+  - code: TR9301
+    country: TR
+    state: BİLECİK
+    location: SÖĞÜT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B55013104325920  # Söğüt
+
+  - code: TR9302
+    country: TR
+    state: BİLECİK
+    location: YENİPAZAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B7673990663622  # Yenipazar (BİLECİK)
+
+  - code: TR9300
+    country: TR
+    state: BİLECİK
+    location: İNHİSAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B55187358367890  # İnhisar
+
+  - code: TR17889
+    country: TR
+    state: BİNGÖL
+    location: ADAKLI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B88117784045273  # Adaklı
+
+  - code: TR9303
+    country: TR
+    state: BİNGÖL
+    location: BİNGÖL
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B13359639505311  # Bingöl merkez
+      - 54988432B53264158604699  # Genç
+
+  - code: TR9304
+    country: TR
+    state: BİNGÖL
+    location: KARLIOVA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B79616482779548  # Karlıova
+
+  - code: TR9305
+    country: TR
+    state: BİNGÖL
+    location: KİGI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B55145438477707  # Kiğı
+
+  - code: TR9306
+    country: TR
+    state: BİNGÖL
+    location: SOLHAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B42781548815333  # Solhan
+
+  - code: TR9307
+    country: TR
+    state: BİNGÖL
+    location: YAYLADERE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B24385589746851  # Yayladere
+
+  - code: TR9308
+    country: TR
+    state: BİNGÖL
+    location: YEDİSU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B81810188934288  # Yedisu
+
+  - code: TR9309
+    country: TR
+    state: BİTLİS
+    location: ADİLCEVAZ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B24627803634340  # Adilcevaz
+
+  - code: TR9310
+    country: TR
+    state: BİTLİS
+    location: AHLAT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B30610507715485  # Ahlat
+
+  - code: TR9311
+    country: TR
+    state: BİTLİS
+    location: BİTLİS
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B59291188352966  # Bitlis merkez
+
+  - code: TR17887
+    country: TR
+    state: BİTLİS
+    location: GÜROYMAK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B81976291496552  # Güroymak
+
+  - code: TR9312
+    country: TR
+    state: BİTLİS
+    location: HİZAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B39086486871912  # Hizan
+
+  - code: TR9313
+    country: TR
+    state: BİTLİS
+    location: MUTKİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B68766699896789  # Mutki
+
+  - code: TR9314
+    country: TR
+    state: BİTLİS
+    location: TATVAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B89902778138642  # Tatvan
+
+  - code: TR19020
+    country: TR
+    state: DENİZLİ
+    location: ACIPAYAM
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B52458051755801  # Acıpayam
+
+  - code: TR17898
+    country: TR
+    state: DENİZLİ
+    location: AKKÖY
+    timezone: Europe/Istanbul
+    shapes: []
+
+  - code: TR9382
+    country: TR
+    state: DENİZLİ
+    location: BABADAĞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B41651789151995  # Babadağ
+
+  - code: TR9383
+    country: TR
+    state: DENİZLİ
+    location: BAKLAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B82856135372204  # Baklan
+
+  - code: TR9384
+    country: TR
+    state: DENİZLİ
+    location: BEKİLLİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B95140172364371  # Bekilli
+
+  - code: TR9385
+    country: TR
+    state: DENİZLİ
+    location: BEYAĞAÇ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B39031228995551  # Beyağaç
+
+  - code: TR9386
+    country: TR
+    state: DENİZLİ
+    location: BOZKURT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B11239792936467  # Bozkurt (DENİZLİ)
+
+  - code: TR9387
+    country: TR
+    state: DENİZLİ
+    location: BULDAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B78779774927417  # Buldan
+
+  - code: TR9392
+    country: TR
+    state: DENİZLİ
+    location: DENİZLİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B64689999411335  # Merkezefendi
+      - 54988432B72271864351662  # Pamukkale
+
+  - code: TR9381
+    country: TR
+    state: DENİZLİ
+    location: GÜNEY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B11333989170250  # Güney
+
+  - code: TR9393
+    country: TR
+    state: DENİZLİ
+    location: HONAZ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B97259494958593  # Honaz
+
+  - code: TR17899
+    country: TR
+    state: DENİZLİ
+    location: KALE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B31664517784670  # Kale (DENİZLİ)
+
+  - code: TR9395
+    country: TR
+    state: DENİZLİ
+    location: SARAYKÖY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B80335300627236  # Sarayköy
+
+  - code: TR9396
+    country: TR
+    state: DENİZLİ
+    location: SERİNHİSAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B97290216608091  # Serinhisar
+
+  - code: TR17900
+    country: TR
+    state: DENİZLİ
+    location: TAVAS
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B86259306109163  # Tavas
+
+  - code: TR9388
+    country: TR
+    state: DENİZLİ
+    location: ÇAL
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B78684581776772  # Çal
+
+  - code: TR9389
+    country: TR
+    state: DENİZLİ
+    location: ÇAMELİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B65208484098159  # Çameli
+
+  - code: TR9390
+    country: TR
+    state: DENİZLİ
+    location: ÇARDAK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B38529977657987  # Çardak
+
+  - code: TR9391
+    country: TR
+    state: DENİZLİ
+    location: ÇİVRİL
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B6320038983636  # Çivril
+
+  - code: TR9411
+    country: TR
+    state: DÜZCE
+    location: AKÇAKOCA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B64303277963843  # Akçakoca
+
+  - code: TR9413
+    country: TR
+    state: DÜZCE
+    location: CUMAYERİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B52253881676489  # Cumayeri
+
+  - code: TR9414
+    country: TR
+    state: DÜZCE
+    location: DÜZCE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B70364934790471  # Düzce merkez
+
+  - code: TR9415
+    country: TR
+    state: DÜZCE
+    location: GÖLYAKA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B63547038185922  # Gölyaka
+
+  - code: TR9416
+    country: TR
+    state: DÜZCE
+    location: GÜMÜŞOVA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B13153830049799  # Gümüşova
+
+  - code: TR9417
+    country: TR
+    state: DÜZCE
+    location: KAYNAŞLI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B4589751730887  # Kaynaşlı
+
+  - code: TR9418
+    country: TR
+    state: DÜZCE
+    location: YIĞILCA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B75676722749160  # Yığılca
+
+  - code: TR9412
+    country: TR
+    state: DÜZCE
+    location: ÇİLİMLİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B88681826210305  # Çilimli
+
+  - code: TR9397
+    country: TR
+    state: DİYARBAKIR
+    location: BİSMİL
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B28793494841069  # Bismil
+
+  - code: TR9401
+    country: TR
+    state: DİYARBAKIR
+    location: DİCLE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B85329501367983  # Dicle
+
+  - code: TR9402
+    country: TR
+    state: DİYARBAKIR
+    location: DİYARBAKIR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B24237027631041  # Yenişehir (DİYARBAKIR)
+      - 54988432B52020069669764  # Kayapınar
+      - 54988432B60901714548003  # Sur
+      - 54988432B73640437939057  # Bağlar
+
+  - code: TR9404
+    country: TR
+    state: DİYARBAKIR
+    location: ERGANİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B3445581450876  # Ergani
+
+  - code: TR9403
+    country: TR
+    state: DİYARBAKIR
+    location: EĞİL
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B54940394851011  # Eğil
+
+  - code: TR9405
+    country: TR
+    state: DİYARBAKIR
+    location: HANİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B17229261486281  # Hani
+
+  - code: TR9406
+    country: TR
+    state: DİYARBAKIR
+    location: HAZRO
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B57830407060109  # Hazro
+
+  - code: TR9407
+    country: TR
+    state: DİYARBAKIR
+    location: KOCAKÖY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B76630597783829  # Kocaköy
+
+  - code: TR9408
+    country: TR
+    state: DİYARBAKIR
+    location: KULP
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B60654827640333  # Kulp
+
+  - code: TR9409
+    country: TR
+    state: DİYARBAKIR
+    location: LİCE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B68476887974785  # Lice
+
+  - code: TR9410
+    country: TR
+    state: DİYARBAKIR
+    location: SİLVAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B15523271257274  # Silvan
+
+  - code: TR9398
+    country: TR
+    state: DİYARBAKIR
+    location: ÇERMİK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B48804901701005  # Çermik
+
+  - code: TR9399
+    country: TR
+    state: DİYARBAKIR
+    location: ÇINAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B71029132182367  # Çınar
+
+  - code: TR9400
+    country: TR
+    state: DİYARBAKIR
+    location: ÇÜNGÜŞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B4585133817151  # Çüngüş
+
+  - code: TR9419
+    country: TR
+    state: EDİRNE
+    location: EDİRNE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B35722603775069  # Edirne merkez
+
+  - code: TR9420
+    country: TR
+    state: EDİRNE
+    location: ENEZ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B58240098893835  # Enez
+
+  - code: TR9421
+    country: TR
+    state: EDİRNE
+    location: HAVSA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B73654359915704  # Havsa
+
+  - code: TR9423
+    country: TR
+    state: EDİRNE
+    location: KEŞAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B91142232694102  # Keşan
+
+  - code: TR9424
+    country: TR
+    state: EDİRNE
+    location: LALAPAŞA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B74224800333323  # Lalapaşa
+
+  - code: TR9425
+    country: TR
+    state: EDİRNE
+    location: MERİÇ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B13184104417142  # Meriç
+
+  - code: TR9426
+    country: TR
+    state: EDİRNE
+    location: SÜLOĞLU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B62220540436660  # Süloğlu
+
+  - code: TR9427
+    country: TR
+    state: EDİRNE
+    location: UZUNKÖPRÜ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B14406336237626  # Uzunköprü
+
+  - code: TR9422
+    country: TR
+    state: EDİRNE
+    location: İPSALA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B15496700745430  # İpsala
+
+  - code: TR9429
+    country: TR
+    state: ELAZIĞ
+    location: ALACAKAYA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B31644697369800  # Alacakaya
+
+  - code: TR9430
+    country: TR
+    state: ELAZIĞ
+    location: ARICAK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B75596931390993  # Arıcak
+
+  - code: TR9428
+    country: TR
+    state: ELAZIĞ
+    location: AĞIN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B18439797691554  # Ağın
+
+  - code: TR9431
+    country: TR
+    state: ELAZIĞ
+    location: BASKİL
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B93270610822610  # Baskil
+
+  - code: TR9432
+    country: TR
+    state: ELAZIĞ
+    location: ELAZIĞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B72387127190617  # Elazığ merkez
+
+  - code: TR9433
+    country: TR
+    state: ELAZIĞ
+    location: KARAKOÇAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B66992053729181  # Karakoçan
+
+  - code: TR9434
+    country: TR
+    state: ELAZIĞ
+    location: KEBAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B6366714807225  # Keban
+
+  - code: TR9435
+    country: TR
+    state: ELAZIĞ
+    location: KOVANCILAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B65637439254468  # Kovancılar
+
+  - code: TR9436
+    country: TR
+    state: ELAZIĞ
+    location: MADEN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B80433190891515  # Maden
+
+  - code: TR9437
+    country: TR
+    state: ELAZIĞ
+    location: PALU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B76024124703750  # Palu
+
+  - code: TR9438
+    country: TR
+    state: ELAZIĞ
+    location: SİVRİCE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B89158159538815  # Sivrice
+
+  - code: TR9449
+    country: TR
+    state: ERZURUM
+    location: AZİZİYE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B92272966578930  # Aziziye
+
+  - code: TR9448
+    country: TR
+    state: ERZURUM
+    location: AŞKALE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B80891618089015  # Aşkale
+
+  - code: TR9451
+    country: TR
+    state: ERZURUM
+    location: ERZURUM
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B36117430101282  # Palandöken
+      - 54988432B4660350003677  # Yakutiye
+
+  - code: TR9452
+    country: TR
+    state: ERZURUM
+    location: HINIS
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B38658846076  # Hınıs
+
+  - code: TR9453
+    country: TR
+    state: ERZURUM
+    location: HORASAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B78882156403317  # Horasan
+
+  - code: TR9456
+    country: TR
+    state: ERZURUM
+    location: KARAYAZI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B59383828552044  # Karayazı
+
+  - code: TR9455
+    country: TR
+    state: ERZURUM
+    location: KARAÇOBAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B14282860472632  # Karaçoban
+
+  - code: TR9457
+    country: TR
+    state: ERZURUM
+    location: KÖPRÜKÖY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B18897698290342  # Köprüköy
+
+  - code: TR9458
+    country: TR
+    state: ERZURUM
+    location: NARMAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B31653952568158  # Narman
+
+  - code: TR9459
+    country: TR
+    state: ERZURUM
+    location: OLTU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B51640107069118  # Oltu
+
+  - code: TR9460
+    country: TR
+    state: ERZURUM
+    location: OLUR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B47932358770374  # Olur
+
+  - code: TR9461
+    country: TR
+    state: ERZURUM
+    location: PASİNLER
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B74200485211602  # Pasinler
+
+  - code: TR9462
+    country: TR
+    state: ERZURUM
+    location: PAZARYOLU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B5616470788648  # Pazaryolu
+
+  - code: TR9464
+    country: TR
+    state: ERZURUM
+    location: TEKMAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B36267085321319  # Tekman
+
+  - code: TR9465
+    country: TR
+    state: ERZURUM
+    location: TORTUM
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B93760304684016  # Tortum
+
+  - code: TR9466
+    country: TR
+    state: ERZURUM
+    location: UZUNDERE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B2651757206264  # Uzundere
+
+  - code: TR9450
+    country: TR
+    state: ERZURUM
+    location: ÇAT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B81439827862263  # Çat
+
+  - code: TR9454
+    country: TR
+    state: ERZURUM
+    location: İSPİR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B22127329253106  # İspir
+
+  - code: TR9463
+    country: TR
+    state: ERZURUM
+    location: ŞENKAYA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B69251305297416  # Şenkaya
+
+  - code: TR9440
+    country: TR
+    state: ERZİNCAN
+    location: ERZİNCAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B23399506189072  # Erzincan merkez
+
+  - code: TR9442
+    country: TR
+    state: ERZİNCAN
+    location: KEMAH
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B59259344726572  # Kemah
+
+  - code: TR9443
+    country: TR
+    state: ERZİNCAN
+    location: KEMALİYE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B31972473687163  # Kemaliye
+
+  - code: TR9444
+    country: TR
+    state: ERZİNCAN
+    location: OTLUKBELİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B55663903529384  # Otlukbeli
+
+  - code: TR9445
+    country: TR
+    state: ERZİNCAN
+    location: REFAHİYE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B95082960881175  # Refahiye
+
+  - code: TR9446
+    country: TR
+    state: ERZİNCAN
+    location: TERCAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B22713208717881  # Tercan
+
+  - code: TR9439
+    country: TR
+    state: ERZİNCAN
+    location: ÇAYIRLI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B58587024435654  # Çayırlı
+
+  - code: TR9447
+    country: TR
+    state: ERZİNCAN
+    location: ÜZÜMLÜ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B93290960432341  # Üzümlü
+
+  - code: TR9441
+    country: TR
+    state: ERZİNCAN
+    location: İLİÇ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B96395317243392  # Ilıç
+
+  - code: TR9467
+    country: TR
+    state: ESKİŞEHİR
+    location: ALPU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B85224967015288  # Alpu
+
+  - code: TR9468
+    country: TR
+    state: ESKİŞEHİR
+    location: BEYLİKOVA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B94080378973677  # Beylikova
+
+  - code: TR9470
+    country: TR
+    state: ESKİŞEHİR
+    location: ESKİŞEHİR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B44443308147205  # Mihalgazi
+      - 54988432B46507991557572  # Odunpazarı
+      - 54988432B75065207924044  # Tepebaşı
+
+  - code: TR9471
+    country: TR
+    state: ESKİŞEHİR
+    location: GÜNYÜZÜ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B91769619824833  # Günyüzü
+
+  - code: TR9472
+    country: TR
+    state: ESKİŞEHİR
+    location: HAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B436343701670  # Han
+
+  - code: TR9474
+    country: TR
+    state: ESKİŞEHİR
+    location: MAHMUDİYE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B99760089985669  # Mahmudiye
+
+  - code: TR9475
+    country: TR
+    state: ESKİŞEHİR
+    location: MİHALIÇÇIK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B5550622380583  # Mihalıççık
+
+  - code: TR17919
+    country: TR
+    state: ESKİŞEHİR
+    location: SARICAKAYA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B83102483310447  # Sarıcakaya
+
+  - code: TR9476
+    country: TR
+    state: ESKİŞEHİR
+    location: SEYİTGAZİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B68378780511422  # Seyitgazi
+
+  - code: TR9477
+    country: TR
+    state: ESKİŞEHİR
+    location: SİVRİHİSAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B37281508268494  # Sivrihisar
+
+  - code: TR9469
+    country: TR
+    state: ESKİŞEHİR
+    location: ÇİFTELER
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B78675491052886  # Çifteler
+
+  - code: TR9473
+    country: TR
+    state: ESKİŞEHİR
+    location: İNÖNÜ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B33764412560738  # İnönü
+
+  - code: TR9478
+    country: TR
+    state: GAZİANTEP
+    location: ARABAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B99023740963316  # Araban
+
+  - code: TR9479
+    country: TR
+    state: GAZİANTEP
+    location: GAZİANTEP
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B26387222249237  # Şahinbey
+      - 54988432B61004264745956  # Şehitkamil
+
+  - code: TR9481
+    country: TR
+    state: GAZİANTEP
+    location: KARKAMIŞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B54960387029794  # Karkamış
+
+  - code: TR9483
+    country: TR
+    state: GAZİANTEP
+    location: NURDAĞI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B85612149706662  # Nurdağı
+
+  - code: TR9482
+    country: TR
+    state: GAZİANTEP
+    location: NİZİP
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B32789090404224  # Nizip
+
+  - code: TR9484
+    country: TR
+    state: GAZİANTEP
+    location: OĞUZELİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B72028378604273  # Oğuzeli
+
+  - code: TR9485
+    country: TR
+    state: GAZİANTEP
+    location: YAVUZELİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B19771634656837  # Yavuzeli
+
+  - code: TR9480
+    country: TR
+    state: GAZİANTEP
+    location: İSLAHİYE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B41731057290221  # İslahiye
+
+  - code: TR9501
+    country: TR
+    state: GÜMÜŞHANE
+    location: GÜMÜŞHANE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B72902905976460  # Gümüşhane merkez
+
+  - code: TR16746
+    country: TR
+    state: GÜMÜŞHANE
+    location: KELKİT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B92286094750173  # Kelkit
+
+  - code: TR9502
+    country: TR
+    state: GÜMÜŞHANE
+    location: KÖSE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B41050600008895  # Köse
+
+  - code: TR9503
+    country: TR
+    state: GÜMÜŞHANE
+    location: KÜRTÜN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B20226026057781  # Kürtün
+
+  - code: TR9505
+    country: TR
+    state: GÜMÜŞHANE
+    location: TORUL
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B93266011015625  # Torul
+
+  - code: TR9504
+    country: TR
+    state: GÜMÜŞHANE
+    location: ŞİRAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B97753800028148  # Şiran
+
+  - code: TR9486
+    country: TR
+    state: GİRESUN
+    location: ALUCRA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B47223063942173  # Alucra
+
+  - code: TR9487
+    country: TR
+    state: GİRESUN
+    location: BULANCAK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B75303442304473  # Bulancak
+
+  - code: TR9490
+    country: TR
+    state: GİRESUN
+    location: DERELİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B66867123396579  # Dereli
+
+  - code: TR9491
+    country: TR
+    state: GİRESUN
+    location: DOĞANKENT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B80507521007844  # Doğankent
+
+  - code: TR9492
+    country: TR
+    state: GİRESUN
+    location: ESPİYE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B11153156770264  # Espiye
+
+  - code: TR9493
+    country: TR
+    state: GİRESUN
+    location: EYNESİL
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B15919915720396  # Eynesil
+
+  - code: TR9495
+    country: TR
+    state: GİRESUN
+    location: GÖRELE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B6005336917049  # Görele
+
+  - code: TR9496
+    country: TR
+    state: GİRESUN
+    location: GÜCE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B12649673902080  # Güce
+
+  - code: TR9494
+    country: TR
+    state: GİRESUN
+    location: GİRESUN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B81091968456381  # Giresun District
+
+  - code: TR9497
+    country: TR
+    state: GİRESUN
+    location: KEŞAP
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B29479303092234  # Keşap
+
+  - code: TR9498
+    country: TR
+    state: GİRESUN
+    location: PİRAZİZ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B86482877826828  # Piraziz
+
+  - code: TR9499
+    country: TR
+    state: GİRESUN
+    location: TİREBOLU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B46575800975320  # Tirebolu
+
+  - code: TR9500
+    country: TR
+    state: GİRESUN
+    location: YAĞLIDERE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B92019352916706  # Yağlıdere
+
+  - code: TR9488
+    country: TR
+    state: GİRESUN
+    location: ÇAMOLUK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B45859142187926  # Çamoluk
+
+  - code: TR9489
+    country: TR
+    state: GİRESUN
+    location: ÇANAKÇI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B6867596275120  # Çanakçı
+
+  - code: TR16706
+    country: TR
+    state: GİRESUN
+    location: ŞEBİNKARAHİSAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B28758296950663  # Şebinkarahisar
+
+  - code: TR20067
+    country: TR
+    state: HAKKARİ
+    location: DERECİK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B8973824492298  # Derecik
+
+  - code: TR9507
+    country: TR
+    state: HAKKARİ
+    location: HAKKARİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B49000461137157  # Hakkari merkez
+
+  - code: TR9509
+    country: TR
+    state: HAKKARİ
+    location: YÜKSEKOVA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B42317071313317  # Yüksekova
+
+  - code: TR9506
+    country: TR
+    state: HAKKARİ
+    location: ÇUKURCA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B29564092922191  # Çukurca
+
+  - code: TR9508
+    country: TR
+    state: HAKKARİ
+    location: ŞEMDİNLİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B11506112394599  # Şemdinli
+
+  - code: TR9510
+    country: TR
+    state: HATAY
+    location: ALTINÖZÜ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B68103092763105  # Altınözü
+
+  - code: TR9511
+    country: TR
+    state: HATAY
+    location: BELEN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B86746221394106  # Belen
+
+  - code: TR9512
+    country: TR
+    state: HATAY
+    location: DÖRTYOL
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B8670840315207  # Dörtyol
+
+  - code: TR9513
+    country: TR
+    state: HATAY
+    location: ERZİN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B95701093255845  # Erzin
+
+  - code: TR9514
+    country: TR
+    state: HATAY
+    location: HASSA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B37815210260305  # Hassa
+
+  - code: TR9515
+    country: TR
+    state: HATAY
+    location: HATAY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B29917734585763  # Antakya
+      - 54988432B39718054130595  # Defne
+      - 54988432B78726151143019  # Arsuz
+
+  - code: TR9517
+    country: TR
+    state: HATAY
+    location: KIRIKHAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B95500955332095  # Kırıkhan
+
+  - code: TR9518
+    country: TR
+    state: HATAY
+    location: KUMLU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B59840106930143  # Kumlu
+
+  - code: TR17810
+    country: TR
+    state: HATAY
+    location: PAYAS
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B26373171559037  # Payas
+
+  - code: TR9519
+    country: TR
+    state: HATAY
+    location: REYHANLI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B512462683964  # Reyhanlı
+
+  - code: TR9520
+    country: TR
+    state: HATAY
+    location: SAMANDAĞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B25026961514665  # Samandağ
+
+  - code: TR16730
+    country: TR
+    state: HATAY
+    location: YAYLADAĞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B71286228514784  # Yayladağı
+
+  - code: TR9516
+    country: TR
+    state: HATAY
+    location: İSKENDERUN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B95277821649488  # İskenderun
+
+  - code: TR9525
+    country: TR
+    state: ISPARTA
+    location: AKSU (I)
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B55011186911160  # Aksu (ISPARTA)
+
+  - code: TR17891
+    country: TR
+    state: ISPARTA
+    location: ATABEY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B52055893511885  # Atabey
+
+  - code: TR9526
+    country: TR
+    state: ISPARTA
+    location: EĞİRDİR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B89273666554884  # Eğirdir
+
+  - code: TR9527
+    country: TR
+    state: ISPARTA
+    location: GELENDOST
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B39563572942554  # Gelendost
+
+  - code: TR17892
+    country: TR
+    state: ISPARTA
+    location: GÖNEN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B98025236452990  # Gönen (ISPARTA)
+
+  - code: TR9528
+    country: TR
+    state: ISPARTA
+    location: ISPARTA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B23567974096892  # Isparta merkez
+
+  - code: TR9529
+    country: TR
+    state: ISPARTA
+    location: KEÇİBORLU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B38029735650586  # Keçiborlu
+
+  - code: TR17816
+    country: TR
+    state: ISPARTA
+    location: SENİRKENT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B34153029371714  # Senirkent
+
+  - code: TR9531
+    country: TR
+    state: ISPARTA
+    location: SÜTCÜLER
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B50445752113083  # Sütçüler
+
+  - code: TR9532
+    country: TR
+    state: ISPARTA
+    location: ULUBORLU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B31153885682838  # Uluborlu
+
+  - code: TR9533
+    country: TR
+    state: ISPARTA
+    location: YALVAÇ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B2183648295887  # Yalvaç
+
+  - code: TR9534
+    country: TR
+    state: ISPARTA
+    location: YENİSAR BADEMLİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B69862067996452  # Yenişarbademli
+
+  - code: TR9530
+    country: TR
+    state: ISPARTA
+    location: ŞARKİ KARAAĞAÇ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B26755452490814  # Şarkîkaraağaç
+
+  - code: TR9521
+    country: TR
+    state: IĞDIR
+    location: ARALIK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B27415936221667  # Aralık
+
+  - code: TR9522
+    country: TR
+    state: IĞDIR
+    location: IĞDIR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B47270758673920  # Iğdır (merkez)
+
+  - code: TR9523
+    country: TR
+    state: IĞDIR
+    location: KARAKOYUNLU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B53845687770419  # Karakoyunlu
+
+  - code: TR9524
+    country: TR
+    state: IĞDIR
+    location: TUZLUCA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B53167672259322  # Tuzluca
+
+  - code: TR9571
+    country: TR
+    state: KAHRAMANMARAŞ
+    location: AFŞİN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B55782833722779  # Afşin
+
+  - code: TR9572
+    country: TR
+    state: KAHRAMANMARAŞ
+    location: ANDIRIN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B31302636835519  # Andırın
+
+  - code: TR9574
+    country: TR
+    state: KAHRAMANMARAŞ
+    location: EKİNÖZÜ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B48966185203589  # Ekinözü
+
+  - code: TR9575
+    country: TR
+    state: KAHRAMANMARAŞ
+    location: ELBİSTAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B64045217411376  # Elbistan
+
+  - code: TR9576
+    country: TR
+    state: KAHRAMANMARAŞ
+    location: GÖKSUN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B36041856094312  # Göksun
+
+  - code: TR9577
+    country: TR
+    state: KAHRAMANMARAŞ
+    location: KAHRAMANMARAŞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B31747989283018  # Dulkadiroğlu
+      - 54988432B43626736255275  # Onikişubat
+
+  - code: TR9578
+    country: TR
+    state: KAHRAMANMARAŞ
+    location: NURHAK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B64635925513807  # Nurhak
+
+  - code: TR9579
+    country: TR
+    state: KAHRAMANMARAŞ
+    location: PAZARCIK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B14467270081386  # Pazarcık
+
+  - code: TR17908
+    country: TR
+    state: KAHRAMANMARAŞ
+    location: TÜRKOĞLU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B94361787420306  # Türkoğlu
+
+  - code: TR9573
+    country: TR
+    state: KAHRAMANMARAŞ
+    location: ÇAĞLAYANCERİT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B98307515925592  # Çağlayancerit
+
+  - code: TR9580
+    country: TR
+    state: KARABÜK
+    location: EFLANİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B92775377874874  # Eflani
+
+  - code: TR17890
+    country: TR
+    state: KARABÜK
+    location: ESKİPAZAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B9289353120970  # Eskipazar
+
+  - code: TR9581
+    country: TR
+    state: KARABÜK
+    location: KARABÜK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B60131084551001  # Safranbolu
+
+  - code: TR9582
+    country: TR
+    state: KARABÜK
+    location: OVACIK (K)
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B91560004091691  # Ovacık (KARABÜK)
+
+  - code: TR9583
+    country: TR
+    state: KARABÜK
+    location: YENİCE (K)
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B19879435718056  # Yenice (KARABÜK)
+
+  - code: TR9584
+    country: TR
+    state: KARAMAN
+    location: AYRANCI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B56417495854630  # Ayrancı
+
+  - code: TR9585
+    country: TR
+    state: KARAMAN
+    location: BAŞYAYLA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B31459503377293  # Başyayla
+
+  - code: TR9586
+    country: TR
+    state: KARAMAN
+    location: ERMENEK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B33037798502080  # Ermenek
+
+  - code: TR9587
+    country: TR
+    state: KARAMAN
+    location: KARAMAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B39702519018087  # Karaman merkez
+
+  - code: TR9588
+    country: TR
+    state: KARAMAN
+    location: KAZIMKARABEKİR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B96595900966368  # Kazımkarabekir
+
+  - code: TR9589
+    country: TR
+    state: KARAMAN
+    location: SARIVELİLER
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B52559980919488  # Sarıveliler
+
+  - code: TR9590
+    country: TR
+    state: KARS
+    location: AKYAKA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B29874817302279  # Akyaka
+
+  - code: TR9591
+    country: TR
+    state: KARS
+    location: ARPAÇAY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B91755987711190  # Arpaçay
+
+  - code: TR9592
+    country: TR
+    state: KARS
+    location: DİGOR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B84158817868170  # Digor
+
+  - code: TR9594
+    country: TR
+    state: KARS
+    location: KARS
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B51178823005905  # Kars merkez
+
+  - code: TR9593
+    country: TR
+    state: KARS
+    location: KAĞIZMAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B17530851783527  # Kağızman
+
+  - code: TR9595
+    country: TR
+    state: KARS
+    location: SARIKAMIŞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B10923405291908  # Sarıkamış
+
+  - code: TR9596
+    country: TR
+    state: KARS
+    location: SELİM
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B54705083603952  # Selim
+
+  - code: TR17880
+    country: TR
+    state: KARS
+    location: SUSUZ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B23049550027928  # Susuz
+
+  - code: TR9597
+    country: TR
+    state: KASTAMONU
+    location: ABANA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B2872798866020  # Abana
+
+  - code: TR9599
+    country: TR
+    state: KASTAMONU
+    location: ARAÇ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B7377784075511  # Araç
+
+  - code: TR9600
+    country: TR
+    state: KASTAMONU
+    location: AZDAVAY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B60002286024348  # Azdavay
+
+  - code: TR9598
+    country: TR
+    state: KASTAMONU
+    location: AĞLI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B61723076415933  # Ağlı
+
+  - code: TR9601
+    country: TR
+    state: KASTAMONU
+    location: BOZKURT (K)
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B60755496163753  # Bozkurt (KASTAMONU)
+
+  - code: TR9603
+    country: TR
+    state: KASTAMONU
+    location: CİDE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B7766374171238  # Cide
+
+  - code: TR9604
+    country: TR
+    state: KASTAMONU
+    location: DADAY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B38852323422695  # Daday
+
+  - code: TR17885
+    country: TR
+    state: KASTAMONU
+    location: DEVREKANİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B56795021168307  # Devrekani
+
+  - code: TR9605
+    country: TR
+    state: KASTAMONU
+    location: DOĞANYURT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B84703414085242  # Doğanyurt
+
+  - code: TR9606
+    country: TR
+    state: KASTAMONU
+    location: HANÖNÜ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B4112577845530  # Hanönü
+
+  - code: TR9609
+    country: TR
+    state: KASTAMONU
+    location: KASTAMONU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B97142079698078  # Kastamonu merkez
+
+  - code: TR9610
+    country: TR
+    state: KASTAMONU
+    location: KÜRE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B37425525232192  # Küre
+
+  - code: TR9611
+    country: TR
+    state: KASTAMONU
+    location: PINARBAŞI (K)
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B96253439504552  # Pınarbaşı (KASTAMONU)
+
+  - code: TR17886
+    country: TR
+    state: KASTAMONU
+    location: SEYDİLER
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B32461225341522  # Seydiler
+
+  - code: TR9613
+    country: TR
+    state: KASTAMONU
+    location: TAŞKÖPRÜ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B44345748787978  # Taşköprü
+
+  - code: TR9614
+    country: TR
+    state: KASTAMONU
+    location: TOSYA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B42537798985554  # Tosya
+
+  - code: TR9602
+    country: TR
+    state: KASTAMONU
+    location: ÇATALZEYTİN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B20693988968005  # Çatalzeytin
+
+  - code: TR9607
+    country: TR
+    state: KASTAMONU
+    location: İHSANGAZİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B24577207429015  # İhsangazi
+
+  - code: TR9608
+    country: TR
+    state: KASTAMONU
+    location: İNEBOLU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B78813645008161  # İnebolu
+
+  - code: TR9612
+    country: TR
+    state: KASTAMONU
+    location: ŞENPAZAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B28277823667542  # Şenpazar
+
+  - code: TR9615
+    country: TR
+    state: KAYSERİ
+    location: AKKIŞLA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B26930911195610  # Akkışla
+
+  - code: TR9616
+    country: TR
+    state: KAYSERİ
+    location: BÜNYAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B47827945301604  # Bünyan
+
+  - code: TR9617
+    country: TR
+    state: KAYSERİ
+    location: DEVELİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B58902751390248  # Develi
+
+  - code: TR9618
+    country: TR
+    state: KAYSERİ
+    location: FELAHİYE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B64064239831257  # Felahiye
+
+  - code: TR9620
+    country: TR
+    state: KAYSERİ
+    location: KAYSERİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B10287230279323  # Hacılar
+      - 54988432B20434166663535  # Talas
+      - 54988432B20916998387085  # Kocasinan
+      - 54988432B64031240079143  # Melikgazi
+
+  - code: TR9622
+    country: TR
+    state: KAYSERİ
+    location: PINARBAŞI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B54526822258807  # Pınarbaşı (KAYSERİ)
+
+  - code: TR9623
+    country: TR
+    state: KAYSERİ
+    location: SARIOĞLAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B85515105263219  # Sarıoğlan
+
+  - code: TR9624
+    country: TR
+    state: KAYSERİ
+    location: SARIZ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B2727016024210  # Sarız
+
+  - code: TR9625
+    country: TR
+    state: KAYSERİ
+    location: TOMARZA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B75199317168320  # Tomarza
+
+  - code: TR9626
+    country: TR
+    state: KAYSERİ
+    location: YAHYALI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B8876383914528  # Yahyalı
+
+  - code: TR9627
+    country: TR
+    state: KAYSERİ
+    location: YEŞİLHİSAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B59996123139029  # Yeşilhisar
+
+  - code: TR9621
+    country: TR
+    state: KAYSERİ
+    location: ÖZVATAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B49773192126459  # Özvatan
+
+  - code: TR9619
+    country: TR
+    state: KAYSERİ
+    location: İNCESU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B91709779235115  # İncesu
+
+  - code: TR9631
+    country: TR
+    state: KIRIKKALE
+    location: BALISEYH
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B75072745188363  # Balışeyh
+
+  - code: TR9632
+    country: TR
+    state: KIRIKKALE
+    location: CELEBI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B24535022405738  # Çelebi
+
+  - code: TR9633
+    country: TR
+    state: KIRIKKALE
+    location: DELICE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B53191699702586  # Delice
+
+  - code: TR9634
+    country: TR
+    state: KIRIKKALE
+    location: KARAKECILI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B74694372837116  # Karakeçeli
+
+  - code: TR17897
+    country: TR
+    state: KIRIKKALE
+    location: KESKİN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B22642598779433  # Keskin
+
+  - code: TR9635
+    country: TR
+    state: KIRIKKALE
+    location: KIRIKKALE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B48404533288068  # Yahşihan
+      - 54988432B80355579984190  # Bahşılı
+      - 54988432B93447432062077  # Kırıkkale (merkez)
+
+  - code: TR9636
+    country: TR
+    state: KIRIKKALE
+    location: SULAKYURT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B49466488520604  # Sulakyurt
+
+  - code: TR17903
+    country: TR
+    state: KIRKLARELİ
+    location: BABAESKİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B35042353333735  # Babaeski
+
+  - code: TR9637
+    country: TR
+    state: KIRKLARELİ
+    location: DEMIRKOY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B30085289837224  # Demirköy
+
+  - code: TR9638
+    country: TR
+    state: KIRKLARELİ
+    location: KIRKLARELİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B271913105949  # Kırklareli merkez
+      - 54988432B58494916258206  # Kofçaz
+
+  - code: TR9639
+    country: TR
+    state: KIRKLARELİ
+    location: LULEBURGAZ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B76166578755153  # Lüleburgaz
+
+  - code: TR9640
+    country: TR
+    state: KIRKLARELİ
+    location: PEHLIVANKOY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B41555288308569  # Pehlivanköy
+
+  - code: TR9641
+    country: TR
+    state: KIRKLARELİ
+    location: PINARHISAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B8720609877048  # Pınarhisar
+
+  - code: TR9642
+    country: TR
+    state: KIRKLARELİ
+    location: VIZE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B62899385202427  # Vize
+
+  - code: TR9643
+    country: TR
+    state: KIRŞEHİR
+    location: AKPINAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B46438308523987  # Akpınar
+
+  - code: TR20039
+    country: TR
+    state: KIRŞEHİR
+    location: AKÇAKENT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B48182517932620  # Akçakent
+
+  - code: TR9644
+    country: TR
+    state: KIRŞEHİR
+    location: CICEKDAGI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B87659764102191  # Çiçekdağı
+
+  - code: TR9645
+    country: TR
+    state: KIRŞEHİR
+    location: KAMAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B14215635599319  # Kaman
+
+  - code: TR9646
+    country: TR
+    state: KIRŞEHİR
+    location: KIRŞEHİR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B77763600838598  # Kırşehir merkez
+
+  - code: TR9647
+    country: TR
+    state: KIRŞEHİR
+    location: MUCUR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B31670824468199  # Mucur
+
+  - code: TR9649
+    country: TR
+    state: KOCAELİ
+    location: DARICA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B40385589534090  # Darıca
+
+  - code: TR9650
+    country: TR
+    state: KOCAELİ
+    location: DİLOVASI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B54701256478195  # Dilovası
+
+  - code: TR9651
+    country: TR
+    state: KOCAELİ
+    location: GEBZE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B36260416662231  # Gebze
+
+  - code: TR9652
+    country: TR
+    state: KOCAELİ
+    location: KANDIRA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B88923492741350  # Kandıra
+
+  - code: TR9653
+    country: TR
+    state: KOCAELİ
+    location: KARAMÜRSEL
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B14645765693693  # Karamürsel
+
+  - code: TR17902
+    country: TR
+    state: KOCAELİ
+    location: KARTEPE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B19253807136892  # Kartepe
+
+  - code: TR9654
+    country: TR
+    state: KOCAELİ
+    location: KOCAELİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B50131654423390  # Gölcük
+      - 54988432B70012419752472  # Başiskele
+      - 54988432B88821463332228  # Derince
+      - 54988432B8910528917269  # İzmit
+
+  - code: TR9655
+    country: TR
+    state: KOCAELİ
+    location: KÖRFEZ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B23635827316109  # Körfez
+
+  - code: TR9648
+    country: TR
+    state: KOCAELİ
+    location: ÇAYIROVA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B77407650026764  # Çayırova
+
+  - code: TR9656
+    country: TR
+    state: KONYA
+    location: AHIRLI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B44858754124976  # Ahırlı
+
+  - code: TR9657
+    country: TR
+    state: KONYA
+    location: AKÖREN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B38557557981800  # Akören
+
+  - code: TR9658
+    country: TR
+    state: KONYA
+    location: AKŞEHİR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B55023919833047  # Akşehir
+
+  - code: TR9659
+    country: TR
+    state: KONYA
+    location: ALTINEKİN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B64452586859960  # Altınekin
+
+  - code: TR9660
+    country: TR
+    state: KONYA
+    location: BEYŞEHİR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B19331703481644  # Beyşehir
+
+  - code: TR9661
+    country: TR
+    state: KONYA
+    location: BOZKIR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B70812604960370  # Bozkır
+
+  - code: TR9663
+    country: TR
+    state: KONYA
+    location: CİHANBEYLİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B91293750640231  # Cihanbeyli
+
+  - code: TR9665
+    country: TR
+    state: KONYA
+    location: DERBENT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B71168384186260  # Derbent
+
+  - code: TR9666
+    country: TR
+    state: KONYA
+    location: DEREBUCAK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B24795897015329  # Derebucak
+
+  - code: TR9667
+    country: TR
+    state: KONYA
+    location: DOĞANHİSAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B79088719689200  # Doğanhisar
+
+  - code: TR9668
+    country: TR
+    state: KONYA
+    location: EMİRGAZİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B91961372611243  # Emirgazi
+
+  - code: TR9669
+    country: TR
+    state: KONYA
+    location: EREĞLİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B32797670855633  # Ereğli (KONYA)
+
+  - code: TR9670
+    country: TR
+    state: KONYA
+    location: GÜNEYSINIR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B45816327347427  # Güneysınır
+
+  - code: TR16704
+    country: TR
+    state: KONYA
+    location: HADİM
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B32684259878344  # Hadim
+
+  - code: TR9671
+    country: TR
+    state: KONYA
+    location: HALKAPINAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B7739562354117  # Halkapınar
+
+  - code: TR9672
+    country: TR
+    state: KONYA
+    location: HÜYÜK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B94777693463903  # Hüyük
+
+  - code: TR9673
+    country: TR
+    state: KONYA
+    location: ILGIN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B13849312279861  # Ilgın
+
+  - code: TR9674
+    country: TR
+    state: KONYA
+    location: KADINHANI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B81190990661925  # Kadınhanı
+
+  - code: TR9675
+    country: TR
+    state: KONYA
+    location: KARAPINAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B71099254802304  # Karapınar
+
+  - code: TR17872
+    country: TR
+    state: KONYA
+    location: KARATAY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B1484249621136  # Karatay
+
+  - code: TR9676
+    country: TR
+    state: KONYA
+    location: KONYA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B56294268584472  # Sultanhanı
+
+  - code: TR9677
+    country: TR
+    state: KONYA
+    location: KULU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B38814369243914  # Kulu
+
+  - code: TR17870
+    country: TR
+    state: KONYA
+    location: MERAM
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B95842578753435  # Meram
+
+  - code: TR17874
+    country: TR
+    state: KONYA
+    location: SARAYÖNÜ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B6991575510752  # Sarayönü
+
+  - code: TR17871
+    country: TR
+    state: KONYA
+    location: SELÇUKLU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B98585505562385  # Selçuklu
+
+  - code: TR9678
+    country: TR
+    state: KONYA
+    location: SEYDİŞEHİR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B64009730200703  # Seydişehir
+
+  - code: TR17873
+    country: TR
+    state: KONYA
+    location: TAŞKENT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B93613395519692  # Taşkent
+
+  - code: TR9679
+    country: TR
+    state: KONYA
+    location: TUZLUKÇU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B53827515712980  # Tuzlukçu
+
+  - code: TR9680
+    country: TR
+    state: KONYA
+    location: YALIHÜYÜK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B41389891217354  # Yalıhüyük
+
+  - code: TR9681
+    country: TR
+    state: KONYA
+    location: YUNAK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B67289676642995  # Yunak
+
+  - code: TR9662
+    country: TR
+    state: KONYA
+    location: ÇELTİK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B16312548829707  # Çeltik
+
+  - code: TR9664
+    country: TR
+    state: KONYA
+    location: ÇUMRA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B93214958535035  # Çumra
+
+  - code: TR9682
+    country: TR
+    state: KÜTAHYA
+    location: ALTINTAŞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B12971115509737  # Altıntaş
+
+  - code: TR9683
+    country: TR
+    state: KÜTAHYA
+    location: ASLANAPA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B78199019874123  # Aslanapa
+
+  - code: TR9685
+    country: TR
+    state: KÜTAHYA
+    location: DOMANİÇ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B49528694857663  # Domaniç
+
+  - code: TR17906
+    country: TR
+    state: KÜTAHYA
+    location: DUMLUPINAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B9927108056692  # Dumlupınar
+
+  - code: TR9686
+    country: TR
+    state: KÜTAHYA
+    location: EMET
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B6640602467318  # Emet
+
+  - code: TR9687
+    country: TR
+    state: KÜTAHYA
+    location: GEDİZ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B70042500930466  # Gediz Merkez
+
+  - code: TR9688
+    country: TR
+    state: KÜTAHYA
+    location: HİSARCIK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B87552585727000  # Hisarcık
+
+  - code: TR9689
+    country: TR
+    state: KÜTAHYA
+    location: KÜTAHYA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B19462176511596  # Kütahya merkez
+
+  - code: TR9690
+    country: TR
+    state: KÜTAHYA
+    location: PAZARLAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B14340726912856  # Pazarlar
+
+  - code: TR9692
+    country: TR
+    state: KÜTAHYA
+    location: SİMAV
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B94880790490903  # Simav
+
+  - code: TR9693
+    country: TR
+    state: KÜTAHYA
+    location: TAVŞANLI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B90947496422305  # Tavşanlı
+
+  - code: TR9684
+    country: TR
+    state: KÜTAHYA
+    location: ÇAVDARHİSAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B8708369070409  # Çavdarhisar
+
+  - code: TR9691
+    country: TR
+    state: KÜTAHYA
+    location: ŞAPHANE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B61600421901359  # Şaphane
+
+  - code: TR9628
+    country: TR
+    state: KİLİS
+    location: ELBEYLİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B86465154282957  # Elbeyli
+
+  - code: TR9629
+    country: TR
+    state: KİLİS
+    location: KİLİS
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B85482798443397  # Kilis (merkez)
+
+  - code: TR9630
+    country: TR
+    state: KİLİS
+    location: MUSABEYLİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B36753420123285  # Musabeyli
+
+  - code: TR17907
+    country: TR
+    state: KİLİS
+    location: POLATELİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B70826700680977  # Polateli
+
+  - code: TR9694
+    country: TR
+    state: MALATYA
+    location: AKÇADAĞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B4104847116325  # Akçadağ
+
+  - code: TR9695
+    country: TR
+    state: MALATYA
+    location: ARAPGİR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B71738622898176  # Arapgir
+
+  - code: TR9696
+    country: TR
+    state: MALATYA
+    location: ARGUVAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B22762038949408  # Arguvan
+
+  - code: TR9697
+    country: TR
+    state: MALATYA
+    location: DARENDE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B41923494384983  # Darende
+
+  - code: TR9699
+    country: TR
+    state: MALATYA
+    location: DOĞANYOL
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B28558182878988  # Doğanyol
+
+  - code: TR9698
+    country: TR
+    state: MALATYA
+    location: DOĞANŞEHİR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B13977847971239  # Doğanşehir
+
+  - code: TR9700
+    country: TR
+    state: MALATYA
+    location: HEKİMHAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B47787159486686  # Hekimhan
+
+  - code: TR9701
+    country: TR
+    state: MALATYA
+    location: KALE (M)
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B14217813536294  # Kale (MALATYA)
+
+  - code: TR9702
+    country: TR
+    state: MALATYA
+    location: KULUNCAK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B26148640442068  # Kuluncak
+
+  - code: TR9703
+    country: TR
+    state: MALATYA
+    location: MALATYA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B75263721717029  # Battalgazi
+
+  - code: TR9704
+    country: TR
+    state: MALATYA
+    location: PÜTÜRGE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B57660440186005  # Pütürge
+
+  - code: TR9705
+    country: TR
+    state: MALATYA
+    location: YAZIHAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B44474126810300  # Yazıhan
+
+  - code: TR9706
+    country: TR
+    state: MALATYA
+    location: YEŞİLYURT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B29488154081251  # Yeşilyurt (MALATYA)
+
+  - code: TR9707
+    country: TR
+    state: MANİSA
+    location: AHMETLİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B42922593275037  # Ahmetli
+
+  - code: TR9708
+    country: TR
+    state: MANİSA
+    location: AKHİSAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B75995786409497  # Akhisar
+
+  - code: TR9709
+    country: TR
+    state: MANİSA
+    location: ALAŞEHİR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B76333131904133  # Alaşehir
+
+  - code: TR9710
+    country: TR
+    state: MANİSA
+    location: DEMİRCİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B10253984912437  # Demirci
+
+  - code: TR9711
+    country: TR
+    state: MANİSA
+    location: GÖLMARMARA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B79409783151776  # Gölmarmara
+
+  - code: TR9712
+    country: TR
+    state: MANİSA
+    location: GÖRDES
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B95867498741596  # Gördes
+
+  - code: TR9713
+    country: TR
+    state: MANİSA
+    location: KIRKAĞAÇ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B67228037605884  # Kırkağaç
+
+  - code: TR9715
+    country: TR
+    state: MANİSA
+    location: KULA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B30380906676277  # Kula
+
+  - code: TR9714
+    country: TR
+    state: MANİSA
+    location: KÖPRÜBAŞI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B69475506510516  # Köprübaşı (MANİSA)
+
+  - code: TR9716
+    country: TR
+    state: MANİSA
+    location: MANİSA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B4572982362376  # Yunusemre
+      - 54988432B57864735744186  # Şehzadeler
+
+  - code: TR9717
+    country: TR
+    state: MANİSA
+    location: SALİHLİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B44685519111257  # Salihli
+
+  - code: TR9718
+    country: TR
+    state: MANİSA
+    location: SARIGÖL
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B11310133229622  # Sarıgöl
+
+  - code: TR9719
+    country: TR
+    state: MANİSA
+    location: SARUHANLI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B33332852238285  # Saruhanlı
+
+  - code: TR9720
+    country: TR
+    state: MANİSA
+    location: SELENDİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B36177439275968  # Selendi
+
+  - code: TR9721
+    country: TR
+    state: MANİSA
+    location: SOMA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B52278117237199  # Soma
+
+  - code: TR9722
+    country: TR
+    state: MANİSA
+    location: TURGUTLU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B70515567552987  # Turgutlu
+
+  - code: TR9723
+    country: TR
+    state: MARDİN
+    location: DARGECİT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B69784551217741  # Dargeçit
+
+  - code: TR9724
+    country: TR
+    state: MARDİN
+    location: DERİK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B63684136000380  # Derik
+
+  - code: TR9725
+    country: TR
+    state: MARDİN
+    location: KIZILTEPE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B97004073269629  # Kızıltepe
+
+  - code: TR9726
+    country: TR
+    state: MARDİN
+    location: MARDİN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B17876819529278  # Yeşilli
+      - 54988432B30574350937467  # Artuklu
+
+  - code: TR9727
+    country: TR
+    state: MARDİN
+    location: MAZIDAĞI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B54371486123603  # Mazıdağı
+
+  - code: TR9728
+    country: TR
+    state: MARDİN
+    location: MİDYAT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B75798552461852  # Midyat
+
+  - code: TR9729
+    country: TR
+    state: MARDİN
+    location: NUSAYBİN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B82883997351457  # Nusaybin
+
+  - code: TR17901
+    country: TR
+    state: MARDİN
+    location: SAVUR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B53536511485227  # Savur
+
+  - code: TR9730
+    country: TR
+    state: MARDİN
+    location: ÖMERLİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B13394167497593  # Ömerli
+
+  - code: TR9731
+    country: TR
+    state: MERSİN
+    location: ANAMUR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B47330192202647  # Anamur
+
+  - code: TR9732
+    country: TR
+    state: MERSİN
+    location: AYDINCIK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B90807122868998  # Aydıncık (MERSİN)
+
+  - code: TR9733
+    country: TR
+    state: MERSİN
+    location: BOZYAZI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B34962882153864  # Bozyazı
+
+  - code: TR9735
+    country: TR
+    state: MERSİN
+    location: ERDEMLİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B92573303470858  # Erdemli
+
+  - code: TR9736
+    country: TR
+    state: MERSİN
+    location: GÜLNAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B31167647566127  # Gülnar
+
+  - code: TR9737
+    country: TR
+    state: MERSİN
+    location: MERSİN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B30601194399557  # Yenişehir (MERSİN)
+      - 54988432B50302580927111  # Akdeniz
+      - 54988432B6679854543098  # Mezitli
+      - 54988432B67540218019421  # Toroslar
+
+  - code: TR9738
+    country: TR
+    state: MERSİN
+    location: MUT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B46025215892894  # Mut
+
+  - code: TR9739
+    country: TR
+    state: MERSİN
+    location: SİLİFKE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B33535114810594  # Silifke
+
+  - code: TR9740
+    country: TR
+    state: MERSİN
+    location: TARSUS
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B22429834730887  # Tarsus
+
+  - code: TR9734
+    country: TR
+    state: MERSİN
+    location: ÇAMLIYAYLA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B28290030678848  # Çamlıyayla
+
+  - code: TR9741
+    country: TR
+    state: MUĞLA
+    location: BODRUM
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B68647212812297  # Bodrum
+
+  - code: TR9742
+    country: TR
+    state: MUĞLA
+    location: DALAMAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B73072447730570  # Dalaman
+
+  - code: TR9743
+    country: TR
+    state: MUĞLA
+    location: DATÇA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B24416647543453  # Datça
+
+  - code: TR9744
+    country: TR
+    state: MUĞLA
+    location: FETHİYE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B66595965845834  # Fethiye
+
+  - code: TR9745
+    country: TR
+    state: MUĞLA
+    location: KÖYCEĞİZ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B2790906472505  # Köyceğiz
+
+  - code: TR17883
+    country: TR
+    state: MUĞLA
+    location: MARMARİS
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B3164241130289  # Marmaris
+
+  - code: TR9747
+    country: TR
+    state: MUĞLA
+    location: MUĞLA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B16159073535028  # Kavaklıdere
+      - 54988432B8068662711190  # Menteşe
+
+  - code: TR9746
+    country: TR
+    state: MUĞLA
+    location: MİLAS
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B67969855832244  # Milas
+
+  - code: TR9748
+    country: TR
+    state: MUĞLA
+    location: ORTACA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B54492076476235  # Ortaca
+
+  - code: TR17884
+    country: TR
+    state: MUĞLA
+    location: SEYDİKEMER
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B79784154417408  # Seydikemer
+
+  - code: TR9749
+    country: TR
+    state: MUĞLA
+    location: ULA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B74105915560914  # Ula
+
+  - code: TR9750
+    country: TR
+    state: MUĞLA
+    location: YATAĞAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B61123808131498  # Yatağan
+
+  - code: TR9751
+    country: TR
+    state: MUŞ
+    location: BULANIK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B45931517008549  # Bulanık
+
+  - code: TR9752
+    country: TR
+    state: MUŞ
+    location: HASKÖY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B44714852164400  # Hasköy
+
+  - code: TR9753
+    country: TR
+    state: MUŞ
+    location: KORKUT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B6759828088489  # Korkut
+
+  - code: TR9754
+    country: TR
+    state: MUŞ
+    location: MALAZGİRT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B50747108890679  # Malazgirt
+
+  - code: TR9755
+    country: TR
+    state: MUŞ
+    location: MUŞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B6478152958828  # Muş merkez
+
+  - code: TR9756
+    country: TR
+    state: MUŞ
+    location: VARTO
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B26980759759875  # Varto
+
+  - code: TR9757
+    country: TR
+    state: NEVŞEHİR
+    location: ACIGÖL
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B3765894828003  # Acıgöl
+
+  - code: TR17878
+    country: TR
+    state: NEVŞEHİR
+    location: AVANOS
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B76227245488219  # Avanos
+
+  - code: TR9758
+    country: TR
+    state: NEVŞEHİR
+    location: HACIBEKTAŞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B22474177192054  # Hacıbektaş
+
+  - code: TR9759
+    country: TR
+    state: NEVŞEHİR
+    location: KOZAKLI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B32773336843775  # Kozaklı
+
+  - code: TR9760
+    country: TR
+    state: NEVŞEHİR
+    location: NEVŞEHİR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B57597376033780  # Nevşehir merkez
+      - 54988432B79971827749664  # Derinkuyu
+      - 54988432B87097212821795  # Gülşehir
+
+  - code: TR9761
+    country: TR
+    state: NEVŞEHİR
+    location: ÜRGÜP
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B35777167420059  # Ürgüp
+
+  - code: TR9762
+    country: TR
+    state: NİĞDE
+    location: ALTUNHİSAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B52081033175293  # Altunhisar
+
+  - code: TR9763
+    country: TR
+    state: NİĞDE
+    location: BOR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B93269367761582  # Bor
+
+  - code: TR9766
+    country: TR
+    state: NİĞDE
+    location: NİĞDE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B6368425336150  # Niğde (merkez)
+
+  - code: TR9767
+    country: TR
+    state: NİĞDE
+    location: ULUKIŞLA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B46815557775592  # Ulukisla
+
+  - code: TR9764
+    country: TR
+    state: NİĞDE
+    location: ÇAMARDI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B4527245450623  # Çamardı
+
+  - code: TR9765
+    country: TR
+    state: NİĞDE
+    location: ÇİFTLİK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B43283240341511  # Çiftlik
+
+  - code: TR9768
+    country: TR
+    state: ORDU
+    location: AKKUŞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B20612067222805  # Akkuş
+
+  - code: TR9769
+    country: TR
+    state: ORDU
+    location: AYBASTI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B26639415415250  # Aybastı
+
+  - code: TR9773
+    country: TR
+    state: ORDU
+    location: FATSA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B97969826728737  # Fatsa
+
+  - code: TR9774
+    country: TR
+    state: ORDU
+    location: GÖLKÖY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B66082429692342  # Gölköy
+
+  - code: TR9775
+    country: TR
+    state: ORDU
+    location: GÜLYALI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B78938998312930  # Gülyalı
+
+  - code: TR9776
+    country: TR
+    state: ORDU
+    location: GÜRGENTEPE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B68279142747121  # Gürgentepe
+
+  - code: TR9778
+    country: TR
+    state: ORDU
+    location: KABATAŞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B26897526032895  # Kabataş
+
+  - code: TR9779
+    country: TR
+    state: ORDU
+    location: KORGAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B88177358385570  # Korgan
+
+  - code: TR9780
+    country: TR
+    state: ORDU
+    location: KUMRU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B1626041363194  # Kumru
+
+  - code: TR9781
+    country: TR
+    state: ORDU
+    location: MESUDİYE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B78961906506617  # Mesudiye
+
+  - code: TR9782
+    country: TR
+    state: ORDU
+    location: ORDU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B11733036150032  # Boztepe
+      - 54988432B3557290765638  # Kabadüz
+      - 54988432B6573458732183  # Perşembe
+      - 54988432B76667969574644  # Ulubey (ORDU)
+      - 54988432B98751035289582  # Altınordu
+
+  - code: TR9770
+    country: TR
+    state: ORDU
+    location: ÇAMAŞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B32742798326876  # Çamaş
+
+  - code: TR9771
+    country: TR
+    state: ORDU
+    location: ÇATALPINAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B98216013465603  # Çatalpınar
+
+  - code: TR9772
+    country: TR
+    state: ORDU
+    location: ÇAYBAŞI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B2751478310709  # Çaybaşı
+
+  - code: TR9783
+    country: TR
+    state: ORDU
+    location: ÜNYE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B39242508990660  # Ünye
+
+  - code: TR9777
+    country: TR
+    state: ORDU
+    location: İKİZCE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B81043238073761  # İkizce
+
+  - code: TR9784
+    country: TR
+    state: OSMANİYE
+    location: BAHÇE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B56342138183442  # Bahçe
+
+  - code: TR9785
+    country: TR
+    state: OSMANİYE
+    location: DÜZİÇİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B95310559341669  # Düziçi
+
+  - code: TR9786
+    country: TR
+    state: OSMANİYE
+    location: HASANBEYLİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B11894887373653  # Hasanbeyli
+
+  - code: TR9787
+    country: TR
+    state: OSMANİYE
+    location: KADİRLİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B5693993852815  # Kadirli
+
+  - code: TR9788
+    country: TR
+    state: OSMANİYE
+    location: OSMANİYE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B8721285077518  # Osmaniye (merkez)
+
+  - code: TR9789
+    country: TR
+    state: OSMANİYE
+    location: SUMBAS
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B36427542576396  # Sumbas
+
+  - code: TR9790
+    country: TR
+    state: OSMANİYE
+    location: TOPRAKKALE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B76895088825803  # Toprakkale
+
+  - code: TR9791
+    country: TR
+    state: RİZE
+    location: ARDEŞEN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B7423640406971  # Ardeşen
+
+  - code: TR9794
+    country: TR
+    state: RİZE
+    location: FINDIKLI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B34477640243489  # Fındıklı
+
+  - code: TR9795
+    country: TR
+    state: RİZE
+    location: HEMŞİN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B63047019861929  # Hemşin
+
+  - code: TR9798
+    country: TR
+    state: RİZE
+    location: PAZAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B70258579646367  # Pazar (RİZE)
+
+  - code: TR9799
+    country: TR
+    state: RİZE
+    location: RİZE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B14260044534811  # Güneysu
+      - 54988432B55246961354568  # Rize merkezi
+      - 54988432B70965233026524  # Derepazarı
+      - 54988432B92152901818020  # Kalkandere
+
+  - code: TR9792
+    country: TR
+    state: RİZE
+    location: ÇAMLIHEMŞİN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B23223928850559  # Çamlıhemşin
+
+  - code: TR9793
+    country: TR
+    state: RİZE
+    location: ÇAYELİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B23414498187301  # Çayeli
+
+  - code: TR9796
+    country: TR
+    state: RİZE
+    location: İKİZDERE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B86957506981644  # İkizdere
+
+  - code: TR9797
+    country: TR
+    state: RİZE
+    location: İYİDERE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B32272260481073  # İyidere
+
+  - code: TR9800
+    country: TR
+    state: SAKARYA
+    location: AKYAZI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B55251089321769  # Akyazı
+
+  - code: TR9801
+    country: TR
+    state: SAKARYA
+    location: GEYVE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B9428918047476  # Geyve
+
+  - code: TR9802
+    country: TR
+    state: SAKARYA
+    location: HENDEK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B97910607288533  # Hendek
+
+  - code: TR9803
+    country: TR
+    state: SAKARYA
+    location: KARASU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B15058920594435  # Karasu
+
+  - code: TR9804
+    country: TR
+    state: SAKARYA
+    location: KAYNARCA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B99449067758267  # Kaynarca
+
+  - code: TR9805
+    country: TR
+    state: SAKARYA
+    location: KOCAALİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B98311610120765  # Kocaali
+
+  - code: TR9806
+    country: TR
+    state: SAKARYA
+    location: PAMUKOVA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B12770771460380  # Pamukova
+
+  - code: TR9807
+    country: TR
+    state: SAKARYA
+    location: SAKARYA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B16406650788150  # Söğütlü
+      - 54988432B199390104970  # Serdivan
+      - 54988432B38234648965516  # Erenler
+      - 54988432B45351721911110  # Adapazarı
+      - 54988432B66916600910791  # Arifiye
+      - 54988432B69245819346506  # Ferizli
+      - 54988432B80955885520909  # Sapanca
+      - 54988432B93570541264630  # Karapürçek
+
+  - code: TR9808
+    country: TR
+    state: SAKARYA
+    location: TARAKLI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B9007948244439  # Taraklı
+
+  - code: TR9809
+    country: TR
+    state: SAMSUN
+    location: 19 MAYIS
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B6508967515470  # 19 Mayıs
+
+  - code: TR9810
+    country: TR
+    state: SAMSUN
+    location: ALAÇAM
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B39970193514521  # Alaçam
+
+  - code: TR9811
+    country: TR
+    state: SAMSUN
+    location: ASARCIK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B6527400252078  # Asarcık
+
+  - code: TR17911
+    country: TR
+    state: SAMSUN
+    location: ATAKUM
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B9062232449039  # Atakum
+
+  - code: TR9812
+    country: TR
+    state: SAMSUN
+    location: AYVACIK (S)
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B60562394154320  # Ayvacık
+
+  - code: TR9813
+    country: TR
+    state: SAMSUN
+    location: BAFRA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B76534692680801  # Bafra
+
+  - code: TR9815
+    country: TR
+    state: SAMSUN
+    location: HAVZA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B84747582634168  # Havza
+
+  - code: TR9816
+    country: TR
+    state: SAMSUN
+    location: KAVAK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B17532401262571  # Kavak
+
+  - code: TR9817
+    country: TR
+    state: SAMSUN
+    location: LADİK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B86248275111612  # Ladik
+
+  - code: TR9818
+    country: TR
+    state: SAMSUN
+    location: SALIPAZARI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B56455899662396  # Salıpazarı
+
+  - code: TR9819
+    country: TR
+    state: SAMSUN
+    location: SAMSUN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B15644410313065  # İlkadım
+      - 54988432B69685064161896  # Canik
+
+  - code: TR9820
+    country: TR
+    state: SAMSUN
+    location: TEKKEKÖY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B55561929668739  # Tekkeköy
+
+  - code: TR9821
+    country: TR
+    state: SAMSUN
+    location: TERME
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B32118226842539  # Terme
+
+  - code: TR9822
+    country: TR
+    state: SAMSUN
+    location: VEZİRKÖPRÜ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B69998185816997  # Vezirköprü
+
+  - code: TR9823
+    country: TR
+    state: SAMSUN
+    location: YAKAKENT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B78096221215444  # Yakakent
+
+  - code: TR9814
+    country: TR
+    state: SAMSUN
+    location: ÇARŞAMBA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B51165292836212  # Çarşamba
+
+  - code: TR9840
+    country: TR
+    state: SİNOP
+    location: AYANCIK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B27162920946888  # Ayancık
+
+  - code: TR9841
+    country: TR
+    state: SİNOP
+    location: BOYABAT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B33089612553406  # Boyabat
+
+  - code: TR9843
+    country: TR
+    state: SİNOP
+    location: DURAĞAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B66052692688505  # Durağan
+
+  - code: TR9842
+    country: TR
+    state: SİNOP
+    location: DİKMEN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B21001477531  # Dikmen
+
+  - code: TR9844
+    country: TR
+    state: SİNOP
+    location: ERFELEK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B24776068854278  # Erfelek
+
+  - code: TR9845
+    country: TR
+    state: SİNOP
+    location: GERZE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B88783696627318  # Gerze
+
+  - code: TR9846
+    country: TR
+    state: SİNOP
+    location: SARAYDÜZÜ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B65670234538071  # Saraydüzü
+
+  - code: TR9847
+    country: TR
+    state: SİNOP
+    location: SİNOP
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B54408958625108  # Sinop merkez
+
+  - code: TR9848
+    country: TR
+    state: SİNOP
+    location: TÜRKELİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B96614579404360  # Türkeli
+
+  - code: TR9856
+    country: TR
+    state: SİVAS
+    location: AKINCILAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B10558365680808  # Akıncılar
+
+  - code: TR9857
+    country: TR
+    state: SİVAS
+    location: ALTINYAYLA(S)
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B56298915275499  # Altınyayla (SİVAS)
+
+  - code: TR9859
+    country: TR
+    state: SİVAS
+    location: DOĞANŞAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B9192246794602  # Doğanşar
+
+  - code: TR9858
+    country: TR
+    state: SİVAS
+    location: DİVRİĞİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B84880544185271  # Divriği
+
+  - code: TR9860
+    country: TR
+    state: SİVAS
+    location: GEMEREK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B20261833520035  # Gemerek
+
+  - code: TR9861
+    country: TR
+    state: SİVAS
+    location: GÖLOVA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B86036130950643  # Gölova
+
+  - code: TR9862
+    country: TR
+    state: SİVAS
+    location: GÜRÜN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B72298129420798  # Gürün
+
+  - code: TR9863
+    country: TR
+    state: SİVAS
+    location: HAFİK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B93817562876661  # Hafik
+
+  - code: TR9865
+    country: TR
+    state: SİVAS
+    location: KANGAL
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B62375906766923  # Kangal
+
+  - code: TR9866
+    country: TR
+    state: SİVAS
+    location: KOYULHİSAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B59053260264390  # Koyulhisar
+
+  - code: TR9869
+    country: TR
+    state: SİVAS
+    location: SUŞEHRİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B43586111700831  # Suşehri
+
+  - code: TR9868
+    country: TR
+    state: SİVAS
+    location: SİVAS
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B33032294423976  # Sivas merkez
+
+  - code: TR17920
+    country: TR
+    state: SİVAS
+    location: ULAŞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B73242449830307  # Ulaş
+
+  - code: TR9870
+    country: TR
+    state: SİVAS
+    location: YILDIZELİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B77963946080728  # Yıldızeli
+
+  - code: TR9871
+    country: TR
+    state: SİVAS
+    location: ZARA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B88890114136269  # Zara
+
+  - code: TR9864
+    country: TR
+    state: SİVAS
+    location: İMRANLI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B94555839005307  # İmranlı
+
+  - code: TR9867
+    country: TR
+    state: SİVAS
+    location: ŞARKIŞLA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B72818442943555  # Şarkışla
+
+  - code: TR9835
+    country: TR
+    state: SİİRT
+    location: BAYKAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B74566589804455  # Baykan
+
+  - code: TR9836
+    country: TR
+    state: SİİRT
+    location: ERUH
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B7232586942515  # Eruh
+
+  - code: TR9837
+    country: TR
+    state: SİİRT
+    location: KURTALAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B96002875694716  # Kurtalan
+
+  - code: TR9838
+    country: TR
+    state: SİİRT
+    location: PERVARİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B48183111476065  # Pervari
+
+  - code: TR9839
+    country: TR
+    state: SİİRT
+    location: SİİRT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B34987359358505  # Siirt (merkez)
+      - 54988432B96055728964295  # Tillo
+
+  - code: TR17888
+    country: TR
+    state: SİİRT
+    location: ŞIRVAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B9941685819623  # Şirvan
+
+  - code: TR17904
+    country: TR
+    state: TEKİRDAĞ
+    location: ERGENE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B61533400869276  # Ergene
+
+  - code: TR9874
+    country: TR
+    state: TEKİRDAĞ
+    location: HAYRABOLU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B92870291656697  # Hayrabolu
+
+  - code: TR17905
+    country: TR
+    state: TEKİRDAĞ
+    location: KAPAKLI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B52670947871077  # Kapaklı
+
+  - code: TR9875
+    country: TR
+    state: TEKİRDAĞ
+    location: M.EREĞLİSİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B17351022548299  # Marmaraereğlisi
+
+  - code: TR9876
+    country: TR
+    state: TEKİRDAĞ
+    location: MALKARA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B77928955362752  # Malkara
+
+  - code: TR9877
+    country: TR
+    state: TEKİRDAĞ
+    location: SARAY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B91991689904144  # Saray (TEKİRDAĞ)
+
+  - code: TR9879
+    country: TR
+    state: TEKİRDAĞ
+    location: TEKİRDAĞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B10630286252901  # Muratlı
+      - 54988432B95455201540726  # Süleymanpaşa
+
+  - code: TR9872
+    country: TR
+    state: TEKİRDAĞ
+    location: ÇERKEZKÖY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B36689852261015  # Çerkezköy
+
+  - code: TR9873
+    country: TR
+    state: TEKİRDAĞ
+    location: ÇORLU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B79254890835341  # Çorlu
+
+  - code: TR9878
+    country: TR
+    state: TEKİRDAĞ
+    location: ŞARKÖY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B25362626597569  # Şarköy
+
+  - code: TR9880
+    country: TR
+    state: TOKAT
+    location: ALMUS
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B95992453735660  # Almus
+
+  - code: TR9881
+    country: TR
+    state: TOKAT
+    location: ARTOVA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B24536505693490  # Artova
+
+  - code: TR9882
+    country: TR
+    state: TOKAT
+    location: BAŞÇİFTLİK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B25487476963014  # Başçiftlik
+
+  - code: TR17910
+    country: TR
+    state: TOKAT
+    location: ERBAA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B28913521474336  # Erbaa
+
+  - code: TR9883
+    country: TR
+    state: TOKAT
+    location: NİKSAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B13089930907673  # Niksar
+
+  - code: TR9884
+    country: TR
+    state: TOKAT
+    location: PAZAR (T)
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B46518682235057  # Pazar (TOKAT)
+
+  - code: TR9885
+    country: TR
+    state: TOKAT
+    location: REŞADİYE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B7686376545923  # Reşadiye
+
+  - code: TR9886
+    country: TR
+    state: TOKAT
+    location: SULUSARAY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B24437456666423  # Sulusaray
+
+  - code: TR9887
+    country: TR
+    state: TOKAT
+    location: TOKAT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B97580121786260  # Tokat merkez
+
+  - code: TR9888
+    country: TR
+    state: TOKAT
+    location: TURHAL
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B89911278235882  # Turhal
+
+  - code: TR9889
+    country: TR
+    state: TOKAT
+    location: YEŞİLYURT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B10710239542127  # Yeşilyurt (TOKAT)
+
+  - code: TR9890
+    country: TR
+    state: TOKAT
+    location: ZİLE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B18726314643148  # Zile
+
+  - code: TR9891
+    country: TR
+    state: TRABZON
+    location: AKÇAABAT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B68104406742537  # Akçaabat
+
+  - code: TR9892
+    country: TR
+    state: TRABZON
+    location: ARAKLI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B67060937110843  # Araklı
+
+  - code: TR9893
+    country: TR
+    state: TRABZON
+    location: ARSİN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B83485436335892  # Arsin
+
+  - code: TR9894
+    country: TR
+    state: TRABZON
+    location: BEŞİKDÜZÜ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B76430100737170  # Beşikdüzü
+
+  - code: TR9897
+    country: TR
+    state: TRABZON
+    location: DERNEKPAZARI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B21435707194985  # Dernekpazarı
+
+  - code: TR9898
+    country: TR
+    state: TRABZON
+    location: DÜZKÖY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B55138126050611  # Düzköy
+
+  - code: TR9899
+    country: TR
+    state: TRABZON
+    location: HAYRAT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B30848484740175  # Hayrat
+
+  - code: TR9900
+    country: TR
+    state: TRABZON
+    location: KÖPRÜBAŞI (T)
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B18669123151161  # Köprübaşı (TRABZON)
+
+  - code: TR9901
+    country: TR
+    state: TRABZON
+    location: OF
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B11866351639272  # Of
+
+  - code: TR9903
+    country: TR
+    state: TRABZON
+    location: SÜRMENE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B15641118678695  # Sürmene
+
+  - code: TR9904
+    country: TR
+    state: TRABZON
+    location: TONYA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B11210263033857  # Tonya
+
+  - code: TR9905
+    country: TR
+    state: TRABZON
+    location: TRABZON
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B14556173736384  # Maçka
+      - 54988432B51585452929549  # Ortahisar
+
+  - code: TR9906
+    country: TR
+    state: TRABZON
+    location: VAKFIKEBİR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B53975105954432  # Vakfıkebir
+
+  - code: TR9907
+    country: TR
+    state: TRABZON
+    location: YOMRA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B95156445816279  # Yomra
+
+  - code: TR9895
+    country: TR
+    state: TRABZON
+    location: ÇARŞIBAŞI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B75808003725453  # Çarşıbaşı
+
+  - code: TR9896
+    country: TR
+    state: TRABZON
+    location: ÇAYKARA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B63323632068596  # Çaykara
+
+  - code: TR9902
+    country: TR
+    state: TRABZON
+    location: ŞALPAZARI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B95928924596257  # Şalpazarı
+
+  - code: TR9909
+    country: TR
+    state: TUNCELİ
+    location: HOZAT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B37822408254427  # Hozat
+
+  - code: TR9910
+    country: TR
+    state: TUNCELİ
+    location: NAZİMİYE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B13012659541885  # Nazımiye
+
+  - code: TR9911
+    country: TR
+    state: TUNCELİ
+    location: OVACIK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B4974900305842  # Ovacık (TUNCELİ)
+
+  - code: TR9912
+    country: TR
+    state: TUNCELİ
+    location: PERTEK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B86025337203985  # Pertek
+
+  - code: TR9913
+    country: TR
+    state: TUNCELİ
+    location: PÜLÜMÜR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B87156479266793  # Pülümür
+
+  - code: TR9914
+    country: TR
+    state: TUNCELİ
+    location: TUNCELİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B67392778171164  # Tunceli merkez
+      - 54988432B73997329760660  # Mazgirt
+
+  - code: TR9908
+    country: TR
+    state: TUNCELİ
+    location: ÇEMİŞGEZEK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B56881334411640  # Çemişgezek
+
+  - code: TR9915
+    country: TR
+    state: UŞAK
+    location: BANAZ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B38688250747899  # Banaz
+
+  - code: TR9916
+    country: TR
+    state: UŞAK
+    location: ESME
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B31268227976167  # Eşme
+
+  - code: TR9917
+    country: TR
+    state: UŞAK
+    location: KARAHALLI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B83968093361276  # Karahallı
+
+  - code: TR9918
+    country: TR
+    state: UŞAK
+    location: SİVASLI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B52534848164203  # Sivaslı
+
+  - code: TR17909
+    country: TR
+    state: UŞAK
+    location: ULUBEY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B81711897085768  # Ulubey (UŞAK)
+
+  - code: TR9919
+    country: TR
+    state: UŞAK
+    location: UŞAK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B16266988631438  # Uşak merkez
+
+  - code: TR9920
+    country: TR
+    state: VAN
+    location: BAHÇESARAY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B84889548595985  # Bahçesaray
+
+  - code: TR9921
+    country: TR
+    state: VAN
+    location: BAŞKALE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B53179569886424  # Başkale
+
+  - code: TR9924
+    country: TR
+    state: VAN
+    location: EDREMİT (V)
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B35038871298949  # Edremit (VAN)
+
+  - code: TR9925
+    country: TR
+    state: VAN
+    location: ERCİŞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B62353974928440  # Erciş
+
+  - code: TR9926
+    country: TR
+    state: VAN
+    location: GEVAŞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B39980691668600  # Gevaş
+
+  - code: TR17912
+    country: TR
+    state: VAN
+    location: GÜRPINAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B66454172152747  # Gürpınar
+
+  - code: TR9927
+    country: TR
+    state: VAN
+    location: MURADİYE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B12859589940172  # Muradiye
+
+  - code: TR9929
+    country: TR
+    state: VAN
+    location: SARAY (V)
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B48034047733274  # Saray (VAN)
+
+  - code: TR9930
+    country: TR
+    state: VAN
+    location: VAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B73173192257924  # İpekyolu
+      - 54988432B86310086710434  # Tuşba
+
+  - code: TR9922
+    country: TR
+    state: VAN
+    location: ÇALDIRAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B86685660972424  # Çaldıran
+
+  - code: TR9923
+    country: TR
+    state: VAN
+    location: ÇATAK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B84066107129786  # Çatak
+
+  - code: TR9928
+    country: TR
+    state: VAN
+    location: ÖZALP
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B50394805884304  # Özalp
+
+  - code: TR9931
+    country: TR
+    state: YALOVA
+    location: ALTINOVA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B34660982943926  # Altınova
+
+  - code: TR9932
+    country: TR
+    state: YALOVA
+    location: ARMUTLU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B6573283101831  # Armutlu
+
+  - code: TR9934
+    country: TR
+    state: YALOVA
+    location: TERMAL
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B49585252089849  # Termal
+
+  - code: TR9935
+    country: TR
+    state: YALOVA
+    location: YALOVA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B6973395963202  # Yalova merkez
+      - 54988432B73294820193521  # Çiftlikköy
+
+  - code: TR9933
+    country: TR
+    state: YALOVA
+    location: ÇINARCIK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B7457666939336  # Çınarcık
+
+  - code: TR9936
+    country: TR
+    state: YOZGAT
+    location: AKDAĞMADENİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B30515055342266  # Akdağmadeni
+
+  - code: TR9937
+    country: TR
+    state: YOZGAT
+    location: AYDINCIK (Y)
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B54547584341772  # Aydıncık (YOZGAT)
+
+  - code: TR9938
+    country: TR
+    state: YOZGAT
+    location: BOĞAZLIYAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B72106000461584  # Boğazlıyan
+
+  - code: TR9942
+    country: TR
+    state: YOZGAT
+    location: KADIŞEHRİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B13760722847594  # Kadışehri
+
+  - code: TR9943
+    country: TR
+    state: YOZGAT
+    location: SARAYKENT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B78941092059801  # Saraykent
+
+  - code: TR9944
+    country: TR
+    state: YOZGAT
+    location: SARIKAYA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B67849230922765  # Sarıkaya
+
+  - code: TR9946
+    country: TR
+    state: YOZGAT
+    location: SORGUN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B73440266741351  # Sorgun
+
+  - code: TR9947
+    country: TR
+    state: YOZGAT
+    location: YENİFAKILI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B49266888844596  # Yenifakılı
+
+  - code: TR9948
+    country: TR
+    state: YOZGAT
+    location: YERKÖY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B87330314310527  # Yerköy
+
+  - code: TR9949
+    country: TR
+    state: YOZGAT
+    location: YOZGAT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B70702003005022  # Yozgat merkez
+
+  - code: TR9939
+    country: TR
+    state: YOZGAT
+    location: ÇANDIR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B53887880755760  # Çandır
+
+  - code: TR9940
+    country: TR
+    state: YOZGAT
+    location: ÇAYIRALAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B69940512809265  # Çayıralan
+
+  - code: TR9941
+    country: TR
+    state: YOZGAT
+    location: ÇEKEREK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B19751816948051  # Çekerek
+
+  - code: TR17879
+    country: TR
+    state: YOZGAT
+    location: ŞEFAATLİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B91546860150128  # Şefaatli
+
+  - code: TR9950
+    country: TR
+    state: ZONGULDAK
+    location: ALAPLI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B84830435055173  # Alaplı
+
+  - code: TR9952
+    country: TR
+    state: ZONGULDAK
+    location: DEVREK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B93890673668777  # Devrek
+
+  - code: TR9953
+    country: TR
+    state: ZONGULDAK
+    location: GÖKÇEBEY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B93591493775599  # Gökçebey
+
+  - code: TR9954
+    country: TR
+    state: ZONGULDAK
+    location: KARADENİZ EREĞLİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B89533170865064  # Ereğli (ZONGULDAK)
+
+  - code: TR9955
+    country: TR
+    state: ZONGULDAK
+    location: ZONGULDAK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B34132798290249  # Kozlu
+      - 54988432B66575483981903  # Kilimli
+      - 54988432B92712728908494  # Zonguldak merkez
+
+  - code: TR9951
+    country: TR
+    state: ZONGULDAK
+    location: ÇAYCUMA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B35702566688880  # Çaycuma
+
+  - code: TR9347
+    country: TR
+    state: ÇANAKKALE
+    location: AYVACIK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B20591788095048  # Ayvacik
+
+  - code: TR9348
+    country: TR
+    state: ÇANAKKALE
+    location: BAYRAMİÇ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B46858449148239  # Bayramiç
+
+  - code: TR9350
+    country: TR
+    state: ÇANAKKALE
+    location: BOZCAADA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B19682235419629  # Bozcaada
+
+  - code: TR9349
+    country: TR
+    state: ÇANAKKALE
+    location: BİGA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B97522403673638  # Biga
+
+  - code: TR17882
+    country: TR
+    state: ÇANAKKALE
+    location: EZİNE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B2283015809064  # Ezine
+
+  - code: TR9353
+    country: TR
+    state: ÇANAKKALE
+    location: GELİBOLU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B34565722813998  # Gelibolu
+
+  - code: TR9354
+    country: TR
+    state: ÇANAKKALE
+    location: GÖKÇEADA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B42786148579241  # Imbros
+
+  - code: TR9355
+    country: TR
+    state: ÇANAKKALE
+    location: LAPSEKİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B80108419437417  # Lapseki
+
+  - code: TR9356
+    country: TR
+    state: ÇANAKKALE
+    location: YENİCE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B60831632759044  # Yenice (ÇANAKKALE)
+
+  - code: TR9351
+    country: TR
+    state: ÇANAKKALE
+    location: ÇAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B43754311054552  # Çan
+
+  - code: TR9352
+    country: TR
+    state: ÇANAKKALE
+    location: ÇANAKKALE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B90296339099195  # Eceabat
+      - 54988432B9750170463020  # Çanakkale merkez
+
+  - code: TR9357
+    country: TR
+    state: ÇANKIRI
+    location: ATKARACALAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B63314623815647  # Atkaracalar
+
+  - code: TR9358
+    country: TR
+    state: ÇANKIRI
+    location: BAYRAMÖREN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B44904988646230  # Bayramören
+
+  - code: TR9360
+    country: TR
+    state: ÇANKIRI
+    location: CERKEŞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B67500599414022  # Çerkeş
+
+  - code: TR9361
+    country: TR
+    state: ÇANKIRI
+    location: ILGAZ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B30800064682822  # Ilgaz
+
+  - code: TR9362
+    country: TR
+    state: ÇANKIRI
+    location: KIZILIRMAK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B19525680012961  # Kızılırmak
+
+  - code: TR9363
+    country: TR
+    state: ÇANKIRI
+    location: KURŞUNLU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B88727338828677  # Kurşunlu
+
+  - code: TR9364
+    country: TR
+    state: ÇANKIRI
+    location: ORTA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B30290835875558  # Orta
+
+  - code: TR9366
+    country: TR
+    state: ÇANKIRI
+    location: YAPRAKLI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B87255554726822  # Yapraklı
+
+  - code: TR9359
+    country: TR
+    state: ÇANKIRI
+    location: ÇANKIRI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B1446118549854  # Eldivan
+      - 54988432B56214767138280  # Korgun
+      - 54988432B83441396702588  # Çankırı merkez
+
+  - code: TR9365
+    country: TR
+    state: ÇANKIRI
+    location: ŞABANÖZÜ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B53366813523086  # Şabanözü
+
+  - code: TR9367
+    country: TR
+    state: ÇORUM
+    location: ALACA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B4854228242513  # Alaca
+
+  - code: TR9368
+    country: TR
+    state: ÇORUM
+    location: BAYAT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B23630404748183  # Bayat (ÇORUM)
+
+  - code: TR9369
+    country: TR
+    state: ÇORUM
+    location: BOĞAZKALE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B22317545762154  # Boğazkale
+
+  - code: TR9371
+    country: TR
+    state: ÇORUM
+    location: DODURGA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B84759555585504  # Dodurga
+
+  - code: TR9373
+    country: TR
+    state: ÇORUM
+    location: KARGI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B36565352267385  # Kargı
+
+  - code: TR9374
+    country: TR
+    state: ÇORUM
+    location: LAÇİN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B24762133254880  # Laçin
+
+  - code: TR9375
+    country: TR
+    state: ÇORUM
+    location: MECİTÖZÜ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B54174343653702  # Mecitözü
+
+  - code: TR9377
+    country: TR
+    state: ÇORUM
+    location: ORTAKÖY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B55191393233977  # Ortaköy (ÇORUM)
+
+  - code: TR9378
+    country: TR
+    state: ÇORUM
+    location: OSMANCIK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B94235279152789  # Osmancık
+
+  - code: TR9376
+    country: TR
+    state: ÇORUM
+    location: OĞUZLAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B58451955584879  # Oğuzlar
+
+  - code: TR9379
+    country: TR
+    state: ÇORUM
+    location: SUNGURLU
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B505648184983  # Sungurlu
+
+  - code: TR9380
+    country: TR
+    state: ÇORUM
+    location: UĞURLUDAĞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B70975944471904  # Uğurludağ
+
+  - code: TR9370
+    country: TR
+    state: ÇORUM
+    location: ÇORUM
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B40132817708640  # Çorum merkez
+
+  - code: TR9372
+    country: TR
+    state: ÇORUM
+    location: İSKİLİP
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B41717304515053  # İskilip
+
+  - code: TR9535
+    country: TR
+    state: İSTANBUL
+    location: ARNAVUTKOY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B54271266334519  # Arnavutköy
+
+  - code: TR17865
+    country: TR
+    state: İSTANBUL
+    location: AVCILAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B82480836109015  # Avcılar
+
+  - code: TR17866
+    country: TR
+    state: İSTANBUL
+    location: BAŞAKŞEHİR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B67026781349893  # Başakşehir
+
+  - code: TR9536
+    country: TR
+    state: İSTANBUL
+    location: BEYLİKDÜZÜ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B5885906722527  # Beylikdüzü
+
+  - code: TR9537
+    country: TR
+    state: İSTANBUL
+    location: BÜYÜKÇEKMECE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B26216305629532  # Büyükçekmece
+
+  - code: TR9540
+    country: TR
+    state: İSTANBUL
+    location: ESENYURT
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B2777192469074  # Esenyurt
+
+  - code: TR9542
+    country: TR
+    state: İSTANBUL
+    location: KARTAL
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B28761186895791  # Kartal
+
+  - code: TR9543
+    country: TR
+    state: İSTANBUL
+    location: KÜÇÜKÇEKMECE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B58079099572479  # Küçükçekmece
+
+  - code: TR9544
+    country: TR
+    state: İSTANBUL
+    location: MALTEPE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B88005070896558  # Maltepe
+
+  - code: TR9545
+    country: TR
+    state: İSTANBUL
+    location: PENDİK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B44792581222483  # Pendik
+
+  - code: TR9546
+    country: TR
+    state: İSTANBUL
+    location: SANCAKTEPE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B50977665989913  # Sancaktepe
+
+  - code: TR9549
+    country: TR
+    state: İSTANBUL
+    location: SULTANBEYLİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B1936830285057  # Sultanbeyli
+
+  - code: TR9550
+    country: TR
+    state: İSTANBUL
+    location: SULTANGAZİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B38360360890356  # Sultangazi
+
+  - code: TR9548
+    country: TR
+    state: İSTANBUL
+    location: SİLİVRİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B76021463807070  # Silivri
+
+  - code: TR9551
+    country: TR
+    state: İSTANBUL
+    location: TUZLA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B51380550593874  # Tuzla
+
+  - code: TR9538
+    country: TR
+    state: İSTANBUL
+    location: ÇATALCA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B71345383711908  # Çatalca
+
+  - code: TR9539
+    country: TR
+    state: İSTANBUL
+    location: ÇEKMEKÖY
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B77006112817305  # Çekmeköy
+
+  - code: TR9541
+    country: TR
+    state: İSTANBUL
+    location: İSTANBUL
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B10954011235531  # Zeytinburnu
+      - 54988432B29112177447975  # Ataşehir
+      - 54988432B39641834885080  # Fatih
+      - 54988432B45078999476524  # Güngören
+      - 54988432B45752355908824  # Esenler
+      - 54988432B47187297633278  # Kağıthane
+      - 54988432B49369799231556  # Sarıyer
+      - 54988432B49471063177420  # Ümraniye
+      - 54988432B60297346715567  # Bağcılar
+      - 54988432B64089683735003  # Bahçelievler
+      - 54988432B6587538084917  # Beyoğlu
+      - 54988432B66082608132209  # Beşiktaş
+      - 54988432B66869796973700  # Gaziosmanpaşa
+      - 54988432B71616500059418  # Bakırköy
+      - 54988432B79162079631621  # Üsküdar
+      - 54988432B7974453528026  # Beykoz
+      - 54988432B80643331900802  # Şişli
+      - 54988432B89638439219394  # Kadıköy
+      - 54988432B93840376788897  # Eyüpsultan
+      - 54988432B94516152709384  # Prince Islands
+      - 54988432B97960602645981  # Bayrampaşa
+
+  - code: TR9547
+    country: TR
+    state: İSTANBUL
+    location: ŞİLE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B79652739540199  # Şile
+
+  - code: TR9552
+    country: TR
+    state: İZMİR
+    location: ALİAĞA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B37568422397165  # Aliağa
+
+  - code: TR9553
+    country: TR
+    state: İZMİR
+    location: BAYINDIR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B94612974297738  # Bayındır
+
+  - code: TR9554
+    country: TR
+    state: İZMİR
+    location: BERGAMA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B76125229912177  # Bergama
+
+  - code: TR9555
+    country: TR
+    state: İZMİR
+    location: BEYDAĞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B9177912033932  # Beydağ
+
+  - code: TR9556
+    country: TR
+    state: İZMİR
+    location: CEŞME
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B12282198097688  # Çeşme
+
+  - code: TR9557
+    country: TR
+    state: İZMİR
+    location: DİKİLİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B45006727271001  # Dikili
+
+  - code: TR9558
+    country: TR
+    state: İZMİR
+    location: FOÇA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B13587691087198  # Foça
+
+  - code: TR9559
+    country: TR
+    state: İZMİR
+    location: GÜZELBAHÇE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B64593282211695  # Güzelbahçe
+
+  - code: TR9561
+    country: TR
+    state: İZMİR
+    location: KARABURUN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B38730133189438  # Karaburun
+
+  - code: TR9562
+    country: TR
+    state: İZMİR
+    location: KEMALPAŞA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B15558909248688  # Kemalpaşa (İZMİR)
+
+  - code: TR9563
+    country: TR
+    state: İZMİR
+    location: KINIK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B12652451571712  # Kınık
+
+  - code: TR9564
+    country: TR
+    state: İZMİR
+    location: KİRAZ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B83633646725804  # Kiraz
+
+  - code: TR17868
+    country: TR
+    state: İZMİR
+    location: MENDERES
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B20130561704636  # Menderes
+
+  - code: TR17869
+    country: TR
+    state: İZMİR
+    location: MENEMEN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B27102438634757  # Menemen
+
+  - code: TR9566
+    country: TR
+    state: İZMİR
+    location: SEFERIHİSAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B10626729870430  # Seferihisar
+
+  - code: TR9567
+    country: TR
+    state: İZMİR
+    location: SELÇUK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B91646102966816  # Selçuk
+
+  - code: TR9569
+    country: TR
+    state: İZMİR
+    location: TORBALI
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B55107269659829  # Torbalı
+
+  - code: TR9568
+    country: TR
+    state: İZMİR
+    location: TİRE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B61743790309044  # Tire
+
+  - code: TR9570
+    country: TR
+    state: İZMİR
+    location: URLA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B98936853989480  # Urla
+
+  - code: TR9565
+    country: TR
+    state: İZMİR
+    location: ÖDEMİŞ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B67997917440066  # Ödemiş
+
+  - code: TR9560
+    country: TR
+    state: İZMİR
+    location: İZMİR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B20396107752960  # Narlıdere
+      - 54988432B28918062782607  # Gaziemir
+      - 54988432B31063140501282  # Buca
+      - 54988432B35509610678021  # Bayraklı
+      - 54988432B43742920895959  # Konak
+      - 54988432B53180025567005  # Balçova
+      - 54988432B6129080988703  # Karabağlar
+      - 54988432B65104046804588  # Çiğli
+      - 54988432B67949060177809  # Bornova
+      - 54988432B83996271763455  # Karşıyaka
+
+  - code: TR9824
+    country: TR
+    state: ŞANLIURFA
+    location: AKÇAKALE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B150490693817  # Akçakale
+
+  - code: TR9826
+    country: TR
+    state: ŞANLIURFA
+    location: BOZOVA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B647422472855  # Bozova
+
+  - code: TR9825
+    country: TR
+    state: ŞANLIURFA
+    location: BİRECİK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B18592908532301  # Birecik
+
+  - code: TR9827
+    country: TR
+    state: ŞANLIURFA
+    location: CEYLANPINAR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B18155993888482  # Ceylanpınar
+
+  - code: TR9828
+    country: TR
+    state: ŞANLIURFA
+    location: HALFETİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B66531887129041  # Halfeti
+
+  - code: TR9829
+    country: TR
+    state: ŞANLIURFA
+    location: HARRAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B51005953593095  # Harran
+
+  - code: TR9830
+    country: TR
+    state: ŞANLIURFA
+    location: HİLVAN
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B13336850419353  # Hilvan
+
+  - code: TR9833
+    country: TR
+    state: ŞANLIURFA
+    location: SURUÇ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B91196125429368  # Suruç
+
+  - code: TR9832
+    country: TR
+    state: ŞANLIURFA
+    location: SİVEREK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B23191513902101  # Siverek
+
+  - code: TR9834
+    country: TR
+    state: ŞANLIURFA
+    location: VİRANŞEHİR
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B84852030517373  # Viranşehir
+
+  - code: TR9831
+    country: TR
+    state: ŞANLIURFA
+    location: ŞANLIURFA
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B20444305553089  # Karaköprü
+      - 54988432B2483198976675  # Eyyübiye
+      - 54988432B57432661063863  # Haliliye
+
+  - code: TR9849
+    country: TR
+    state: ŞIRNAK
+    location: BEYTÜŞŞEBAP
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B49228485155322  # Beytüşşebap
+
+  - code: TR9850
+    country: TR
+    state: ŞIRNAK
+    location: CİZRE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B32556235228389  # Cizre
+
+  - code: TR9851
+    country: TR
+    state: ŞIRNAK
+    location: GÜÇLÜKONAK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B85449040916206  # Güçlükonak
+
+  - code: TR9853
+    country: TR
+    state: ŞIRNAK
+    location: SİLOPİ
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B36991847269691  # Silopi
+
+  - code: TR9855
+    country: TR
+    state: ŞIRNAK
+    location: ULUDERE
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B60759999719935  # Uludere
+
+  - code: TR9852
+    country: TR
+    state: ŞIRNAK
+    location: İDİL
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B90144731477668  # İdil
+
+  - code: TR9854
+    country: TR
+    state: ŞIRNAK
+    location: ŞIRNAK
+    timezone: Europe/Istanbul
+    shapes:
+      - 54988432B89494188716886  # Şırnak merkez
+
