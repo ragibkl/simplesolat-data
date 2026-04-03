@@ -28,6 +28,7 @@ COUNTRY_FILES = {
     "BN": "data/zones/BN.yaml",
     "LK": "data/zones/LK.yaml",
     "TR": "data/zones/TR.yaml",
+    "AE": "data/zones/AE.yaml",
 }
 
 

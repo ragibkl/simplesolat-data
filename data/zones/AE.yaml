@@ -1,0 +1,428 @@
+zones:
+  - code: AE1
+    country: AE
+    state: Abu Dhabi
+    location: Abu Dhabi
+    timezone: Asia/Dubai
+    shapes:
+      - Abu Dhabi
+
+  - code: AE2
+    country: AE
+    state: Abu Dhabi
+    location: Al Ain
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE3
+    country: AE
+    state: Abu Dhabi
+    location: Ghagha-Qaffay
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE4
+    country: AE
+    state: Abu Dhabi
+    location: Dalma Island
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE5
+    country: AE
+    state: Abu Dhabi
+    location: Arzanah-Island
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE6
+    country: AE
+    state: Abu Dhabi
+    location: DasIsland
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE7
+    country: AE
+    state: Abu Dhabi
+    location: Zarkuh
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE8
+    country: AE
+    state: Abu Dhabi
+    location: Mukhariz
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE9
+    country: AE
+    state: Abu Dhabi
+    location: Belhasa
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE10
+    country: AE
+    state: Abu Dhabi
+    location: Um-Al-Zamool
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE11
+    country: AE
+    state: Abu Dhabi
+    location: Liwa
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE12
+    country: AE
+    state: Abu Dhabi
+    location: Ghayathi-Bida-Al-Mutawa
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE13
+    country: AE
+    state: Abu Dhabi
+    location: AlSila-Al Ghuwaifat
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE14
+    country: AE
+    state: Abu Dhabi
+    location: Al Mirfa
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE15
+    country: AE
+    state: Abu Dhabi
+    location: Jebel Hafeet Summit
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE16
+    country: AE
+    state: Abu Dhabi
+    location: alwaqn alqawe
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE17
+    country: AE
+    state: Abu Dhabi
+    location: alzzahira aleirad
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE18
+    country: AE
+    state: Abu Dhabi
+    location: al faqa alshawib
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE19
+    country: AE
+    state: Abu Dhabi
+    location: al khazna alssad
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE20
+    country: AE
+    state: Abu Dhabi
+    location: Razin
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE21
+    country: AE
+    state: Abu Dhabi
+    location: Jazirat Abu al Abyadh
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE22
+    country: AE
+    state: Abu Dhabi
+    location: Al noof
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE23
+    country: AE
+    state: Abu Dhabi
+    location: Al Khatam
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE24
+    country: AE
+    state: Abu Dhabi
+    location: Al Bahia Gantoot
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE25
+    country: AE
+    state: Abu Dhabi
+    location: Madinat Zayed
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE26
+    country: AE
+    state: Abu Dhabi
+    location: Al-Hamra-Barakah
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE27
+    country: AE
+    state: Abu Dhabi
+    location: AL Ruwais - Shuweihat
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE28
+    country: AE
+    state: Abu Dhabi
+    location: Island Border Guard
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE29
+    country: AE
+    state: Abu Dhabi
+    location: Esab
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE30
+    country: AE
+    state: Abu Dhabi
+    location: alssahil
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE31
+    country: AE
+    state: Abu Dhabi
+    location: Al Hayer Sweihan
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE32
+    country: AE
+    state: Dubai
+    location: Dubai
+    timezone: Asia/Dubai
+    shapes:
+      - Dubai
+
+  - code: AE33
+    country: AE
+    state: Sharjah
+    location: Sharjah
+    timezone: Asia/Dubai
+    shapes:
+      - Sharjah
+
+  - code: AE34
+    country: AE
+    state: Sharjah
+    location: Sharjah Al Dhaid
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE35
+    country: AE
+    state: Sharjah
+    location: Sharjah al madam -Maliha
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE36
+    country: AE
+    state: Sharjah
+    location: Sharjah alssahil alsharqiu
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE37
+    country: AE
+    state: Sharjah
+    location: nahwat wadi shays
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE38
+    country: AE
+    state: Sharjah
+    location: Sharjah Wadi Al Hulu
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE39
+    country: AE
+    state: Sharjah
+    location: Sharjah Sir Bu Nair
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE40
+    country: AE
+    state: Sharjah
+    location: SharjahAbu Musa
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE41
+    country: AE
+    state: Ajman
+    location: Ajman
+    timezone: Asia/Dubai
+    shapes:
+      - Ajman
+
+  - code: AE42
+    country: AE
+    state: Ajman
+    location: Ajman Masfoot
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE43
+    country: AE
+    state: Ajman
+    location: Ajman Al Manama
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE44
+    country: AE
+    state: Um Al Quwain
+    location: Um Al Quwain
+    timezone: Asia/Dubai
+    shapes:
+      - Umm al-Quwain
+
+  - code: AE45
+    country: AE
+    state: Ras AlKhaimah
+    location: Ras AlKhaimah
+    timezone: Asia/Dubai
+    shapes:
+      - Ras al-Khaimah
+
+  - code: AE46
+    country: AE
+    state: Ras AlKhaimah
+    location: Ras AlKhaimah Shaam Ghalilah
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE47
+    country: AE
+    state: Ras AlKhaimah
+    location: Ras Alkhaimah Adhan Asimahg
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE48
+    country: AE
+    state: Ras AlKhaimah
+    location: Ras Alkhaimah Masafi Shawka
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE49
+    country: AE
+    state: Ras AlKhaimah
+    location: Ras AlKhaimah Munay
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE50
+    country: AE
+    state: Ras AlKhaimah
+    location: Ras AlKhaimah Jebel Jais
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE51
+    country: AE
+    state: Ras AlKhaimah
+    location: Ras AlKhaimah Tonb Al-Kubra
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE52
+    country: AE
+    state: Fujairah
+    location: Fujairah
+    timezone: Asia/Dubai
+    shapes:
+      - Fujairah
+
+  - code: AE53
+    country: AE
+    state: Fujairah
+    location: Fujairah Dibba Al-Bidyah
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE54
+    country: AE
+    state: Fujairah
+    location: Fujairah  Al Tayiba
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE55
+    country: AE
+    state: Fujairah
+    location: Fujairah Masafi Seiji
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE56
+    country: AE
+    state: Fujairah
+    location: Fujairah habhab
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE57
+    country: AE
+    state: Fujairah
+    location: Fujairah Al Tawiyan
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE58
+    country: AE
+    state: Fujairah
+    location: Fujairah Wadi Saham
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE59
+    country: AE
+    state: Dubai
+    location: Rural Area dubai
+    timezone: Asia/Dubai
+    shapes: []
+
+  - code: AE60
+    country: AE
+    state: Dubai
+    location: Hatta
+    timezone: Asia/Dubai
+    shapes: []
+

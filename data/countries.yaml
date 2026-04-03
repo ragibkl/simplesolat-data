@@ -34,6 +34,13 @@ countries:
     mapping: https://simplesolat-data.netlify.app/mappings/LK-adm2-mapping-20260402.json
     shape_property: shapeName
 
+  - code: AE
+    name: United Arab Emirates
+    source: AWQAF
+    geojson: https://simplesolat-data.netlify.app/geojson/AE-adm1-geojson-20260403.json
+    mapping: https://simplesolat-data.netlify.app/mappings/AE-adm1-mapping-20260403.json
+    shape_property: shapeName
+
   - code: TR
     name: Turkey
     source: Diyanet
