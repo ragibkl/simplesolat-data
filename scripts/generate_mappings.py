@@ -2,141 +2,102 @@
 """
 Generate mapping JSON files from zones/*.yaml and geojson/*.json.
 
-For each country in countries.yaml, reads the zone file to get
-zone -> shapes associations, looks up state/province from geojson
-features, and writes a datestamped mapping file.
+Finds geojson and zones files by country code, generates mapping keyed by
+the shape property (shapeName or shapeID depending on country config).
 
-Usage: python3 scripts/generate_mappings.py
+Usage:
+  python3 scripts/generate_mappings.py                  # uses geojson datestamp
+  python3 scripts/generate_mappings.py --date 20260405  # force new datestamp
 """
 
+import glob
 import json
 import os
 import re
 import sys
-from collections import defaultdict
+
+import yaml
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 
-def parse_zones_yaml(path):
-    """Parse a zones YAML file without pyyaml."""
-    zones = []
-    current = {}
-    in_shapes = False
+def load_countries():
+    """Load countries.yaml."""
+    with open(os.path.join(ROOT, 'data', 'countries.yaml')) as f:
+        return yaml.safe_load(f)['countries']
+
+
+def load_zones(cc):
+    """Load zones/{CC}.yaml."""
+    path = os.path.join(ROOT, 'data', 'zones', f'{cc}.yaml')
+    if not os.path.exists(path):
+        return None
     with open(path) as f:
-        for line in f:
-            line = line.rstrip()
-            if not line or line.strip().startswith('#') or line.strip() == 'zones:':
-                continue
-
-            m = re.match(r'\s+- code:\s+(.+)', line)
-            if m:
-                if current:
-                    zones.append(current)
-                current = {'code': m.group(1), 'shapes': []}
-                in_shapes = False
-                continue
-
-            if re.match(r'\s+shapes:', line):
-                in_shapes = True
-                continue
-
-            if in_shapes:
-                m = re.match(r'\s+- (.+)', line)
-                if m:
-                    current['shapes'].append(m.group(1))
-                    continue
-                else:
-                    in_shapes = False
-
-            m = re.match(r'\s+(\w+):\s+(.+)', line)
-            if m:
-                current[m.group(1)] = m.group(2)
-
-    if current:
-        zones.append(current)
-    return zones
+        return yaml.safe_load(f)['zones']
 
 
-def parse_countries_yaml(path):
-    """Parse countries.yaml without pyyaml."""
-    countries = []
-    current = {}
-    with open(path) as f:
-        for line in f:
-            line = line.rstrip()
-            if not line or line.strip().startswith('#') or line.strip() == 'countries:':
-                continue
-            m = re.match(r'\s+- code:\s+(.+)', line)
-            if m:
-                if current:
-                    countries.append(current)
-                current = {'code': m.group(1)}
-                continue
-            m = re.match(r'\s+(\w+):\s+(.+)', line)
-            if m:
-                current[m.group(1)] = m.group(2)
-    if current:
-        countries.append(current)
-    return countries
-
-
-def load_geojson_states(geojson_path):
-    """Load geojson and build shapeName -> state/province mapping."""
-    with open(geojson_path) as f:
-        data = json.load(f)
-
-    shape_states = {}
-    for feat in data['features']:
-        props = feat['properties']
-        shape_name = props.get('shapeName', '')
-        # Try to derive state from geojson properties
-        # Different geojson files may have different property names
-        state = props.get('shapeGroup', '')
-        shape_states[shape_name] = state
-    return shape_states
+def find_geojson(cc):
+    """Find the geojson file for a country code. Returns (path, datestamp) or (None, None)."""
+    pattern = os.path.join(ROOT, 'data', 'geojson', f'{cc}-*-geojson-*.json')
+    matches = glob.glob(pattern)
+    if not matches:
+        return None, None
+    path = matches[0]
+    m = re.search(r'-(\d{8})\.json$', path)
+    datestamp = m.group(1) if m else None
+    return path, datestamp
 
 
 def main():
-    countries = parse_countries_yaml(os.path.join(ROOT, 'data', 'countries.yaml'))
+    # Parse --date override
+    date_override = None
+    args = sys.argv[1:]
+    if '--date' in args:
+        idx = args.index('--date')
+        if idx + 1 < len(args):
+            date_override = args[idx + 1]
+            print(f"Using date override: {date_override}")
+
+    countries = load_countries()
 
     for country in countries:
         cc = country['code']
-        zones_path = os.path.join(ROOT, 'data', 'zones', f'{cc}.yaml')
-        geojson_path = os.path.join(ROOT, country.get('geojson', ''))
-        mapping_path = country.get('mapping', '')
 
-        if not os.path.exists(zones_path):
+        zones = load_zones(cc)
+        if not zones:
             print(f"  SKIP {cc}: no zones file")
             continue
 
-        zones = parse_zones_yaml(zones_path)
+        geojson_path, geojson_date = find_geojson(cc)
+        if not geojson_path:
+            print(f"  SKIP {cc}: no geojson file")
+            continue
 
-        # Load geojson for state info
-        geojson_states = {}
-        if os.path.exists(geojson_path):
-            geojson_states = load_geojson_states(geojson_path)
+        # Extract adm level from geojson filename
+        adm_match = re.search(r'-(adm\d+)-', os.path.basename(geojson_path))
+        adm_level = adm_match.group(1) if adm_match else 'adm2'
 
-        # Build mapping: shapeName -> {zone, state}
+        datestamp = date_override or geojson_date
+        if not datestamp:
+            print(f"  SKIP {cc}: cannot determine datestamp")
+            continue
+
+        # Build mapping: shape key -> {zone, state}
         mapping = {}
         for zone in zones:
-            for shape in zone.get('shapes', []):
-                state = zone.get('state', '')
+            for shape in zone.get('shapes') or []:
                 mapping[shape] = {
                     'zone': zone['code'],
-                    'state': state,
+                    'state': zone.get('state', ''),
                 }
 
         # Write mapping file
-        if mapping_path:
-            out_path = os.path.join(ROOT, mapping_path)
-            os.makedirs(os.path.dirname(out_path), exist_ok=True)
-            with open(out_path, 'w') as f:
-                json.dump(mapping, f, indent=2, ensure_ascii=False)
-                f.write('\n')
-            print(f"  {cc}: wrote {len(mapping)} entries to {mapping_path}")
-        else:
-            print(f"  {cc}: no mapping path configured")
+        out_path = os.path.join(ROOT, 'data', 'mappings', f'{cc}-{adm_level}-mapping-{datestamp}.json')
+        os.makedirs(os.path.dirname(out_path), exist_ok=True)
+        with open(out_path, 'w') as f:
+            json.dump(mapping, f, indent=2, ensure_ascii=False)
+            f.write('\n')
+        print(f"  {cc}: wrote {len(mapping)} entries to {os.path.basename(out_path)}")
 
 
 if __name__ == '__main__':
