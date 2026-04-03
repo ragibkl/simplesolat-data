@@ -130,7 +130,7 @@ For countries without official API sources, the mobile app calculates prayer tim
 
 | Country | Method | Fajr / Isha | Notes |
 |---------|--------|-------------|-------|
-| Turkey | Diyanet | 18° / 17° | Now integrated with official data |
+| Turkey | Diyanet | 18° / 17° | Fallback only — official data integrated |
 | UAE | Dubai | 18.2° / 18.2° | Pending official API integration |
 | Jordan | Jordan | 18° / 18° | |
 | Algeria | Algerian Ministry | 18° / 17° | |
