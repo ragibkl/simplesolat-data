@@ -12,7 +12,7 @@ Prayer times are fetched from official government sources, normalized to a commo
 
 ### API sources (CI automated)
 
-JAKIM, MUIS, and EQuran have stable APIs. GitHub Actions workflows run on the 27th and 28th of each month, fetch new data if available, commit, and push. Netlify auto-deploys on push.
+JAKIM, MUIS, EQuran, and AWQAF have stable APIs. GitHub Actions workflows run on the 27th and 28th of each month, fetch new data if available, commit, and push. Netlify auto-deploys on push.
 
 ### PDF/web scrape sources (manual)
 
@@ -76,6 +76,16 @@ KHEU, ACJU, and Diyanet are fetched manually — PDFs change layout, web scrapes
 - Cookies cached locally in `sources/diyanet/cookies/` (gitignored), valid ~1 hour
 - Official REST API exists (`awqatsalah.diyanet.gov.tr`) but requires paper registration and harsh rate limits (5 requests after trial)
 
+### AWQAF (UAE)
+- **Script:** `scripts/fetch_awqaf.py`
+- **API:** `https://mobileappapi.awqaf.gov.ae/APIS/v3/prayer-time/prayertimes/{start}/{end}`
+- Headless browser (Playwright) extracts auth token from website, then single API call returns all 60 areas
+- Token valid 20min, cached 15min, auto-refreshed
+- 60 areas across 7 emirates, times in ISO datetime format
+- Imsak = fajr in upstream data, derived as fajr - 10 min
+- AWQAF publishes ~6 months ahead, re-run for remaining months when available
+- Only ADM1 geojson (7 emirates) — GPS resolves to emirate capital, sub-areas manual selection
+
 ## Zone resolution
 
 GPS-to-zone resolution happens on-device in the mobile app:
@@ -103,6 +113,7 @@ The `shape_property` field in `countries.yaml` tells the app which geojson prope
 | BN | BRN + number | BRN01-04 | Generated |
 | LK | LK + number | LK01-13 | Generated |
 | TR | TR + Diyanet district ID | TR9206, TR9541 | Diyanet official IDs |
+| AE | AE + AWQAF area ID | AE1, AE32 | AWQAF official IDs |
 
 Zone codes are stable identifiers — the API and mobile app cache by zone code. Changing a zone code breaks existing caches.
 
