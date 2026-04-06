@@ -10,6 +10,7 @@ See [docs/architecture.md](docs/architecture.md) and [docs/maintenance.md](docs/
 - [ ] AWQAF AE: Jul-Dec 2026 not yet published — re-run fetch_awqaf.py when available
 - [ ] AWQAF AE: only ADM1 geojson (7 emirates) — GPS resolves to emirate capital only. Investigate GADM ADM2 (192 districts) for finer resolution. Needs mapping 60 AWQAF areas to GADM neighborhoods.
 - [ ] JAKIM MY: upstream data error SBH08 2026-04-03 imsak was 15:20 — fixed manually, report to JAKIM
+- [x] EQuran ID: 3 zone/months returned 404 — reported to equran.id, now fixed. Data replaced with EQuran source.
 
 ## Future countries
 
