@@ -1,6 +1,6 @@
 # simplesolat-data
 
-Centralized prayer times data for Malaysia, Singapore, Indonesia, Brunei, Sri Lanka, and Turkey.
+Centralized prayer times data for Malaysia, Singapore, Indonesia, Brunei, Sri Lanka, Turkey, and UAE.
 
 Data is served via Netlify at:
 
@@ -53,7 +53,7 @@ zones:
       - Sepang
 ```
 
-Available files: `MY.yaml`, `SG.yaml`, `ID.yaml`, `BN.yaml`, `LK.yaml`, `TR.yaml`
+Available files: `MY.yaml`, `SG.yaml`, `ID.yaml`, `BN.yaml`, `LK.yaml`, `TR.yaml`, `AE.yaml`
 
 ### Prayer times
 
@@ -86,6 +86,7 @@ Examples:
 - `/prayer-times/BN/BRN01/2026-03.json` — Brunei-Muara, March 2026
 - `/prayer-times/LK/LK01/2026-12.json` — Colombo, December 2026
 - `/prayer-times/TR/TR9206/2026-01.json` — Ankara, January 2026
+- `/prayer-times/AE/AE1/2026-01.json` — Abu Dhabi, January 2026
 
 ### GeoJSON
 
@@ -132,6 +133,7 @@ Maps geojson shape property to zone code and state. Derived from zone files via 
 | BN | [KHEU Taqwim PDF](https://www.mora.gov.bn) | PDF | Manual, yearly |
 | LK | [ACJU PDFs](https://www.acju.lk/prayer-times/) | PDF | Manual, yearly |
 | TR | [Diyanet](https://namazvakitleri.diyanet.gov.tr) | Web scrape | Manual, yearly |
+| AE | [AWQAF](https://www.awqaf.gov.ae) | API | CI monthly (27th/28th) |
 
 ## Caching recommendations
 
@@ -152,5 +154,5 @@ For how the data pipeline, mapping system, and zone resolution work, see [docs/a
 
 ```bash
 pip install -r requirements.txt
-playwright install chromium  # only needed for Turkey fetch script
+playwright install chromium  # needed for Turkey and UAE fetch scripts
 ```

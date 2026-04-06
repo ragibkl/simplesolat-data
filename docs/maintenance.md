@@ -2,19 +2,20 @@
 
 ## Yearly tasks
 
-### API sources (JAKIM, MUIS, EQuran)
+### API sources (JAKIM, MUIS, EQuran, AWQAF)
 
 CI handles these automatically. Verify data is flowing:
 
 ```bash
-python3 scripts/verify_data.py year 2027        # check next year when available
-python3 scripts/verify_data.py next-month        # check upcoming month
+python3 scripts/verify_data.py              # all checks, current year
+python3 scripts/verify_data.py 2027         # all checks, specific year
 ```
 
 If CI fails, check GitHub Actions logs. Common issues:
 - MUIS: API key expired → regenerate at data.gov.sg, update GitHub secret
 - EQuran: 404 for specific zones → fill manually from KEMENAG (bimasislam.kemenag.go.id)
 - JAKIM: API down → retry via workflow_dispatch, data usually comes back
+- AWQAF: token extraction fails → WAF may be blocking CI IPs, run manually
 
 ### PDF sources (KHEU, ACJU)
 
@@ -122,8 +123,8 @@ Add entry to `data/countries.yaml`:
 
 ```bash
 python3 scripts/fetch_{source}.py
-python3 scripts/verify_data.py year 2026 {CC}
-python3 scripts/verify_data.py zones  # check for zone code collisions
+python3 scripts/verify_data.py           # runs all checks
+python3 scripts/verify_data.py 2026 {CC} # specific year/country
 ```
 
 ### 8. Submit PR
@@ -132,22 +133,16 @@ Include: zones file, geojson, mapping, countries.yaml update, fetch script, sour
 
 ## Troubleshooting
 
-### Data gaps (missing zone/months)
+### Data gaps or validation issues
 
 ```bash
-python3 scripts/verify_data.py year 2026          # find gaps
-python3 scripts/verify_data.py year 2026 ID       # check specific country
+python3 scripts/verify_data.py           # runs all checks
+python3 scripts/verify_data.py 2026 ID   # specific year/country
 ```
 
-If upstream returns no data, fill manually from an alternative official source (e.g. KEMENAG for Indonesia, Diyanet web for Turkey).
+This checks: zone collisions, next month availability, year completeness, prayer time ordering, and day counts.
 
-### Zone code collisions
-
-```bash
-python3 scripts/verify_data.py zones
-```
-
-All zone codes must be unique across all countries. If a collision is found, rename the generated zone code (keep the official country's code, rename the other).
+If upstream returns no data, fill manually from an alternative official source (e.g. KEMENAG for Indonesia).
 
 ### Mapping regeneration
 
@@ -166,3 +161,10 @@ If the headless browser can't extract cookies:
 1. Check if the site is up: `curl -I https://namazvakitleri.diyanet.gov.tr`
 2. Try clearing the cookie cache: `rm -rf sources/diyanet/cookies/`
 3. If consistently blocked, the WAF detection may have changed — check Playwright stealth settings
+
+### AWQAF token issues
+
+If the headless browser can't extract the auth token:
+1. Clear token cache: `rm -rf sources/awqaf/cookies/`
+2. Check if the site is up: `curl -I https://www.awqaf.gov.ae`
+3. Token is valid 20 min, cached 15 min — if running in CI and blocked, run locally instead
