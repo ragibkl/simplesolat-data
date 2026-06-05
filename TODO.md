@@ -13,5 +13,6 @@ See [docs/architecture.md](docs/architecture.md) and [docs/maintenance.md](docs/
 
 | Country | Authority | Source | Notes |
 |---------|-----------|--------|-------|
-| Bangladesh | Islamic Foundation | [islamicfoundation.gov.bd](https://islamicfoundation.gov.bd) | Publishes district-level schedules, check if scrapeable |
 | Morocco | Habous Ministry | [habous.gov.ma](https://habous.gov.ma) | Unofficial GitHub scraper exists |
+
+Bangladesh was investigated and intentionally excluded — see [README.md](README.md#why-some-countries-arent-here).
