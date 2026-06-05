@@ -117,6 +117,22 @@ The `shape_property` field in `countries.yaml` tells the app which geojson prope
 
 Zone codes are stable identifiers — the API and mobile app cache by zone code. Changing a zone code breaks existing caches.
 
+## Imsak convention
+
+Imsak is the time marking the start of fasting. Conventions vary by authority — some publish it explicitly, some don't, and the offset from Fajr differs. We trust each source's official position rather than applying a universal convention.
+
+| Country | Source position | Notes |
+|---------|----------------|-------|
+| MY | JAKIM provides imsak per zone | Most zones use fajr-10. PLS01 (Perlis) uses imsak=fajr — Mufti of Perlis follows the stricter view that no separation is needed |
+| SG | MUIS Imsakiah PDF: imsak = subuh - 10 min | API doesn't return imsak; we derive using MUIS's documented offset |
+| ID | EQuran provides imsak (= subuh - 10 min, KEMENAG convention) | Trust source |
+| BN | KHEU Taqwim PDF provides imsak column | Trust source |
+| LK | ACJU PDF footnote: "set end of Sahr two minutes before Fajr time" | PDF has no imsak column; we derive as fajr-2 |
+| TR | Diyanet: imsak = fajr (single dawn time) | No separate imsak in their tables |
+| AE | AWQAF API returns emsak = fajr | Use upstream emsak field directly |
+
+When upstream provides imsak, always use it as-is. When upstream doesn't, follow the authority's documented convention in their imsakiah/PDF notes. Don't apply a default offset.
+
 ## Mapping generation
 
 `scripts/generate_mappings.py` derives mapping files from zone definitions:
