@@ -20,6 +20,9 @@ import time
 from collections import defaultdict
 from datetime import datetime
 
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from utils import month_complete
+
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 COOKIE_DIR = os.path.join(ROOT, "sources", "awqaf", "cookies")
 API_BASE = "https://mobileappapi.awqaf.gov.ae/APIS/v3"
@@ -146,8 +149,13 @@ def main():
         out_dir = os.path.join(ROOT, "data", "prayer-times", "AE", zone_code)
         out_path = os.path.join(out_dir, f"{y}-{m}.json")
 
-        if os.path.exists(out_path):
+        if month_complete(out_path, y, m):
             total_skipped += 1
+            continue
+
+        # Skip if incomplete upstream data for the month (don't write partial files)
+        expected_days = __import__("calendar").monthrange(int(y), int(m))[1]
+        if len(month_records) < expected_days:
             continue
 
         prayer_times = []

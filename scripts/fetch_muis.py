@@ -8,6 +8,7 @@ Requires MUIS_API_KEY env var for higher rate limits.
 Usage: python3 scripts/fetch_muis.py
 """
 
+import calendar
 import json
 import os
 import re
@@ -15,6 +16,9 @@ import sys
 from collections import defaultdict
 from datetime import datetime
 from urllib.request import Request, urlopen
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from utils import month_complete  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 API_URL = "https://data.gov.sg/api/action/datastore_search"
@@ -66,12 +70,12 @@ def main():
     now = datetime.now()
     years_to_check = [now.year, now.year + 1]
     out_dir = os.path.join(ROOT, "data", "prayer-times", "SG", ZONE_CODE)
-    all_exist = all(
-        os.path.exists(os.path.join(out_dir, f"{y}-{m:02d}.json"))
+    all_complete = all(
+        month_complete(os.path.join(out_dir, f"{y}-{m:02d}.json"), str(y), f"{m:02d}")
         for y in years_to_check
         for m in range(1, 13)
     )
-    if all_exist:
+    if all_complete:
         print(f"All months for {years_to_check[0]}-{years_to_check[1]} already exist, skipping fetch")
         return
 
@@ -94,8 +98,13 @@ def main():
         out_dir = os.path.join(ROOT, "data", "prayer-times", "SG", ZONE_CODE)
         out_path = os.path.join(out_dir, f"{year}-{month}.json")
 
-        if os.path.exists(out_path):
+        if month_complete(out_path, year, month):
             total_skipped += 1
+            continue
+
+        # Don't write partial months
+        expected_days = calendar.monthrange(int(year), int(month))[1]
+        if len(by_month[year_month]) < expected_days:
             continue
 
         month_records = sorted(by_month[year_month], key=lambda r: r["Date"])

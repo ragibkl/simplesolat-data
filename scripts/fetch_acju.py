@@ -8,6 +8,7 @@ extracts prayer times, and writes to data/prayer-times/LK/{zone}/{year}-{month}.
 Usage: python3 scripts/extract_acju.py
 """
 
+import calendar
 import json
 import os
 import re
@@ -17,6 +18,9 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date as Date
 
 import pdfplumber
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from utils import month_complete  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SOURCES_YAML = os.path.join(ROOT, "sources", "acju", "sources.yaml")
@@ -183,7 +187,7 @@ def main():
     for entry in entries:
         out_dir = os.path.join(ROOT, "data", "prayer-times", "LK", entry['zone'])
         out_path = os.path.join(out_dir, f"{entry['year']}-{entry['month']}.json")
-        if os.path.exists(out_path):
+        if month_complete(out_path, entry['year'], entry['month']):
             total_skipped += 1
         else:
             entry['_out_path'] = out_path
@@ -217,6 +221,13 @@ def main():
     for entry in downloaded:
         records = extract_pdf(entry['_pdf_path'], entry['year'], entry['month'])
         if not records:
+            total_failed += 1
+            continue
+
+        # Don't write partial months
+        expected_days = calendar.monthrange(int(entry['year']), int(entry['month']))[1]
+        if len(records) < expected_days:
+            print(f"  WARNING: {entry['zone']}/{entry['year']}-{entry['month']}: incomplete ({len(records)}/{expected_days} days)")
             total_failed += 1
             continue
 

@@ -11,6 +11,7 @@ Usage: python3 scripts/fetch_diyanet.py [year]
 Requires: playwright (pip install playwright && playwright install chromium)
 """
 
+import calendar
 import json
 import os
 import re
@@ -19,6 +20,9 @@ import sys
 import time
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from utils import month_complete  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 COOKIE_DIR = os.path.join(ROOT, "sources", "diyanet", "cookies")
@@ -205,15 +209,15 @@ def fetch_district(district, cookie_str, year):
     slug = district["district"].lower().replace(" ", "-")
     url = f"{BASE_URL}/{dist_id}/prayer-time-for-{slug}"
 
-    # Check if all 12 months already exist
+    # Check if all 12 months already exist with complete data
     zone_code = district.get("zone_code")
     if zone_code:
         out_dir = os.path.join(ROOT, "data", "prayer-times", "TR", zone_code)
-        all_exist = all(
-            os.path.exists(os.path.join(out_dir, f"{year}-{m:02d}.json"))
+        all_complete = all(
+            month_complete(os.path.join(out_dir, f"{year}-{m:02d}.json"), year, f"{m:02d}")
             for m in range(1, 13)
         )
-        if all_exist:
+        if all_complete:
             return district, "skipped", None
 
     html = fetch_page(url, cookie_str)
@@ -281,13 +285,13 @@ def main():
         dist_name = district["district"]
         zone_code = district.get("zone_code", f"TR{dist_id}")
 
-        # Check if all months exist
+        # Check if all months exist with complete data
         out_dir = os.path.join(ROOT, "data", "prayer-times", "TR", zone_code)
-        all_exist = all(
-            os.path.exists(os.path.join(out_dir, f"{year}-{m:02d}.json"))
+        all_complete = all(
+            month_complete(os.path.join(out_dir, f"{year}-{m:02d}.json"), year, f"{m:02d}")
             for m in range(1, 13)
         )
-        if all_exist:
+        if all_complete:
             total_skipped += 1
             continue
 
@@ -316,11 +320,16 @@ def main():
         os.makedirs(out_dir, exist_ok=True)
         for month in sorted(by_month.keys()):
             out_path = os.path.join(out_dir, f"{year}-{month}.json")
-            if not os.path.exists(out_path):
-                prayer_times = sorted(by_month[month], key=lambda r: r["date"])
-                with open(out_path, "w") as f:
-                    json.dump(prayer_times, f, indent=2)
-                    f.write("\n")
+            if month_complete(out_path, year, month):
+                continue
+            # Don't write partial months
+            expected_days = calendar.monthrange(int(year), int(month))[1]
+            if len(by_month[month]) < expected_days:
+                continue
+            prayer_times = sorted(by_month[month], key=lambda r: r["date"])
+            with open(out_path, "w") as f:
+                json.dump(prayer_times, f, indent=2)
+                f.write("\n")
 
         total_written += 1
 
