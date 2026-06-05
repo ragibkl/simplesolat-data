@@ -135,6 +135,32 @@ Maps geojson shape property to zone code and state. Derived from zone files via 
 | TR | [Diyanet](https://namazvakitleri.diyanet.gov.tr) | Web scrape | Manual, yearly |
 | AE | [AWQAF](https://www.awqaf.gov.ae) | API | CI monthly (27th/28th) |
 
+## Inclusion criteria
+
+This repo only mirrors authorities that publish a **specific per-zone, per-day** prayer time table that mosques actually azan from. When the official body publishes only a calculation method, the [mobile app](https://github.com/ragibkl/simplesolat) falls back to client-side calculation via [adhan-js](https://github.com/batoulapps/adhan-js) — no entry needed here.
+
+- ✅ Authority publishes specific times mosques call azan from (e.g., JAKIM's per-zone times — these differ from generic Karachi-method calc by several minutes due to per-zone empirical adjustments)
+- ❌ Authority publishes only a calculation method (e.g., Umm Al-Qura, Karachi) — calc fallback handles this
+- ❌ No authoritative central body exists — calc fallback handles this
+
+### Investigated and excluded
+
+**Saudi Arabia (SA)** — KACST publishes the **Umm Al-Qura method** (a calculation standard with Mecca-anchored sunset/moonset rules), not a queryable per-region time service. Every prayer time service for SA (Aladhan, IslamicFinder, etc.) computes locally using Umm Al-Qura. Mobile calc fallback uses `UmmAlQura` for SA.
+
+**Bangladesh (BD)** — Islamic Foundation Bangladesh publishes an annual Ramadan PDF (per-district, 30 days, sehri/fajr/iftar only) and a printed "permanent prayer schedule" (Dhaka base + sehri/iftar offsets for 63 other districts, sample dates only — not daily). Neither is a queryable per-district full-prayer service. IF blesses the **University of Karachi method** (18°/18°); modern BD apps (Muslim Bangla, Ibadah, Muslim Pro) and republishers (kivabe.com, ihadis.com) all use Karachi-method GPS calculation. Mobile calc fallback should use `Karachi` for BD.
+
+### Candidates being evaluated
+
+| Country | Authority | Source | Notes |
+|---------|-----------|--------|-------|
+| Morocco | Habous Ministry | [habous.gov.ma](https://habous.gov.ma) | Unofficial GitHub scraper exists |
+
+## Known data gaps
+
+- Diyanet TR: 2 districts under maintenance (TR17876/Çukurova, TR17898/Akköy) — retry when Diyanet fixes
+- Diyanet TR: 2 geoBoundaries shapes unmapped (Hamur, Merkez) — not in Diyanet district list
+- AWQAF AE: only ADM1 geojson (7 emirates) — GPS resolves to emirate capital only. Investigate GADM ADM2 (192 districts) for finer resolution. Needs mapping 60 AWQAF areas to GADM neighborhoods.
+
 ## Caching recommendations
 
 | Data | Cache duration | Invalidation |
