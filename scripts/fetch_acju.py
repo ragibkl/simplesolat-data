@@ -127,7 +127,8 @@ def extract_pdf(pdf_path, year, month):
             asr = parse_time_12h(str(row[4]))
             maghrib = parse_time_12h(str(row[5]))
             isha = parse_time_12h(str(row[6]))
-            imsak = subtract_minutes(fajr, 10)
+            # ACJU PDF note: "Kindly requested to set the end of Sahr two minutes before Fajr time"
+            imsak = subtract_minutes(fajr, 2)
         except (ValueError, IndexError) as e:
             print(f"  WARNING: Failed to parse row {row}: {e}")
             continue

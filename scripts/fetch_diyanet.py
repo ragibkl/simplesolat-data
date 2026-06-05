@@ -182,12 +182,8 @@ def parse_yearly_table(html):
         maghrib = cells[6]
         isha = cells[7]
 
-        # Derive imsak as fajr - 10 min
-        fh, fm = map(int, fajr.split(':'))
-        total = fh * 60 + fm - 10
-        if total < 0:
-            total += 24 * 60
-        imsak = f"{total // 60:02d}:{total % 60:02d}"
+        # Diyanet convention: imsak == fajr (single dawn time, no offset)
+        imsak = fajr
 
         records.append({
             "date": date,

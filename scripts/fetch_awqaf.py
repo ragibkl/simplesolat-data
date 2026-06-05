@@ -152,18 +152,11 @@ def main():
 
         prayer_times = []
         for r in sorted(month_records, key=lambda x: x["gDate"]):
-            fajr = parse_time(r["fajr"])
-            # AWQAF sets emsak == fajr. Derive imsak as fajr - 10 min.
-            fh, fm = map(int, fajr.split(':'))
-            total = fh * 60 + fm - 10
-            if total < 0:
-                total += 24 * 60
-            imsak = f"{total // 60:02d}:{total % 60:02d}"
-
+            # AWQAF convention: emsak == fajr (use upstream value directly)
             prayer_times.append({
                 "date": r["gDate"][:10],
-                "imsak": imsak,
-                "fajr": fajr,
+                "imsak": parse_time(r["emsak"]),
+                "fajr": parse_time(r["fajr"]),
                 "syuruk": parse_time(r["shurooq"]),
                 "dhuhr": parse_time(r["zuhr"]),
                 "asr": parse_time(r["asr"]),
