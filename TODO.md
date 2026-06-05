@@ -8,7 +8,6 @@ See [docs/architecture.md](docs/architecture.md) and [docs/maintenance.md](docs/
 - [ ] Diyanet TR: 2 districts under maintenance (TR17876/Çukurova, TR17898/Akköy) — retry when Diyanet fixes
 - [ ] Diyanet TR: 2 geoBoundaries shapes unmapped (Hamur, Merkez) — not in Diyanet district list
 - [ ] AWQAF AE: only ADM1 geojson (7 emirates) — GPS resolves to emirate capital only. Investigate GADM ADM2 (192 districts) for finer resolution. Needs mapping 60 AWQAF areas to GADM neighborhoods.
-- [ ] JAKIM MY: upstream data error SBH08 2026-04-03 imsak was 15:20 — fixed manually, report to JAKIM
 
 ## Future countries
 
