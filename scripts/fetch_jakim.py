@@ -9,11 +9,15 @@ Usage: python3 scripts/fetch_jakim.py [year]
   Default: current year and next year
 """
 
+import calendar
 import json
 import os
 import re
 import sys
 import time
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from utils import month_complete  # noqa: E402
 from collections import defaultdict
 from datetime import datetime
 from urllib.request import Request, urlopen
@@ -78,8 +82,12 @@ def fetch_zone_year(zone_code, year):
     with urlopen(req, timeout=30) as resp:
         data = json.loads(resp.read())
 
-    if data.get("status") != "OK!":
-        raise RuntimeError(f"JAKIM API error for {zone_code}: {data.get('status')}")
+    status = data.get("status")
+    if status == "NO_RECORD!":
+        # Year not published yet — return empty list, caller treats as noop
+        return None
+    if status != "OK!":
+        raise RuntimeError(f"JAKIM API error for {zone_code}: {status}")
 
     return data["prayerTime"]
 
@@ -100,13 +108,13 @@ def main():
 
     for year in years:
         for zone_code in zones:
-            # Check if all 12 months already exist
+            # Check if all 12 months already exist with full data
             out_dir = os.path.join(ROOT, "data", "prayer-times", "MY", zone_code)
-            all_exist = all(
-                os.path.exists(os.path.join(out_dir, f"{year}-{m:02d}.json"))
+            all_complete = all(
+                month_complete(os.path.join(out_dir, f"{year}-{m:02d}.json"), str(year), f"{m:02d}")
                 for m in range(1, 13)
             )
-            if all_exist:
+            if all_complete:
                 total_skipped += 12
                 continue
 
@@ -120,6 +128,10 @@ def main():
                 total_fetched += 1
             except Exception as e:
                 print(f"  ERROR: {zone_code}/{year}: {e}")
+                continue
+
+            if records is None:
+                # Year not published yet — skip silently, retry next month
                 continue
 
             # Group by month
@@ -141,8 +153,13 @@ def main():
             # Write per-month files
             for month in sorted(by_month.keys()):
                 out_path = os.path.join(out_dir, f"{year}-{month}.json")
-                if os.path.exists(out_path):
+                if month_complete(out_path, str(year), month):
                     total_skipped += 1
+                    continue
+
+                # Don't write partial months
+                expected_days = calendar.monthrange(int(year), int(month))[1]
+                if len(by_month[month]) < expected_days:
                     continue
 
                 prayer_times = sorted(by_month[month], key=lambda r: r["date"])

@@ -10,6 +10,7 @@ Usage: python3 scripts/fetch_equran.py [year]
   Default: current year and next year
 """
 
+import calendar
 import json
 import os
 import re
@@ -18,6 +19,9 @@ from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 from urllib.error import HTTPError
 from urllib.request import Request, urlopen
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from utils import month_complete  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 API_URL = "https://equran.id/api/v2/shalat"
@@ -83,11 +87,16 @@ def process_task(zone, year, month):
     out_dir = os.path.join(ROOT, "data", "prayer-times", "ID", code)
     out_path = os.path.join(out_dir, f"{year}-{month:02d}.json")
 
-    if os.path.exists(out_path):
+    if month_complete(out_path, str(year), f"{month:02d}"):
         return "skipped"
 
     records = fetch_month(zone['state'], zone['location'], month, year)
     if not records:
+        return "empty"
+
+    # Don't write partial months
+    expected_days = calendar.monthrange(year, month)[1]
+    if len(records) < expected_days:
         return "empty"
 
     prayer_times = []

@@ -14,6 +14,7 @@ Base times are for BRN01/BRN04. Zone offsets:
 Usage: python3 scripts/fetch_kheu.py
 """
 
+import calendar
 import json
 import os
 import re
@@ -21,6 +22,9 @@ import subprocess
 import sys
 
 import pdfplumber
+
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+from utils import month_complete  # noqa: E402
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SOURCES_YAML = os.path.join(ROOT, "sources", "kheu", "sources.yaml")
@@ -264,13 +268,14 @@ def main():
                 continue
 
             # Check if all zones already have this month
-            all_exist = all(
-                os.path.exists(os.path.join(
-                    ROOT, "data", "prayer-times", "BN", z["code"], f"{year}-{month}.json"
-                ))
+            all_complete = all(
+                month_complete(
+                    os.path.join(ROOT, "data", "prayer-times", "BN", z["code"], f"{year}-{month}.json"),
+                    year, month,
+                )
                 for z in ZONES
             )
-            if all_exist:
+            if all_complete:
                 total_skipped += len(ZONES)
                 continue
 
@@ -279,11 +284,17 @@ def main():
             if not base_times:
                 continue
 
+            # Don't write partial months
+            expected_days = calendar.monthrange(int(year), int(month))[1]
+            if len(base_times) < expected_days:
+                print(f"  WARNING: {year}-{month}: incomplete ({len(base_times)}/{expected_days} days), skipping write")
+                continue
+
             # Write for each zone with offset
             for zone in ZONES:
                 out_dir = os.path.join(ROOT, "data", "prayer-times", "BN", zone["code"])
                 out_path = os.path.join(out_dir, f"{year}-{month}.json")
-                if os.path.exists(out_path):
+                if month_complete(out_path, year, month):
                     total_skipped += 1
                     continue
 

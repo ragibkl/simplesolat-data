@@ -9,6 +9,8 @@ on:
 jobs:
   fetch:
     runs-on: ubuntu-latest
+    permissions:
+      contents: write
     env:
       MUIS_API_KEY: ${{ secrets.MUIS_API_KEY }}
     steps:
