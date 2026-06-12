@@ -1,0 +1,972 @@
+# Bosnia (Islamic Community in BiH — Vaktija) zones.
+# Locations from sources/vaktija/vaktija.json; shapes (shapeID, like TR) from
+# geoBoundaries BIH ADM3 via scripts/build_ba_shapes.py. Sandžak (state: Sandžak)
+# is in RS/ME — no BIH geojson, manual selection only. Višegrad & Žepa are absent
+# from geoBoundaries (manual only).
+zones:
+  - code: BA0
+    country: BA
+    state: Bosna i Hercegovina
+    location: Banovići
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B54708030553090  # Banovići
+
+  - code: BA1
+    country: BA
+    state: Bosna i Hercegovina
+    location: Banja Luka
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B64626551405892  # Banja Luka
+
+  - code: BA2
+    country: BA
+    state: Bosna i Hercegovina
+    location: Bihać
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B52287249452969  # Bihać
+
+  - code: BA3
+    country: BA
+    state: Bosna i Hercegovina
+    location: Bijeljina
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B83094725746766  # Bijeljina
+
+  - code: BA4
+    country: BA
+    state: Bosna i Hercegovina
+    location: Bileća
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B25689857318815  # Bileća
+
+  - code: BA5
+    country: BA
+    state: Bosna i Hercegovina
+    location: Bosanski Brod
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B98794056378335  # Brod
+
+  - code: BA6
+    country: BA
+    state: Bosna i Hercegovina
+    location: Bosanska Dubica
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B83849202769760  # Kozarska Dubica
+
+  - code: BA7
+    country: BA
+    state: Bosna i Hercegovina
+    location: Bosanska Gradiška
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B56705694783132  # Gradiška
+
+  - code: BA8
+    country: BA
+    state: Bosna i Hercegovina
+    location: Bosansko Grahovo
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B45723311829087  # Bosansko Grahovo
+
+  - code: BA9
+    country: BA
+    state: Bosna i Hercegovina
+    location: Bosanska Krupa
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B79078535868776  # Bosanska Krupa
+      - 43093233B11243466270578  # Kupra na Uni
+
+  - code: BA10
+    country: BA
+    state: Bosna i Hercegovina
+    location: Bosanski Novi
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B47950730410595  # Kostajnica
+      - 43093233B49947296698025  # Novi Grad
+
+  - code: BA11
+    country: BA
+    state: Bosna i Hercegovina
+    location: Bosanski Petrovac
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B8593142689537  # Bosanski Petrovac
+
+  - code: BA12
+    country: BA
+    state: Bosna i Hercegovina
+    location: Bosanski Šamac
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B96578157817645  # Domaljevac-Šamac
+      - 43093233B99179574711878  # Pelagićevo
+      - 43093233B66905949038138  # Šamac
+
+  - code: BA13
+    country: BA
+    state: Bosna i Hercegovina
+    location: Bratunac
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B46435536509241  # Bratunac
+
+  - code: BA14
+    country: BA
+    state: Bosna i Hercegovina
+    location: Brčko
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B82378099338701  # Brcko District
+
+  - code: BA15
+    country: BA
+    state: Bosna i Hercegovina
+    location: Breza
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B35408487409601  # Breza
+
+  - code: BA16
+    country: BA
+    state: Bosna i Hercegovina
+    location: Bugojno
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B60495374346514  # Bugojno
+
+  - code: BA17
+    country: BA
+    state: Bosna i Hercegovina
+    location: Busovača
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B67476224198876  # Busovača
+
+  - code: BA18
+    country: BA
+    state: Bosna i Hercegovina
+    location: Bužim
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B33554401135407  # Bužim
+
+  - code: BA19
+    country: BA
+    state: Bosna i Hercegovina
+    location: Cazin
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B58899090992725  # Cazin
+
+  - code: BA20
+    country: BA
+    state: Bosna i Hercegovina
+    location: Čajniče
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B48148614096386  # Ustiprača
+      - 43093233B6446580262771  # Čajniče
+
+  - code: BA21
+    country: BA
+    state: Bosna i Hercegovina
+    location: Čapljina
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B24232067138496  # Čapljina
+
+  - code: BA22
+    country: BA
+    state: Bosna i Hercegovina
+    location: Čelić
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B97959138698162  # Čelić
+
+  - code: BA23
+    country: BA
+    state: Bosna i Hercegovina
+    location: Čelinac
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B34184787679181  # Čelinac
+
+  - code: BA24
+    country: BA
+    state: Bosna i Hercegovina
+    location: Čitluk
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B61801796741908  # Čitluk
+
+  - code: BA25
+    country: BA
+    state: Bosna i Hercegovina
+    location: Derventa
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B95245630393454  # Derventa
+
+  - code: BA26
+    country: BA
+    state: Bosna i Hercegovina
+    location: Doboj
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B88979236759582  # Doboj
+
+  - code: BA27
+    country: BA
+    state: Bosna i Hercegovina
+    location: Donji Vakuf
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B49053343061122  # Donji Vakuf
+
+  - code: BA28
+    country: BA
+    state: Bosna i Hercegovina
+    location: Drvar
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B59344523181148  # Drvar
+      - 43093233B25456706530362  # Istočni Drvar
+      - 43093233B23267747345323  # Petrovac
+
+  - code: BA29
+    country: BA
+    state: Bosna i Hercegovina
+    location: Foča
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B17850822460074  # Foča
+
+  - code: BA30
+    country: BA
+    state: Bosna i Hercegovina
+    location: Fojnica
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B94230808309685  # Fojnica
+
+  - code: BA31
+    country: BA
+    state: Bosna i Hercegovina
+    location: Gacko
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B49549888684585  # Gacko
+
+  - code: BA32
+    country: BA
+    state: Bosna i Hercegovina
+    location: Glamoč
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B43945283156568  # Glamoč
+
+  - code: BA33
+    country: BA
+    state: Bosna i Hercegovina
+    location: Goražde
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B83077569190924  # Foča-Ustikolina
+      - 43093233B67817660226532  # Goražde
+      - 43093233B93468404991015  # Pale-Prača
+
+  - code: BA34
+    country: BA
+    state: Bosna i Hercegovina
+    location: Gornji Vakuf
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B79928376109694  # Gornji Vakuf-Uskoplje
+
+  - code: BA35
+    country: BA
+    state: Bosna i Hercegovina
+    location: Gračanica
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B57216929410228  # Doboj East
+      - 43093233B56079028726437  # Gračanica
+
+  - code: BA36
+    country: BA
+    state: Bosna i Hercegovina
+    location: Gradačac
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B36627259982738  # Gradačac
+
+  - code: BA37
+    country: BA
+    state: Bosna i Hercegovina
+    location: Grude
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B22718181968730  # Grude
+
+  - code: BA38
+    country: BA
+    state: Bosna i Hercegovina
+    location: Hadžići
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B20708549274135  # Hadžići
+
+  - code: BA39
+    country: BA
+    state: Bosna i Hercegovina
+    location: Han-Pijesak
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B14603812803519  # Han Pijesak
+
+  - code: BA40
+    country: BA
+    state: Bosna i Hercegovina
+    location: Hlivno
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B82239464067086  # Livno
+
+  - code: BA41
+    country: BA
+    state: Bosna i Hercegovina
+    location: Ilijaš
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B29241521930866  # Ilijaš
+
+  - code: BA42
+    country: BA
+    state: Bosna i Hercegovina
+    location: Jablanica
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B26186334377301  # Jablanica
+
+  - code: BA43
+    country: BA
+    state: Bosna i Hercegovina
+    location: Jajce
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B28333540693502  # Dobretići
+      - 43093233B65899723689105  # Jajce
+      - 43093233B33359263753816  # Jezero
+
+  - code: BA44
+    country: BA
+    state: Bosna i Hercegovina
+    location: Kakanj
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B37669859979811  # Kakanj
+
+  - code: BA45
+    country: BA
+    state: Bosna i Hercegovina
+    location: Kalesija
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B99462718052671  # Kalesija
+      - 43093233B99110432361813  # Sapna
+
+  - code: BA46
+    country: BA
+    state: Bosna i Hercegovina
+    location: Kalinovik
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B96710806136322  # Kalinovik
+
+  - code: BA47
+    country: BA
+    state: Bosna i Hercegovina
+    location: Kiseljak
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B52871697212491  # Kiseljak
+
+  - code: BA48
+    country: BA
+    state: Bosna i Hercegovina
+    location: Kladanj
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B14237164758735  # Kladanj
+
+  - code: BA49
+    country: BA
+    state: Bosna i Hercegovina
+    location: Ključ
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B71649810483300  # Ključ
+      - 43093233B1525260622948  # Ribnik
+
+  - code: BA50
+    country: BA
+    state: Bosna i Hercegovina
+    location: Konjic
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B96487180155456  # Konjic
+
+  - code: BA51
+    country: BA
+    state: Bosna i Hercegovina
+    location: Kotor-Varoš
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B10611979100154  # Kotor Varoš
+
+  - code: BA52
+    country: BA
+    state: Bosna i Hercegovina
+    location: Kreševo
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B96860256766014  # Kreševo
+
+  - code: BA53
+    country: BA
+    state: Bosna i Hercegovina
+    location: Kupres
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B52535681657605  # Kupres
+      - 43093233B81215665595173  # Kupres (BiH)
+
+  - code: BA54
+    country: BA
+    state: Bosna i Hercegovina
+    location: Laktaši
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B47346890100402  # Laktaši
+
+  - code: BA55
+    country: BA
+    state: Bosna i Hercegovina
+    location: Lopare
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B10159844232387  # Lopare
+
+  - code: BA56
+    country: BA
+    state: Bosna i Hercegovina
+    location: Lukavac
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B16759840315853  # Lukavac
+
+  - code: BA57
+    country: BA
+    state: Bosna i Hercegovina
+    location: Ljubinje
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B77928593657916  # Berkovići
+      - 43093233B95293616483366  # Ljubinje
+      - 43093233B77994413721373  # Ravno
+
+  - code: BA58
+    country: BA
+    state: Bosna i Hercegovina
+    location: Ljubuški
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B91159154650479  # Ljubuški
+
+  - code: BA59
+    country: BA
+    state: Bosna i Hercegovina
+    location: Maglaj
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B1302485907862  # Maglaj
+      - 43093233B90446643337162  # Petrovo
+
+  - code: BA60
+    country: BA
+    state: Bosna i Hercegovina
+    location: Modriča
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B78423126306328  # Modriča
+
+  - code: BA61
+    country: BA
+    state: Bosna i Hercegovina
+    location: Mostar
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B67623280303241  # Mostar
+
+  - code: BA62
+    country: BA
+    state: Bosna i Hercegovina
+    location: Mrkonjić-Grad
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B84847829539290  # Mrkonjić Grad
+
+  - code: BA63
+    country: BA
+    state: Bosna i Hercegovina
+    location: Neum
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B83862591324759  # Neum
+
+  - code: BA64
+    country: BA
+    state: Bosna i Hercegovina
+    location: Nevesinje
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B93740576055705  # Istočni Mostar
+      - 43093233B54971893195073  # Nevesinje
+
+  - code: BA65
+    country: BA
+    state: Bosna i Hercegovina
+    location: Novi Travnik
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B28738780111513  # Novi Travnik
+
+  - code: BA66
+    country: BA
+    state: Bosna i Hercegovina
+    location: Odžak
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B26946767069658  # Odžak
+      - 43093233B60247240608533  # Vukosavlje
+
+  - code: BA67
+    country: BA
+    state: Bosna i Hercegovina
+    location: Olovo
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B78325541023921  # Olovo
+
+  - code: BA68
+    country: BA
+    state: Bosna i Hercegovina
+    location: Orašje
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B22511030794636  # Donji Žabar
+      - 43093233B30937968623537  # Orašje
+
+  - code: BA69
+    country: BA
+    state: Bosna i Hercegovina
+    location: Pale
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B56649915064424  # Pale
+
+  - code: BA70
+    country: BA
+    state: Bosna i Hercegovina
+    location: Posušje
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B68262385299464  # Posušje
+
+  - code: BA71
+    country: BA
+    state: Bosna i Hercegovina
+    location: Prijedor
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B77793160970471  # Prijedor
+
+  - code: BA72
+    country: BA
+    state: Bosna i Hercegovina
+    location: Prnjavor
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B75622628887489  # Prnjavor
+
+  - code: BA73
+    country: BA
+    state: Bosna i Hercegovina
+    location: Prozor
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B2992764633338  # Prozor-Rama
+
+  - code: BA74
+    country: BA
+    state: Bosna i Hercegovina
+    location: Rogatica
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B55524282986143  # Rogatica
+
+  - code: BA75
+    country: BA
+    state: Bosna i Hercegovina
+    location: Rudo
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B46745881019900  # Rudo
+
+  - code: BA76
+    country: BA
+    state: Bosna i Hercegovina
+    location: Sanski Most
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B6819283992361  # Oštra Luka
+      - 43093233B99469517424409  # Sanski Most
+
+  - code: BA77
+    country: BA
+    state: Bosna i Hercegovina
+    location: Sarajevo
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B82310753062851  # Centar
+      - 43093233B76640285060416  # Ilidža
+      - 43093233B7218490296517  # Istočna Ilidža
+      - 43093233B26529153732630  # Istočni Stari Grad
+      - 43093233B18142755687930  # Istočno Novo Sarajevo
+      - 43093233B94913651340481  # Novi Grad
+      - 43093233B64707009731304  # Novo Sarajevo
+      - 43093233B88722992155367  # Stari Grad
+      - 43093233B27153812747449  # Vogošća
+
+  - code: BA78
+    country: BA
+    state: Bosna i Hercegovina
+    location: Skender-Vakuf
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B80520640315042  # Kneževo
+
+  - code: BA79
+    country: BA
+    state: Bosna i Hercegovina
+    location: Sokolac
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B18315039543713  # Sokolac
+
+  - code: BA80
+    country: BA
+    state: Bosna i Hercegovina
+    location: Srbac
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B45245298150544  # Srbac
+
+  - code: BA81
+    country: BA
+    state: Bosna i Hercegovina
+    location: Srebrenica
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B25636025166186  # Srebrenica
+
+  - code: BA82
+    country: BA
+    state: Bosna i Hercegovina
+    location: Srebrenik
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B95129910366582  # Srebrenik
+
+  - code: BA83
+    country: BA
+    state: Bosna i Hercegovina
+    location: Stolac
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B4939168284085  # Stolac
+
+  - code: BA84
+    country: BA
+    state: Bosna i Hercegovina
+    location: Šekovići
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B36601123912361  # Osmaci
+      - 43093233B27358903985827  # Šekovići
+
+  - code: BA85
+    country: BA
+    state: Bosna i Hercegovina
+    location: Šipovo
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B4185139827614  # Šipovo
+
+  - code: BA86
+    country: BA
+    state: Bosna i Hercegovina
+    location: Široki Brijeg
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B82557646548063  # Široki Brijeg
+
+  - code: BA87
+    country: BA
+    state: Bosna i Hercegovina
+    location: Teslić
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B44678371024633  # Teslić
+
+  - code: BA88
+    country: BA
+    state: Bosna i Hercegovina
+    location: Tešanj
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B72212179272424  # Doboj Jug
+      - 43093233B76206910856157  # Tešanj
+      - 43093233B20831922927744  # Usora
+
+  - code: BA89
+    country: BA
+    state: Bosna i Hercegovina
+    location: Tomislav-Grad
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B94877039995793  # Tomislavgrad
+
+  - code: BA90
+    country: BA
+    state: Bosna i Hercegovina
+    location: Travnik
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B64510687239445  # Travnik
+
+  - code: BA91
+    country: BA
+    state: Bosna i Hercegovina
+    location: Trebinje
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B75285091683358  # Trebinje
+
+  - code: BA92
+    country: BA
+    state: Bosna i Hercegovina
+    location: Trnovo
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B93349249059789  # Trnovo (BiH)
+      - 43093233B69491988207899  # Trnovo (RS)
+
+  - code: BA93
+    country: BA
+    state: Bosna i Hercegovina
+    location: Tuzla
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B86865457565284  # Tuzla
+
+  - code: BA94
+    country: BA
+    state: Bosna i Hercegovina
+    location: Ugljevik
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B12629528603893  # Teočak
+      - 43093233B70226780521700  # Ugljevik
+
+  - code: BA95
+    country: BA
+    state: Bosna i Hercegovina
+    location: Vareš
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B14833660750510  # Vareš
+
+  - code: BA96
+    country: BA
+    state: Bosna i Hercegovina
+    location: Velika Kladuša
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B47366254081906  # Velika Kladuša
+
+  - code: BA97
+    country: BA
+    state: Bosna i Hercegovina
+    location: Visoko
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B63640318160940  # Visoko
+
+  - code: BA98
+    country: BA
+    state: Bosna i Hercegovina
+    location: Višegrad
+    timezone: Europe/Sarajevo
+    shapes: []
+
+  - code: BA99
+    country: BA
+    state: Bosna i Hercegovina
+    location: Vitez
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B31414598982959  # Vitez
+
+  - code: BA100
+    country: BA
+    state: Bosna i Hercegovina
+    location: Vlasenica
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B9839651175697  # Milići
+      - 43093233B25085924089879  # Vlasenica
+
+  - code: BA101
+    country: BA
+    state: Bosna i Hercegovina
+    location: Zavidovići
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B17981650539180  # Zavidovići
+
+  - code: BA102
+    country: BA
+    state: Bosna i Hercegovina
+    location: Zenica
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B81630913558650  # Zenica
+
+  - code: BA103
+    country: BA
+    state: Bosna i Hercegovina
+    location: Zvornik
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B30286487293436  # Zvornik
+
+  - code: BA104
+    country: BA
+    state: Bosna i Hercegovina
+    location: Žepa
+    timezone: Europe/Sarajevo
+    shapes: []
+
+  - code: BA105
+    country: BA
+    state: Bosna i Hercegovina
+    location: Žepče
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B28181066770553  # Žepče
+
+  - code: BA106
+    country: BA
+    state: Bosna i Hercegovina
+    location: Živinice
+    timezone: Europe/Sarajevo
+    shapes:
+      - 43093233B3183764522744  # Živinice
+
+  - code: BA107
+    country: BA
+    state: Sandžak
+    location: Bijelo Polje
+    timezone: Europe/Sarajevo
+    shapes: []
+
+  - code: BA108
+    country: BA
+    state: Sandžak
+    location: Gusinje
+    timezone: Europe/Sarajevo
+    shapes: []
+
+  - code: BA109
+    country: BA
+    state: Sandžak
+    location: Nova Varoš
+    timezone: Europe/Sarajevo
+    shapes: []
+
+  - code: BA110
+    country: BA
+    state: Sandžak
+    location: Novi Pazar
+    timezone: Europe/Sarajevo
+    shapes: []
+
+  - code: BA111
+    country: BA
+    state: Sandžak
+    location: Plav
+    timezone: Europe/Sarajevo
+    shapes: []
+
+  - code: BA112
+    country: BA
+    state: Sandžak
+    location: Pljevlja
+    timezone: Europe/Sarajevo
+    shapes: []
+
+  - code: BA113
+    country: BA
+    state: Sandžak
+    location: Priboj
+    timezone: Europe/Sarajevo
+    shapes: []
+
+  - code: BA114
+    country: BA
+    state: Sandžak
+    location: Prijepolje
+    timezone: Europe/Sarajevo
+    shapes: []
+
+  - code: BA115
+    country: BA
+    state: Sandžak
+    location: Rožaje
+    timezone: Europe/Sarajevo
+    shapes: []
+
+  - code: BA116
+    country: BA
+    state: Sandžak
+    location: Sjenica
+    timezone: Europe/Sarajevo
+    shapes: []
+
+  - code: BA117
+    country: BA
+    state: Sandžak
+    location: Tutin
+    timezone: Europe/Sarajevo
+    shapes: []
