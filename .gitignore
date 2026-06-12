@@ -3,3 +3,6 @@ sources/**/*.pdf
 sources/**/pdfs/
 sources/**/cookies/
 __pycache__/
+
+# Local investigation/research docs (kept out of the repo)
+report/
