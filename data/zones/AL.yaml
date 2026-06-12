@@ -1,0 +1,180 @@
+# Albania (Diyanet — published by the Islamic Community of Albania, KMSH) zones.
+# Cities from sources/diyanet/locations-al.yaml; shapes (shapeID) from geoBoundaries
+# ALB ADM2 via scripts/build_al_shapes.py.
+zones:
+  - code: AL11203
+    country: AL
+    state: Albania
+    location: Tiranë
+    timezone: Europe/Tirane
+    shapes:
+      - 67620474B90997304428465  # Tiranë
+
+  - code: AL11204
+    country: AL
+    state: Albania
+    location: Shkodër
+    timezone: Europe/Tirane
+    shapes:
+      - 67620474B62137861373373  # Malësi e Madhe
+      - 67620474B15717375113052  # Shkodër
+
+  - code: AL11205
+    country: AL
+    state: Albania
+    location: Elbasan
+    timezone: Europe/Tirane
+    shapes:
+      - 67620474B34590160208903  # Elbasan
+      - 67620474B93113119561724  # Peqin
+
+  - code: AL11206
+    country: AL
+    state: Albania
+    location: Durrës
+    timezone: Europe/Tirane
+    shapes:
+      - 67620474B45959085094100  # Durrës
+
+  - code: AL11207
+    country: AL
+    state: Albania
+    location: Bajram Curri
+    timezone: Europe/Tirane
+    shapes:
+      - 67620474B51228836218093  # Has
+      - 67620474B51082079967557  # Tropojë
+
+  - code: AL11208
+    country: AL
+    state: Albania
+    location: Rrëshen
+    timezone: Europe/Tirane
+    shapes:
+      - 67620474B20431026689517  # Lezhë
+      - 67620474B99888539945274  # Mirditë
+      - 67620474B73280275449109  # Pukë
+
+  - code: AL11209
+    country: AL
+    state: Albania
+    location: Lushnjë
+    timezone: Europe/Tirane
+    shapes:
+      - 67620474B5524789266710  # Kavajë
+      - 67620474B73435711419495  # Lushnjë
+
+  - code: AL11210
+    country: AL
+    state: Albania
+    location: Vlorë
+    timezone: Europe/Tirane
+    shapes:
+      - 67620474B72354996665991  # Mallakastër
+      - 67620474B72762453157270  # Vlorë
+      - 67620474B93518338354482  # Vlorë
+
+  - code: AL11211
+    country: AL
+    state: Albania
+    location: Ersekë
+    timezone: Europe/Tirane
+    shapes:
+      - 67620474B91947048364679  # Kolonjë
+
+  - code: AL11212
+    country: AL
+    state: Albania
+    location: Sarandë
+    timezone: Europe/Tirane
+    shapes:
+      - 67620474B1879164611880  # Delvinë
+      - 67620474B70468291702657  # Sarandë
+
+  - code: AL11213
+    country: AL
+    state: Albania
+    location: Gjirokastër
+    timezone: Europe/Tirane
+    shapes:
+      - 67620474B28188595050305  # Gjirokastër
+
+  - code: AL11214
+    country: AL
+    state: Albania
+    location: Peshkopi
+    timezone: Europe/Tirane
+    shapes:
+      - 67620474B73468897065558  # Dibër
+      - 67620474B92464717887955  # Kukës
+
+  - code: AL11215
+    country: AL
+    state: Albania
+    location: Krujë
+    timezone: Europe/Tirane
+    shapes:
+      - 67620474B91291617478666  # Krujë
+      - 67620474B66777869203493  # Kurbin
+
+  - code: AL11216
+    country: AL
+    state: Albania
+    location: Fier
+    timezone: Europe/Tirane
+    shapes:
+      - 67620474B94080737422449  # Fier
+
+  - code: AL11217
+    country: AL
+    state: Albania
+    location: Berat
+    timezone: Europe/Tirane
+    shapes:
+      - 67620474B3220488890929  # Berat
+      - 67620474B60363170083379  # Gramsh
+      - 67620474B36949901982284  # Kuçovë
+      - 67620474B25662331989090  # Tepelenë
+
+  - code: AL11218
+    country: AL
+    state: Albania
+    location: Përmet
+    timezone: Europe/Tirane
+    shapes:
+      - 67620474B23103740146981  # Përmet
+      - 67620474B62055143354216  # Skrapar
+
+  - code: AL11219
+    country: AL
+    state: Albania
+    location: Korçë
+    timezone: Europe/Tirane
+    shapes:
+      - 67620474B41402008781007  # Devoll
+      - 67620474B90792074310011  # Kuçovë
+
+  - code: AL11220
+    country: AL
+    state: Albania
+    location: Pogradec
+    timezone: Europe/Tirane
+    shapes:
+      - 67620474B77805918454880  # Pogradec
+
+  - code: AL11221
+    country: AL
+    state: Albania
+    location: Burrel
+    timezone: Europe/Tirane
+    shapes:
+      - 67620474B55788488782298  # Mat
+
+  - code: AL20102
+    country: AL
+    state: Albania
+    location: Librazhd
+    timezone: Europe/Tirane
+    shapes:
+      - 67620474B60153855067708  # Bulqizë
+      - 67620474B87569046172350  # Librazhd

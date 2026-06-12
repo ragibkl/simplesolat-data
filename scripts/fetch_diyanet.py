@@ -1,12 +1,15 @@
 #!/usr/bin/env python3
 """
-Fetch Diyanet (Turkey) prayer times from namazvakitleri.diyanet.gov.tr.
+Fetch Diyanet prayer times from namazvakitleri.diyanet.gov.tr.
 
 Uses headless browser to extract WAF cookies, then curls each district page
-to parse the yearly prayer time table from HTML.
+to parse the yearly prayer time table from HTML. Diyanet's international DB
+also covers other countries (e.g. Albania), so this is country-parametrised.
 
-Usage: python3 scripts/fetch_diyanet.py [year]
-  Default: current year
+Usage: python3 scripts/fetch_diyanet.py [year] [country]
+  Default: current year, country TR
+  Country picks the locations file (TR -> locations.yaml, else
+  locations-<cc>.yaml) and the output country code / zone prefix.
 
 Requires: playwright (pip install playwright && playwright install chromium)
 """
@@ -18,6 +21,7 @@ import re
 import subprocess
 import sys
 import time
+import unicodedata
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 
@@ -233,12 +237,14 @@ def fetch_district(district, cookie_str, year):
 
 def main():
     year = sys.argv[1] if len(sys.argv) > 1 else str(datetime.now().year)
+    country = sys.argv[2].upper() if len(sys.argv) > 2 else "TR"
 
     # Step 1: Get cookies
     cookie_str = get_cookies()
 
     # Step 2: Get district list (or load cached)
-    locations_file = os.path.join(ROOT, "sources", "diyanet", "locations.yaml")
+    locations_name = "locations.yaml" if country == "TR" else f"locations-{country.lower()}.yaml"
+    locations_file = os.path.join(ROOT, "sources", "diyanet", locations_name)
     if os.path.exists(locations_file):
         # Parse existing locations
         districts = []
@@ -283,10 +289,10 @@ def main():
         dist_id = district["id"]
         province = district["province"]
         dist_name = district["district"]
-        zone_code = district.get("zone_code", f"TR{dist_id}")
+        zone_code = district.get("zone_code", f"{country}{dist_id}")
 
         # Check if all months exist with complete data
-        out_dir = os.path.join(ROOT, "data", "prayer-times", "TR", zone_code)
+        out_dir = os.path.join(ROOT, "data", "prayer-times", country, zone_code)
         all_complete = all(
             month_complete(os.path.join(out_dir, f"{year}-{m:02d}.json"), year, f"{m:02d}")
             for m in range(1, 13)
@@ -296,6 +302,9 @@ def main():
             continue
 
         slug = dist_name.lower().replace(" ", "-").replace("ı", "i").replace("ş", "s").replace("ç", "c").replace("ö", "o").replace("ü", "u").replace("ğ", "g").replace("İ", "i")
+        # Fold any remaining non-ASCII (e.g. Albanian ë) — Diyanet routes by id,
+        # the slug is cosmetic, but the URL must be ASCII-safe for curl.
+        slug = unicodedata.normalize("NFKD", slug).encode("ascii", "ignore").decode()
         url = f"{BASE_URL}/{dist_id}/prayer-time-for-{slug}"
 
         html = fetch_page(url, cookie_str)

@@ -1,6 +1,6 @@
 # simplesolat-data
 
-Centralized prayer times data for Malaysia, Singapore, Indonesia, Brunei, Sri Lanka, Turkey, UAE, and Bosnia.
+Centralized prayer times data for Malaysia, Singapore, Indonesia, Brunei, Sri Lanka, Turkey, UAE, Bosnia, and Albania.
 
 Data is served via Netlify at:
 
@@ -53,7 +53,7 @@ zones:
       - Sepang
 ```
 
-Available files: `MY.yaml`, `SG.yaml`, `ID.yaml`, `BN.yaml`, `LK.yaml`, `TR.yaml`, `AE.yaml`, `BA.yaml`
+Available files: `MY.yaml`, `SG.yaml`, `ID.yaml`, `BN.yaml`, `LK.yaml`, `TR.yaml`, `AE.yaml`, `BA.yaml`, `AL.yaml`
 
 ### Prayer times
 
@@ -135,8 +135,11 @@ Maps geojson shape property to zone code and state. Derived from zone files via 
 | TR | [Diyanet](https://namazvakitleri.diyanet.gov.tr) | Web scrape | Manual, yearly |
 | AE | [AWQAF](https://www.awqaf.gov.ae) | API | CI monthly (27th/28th) |
 | BA | [IZ BiH Vaktija](https://vaktija.ba) (via [vaktija.ba dataset](https://github.com/vaktija/vaktija.ba)) | Static dataset | Offline, regenerate yearly |
+| AL | [KMSH](https://kmsh.al) (Diyanet data, via [namaz.kmsh.al](https://namaz.kmsh.al)) | Web scrape | Manual, yearly |
 
 **Note on BA (Bosnia):** The authority is the **Islamic Community in Bosnia & Herzegovina (IZ BiH / Rijaset)**, which publishes the official Vaktija. Unlike the others, this Vaktija is a **perpetual** table — Sarajevo base times plus fixed per-city/month offsets that repeat every year (only DST varies) — so it's committed as a static dataset (`sources/vaktija/vaktija.json`) and regenerated offline per year via `scripts/fetch_vaktija.py`, with no runtime API. The data comes from the long-standing, canonical [vaktija.ba](https://vaktija.ba) (500k+ users), whose tabular structure matches the official IZ BiH takvim; we treat it as the authoritative source.
+
+**Note on AL (Albania):** The authority is the **Muslim Community of Albania (KMSH)**, which publishes **Diyanet's** (Turkey, Presidency of Religious Affairs) prayer times for Albanian cities on its own site ([namaz.kmsh.al](https://namaz.kmsh.al)) — verified by an exact match to Diyanet's data. So Albania is fetched from Diyanet's international database using the **same scraper as Turkey** (`scripts/fetch_diyanet.py AL`), just with the 20 Albanian city IDs. Zone codes are `AL{diyanetId}`.
 
 ## Inclusion criteria
 
