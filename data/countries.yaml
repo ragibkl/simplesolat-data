@@ -54,3 +54,10 @@ countries:
     geojson: https://simplesolat-data.netlify.app/geojson/BA-adm3-geojson-20260612.json
     mapping: https://simplesolat-data.netlify.app/mappings/BA-adm3-mapping-20260612.json
     shape_property: shapeID
+
+  - code: AL
+    name: Albania
+    source: KMSH (Diyanet)
+    geojson: https://simplesolat-data.netlify.app/geojson/AL-adm2-geojson-20260612.json
+    mapping: https://simplesolat-data.netlify.app/mappings/AL-adm2-mapping-20260612.json
+    shape_property: shapeID
