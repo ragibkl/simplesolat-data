@@ -48,13 +48,20 @@ def parse_zones():
 
 
 def parse_jakim_date(date_str):
-    """Convert '01-Jan-2026' to '2026-01-01'."""
-    m = re.match(r'(\d{2})-(\w{3})-(\d{4})', date_str)
+    """Convert '01-Jan-2026' or '01-Ogos-2026' to '2026-01-01'.
+
+    JAKIM returns month names in either English or Malay, and the Malay names
+    vary in length (e.g. 'Mac', 'Mei', 'Ogos', 'Disember'). Match a variable
+    length token and fall back to its 3-char prefix, which uniquely identifies
+    every month in both languages.
+    """
+    m = re.match(r'(\d{2})-(\w+)-(\d{4})', date_str)
     if not m:
         raise ValueError(f"Cannot parse date: {date_str}")
-    day = m.group(1)
-    month = MONTHS[m.group(2)]
-    year = m.group(3)
+    day, token, year = m.group(1), m.group(2), m.group(3)
+    month = MONTHS.get(token) or MONTHS.get(token[:3])
+    if not month:
+        raise ValueError(f"Unknown month in date: {date_str}")
     return f"{year}-{month}-{day}"
 
 
