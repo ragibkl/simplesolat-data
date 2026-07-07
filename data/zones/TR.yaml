@@ -89,14 +89,6 @@ zones:
     shapes:
       - 54988432B41479825758135  # Yumurtalık
 
-  - code: TR17876
-    country: TR
-    state: ADANA
-    location: ÇUKUROVA
-    timezone: Europe/Istanbul
-    shapes:
-      - 54988432B84437905813511  # Çukurova
-
   - code: TR9150
     country: TR
     state: ADANA
@@ -1722,13 +1714,6 @@ zones:
     timezone: Europe/Istanbul
     shapes:
       - 54988432B52458051755801  # Acıpayam
-
-  - code: TR17898
-    country: TR
-    state: DENİZLİ
-    location: AKKÖY
-    timezone: Europe/Istanbul
-    shapes: []
 
   - code: TR9382
     country: TR
