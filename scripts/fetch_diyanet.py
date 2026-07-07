@@ -134,6 +134,28 @@ def fetch_page(url, cookie_str):
     return result.stdout
 
 
+def fetch_records_with_retry(url, cookie_str, retries=3):
+    """Fetch + parse a district page, retrying on empty/failed responses.
+
+    The Diyanet WAF occasionally serves an empty or table-less page for a
+    district; a retry with a short backoff almost always recovers it.
+    Returns (records, status) where status is 'ok', 'empty', or 'error'.
+    """
+    last_status = "error"
+    for attempt in range(retries):
+        html = fetch_page(url, cookie_str)
+        if not html:
+            last_status = "error"
+        else:
+            records = parse_yearly_table(html)
+            if records:
+                return records, "ok"
+            last_status = "empty"
+        if attempt < retries - 1:
+            time.sleep(2 * (attempt + 1))
+    return None, last_status
+
+
 def get_districts(cookie_str):
     """Parse all provinces and districts from the Diyanet page dropdowns."""
     html = fetch_page(f"{BASE_URL}/9206/prayer-time-for-ankara", cookie_str)
@@ -342,15 +364,9 @@ def main():
         slug = unicodedata.normalize("NFKD", slug).encode("ascii", "ignore").decode()
         url = f"{BASE_URL}/{dist_id}/prayer-time-for-{slug}"
 
-        html = fetch_page(url, cookie_str)
-        if not html:
-            print(f"  ERROR: {province}/{dist_name}")
-            total_errors += 1
-            continue
-
-        records = parse_yearly_table(html)
+        records, status = fetch_records_with_retry(url, cookie_str)
         if not records:
-            print(f"  EMPTY: {province}/{dist_name}")
+            print(f"  {status.upper()}: {province}/{dist_name}")
             total_errors += 1
             continue
 
