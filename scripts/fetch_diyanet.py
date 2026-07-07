@@ -58,34 +58,69 @@ def get_cookies():
             return data["cookie_str"]
 
     print("Extracting fresh cookies via headless browser...")
+
+    # The Diyanet site is slow/flaky from CI — retry the whole browser dance a
+    # few times before giving up, with a backoff between attempts.
+    last_err = None
+    cookie_str = None
+    num_cookies = 0
+    for attempt in range(1, 4):
+        try:
+            cookie_str, num_cookies = _extract_cookies_via_browser()
+            if num_cookies == 0:
+                raise RuntimeError("no cookies returned")
+            break
+        except Exception as e:  # noqa: BLE001 — surface any failure, then retry
+            last_err = e
+            print(f"  attempt {attempt}/3 failed: {e}")
+            if attempt < 3:
+                time.sleep(5 * attempt)
+    else:
+        raise RuntimeError(f"Failed to extract cookies after 3 attempts: {last_err}")
+
+    # Cache
+    with open(cookie_file, "w") as f:
+        json.dump({"cookie_str": cookie_str, "timestamp": datetime.now().isoformat()}, f)
+
+    print(f"Got {num_cookies} cookies")
+    return cookie_str
+
+
+def _extract_cookies_via_browser():
+    """Launch headless browser, navigate, and return (cookie_str, count). Raises on failure."""
     from playwright.sync_api import sync_playwright
+    from playwright.sync_api import TimeoutError as PlaywrightTimeoutError
 
     with sync_playwright() as p:
         browser = p.chromium.launch(
             headless=True,
             args=['--disable-blink-features=AutomationControlled']
         )
-        context = browser.new_context(
-            user_agent="Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0",
-        )
-        page = context.new_page()
-        page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
+        try:
+            context = browser.new_context(
+                user_agent="Mozilla/5.0 (X11; Linux x86_64; rv:148.0) Gecko/20100101 Firefox/148.0",
+            )
+            page = context.new_page()
+            page.add_init_script("Object.defineProperty(navigator, 'webdriver', {get: () => undefined})")
 
-        page.goto(f"{BASE_URL}/9206/prayer-time-for-ankara", timeout=60000)
-        time.sleep(5)
-        page.wait_for_load_state("networkidle", timeout=15000)
+            # "domcontentloaded" is enough to receive the WAF cookies; waiting for
+            # the full "load" event routinely times out on this site from CI.
+            page.goto(f"{BASE_URL}/9206/prayer-time-for-ankara",
+                      wait_until="domcontentloaded", timeout=60000)
+            time.sleep(5)
+            # Best-effort settle — cookies are already set, so don't let a slow
+            # trailing request abort the run.
+            try:
+                page.wait_for_load_state("networkidle", timeout=15000)
+            except PlaywrightTimeoutError:
+                pass
 
-        cookies = context.cookies()
-        cookie_str = "; ".join(f"{c['name']}={c['value']}" for c in cookies)
+            cookies = context.cookies()
+        finally:
+            browser.close()
 
-        browser.close()
-
-    # Cache
-    with open(cookie_file, "w") as f:
-        json.dump({"cookie_str": cookie_str, "timestamp": datetime.now().isoformat()}, f)
-
-    print(f"Got {len(cookies)} cookies")
-    return cookie_str
+    cookie_str = "; ".join(f"{c['name']}={c['value']}" for c in cookies)
+    return cookie_str, len(cookies)
 
 
 def fetch_page(url, cookie_str):
