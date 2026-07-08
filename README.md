@@ -163,7 +163,7 @@ This repo only mirrors authorities that publish a **specific per-zone, per-day**
 
 ## Known data gaps
 
-- Diyanet TR: 2 districts under maintenance (TR17876/Çukurova, TR17898/Akköy) — retry when Diyanet fixes
+- Diyanet TR: Çukurova (Adana) and Akköy (Denizli) removed from Diyanet's district list — dropped from our zones; covered by central metro zones TR9146/TR9392
 - Diyanet TR: 2 geoBoundaries shapes unmapped (Hamur, Merkez) — not in Diyanet district list
 - AWQAF AE: only ADM1 geojson (7 emirates) — GPS resolves to emirate capital only. Investigate GADM ADM2 (192 districts) for finer resolution. Needs mapping 60 AWQAF areas to GADM neighborhoods.
 

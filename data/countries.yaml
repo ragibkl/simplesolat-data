@@ -45,7 +45,7 @@ countries:
     name: Turkey
     source: Diyanet
     geojson: https://simplesolat-data.netlify.app/geojson/TR-adm2-geojson-20260403.json
-    mapping: https://simplesolat-data.netlify.app/mappings/TR-adm2-mapping-20260403.json
+    mapping: https://simplesolat-data.netlify.app/mappings/TR-adm2-mapping-20260708.json
     shape_property: shapeID
 
   - code: BA
