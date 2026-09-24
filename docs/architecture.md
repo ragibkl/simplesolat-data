@@ -12,11 +12,11 @@ Prayer times are fetched from official government sources, normalized to a commo
 
 ### API sources (CI automated)
 
-JAKIM, MUIS, EQuran, and AWQAF have stable APIs. GitHub Actions workflows run on the 27th and 28th of each month, fetch new data if available, commit, and push. Netlify auto-deploys on push.
+JAKIM, MUIS, EQuran, and AWQAF have stable APIs, and Diyanet (TR) is scraped by CI as well. GitHub Actions workflows run on the 27th and 28th of each month, fetch new data if available, commit, and push. Netlify auto-deploys on push.
 
 ### PDF/web scrape sources (manual)
 
-KHEU, ACJU, and Diyanet are fetched manually — PDFs change layout, web scrapes break with WAF changes. Run locally, review output, commit via PR.
+KHEU, ACJU, and Diyanet for Albania (`fetch_diyanet.py <year> AL`) are fetched manually — PDFs change layout, web scrapes break with WAF changes. Run locally, review output, commit via PR.
 
 ### Flow
 
@@ -72,7 +72,7 @@ KHEU, ACJU, and Diyanet are fetched manually — PDFs change layout, web scrapes
 - **Source:** Web scrape from `https://namazvakitleri.diyanet.gov.tr`
 - Headless browser (Playwright) loads one page to extract WAF cookies, then curl fetches all district pages in bulk
 - Parses the yearly prayer time HTML table (365 rows per district)
-- 867 districts, times in 24h HH:MM, no imsak — derived as fajr - 10 min
+- 865 districts, times in 24h HH:MM, no imsak — derived as fajr - 10 min
 - Cookies cached locally in `sources/diyanet/cookies/` (gitignored), valid ~1 hour
 - Official REST API exists (`awqatsalah.diyanet.gov.tr`) but requires paper registration and harsh rate limits (5 requests after trial)
 
