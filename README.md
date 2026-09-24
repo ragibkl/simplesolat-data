@@ -87,6 +87,8 @@ Examples:
 - `/prayer-times/LK/LK01/2026-12.json` — Colombo, December 2026
 - `/prayer-times/TR/TR9206/2026-01.json` — Ankara, January 2026
 - `/prayer-times/AE/AE1/2026-01.json` — Abu Dhabi, January 2026
+- `/prayer-times/BA/BA77/2026-01.json` — Sarajevo, January 2026
+- `/prayer-times/AL/AL11203/2026-01.json` — Tiranë, January 2026
 
 ### GeoJSON
 
@@ -132,7 +134,7 @@ Maps geojson shape property to zone code and state. Derived from zone files via 
 | ID | [EQuran.id](https://equran.id) | API | CI monthly (27th/28th) |
 | BN | [KHEU Taqwim PDF](https://www.mora.gov.bn) | PDF | Manual, yearly |
 | LK | [ACJU PDFs](https://www.acju.lk/prayer-times/) | PDF | Manual, yearly |
-| TR | [Diyanet](https://namazvakitleri.diyanet.gov.tr) | Web scrape | Manual, yearly |
+| TR | [Diyanet](https://namazvakitleri.diyanet.gov.tr) | Web scrape | CI monthly (27th/28th) |
 | AE | [AWQAF](https://www.awqaf.gov.ae) | API | CI monthly (27th/28th) |
 | BA | [IZ BiH Vaktija](https://vaktija.ba) (via [vaktija.ba dataset](https://github.com/vaktija/vaktija.ba)) | Static dataset | Offline, regenerate yearly |
 | AL | [KMSH](https://kmsh.al) (Diyanet data, via [namaz.kmsh.al](https://namaz.kmsh.al)) | Web scrape | Manual, yearly |
@@ -186,5 +188,5 @@ For how the data pipeline, mapping system, and zone resolution work, see [docs/a
 
 ```bash
 pip install -r requirements.txt
-playwright install chromium  # needed for Turkey and UAE fetch scripts
+playwright install chromium  # needed for Turkey, Albania, and UAE fetch scripts
 ```
