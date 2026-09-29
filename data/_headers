@@ -1,0 +1,5 @@
+# Netlify headers. The data is public and read-only, so any site may read it
+# from the browser (the simplesolat.com live prayer times, and anyone else
+# building on this data).
+/*
+  Access-Control-Allow-Origin: *
