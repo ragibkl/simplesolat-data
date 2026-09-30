@@ -190,3 +190,19 @@ For how the data pipeline, mapping system, and zone resolution work, see [docs/a
 pip install -r requirements.txt
 playwright install chromium  # needed for Turkey, Albania, and UAE fetch scripts
 ```
+
+## License
+
+The scripts and the way the data is put together are under the [MIT License](LICENSE). The data itself comes from the sources listed in [Data sources](#data-sources) and keeps their terms: prayer times belong to the authorities that publish them.
+
+The boundary files come from geoBoundaries, and each keeps the licence geoBoundaries gives it:
+
+| File | Licence |
+|------|---------|
+| AE adm1, LK adm2, SG adm0, TR adm2 | [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/) |
+| AL adm2 | [CC BY 2.5](https://creativecommons.org/licenses/by/2.5/) |
+| MY adm2 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
+| ID adm2 | [CC BY 3.0 IGO](https://creativecommons.org/licenses/by/3.0/igo/) |
+| BA adm3, BN adm1 | Public domain |
+
+Check the geoBoundaries metadata for a file before relying on this table, since the licence can change when a boundary is updated.
