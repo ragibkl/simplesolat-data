@@ -180,7 +180,7 @@ def extract_month(pdf, year, month, page_idx):
             imsak = parse_dot_time(t[0], is_pm=False)
             fajr = parse_dot_time(t[1], is_pm=False)
             syuruk = parse_dot_time(t[2], is_pm=False)
-            # t[3] is doha, skip
+            dhuha = parse_dot_time(t[3], is_pm=False)
             dhuhr = parse_dot_time(t[4], is_pm=True)
             asr = parse_dot_time(t[5], is_pm=True)
             maghrib = parse_dot_time(t[6], is_pm=True)
@@ -195,6 +195,7 @@ def extract_month(pdf, year, month, page_idx):
             "imsak": imsak,
             "fajr": fajr,
             "syuruk": syuruk,
+            "dhuha": dhuha,
             "dhuhr": dhuhr,
             "asr": asr,
             "maghrib": maghrib,
@@ -218,6 +219,7 @@ def apply_zone_offset(prayer_times, offset):
             "imsak": add_minutes(pt["imsak"], offset),
             "fajr": add_minutes(pt["fajr"], offset),
             "syuruk": add_minutes(pt["syuruk"], offset),
+            "dhuha": add_minutes(pt["dhuha"], offset),
             "dhuhr": add_minutes(pt["dhuhr"], offset),
             "asr": add_minutes(pt["asr"], offset),
             "maghrib": add_minutes(pt["maghrib"], offset),
@@ -230,7 +232,7 @@ def validate_records(records):
     """Validate prayer time records."""
     errors = 0
     for r in records:
-        times = [r['imsak'], r['fajr'], r['syuruk'], r['dhuhr'], r['asr'], r['maghrib'], r['isha']]
+        times = [r['imsak'], r['fajr'], r['syuruk'], r['dhuha'], r['dhuhr'], r['asr'], r['maghrib'], r['isha']]
         for i in range(len(times) - 1):
             if times[i] >= times[i + 1]:
                 print(f"  WARNING: {r['date']}: times not in order")
@@ -271,7 +273,7 @@ def main():
             all_complete = all(
                 month_complete(
                     os.path.join(ROOT, "data", "prayer-times", "BN", z["code"], f"{year}-{month}.json"),
-                    year, month,
+                    year, month, require_field="dhuha",
                 )
                 for z in ZONES
             )
@@ -294,7 +296,7 @@ def main():
             for zone in ZONES:
                 out_dir = os.path.join(ROOT, "data", "prayer-times", "BN", zone["code"])
                 out_path = os.path.join(out_dir, f"{year}-{month}.json")
-                if month_complete(out_path, year, month):
+                if month_complete(out_path, year, month, require_field="dhuha"):
                     total_skipped += 1
                     continue
 

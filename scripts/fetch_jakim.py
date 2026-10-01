@@ -120,7 +120,7 @@ def main():
             # Check if all 12 months already exist with full data
             out_dir = os.path.join(ROOT, "data", "prayer-times", "MY", zone_code)
             all_complete = all(
-                month_complete(os.path.join(out_dir, f"{year}-{m:02d}.json"), str(year), f"{m:02d}")
+                month_complete(os.path.join(out_dir, f"{year}-{m:02d}.json"), str(year), f"{m:02d}", require_field="dhuha")
                 for m in range(1, 13)
             )
             if all_complete:
@@ -153,6 +153,7 @@ def main():
                     "imsak": parse_time(r["imsak"]),
                     "fajr": parse_time(r["fajr"]),
                     "syuruk": parse_time(r["syuruk"]),
+                    "dhuha": parse_time(r["dhuha"]),
                     "dhuhr": parse_time(r["dhuhr"]),
                     "asr": parse_time(r["asr"]),
                     "maghrib": parse_time(r["maghrib"]),
@@ -162,7 +163,7 @@ def main():
             # Write per-month files
             for month in sorted(by_month.keys()):
                 out_path = os.path.join(out_dir, f"{year}-{month}.json")
-                if month_complete(out_path, str(year), month):
+                if month_complete(out_path, str(year), month, require_field="dhuha"):
                     total_skipped += 1
                     continue
 
@@ -175,7 +176,7 @@ def main():
 
                 # Validate
                 for pt in prayer_times:
-                    times = [pt['imsak'], pt['fajr'], pt['syuruk'], pt['dhuhr'], pt['asr'], pt['maghrib'], pt['isha']]
+                    times = [pt['imsak'], pt['fajr'], pt['syuruk'], pt['dhuha'], pt['dhuhr'], pt['asr'], pt['maghrib'], pt['isha']]
                     for i in range(len(times) - 1):
                         if times[i] >= times[i + 1]:
                             print(f"  WARNING: {zone_code} {pt['date']}: times not in order")
