@@ -5,7 +5,7 @@ Verify prayer time data integrity.
 Runs all checks and reports a summary:
 - Zone code collisions across all countries
 - Next month data availability
-- Prayer time ordering (imsak < fajr < syuruk < dhuhr < asr < maghrib < isha)
+- Prayer time ordering (imsak < fajr < syuruk [< dhuha] < dhuhr < asr < maghrib < isha)
 - Day count per month
 
 Usage:
@@ -127,7 +127,8 @@ def check_prayer_order(countries_filter):
                     data = json.load(fh)
                 files_checked += 1
                 for r in data:
-                    times = [r['imsak'], r['fajr'], r['syuruk'], r['dhuhr'], r['asr'], r['maghrib'], r['isha']]
+                    keys = ['imsak', 'fajr', 'syuruk', 'dhuha', 'dhuhr', 'asr', 'maghrib', 'isha']
+                    times = [r[k] for k in keys if k in r]
                     # imsak <= fajr is allowed (some authorities set them equal)
                     # all others must be strictly ascending
                     if times[0] > times[1]:

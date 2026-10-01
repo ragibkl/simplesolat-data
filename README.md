@@ -70,6 +70,7 @@ Monthly prayer times per zone. Times are local HH:MM in the zone's timezone.
     "imsak": "05:56",
     "fajr": "06:06",
     "syuruk": "07:17",
+    "dhuha": "07:42",
     "dhuhr": "13:19",
     "asr": "16:42",
     "maghrib": "19:17",
@@ -78,6 +79,8 @@ Monthly prayer times per zone. Times are local HH:MM in the zone's timezone.
   ...
 ]
 ```
+
+`dhuha` is optional: only included where the authority publishes it (MY from JAKIM, BN from KHEU). Clients should treat it as missing elsewhere.
 
 Examples:
 - `/prayer-times/MY/SGR01/2026-01.json` — Selangor, January 2026
