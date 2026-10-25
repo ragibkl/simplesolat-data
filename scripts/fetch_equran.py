@@ -87,7 +87,8 @@ def process_task(zone, year, month):
     out_dir = os.path.join(ROOT, "data", "prayer-times", "ID", code)
     out_path = os.path.join(out_dir, f"{year}-{month:02d}.json")
 
-    if month_complete(out_path, str(year), f"{month:02d}"):
+    # Files written before Dhuha was kept get re-fetched.
+    if month_complete(out_path, str(year), f"{month:02d}", require_field="dhuha"):
         return "skipped"
 
     records = fetch_month(zone['state'], zone['location'], month, year)
@@ -106,6 +107,7 @@ def process_task(zone, year, month):
             "imsak": r["imsak"],
             "fajr": r["subuh"],
             "syuruk": r["terbit"],
+            "dhuha": r["dhuha"],
             "dhuhr": r["dzuhur"],
             "asr": r["ashar"],
             "maghrib": r["maghrib"],
@@ -114,7 +116,7 @@ def process_task(zone, year, month):
 
     # Validate
     for pt in prayer_times:
-        times = [pt['imsak'], pt['fajr'], pt['syuruk'], pt['dhuhr'], pt['asr'], pt['maghrib'], pt['isha']]
+        times = [pt['imsak'], pt['fajr'], pt['syuruk'], pt['dhuha'], pt['dhuhr'], pt['asr'], pt['maghrib'], pt['isha']]
         for i in range(len(times) - 1):
             if times[i] >= times[i + 1]:
                 print(f"  WARNING: {code} {pt['date']}: times not in order")
