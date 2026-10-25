@@ -80,7 +80,7 @@ Monthly prayer times per zone. Times are local HH:MM in the zone's timezone.
 ]
 ```
 
-`dhuha` is optional: only included where the authority publishes it (MY from JAKIM, BN from KHEU). Clients should treat it as missing elsewhere.
+`dhuha` is optional: only included where the authority publishes it (MY from JAKIM, BN from KHEU, ID from Kemenag). Clients should treat it as missing elsewhere.
 
 Examples:
 - `/prayer-times/MY/SGR01/2026-01.json` — Selangor, January 2026
