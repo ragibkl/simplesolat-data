@@ -70,6 +70,21 @@ def parse_time(time_str):
     return time_str[:5]
 
 
+# Asr, Maghrib and Isha are always after noon. JAKIM has published some as
+# AM (WLY02 2027-05-20..25: Maghrib "06:28:00" between days of 18:28), so
+# a time before 12:00 there is taken as PM, with a warning.
+PM_FIELDS = ("asr", "maghrib", "isha")
+
+
+def fix_pm(zone_code, date, field, hhmm):
+    hour, minute = int(hhmm[:2]), hhmm[3:5]
+    if field in PM_FIELDS and hour < 12:
+        fixed = f"{hour + 12:02d}:{minute}"
+        print(f"  WARNING: {zone_code} {date}: {field} {hhmm} looks like AM, using {fixed}")
+        return fixed
+    return hhmm
+
+
 def fetch_zone_year(zone_code, year):
     """Fetch a full year of prayer times for a zone."""
     params = urlencode({
@@ -148,17 +163,11 @@ def main():
             for r in records:
                 date = parse_jakim_date(r["date"])
                 month = date[5:7]
-                by_month[month].append({
-                    "date": date,
-                    "imsak": parse_time(r["imsak"]),
-                    "fajr": parse_time(r["fajr"]),
-                    "syuruk": parse_time(r["syuruk"]),
-                    "dhuha": parse_time(r["dhuha"]),
-                    "dhuhr": parse_time(r["dhuhr"]),
-                    "asr": parse_time(r["asr"]),
-                    "maghrib": parse_time(r["maghrib"]),
-                    "isha": parse_time(r["isha"]),
-                })
+                fields = ("imsak", "fajr", "syuruk", "dhuha", "dhuhr", "asr", "maghrib", "isha")
+                record = {"date": date}
+                for field in fields:
+                    record[field] = fix_pm(zone_code, date, field, parse_time(r[field]))
+                by_month[month].append(record)
 
             # Write per-month files
             for month in sorted(by_month.keys()):

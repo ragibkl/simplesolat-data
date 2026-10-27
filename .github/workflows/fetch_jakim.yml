@@ -12,14 +12,17 @@ jobs:
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v4
+      - uses: actions/checkout@v7
 
-      - uses: actions/setup-python@v5
+      - uses: actions/setup-python@v7
         with:
           python-version: '3.12'
 
       - name: Fetch prayer times
         run: python3 scripts/fetch_jakim.py
+
+      - name: Verify next month data
+        run: python3 scripts/verify_data.py next-month MY
 
       - name: Commit and push if changed
         run: |
@@ -33,6 +36,3 @@ jobs:
             git pull --rebase
             git push
           fi
-
-      - name: Verify next month data
-        run: python3 scripts/verify_data.py next-month MY
