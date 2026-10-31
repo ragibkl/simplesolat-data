@@ -830,7 +830,7 @@ zones:
     location: Višegrad
     timezone: Europe/Sarajevo
     shapes:
-      - 43093233B37160773543814  # Višegrad (labelled "Republika Srpska" in geoBoundaries)
+      - 43093233B37160773543814  # Višegrad (renamed from "Republika Srpska", geoBoundaries' label, in BA-adm3-geojson-20261103)
 
   - code: BA99
     country: BA

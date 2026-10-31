@@ -22,7 +22,7 @@ some valleys) get no shape; places there take the nearest area's timetable.
 Checked by tests/zone-points/AE.yaml (python3 scripts/verify_data.py zones AE).
 
 Usage (needs shapely):
-  python3 scripts/patch_ae_zones.py data/geojson/AE-adm1-geojson-20260403.json 20261102
+  python3 scripts/patch_ae_zones.py data/geojson/AE-adm1-geojson-20260403.json 20261103
 """
 
 import json
@@ -54,14 +54,14 @@ ANCHORS = {
     'AE33': (25.3463, 55.4209, 'Sharjah'),
     'AE34': (25.2880, 55.8820, 'Al Dhaid'),
     'AE35': (24.9700, 55.7900, 'Al Madam'),
-    'AE36': (25.3390, 56.3560, 'Khor Fakkan'),
+    'AE36': (25.3390, 56.3560, 'Khor Fakkan, Kalba'),
     'AE38': (24.9320, 56.2200, 'Wadi Al Helo'),
     'AE41': (25.4052, 55.5136, 'Ajman'),
     'AE42': (24.8190, 56.0710, 'Masfout'),
     'AE43': (25.3270, 55.9930, 'Al Manama'),
     'AE44': (25.5647, 55.5552, 'Umm Al Quwain'),
     'AE45': (25.7895, 55.9432, 'Ras Al Khaimah'),
-    'AE46': (26.0270, 56.0880, 'Sha\'am'),
+    'AE46': (26.0270, 56.0880, 'Sha\'am, Ghalilah'),
     'AE48': (25.3170, 56.1670, 'Masafi'),
     'AE52': (25.1288, 56.3265, 'Fujairah'),
     'AE53': (25.6200, 56.2700, 'Dibba'),
@@ -82,6 +82,15 @@ ISLANDS = {
     'AE39': (25.2320, 54.2180, 4, 'Sir Bu Nair'),
     'AE40': (25.8742, 55.0331, 4, 'Abu Musa'),
     'AE51': (26.2650, 55.3070, 4, 'Greater Tunb'),
+}
+# Names for areas with no anchor (their shape comes from listed towns only).
+PLACE_NAMES = {
+    'AE16': 'Al Wagan, Al Qua\'a',
+    'AE17': 'Al Dhahra',
+    'AE18': 'Al Shuwaib',
+    'AE19': 'Al Khazna, Al Sad',
+    'AE24': 'Al Bahia, Ghantoot',
+    'AE59': 'Dubai desert (Lahbab, Al Faqa, Margham)',
 }
 # A listed town further than this from its area's anchor is a bad lookup.
 MAX_FROM_ANCHOR_KM = 80
@@ -152,9 +161,13 @@ def main():
             return {k: rounded(v) for k, v in obj.items()}
         return obj
 
+    # The shape name is shown as the place (e.g. "Al Ain, Abu Dhabi").
+    names = {z: a[2] for z, a in ANCHORS.items()}
+    names.update({z: a[3] for z, a in ISLANDS.items()})
+    names.update(PLACE_NAMES)
     features = [{
         'type': 'Feature',
-        'properties': {'shapeName': f'Awqaf {zone}', 'shapeGroup': 'ARE', 'shapeType': 'ZONE'},
+        'properties': {'shapeName': names[zone], 'shapeGroup': 'ARE', 'shapeType': 'ZONE'},
         'geometry': mapping(geom.buffer(0)),
     } for zone, geom in sorted(shapes.items(), key=lambda kv: int(kv[0][2:]))]
     out = os.path.join(ROOT, 'data', 'geojson', f'AE-adm1-geojson-{date}.json')

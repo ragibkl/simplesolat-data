@@ -5,7 +5,7 @@ zones:
     location: Abu Dhabi
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE1
+      - Abu Dhabi
 
   - code: AE2
     country: AE
@@ -13,7 +13,7 @@ zones:
     location: Al Ain
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE2
+      - Al Ain
 
   - code: AE3
     country: AE
@@ -28,7 +28,7 @@ zones:
     location: Dalma Island
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE4
+      - Dalma
 
   - code: AE5
     country: AE
@@ -36,7 +36,7 @@ zones:
     location: Arzanah-Island
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE5
+      - Arzanah
 
   - code: AE6
     country: AE
@@ -44,7 +44,7 @@ zones:
     location: DasIsland
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE6
+      - Das
 
   - code: AE7
     country: AE
@@ -52,7 +52,7 @@ zones:
     location: Zarkuh
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE7
+      - Zirku
 
   - code: AE8
     country: AE
@@ -81,7 +81,7 @@ zones:
     location: Liwa
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE11
+      - Liwa (Mezaira'a)
 
   - code: AE12
     country: AE
@@ -89,7 +89,7 @@ zones:
     location: Ghayathi-Bida-Al-Mutawa
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE12
+      - Ghayathi
 
   - code: AE13
     country: AE
@@ -97,7 +97,7 @@ zones:
     location: AlSila-Al Ghuwaifat
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE13
+      - Al Sila
 
   - code: AE14
     country: AE
@@ -105,7 +105,7 @@ zones:
     location: Al Mirfa
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE14
+      - Al Mirfa
 
   - code: AE15
     country: AE
@@ -113,7 +113,7 @@ zones:
     location: Jebel Hafeet Summit
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE15
+      - Jebel Hafeet summit
 
   - code: AE16
     country: AE
@@ -121,7 +121,7 @@ zones:
     location: alwaqn alqawe
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE16
+      - Al Wagan, Al Qua'a
 
   - code: AE17
     country: AE
@@ -129,7 +129,7 @@ zones:
     location: alzzahira aleirad
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE17
+      - Al Dhahra
 
   - code: AE18
     country: AE
@@ -137,7 +137,7 @@ zones:
     location: al faqa alshawib
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE18
+      - Al Shuwaib
 
   - code: AE19
     country: AE
@@ -145,7 +145,7 @@ zones:
     location: al khazna alssad
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE19
+      - Al Khazna, Al Sad
 
   - code: AE20
     country: AE
@@ -174,7 +174,7 @@ zones:
     location: Al Khatam
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE23
+      - Al Khatam
 
   - code: AE24
     country: AE
@@ -182,7 +182,7 @@ zones:
     location: Al Bahia Gantoot
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE24
+      - Al Bahia, Ghantoot
 
   - code: AE25
     country: AE
@@ -190,7 +190,7 @@ zones:
     location: Madinat Zayed
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE25
+      - Madinat Zayed
 
   - code: AE26
     country: AE
@@ -198,7 +198,7 @@ zones:
     location: Al-Hamra-Barakah
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE26
+      - Al Hamra / Barakah
 
   - code: AE27
     country: AE
@@ -206,7 +206,7 @@ zones:
     location: AL Ruwais - Shuweihat
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE27
+      - Al Ruwais
 
   - code: AE28
     country: AE
@@ -235,7 +235,7 @@ zones:
     location: Al Hayer Sweihan
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE31
+      - Sweihan
 
   - code: AE32
     country: AE
@@ -243,7 +243,7 @@ zones:
     location: Dubai
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE32
+      - Dubai
 
   - code: AE33
     country: AE
@@ -251,7 +251,7 @@ zones:
     location: Sharjah
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE33
+      - Sharjah
 
   - code: AE34
     country: AE
@@ -259,7 +259,7 @@ zones:
     location: Sharjah Al Dhaid
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE34
+      - Al Dhaid
 
   - code: AE35
     country: AE
@@ -267,7 +267,7 @@ zones:
     location: Sharjah al madam -Maliha
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE35
+      - Al Madam
 
   - code: AE36
     country: AE
@@ -275,7 +275,7 @@ zones:
     location: Sharjah alssahil alsharqiu
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE36
+      - Khor Fakkan, Kalba
 
   - code: AE37
     country: AE
@@ -290,7 +290,7 @@ zones:
     location: Sharjah Wadi Al Hulu
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE38
+      - Wadi Al Helo
 
   - code: AE39
     country: AE
@@ -298,7 +298,7 @@ zones:
     location: Sharjah Sir Bu Nair
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE39
+      - Sir Bu Nair
 
   - code: AE40
     country: AE
@@ -306,7 +306,7 @@ zones:
     location: SharjahAbu Musa
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE40
+      - Abu Musa
 
   - code: AE41
     country: AE
@@ -314,7 +314,7 @@ zones:
     location: Ajman
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE41
+      - Ajman
 
   - code: AE42
     country: AE
@@ -322,7 +322,7 @@ zones:
     location: Ajman Masfoot
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE42
+      - Masfout
 
   - code: AE43
     country: AE
@@ -330,7 +330,7 @@ zones:
     location: Ajman Al Manama
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE43
+      - Al Manama
 
   - code: AE44
     country: AE
@@ -338,7 +338,7 @@ zones:
     location: Um Al Quwain
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE44
+      - Umm Al Quwain
 
   - code: AE45
     country: AE
@@ -346,7 +346,7 @@ zones:
     location: Ras AlKhaimah
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE45
+      - Ras Al Khaimah
 
   - code: AE46
     country: AE
@@ -354,7 +354,7 @@ zones:
     location: Ras AlKhaimah Shaam Ghalilah
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE46
+      - Sha'am, Ghalilah
 
   - code: AE47
     country: AE
@@ -369,7 +369,7 @@ zones:
     location: Ras Alkhaimah Masafi Shawka
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE48
+      - Masafi
 
   - code: AE49
     country: AE
@@ -384,7 +384,7 @@ zones:
     location: Ras AlKhaimah Jebel Jais
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE50
+      - Jebel Jais
 
   - code: AE51
     country: AE
@@ -392,7 +392,7 @@ zones:
     location: Ras AlKhaimah Tonb Al-Kubra
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE51
+      - Greater Tunb
 
   - code: AE52
     country: AE
@@ -400,7 +400,7 @@ zones:
     location: Fujairah
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE52
+      - Fujairah
 
   - code: AE53
     country: AE
@@ -408,7 +408,7 @@ zones:
     location: Fujairah Dibba Al-Bidyah
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE53
+      - Dibba
 
   - code: AE54
     country: AE
@@ -444,7 +444,7 @@ zones:
     location: Fujairah Wadi Saham
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE58
+      - Wadi Saham
 
   - code: AE59
     country: AE
@@ -452,7 +452,7 @@ zones:
     location: Rural Area dubai
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE59
+      - Dubai desert (Lahbab, Al Faqa, Margham)
 
   - code: AE60
     country: AE
@@ -460,5 +460,5 @@ zones:
     location: Hatta
     timezone: Asia/Dubai
     shapes:
-      - Awqaf AE60
+      - Hatta
 
