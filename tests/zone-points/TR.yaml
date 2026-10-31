@@ -1,0 +1,27 @@
+# Location → zone checks for Turkey (python3 scripts/verify_data.py zones TR).
+# Big cities' central districts, and districts Diyanet doesn't list
+# separately, which take their province centre's zone (Çukurova, Safranbolu,
+# Hamur). Diyanet lists some city districts on their own (Konya Selçuklu).
+points:
+  - { zone: TR9541, lat: 41.0082, lng: 28.9784, note: Istanbul (Fatih) }
+  - { zone: TR9206, lat: 39.9208, lng: 32.8541, note: Ankara (Kızılay) }
+  - { zone: TR9560, lat: 38.4189, lng: 27.1287, note: İzmir (Konak) }
+  - { zone: TR9335, lat: 40.1826, lng: 29.0665, note: Bursa }
+  - { zone: TR9225, lat: 36.8969, lng: 30.7133, note: Antalya }
+  - { zone: TR9146, lat: 36.9914, lng: 35.3308, note: Adana (Seyhan) }
+  - { zone: TR9146, lat: 37.0450, lng: 35.2700, note: Çukurova }
+  - { zone: TR17871, lat: 37.8746, lng: 32.4932, note: Konya (Selçuklu) }
+  - { zone: TR9479, lat: 37.0662, lng: 37.3833, note: Gaziantep }
+  - { zone: TR9402, lat: 37.9144, lng: 40.2306, note: Diyarbakır }
+  - { zone: TR9905, lat: 41.0027, lng: 39.7168, note: Trabzon }
+  - { zone: TR9451, lat: 39.9043, lng: 41.2679, note: Erzurum }
+  - { zone: TR9930, lat: 38.5012, lng: 43.3729, note: Van }
+  - { zone: TR9819, lat: 41.2867, lng: 36.3300, note: Samsun }
+  - { zone: TR9620, lat: 38.7205, lng: 35.4826, note: Kayseri }
+  - { zone: TR9470, lat: 39.7767, lng: 30.5206, note: Eskişehir }
+  - { zone: TR9581, lat: 41.2061, lng: 32.6204, note: Karabük }
+  - { zone: TR9581, lat: 41.2508, lng: 32.6942, note: Safranbolu }
+  - { zone: TR9185, lat: 39.7191, lng: 43.0503, note: Ağrı }
+  - { zone: TR9185, lat: 39.6167, lng: 42.9917, note: Hamur }
+  - { zone: TR9187, lat: 39.5472, lng: 44.0842, note: Doğubayazıt }
+  - { zone: TR9193, lat: 38.2500, lng: 33.5500, note: Sultanhanı (Aksaray) }

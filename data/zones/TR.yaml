@@ -8,6 +8,7 @@ zones:
       - 54988432B19023122389933  # Seyhan
       - 54988432B61783843665987  # Yüreğir
       - 54988432B81913319762602  # Sarıçam
+      - 54988432B84437905813511  # Çukurova (Diyanet dropped its own zone)
 
   - code: TR9147
     country: TR
@@ -320,6 +321,7 @@ zones:
     timezone: Europe/Istanbul
     shapes:
       - 54988432B86037969006851  # Aksaray merkez
+      - 54988432B56294268584472  # Sultanhanı (no zone of its own)
 
   - code: TR9192
     country: TR
@@ -956,6 +958,7 @@ zones:
     timezone: Europe/Istanbul
     shapes:
       - 54988432B81567150601582  # Ağrı merkez
+      - 54988432B69584017445691  # Hamur (no zone of its own)
 
   - code: TR9187
     country: TR
@@ -3140,7 +3143,8 @@ zones:
     location: KARABÜK
     timezone: Europe/Istanbul
     shapes:
-      - 54988432B60131084551001  # Safranbolu
+      - 54988432B490212621980  # Karabük merkez
+      - 54988432B60131084551001  # Safranbolu (no zone of its own)
 
   - code: TR9582
     country: TR
@@ -3940,8 +3944,7 @@ zones:
     state: KONYA
     location: KONYA
     timezone: Europe/Istanbul
-    shapes:
-      - 54988432B56294268584472  # Sultanhanı
+    # No shape: Konya's city districts (Selçuklu, Meram, Karatay) have their own.
 
   - code: TR9677
     country: TR
