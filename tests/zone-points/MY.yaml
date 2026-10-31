@@ -46,6 +46,8 @@ points:
   - { zone: PHG05, lat: 3.3200, lng: 101.8500, note: Janda Baik (Afiq) }
   - { zone: PHG06, lat: 4.4917, lng: 101.3878, note: Brinchang, Cameron Highlands }
   - { zone: PHG06, lat: 3.4239, lng: 101.7933, note: Genting Highlands (Afiq) }
+  - { zone: PHG06, lat: 3.4022, lng: 101.7853, note: Awana (Genting Skyway base) }
+  - { zone: PHG06, lat: 3.4061, lng: 101.7783, note: Gohtong Jaya }
   - { zone: PHG06, lat: 3.7167, lng: 101.7500, note: Bukit Fraser (Afiq) }
   - { zone: PHG07, lat: 2.8146, lng: 103.4867, note: Kuala Rompin (Afiq) }
   # Perlis, Penang
@@ -73,6 +75,11 @@ points:
   - { zone: SBH05, lat: 6.8833, lng: 116.8500, note: Kudat (just inland: the town is on the simplified coastline) }
   - { zone: SBH06, lat: 6.0833, lng: 116.5333, note: Gunung Kinabalu (JAKIM reference) }
   - { zone: SBH06, lat: 6.0800, lng: 116.5400, note: Gunung Kinabalu (Afiq) }
+  - { zone: SBH06, lat: 6.0753, lng: 116.5586, note: "Gunung Kinabalu, Low's Peak" }
+  - { zone: SBH06, lat: 6.0606, lng: 116.5617, note: Laban Rata }
+  - { zone: SBH06, lat: 6.0436, lng: 116.5450, note: Timpohon Gate }
+  - { zone: SBH07, lat: 6.0386, lng: 116.5961, note: Mesilau, below Kinabalu }
+  - { zone: SBH07, lat: 6.0053, lng: 116.5425, note: Kinabalu Park HQ }
   - { zone: SBH07, lat: 5.9804, lng: 116.0735, note: Kota Kinabalu }
   - { zone: SBH07, lat: 5.9833, lng: 116.5833, note: Kundasang, below Kinabalu }
   - { zone: SBH08, lat: 5.3378, lng: 116.1602, note: Keningau }

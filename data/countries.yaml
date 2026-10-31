@@ -2,8 +2,8 @@ countries:
   - code: MY
     name: Malaysia
     source: JAKIM
-    geojson: https://simplesolat-data.netlify.app/geojson/MY-adm2-geojson-20261101.json
-    mapping: https://simplesolat-data.netlify.app/mappings/MY-adm2-mapping-20261101.json
+    geojson: https://simplesolat-data.netlify.app/geojson/MY-adm2-geojson-20261102.json
+    mapping: https://simplesolat-data.netlify.app/mappings/MY-adm2-mapping-20261102.json
     shape_property: shapeName
 
   - code: SG
