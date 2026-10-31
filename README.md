@@ -113,7 +113,7 @@ Older dated files stay published for apps that still point to them.
 
 ### Location → zone tests
 
-`tests/zone-points/{CC}.yaml` lists points and the zone each must resolve to (for Malaysia: one per JAKIM zone, every special zone, and nearby towns that must keep their normal zone). `python3 scripts/verify_data.py zones` checks them the way the app does (point in polygon, then mapping), and CI runs it whenever a map, mapping or zone list changes.
+`tests/zone-points/{CC}.yaml` lists points and the zone each must resolve to (Malaysia, Brunei and Sri Lanka so far; for Malaysia: one per JAKIM zone, every special zone, and nearby towns that must keep their normal zone). `python3 scripts/verify_data.py zones` checks them the way the app does (point in polygon, else the nearest shape within about 4 km, then mapping), and CI runs it whenever a map, mapping or zone list changes.
 
 ### Mappings
 

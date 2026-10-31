@@ -1,0 +1,23 @@
+# Location → zone checks for Brunei (python3 scripts/verify_data.py zones BN).
+# The four daerah (KHEU zones): town centres, the coast and Kampong Ayer
+# (over the river), the islands, and places near the district borders.
+points:
+  # Brunei-Muara
+  - { zone: BRN01, lat: 4.8903, lng: 114.9422, note: Bandar Seri Begawan }
+  - { zone: BRN01, lat: 4.8850, lng: 114.9400, note: Kampong Ayer }
+  - { zone: BRN01, lat: 4.9050, lng: 114.9170, note: Gadong }
+  - { zone: BRN01, lat: 4.9442, lng: 114.9283, note: Brunei airport }
+  - { zone: BRN01, lat: 4.9450, lng: 114.8380, note: Jerudong }
+  - { zone: BRN01, lat: 5.0280, lng: 115.0710, note: Muara }
+  - { zone: BRN01, lat: 4.9900, lng: 115.0950, note: Pulau Muara Besar }
+  # Tutong
+  - { zone: BRN02, lat: 4.8030, lng: 114.6500, note: Tutong }
+  - { zone: BRN02, lat: 4.6000, lng: 114.6700, note: Tasek Merimbun }
+  # Belait
+  - { zone: BRN03, lat: 4.5836, lng: 114.2312, note: Kuala Belait }
+  - { zone: BRN03, lat: 4.6090, lng: 114.3230, note: Seria }
+  - { zone: BRN03, lat: 4.6670, lng: 114.4500, note: Lumut }
+  - { zone: BRN03, lat: 4.4200, lng: 114.4700, note: Labi }
+  # Temburong
+  - { zone: BRN04, lat: 4.7090, lng: 115.0720, note: Bangar }
+  - { zone: BRN04, lat: 4.5500, lng: 115.1500, note: Ulu Temburong }

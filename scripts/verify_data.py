@@ -221,9 +221,25 @@ def shapes_at(features, lat, lng):
     return found
 
 
+# Like the app (lib/service/zone.ts): a point just outside every shape (a
+# beach, a pier, a water village) takes the nearest shape within about 4 km.
+NEARBY_STEPS_DEG = [0.01, 0.02, 0.04]
+DIRECTIONS = [(1, 0), (-1, 0), (0, 1), (0, -1), (1, 1), (1, -1), (-1, 1), (-1, -1)]
+
+
+def nearby_shapes(features, lat, lng):
+    for step in NEARBY_STEPS_DEG:
+        for dlat, dlng in DIRECTIONS:
+            found = shapes_at(features, lat + dlat * step, lng + dlng * step)
+            if found:
+                return found
+    return []
+
+
 def check_zone_points(countries_filter):
-    """Look up each test point's zone. Returns (checked, failures)."""
-    checked, failures = 0, []
+    """Look up each test point's zone. Returns (checked, failures, nearby):
+    nearby lists the points found only by the app's nearby search."""
+    checked, failures, nearby = 0, [], []
     for path in sorted(glob.glob(os.path.join(ROOT, 'tests', 'zone-points', '*.yaml'))):
         cc = os.path.basename(path)[:-5]
         if countries_filter and cc not in countries_filter:
@@ -242,6 +258,10 @@ def check_zone_points(countries_filter):
             want, lat, lng, note = m.group(1), float(m.group(2)), float(m.group(3)), m.group(4)
             checked += 1
             found = shapes_at(features, lat, lng)
+            if not found:
+                found = nearby_shapes(features, lat, lng)
+                if found:
+                    nearby.append(f"{cc} {note}")
             zones = sorted({mapping.get(f['properties'].get(prop), {}).get('zone', '?') for f in found})
             if len(found) > 1:
                 names = ', '.join(f['properties'].get(prop, '?') for f in found)
@@ -249,7 +269,7 @@ def check_zone_points(countries_filter):
             elif zones != [want]:
                 got = zones[0] if zones else 'no shape'
                 failures.append(f"{cc} {note} ({lat}, {lng}): want {want}, got {got}")
-    return checked, failures
+    return checked, failures, nearby
 
 
 METHOD_KEYS = {'label', 'fajr_angle', 'isha_angle', 'isha_interval', 'maghrib_angle',
@@ -316,8 +336,8 @@ def main():
         sys.exit(1 if report_methods(check_methods()) else 0)
 
     if 'zones' in sys.argv[1:]:
-        checked, failures = check_zone_points(countries_filter)
-        report_zone_points(checked, failures)
+        checked, failures, nearby = check_zone_points(countries_filter)
+        report_zone_points(checked, failures, nearby)
         sys.exit(1 if failures else 0)
 
     # 1. Zone collisions
@@ -385,15 +405,17 @@ def main():
         print("SKIP  Calculation methods: pyyaml not installed")
 
     # 7. Location → zone
-    checked, failures = check_zone_points(countries_filter)
-    if report_zone_points(checked, failures):
+    checked, failures, nearby = check_zone_points(countries_filter)
+    if report_zone_points(checked, failures, nearby):
         has_issues = True
 
     if has_issues:
         sys.exit(1)
 
 
-def report_zone_points(checked, failures):
+def report_zone_points(checked, failures, nearby):
+    if nearby:
+        print(f"      Found by the nearby search (outside every shape): {', '.join(nearby)}")
     if failures:
         print(f"FAIL  Location → zone: {len(failures)} of {checked} points wrong")
         for f in failures:
