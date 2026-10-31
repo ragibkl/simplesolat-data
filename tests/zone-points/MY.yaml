@@ -1,0 +1,103 @@
+# Location → zone checks for Malaysia (python3 scripts/verify_data.py zones MY).
+# One point in every JAKIM zone, the special zones (Zon Khas, islands, Rompin)
+# and nearby towns that must keep their normal zone. Special-zone points are
+# JAKIM's reference points (e-solat "Lampiran B") or the points Afiq Hazwan
+# (MySolat) reported; towns are town centres.
+points:
+  # Johor
+  - { zone: JHR01, lat: 2.4500, lng: 104.5167, note: Pulau Aur }
+  - { zone: JHR02, lat: 1.4927, lng: 103.7414, note: Johor Bahru }
+  - { zone: JHR02, lat: 2.4312, lng: 103.8405, note: Mersing (mainland) }
+  - { zone: JHR03, lat: 2.0251, lng: 103.3328, note: Kluang }
+  - { zone: JHR04, lat: 1.8548, lng: 102.9325, note: Batu Pahat }
+  # Kedah
+  - { zone: KDH01, lat: 6.1210, lng: 100.3678, note: Alor Setar }
+  - { zone: KDH02, lat: 5.6470, lng: 100.4877, note: Sungai Petani }
+  - { zone: KDH02, lat: 5.8167, lng: 100.4667, note: Gurun, below Gunung Jerai }
+  - { zone: KDH02, lat: 5.8000, lng: 100.3833, note: Yan, below Gunung Jerai }
+  - { zone: KDH03, lat: 5.8150, lng: 100.7360, note: Sik }
+  - { zone: KDH04, lat: 5.6767, lng: 100.9167, note: Baling }
+  - { zone: KDH05, lat: 5.3650, lng: 100.5617, note: Kulim }
+  - { zone: KDH06, lat: 6.3167, lng: 99.8500, note: Kuah, Langkawi }
+  - { zone: KDH07, lat: 5.7875, lng: 100.4417, note: Gunung Jerai (JAKIM reference) }
+  - { zone: KDH07, lat: 5.7900, lng: 100.4400, note: Gunung Jerai (Afiq) }
+  # Kelantan
+  - { zone: KTN01, lat: 6.1254, lng: 102.2381, note: Kota Bharu }
+  - { zone: KTN02, lat: 4.8823, lng: 101.9644, note: Gua Musang }
+  # Melaka, Negeri Sembilan
+  - { zone: MLK01, lat: 2.1896, lng: 102.2501, note: Melaka }
+  - { zone: NGS01, lat: 2.4708, lng: 102.2300, note: Tampin }
+  - { zone: NGS02, lat: 2.7389, lng: 102.2486, note: Kuala Pilah }
+  - { zone: NGS03, lat: 2.7258, lng: 101.9424, note: Seremban }
+  # Pahang
+  - { zone: PHG01, lat: 2.8189, lng: 104.1600, note: Tekek, Pulau Tioman }
+  - { zone: PHG02, lat: 3.8077, lng: 103.3260, note: Kuantan }
+  - { zone: PHG02, lat: 3.4833, lng: 103.4000, note: Pekan }
+  - { zone: PHG07, lat: 2.6630, lng: 103.6150, note: Endau (Pahang side) }
+  - { zone: PHG02, lat: 3.0781, lng: 103.0699, note: Bandar Muadzam Shah (Rompin district) }
+  - { zone: PHG02, lat: 2.9509, lng: 102.9353, note: Mukim Keratong (Rompin district) }
+  - { zone: PHG02, lat: 3.0500, lng: 103.0833, note: Muadzam Shah outskirts on the Pekan side }
+  - { zone: PHG03, lat: 3.4500, lng: 102.4167, note: Temerloh }
+  - { zone: PHG04, lat: 3.7930, lng: 101.8570, note: Raub }
+  - { zone: PHG04, lat: 3.5222, lng: 101.9081, note: Bentong }
+  - { zone: PHG05, lat: 3.3833, lng: 101.8333, note: Bukit Tinggi (JAKIM reference) }
+  - { zone: PHG05, lat: 3.3833, lng: 101.8167, note: Bukit Tinggi (Afiq) }
+  - { zone: PHG05, lat: 3.3167, lng: 101.7833, note: Genting Sempah (Afiq) }
+  - { zone: PHG05, lat: 3.3200, lng: 101.8500, note: Janda Baik (Afiq) }
+  - { zone: PHG06, lat: 4.4917, lng: 101.3878, note: Brinchang, Cameron Highlands }
+  - { zone: PHG06, lat: 3.4239, lng: 101.7933, note: Genting Highlands (Afiq) }
+  - { zone: PHG06, lat: 3.7167, lng: 101.7500, note: Bukit Fraser (Afiq) }
+  - { zone: PHG07, lat: 2.8146, lng: 103.4867, note: Kuala Rompin (Afiq) }
+  # Perlis, Penang
+  - { zone: PLS01, lat: 6.4414, lng: 100.1986, note: Kangar }
+  - { zone: PNG01, lat: 5.4141, lng: 100.3288, note: George Town }
+  # Perak
+  - { zone: PRK01, lat: 4.1975, lng: 101.2611, note: Tapah }
+  - { zone: PRK01, lat: 3.6850, lng: 101.5180, note: Tanjung Malim }
+  - { zone: PRK02, lat: 4.5975, lng: 101.0901, note: Ipoh (Kinta) }
+  - { zone: PRK02, lat: 4.4690, lng: 101.0410, note: Batu Gajah (Kinta) }
+  - { zone: PRK02, lat: 4.3080, lng: 101.1530, note: Kampar }
+  - { zone: PRK03, lat: 5.4296, lng: 101.1290, note: Gerik }
+  - { zone: PRK04, lat: 5.6200, lng: 101.4200, note: Royal Belum }
+  - { zone: PRK05, lat: 4.0260, lng: 101.0213, note: Teluk Intan (Hilir Perak) }
+  - { zone: PRK05, lat: 4.2167, lng: 100.7000, note: Sitiawan (Manjung) }
+  - { zone: PRK06, lat: 4.8500, lng: 100.7400, note: Taiping, below Bukit Larut }
+  - { zone: PRK06, lat: 5.1250, lng: 100.4930, note: Parit Buntar (Kerian) }
+  - { zone: PRK06, lat: 5.0080, lng: 100.5410, note: Bagan Serai (Kerian) }
+  - { zone: PRK07, lat: 4.8667, lng: 100.8000, note: Bukit Larut (JAKIM reference, Afiq) }
+  # Sabah
+  - { zone: SBH01, lat: 5.8394, lng: 118.1172, note: Sandakan }
+  - { zone: SBH02, lat: 5.8940, lng: 117.5590, note: Beluran }
+  - { zone: SBH03, lat: 5.0300, lng: 118.3400, note: Lahad Datu }
+  - { zone: SBH04, lat: 4.2448, lng: 117.8912, note: Tawau }
+  - { zone: SBH05, lat: 6.8833, lng: 116.8500, note: Kudat (just inland: the town is on the simplified coastline) }
+  - { zone: SBH06, lat: 6.0833, lng: 116.5333, note: Gunung Kinabalu (JAKIM reference) }
+  - { zone: SBH06, lat: 6.0800, lng: 116.5400, note: Gunung Kinabalu (Afiq) }
+  - { zone: SBH07, lat: 5.9804, lng: 116.0735, note: Kota Kinabalu }
+  - { zone: SBH07, lat: 5.9833, lng: 116.5833, note: Kundasang, below Kinabalu }
+  - { zone: SBH08, lat: 5.3378, lng: 116.1602, note: Keningau }
+  - { zone: SBH09, lat: 5.3473, lng: 115.7455, note: Beaufort }
+  # Sarawak
+  - { zone: SWK01, lat: 4.7500, lng: 115.0000, note: Limbang }
+  - { zone: SWK01, lat: 4.8547, lng: 115.4078, note: Lawas }
+  - { zone: SWK02, lat: 4.3995, lng: 113.9914, note: Miri }
+  - { zone: SWK03, lat: 3.1667, lng: 113.0333, note: Bintulu }
+  - { zone: SWK04, lat: 2.2870, lng: 111.8305, note: Sibu }
+  - { zone: SWK05, lat: 2.1333, lng: 111.5167, note: Sarikei }
+  - { zone: SWK06, lat: 1.2378, lng: 111.4625, note: Sri Aman }
+  - { zone: SWK07, lat: 1.1667, lng: 110.5667, note: Serian }
+  - { zone: SWK08, lat: 1.5535, lng: 110.3439, note: Kuching }
+  - { zone: SWK09, lat: 4.9611, lng: 115.4861, note: Kampung Patarikan (JAKIM reference) }
+  - { zone: SWK09, lat: 4.9200, lng: 115.5300, note: Kampung Patarikan, Merapok (Afiq) }
+  # Selangor, Wilayah
+  - { zone: SGR01, lat: 3.0733, lng: 101.5185, note: Shah Alam }
+  - { zone: SGR01, lat: 3.2379, lng: 101.6840, note: Batu Caves, Gombak }
+  - { zone: SGR02, lat: 3.3400, lng: 101.2500, note: Kuala Selangor }
+  - { zone: SGR03, lat: 3.0449, lng: 101.4456, note: Klang }
+  - { zone: TRG01, lat: 5.3302, lng: 103.1408, note: Kuala Terengganu }
+  - { zone: TRG02, lat: 5.7364, lng: 102.4936, note: Jerteh, Besut }
+  - { zone: TRG03, lat: 5.0750, lng: 103.0083, note: Kuala Berang }
+  - { zone: TRG04, lat: 4.2333, lng: 103.4167, note: Chukai, Kemaman }
+  - { zone: WLY01, lat: 3.1390, lng: 101.6869, note: Kuala Lumpur }
+  - { zone: WLY01, lat: 2.9264, lng: 101.6964, note: Putrajaya }
+  - { zone: WLY02, lat: 5.2831, lng: 115.2308, note: Labuan }

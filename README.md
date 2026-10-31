@@ -23,8 +23,8 @@ countries:
   - code: MY
     name: Malaysia
     source: JAKIM
-    geojson: https://simplesolat-data.netlify.app/geojson/MY-adm2-geojson-20260402.json
-    mapping: https://simplesolat-data.netlify.app/mappings/MY-adm2-mapping-20260402.json
+    geojson: https://simplesolat-data.netlify.app/geojson/MY-adm2-geojson-20261101.json
+    mapping: https://simplesolat-data.netlify.app/mappings/MY-adm2-mapping-20261101.json
     shape_property: shapeName
 ```
 
@@ -99,7 +99,13 @@ Examples:
 GET /geojson/{CC}-{adm}-geojson-{date}.json
 ```
 
-Administrative boundary data for GPS-to-zone resolution. All from [geoBoundaries](https://www.geoboundaries.org/), unmodified.
+Administrative boundary data for GPS-to-zone resolution, from [geoBoundaries](https://www.geoboundaries.org/). Unmodified, except Malaysia: JAKIM zones that a district map can't express (Zon Khas hilltops, Rompin's mukim split, Belum and Temengor, Tioman, Pulau Aur, Putrajaya) are carved out of the districts as their own shapes by `scripts/patch_my_zones.py` (sources and reasoning in the script; mukims from geoBoundaries ADM3, CC BY 4.0). Thanks to Afiq Hazwan (MySolat) for reporting them.
+
+Older dated files stay published for apps that still point to them.
+
+### Location → zone tests
+
+`tests/zone-points/{CC}.yaml` lists points and the zone each must resolve to (for Malaysia: one per JAKIM zone, every special zone, and nearby towns that must keep their normal zone). `python3 scripts/verify_data.py zones` checks them the way the app does (point in polygon, then mapping), and CI runs it whenever a map, mapping or zone list changes.
 
 ### Mappings
 
