@@ -1,8 +1,9 @@
 # Bosnia (Islamic Community in BiH — Vaktija) zones.
 # Locations from sources/vaktija/vaktija.json; shapes (shapeID, like TR) from
 # geoBoundaries BIH ADM3 via scripts/build_ba_shapes.py. Sandžak (state: Sandžak)
-# is in RS/ME — no BIH geojson, manual selection only. Višegrad & Žepa are absent
-# from geoBoundaries (manual only).
+# is in RS/ME — no BIH geojson, manual selection only. Višegrad's municipality is
+# labelled "Republika Srpska" in geoBoundaries; Žepa, a village in Rogatica, has no
+# shape of its own (manual only).
 zones:
   - code: BA0
     country: BA
@@ -828,7 +829,8 @@ zones:
     state: Bosna i Hercegovina
     location: Višegrad
     timezone: Europe/Sarajevo
-    shapes: []
+    shapes:
+      - 43093233B37160773543814  # Višegrad (labelled "Republika Srpska" in geoBoundaries)
 
   - code: BA99
     country: BA

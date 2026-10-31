@@ -1,0 +1,9 @@
+# Location → zone checks for Bosnia (python3 scripts/verify_data.py zones BA).
+points:
+  - { zone: BA98, lat: 43.7828, lng: 19.2919, note: Višegrad }
+  - { zone: BA77, lat: 43.8590, lng: 18.4310, note: Sarajevo (Baščaršija) }
+  - { zone: BA61, lat: 43.3438, lng: 17.8078, note: Mostar }
+  - { zone: BA93, lat: 44.5384, lng: 18.6763, note: Tuzla }
+  - { zone: BA1, lat: 44.7722, lng: 17.1910, note: Banja Luka }
+  - { zone: BA102, lat: 44.2017, lng: 17.9077, note: Zenica }
+  - { zone: BA2, lat: 44.8169, lng: 15.8708, note: Bihać }
