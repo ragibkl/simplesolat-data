@@ -1,0 +1,5 @@
+# Netlify serves data/ (the CDN apps use). The whole-country monthly files are
+# generated from the per-zone files at deploy, not committed.
+[build]
+  publish = "data"
+  command = "python3 scripts/build_country_files.py"
