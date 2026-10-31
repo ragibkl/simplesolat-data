@@ -1,0 +1,55 @@
+# Location → zone checks for Sri Lanka (python3 scripts/verify_data.py zones LK).
+# ACJU's 13 zones cover the 25 districts: every district capital, plus coastal
+# towns and islands (Colombo and Jaffna once fell outside the map) and the
+# east coast Muslim towns.
+points:
+  # LK01 Colombo, Gampaha, Kalutara
+  - { zone: LK01, lat: 6.9344, lng: 79.8428, note: Colombo Fort }
+  - { zone: LK01, lat: 6.9100, lng: 79.8500, note: Colombo (Kollupitiya coast) }
+  - { zone: LK01, lat: 7.0840, lng: 80.0098, note: Gampaha }
+  - { zone: LK01, lat: 7.2083, lng: 79.8358, note: Negombo }
+  - { zone: LK01, lat: 6.5854, lng: 79.9607, note: Kalutara }
+  - { zone: LK01, lat: 6.4789, lng: 79.9828, note: Beruwala }
+  # LK02 Jaffna
+  - { zone: LK02, lat: 9.6615, lng: 80.0255, note: Jaffna }
+  - { zone: LK02, lat: 9.8167, lng: 80.2333, note: Point Pedro }
+  - { zone: LK02, lat: 9.6667, lng: 79.8833, note: Kayts }
+  - { zone: LK02, lat: 9.5167, lng: 79.6833, note: Delft island }
+  # LK03 Mullaitivu, Kilinochchi, Vavuniya
+  - { zone: LK03, lat: 9.3803, lng: 80.3770, note: Kilinochchi }
+  - { zone: LK03, lat: 9.2671, lng: 80.8142, note: Mullaitivu }
+  - { zone: LK03, lat: 8.7514, lng: 80.4971, note: Vavuniya }
+  # LK04 Mannar, Puttalam
+  - { zone: LK04, lat: 8.9810, lng: 79.9044, note: Mannar (island) }
+  - { zone: LK04, lat: 8.0362, lng: 79.8283, note: Puttalam }
+  - { zone: LK04, lat: 8.2333, lng: 79.7667, note: Kalpitiya }
+  # LK05 Anuradhapura, Polonnaruwa
+  - { zone: LK05, lat: 8.3114, lng: 80.4037, note: Anuradhapura }
+  - { zone: LK05, lat: 7.9403, lng: 81.0188, note: Polonnaruwa }
+  # LK06 Kurunegala
+  - { zone: LK06, lat: 7.4863, lng: 80.3623, note: Kurunegala }
+  # LK07 Kandy, Matale, Nuwara Eliya
+  - { zone: LK07, lat: 7.2906, lng: 80.6337, note: Kandy }
+  - { zone: LK07, lat: 7.4675, lng: 80.6234, note: Matale }
+  - { zone: LK07, lat: 6.9497, lng: 80.7891, note: Nuwara Eliya }
+  # LK08 Batticaloa, Ampara
+  - { zone: LK08, lat: 7.7170, lng: 81.7000, note: Batticaloa }
+  - { zone: LK08, lat: 7.6833, lng: 81.7333, note: Kattankudy }
+  - { zone: LK08, lat: 7.2833, lng: 81.6667, note: Ampara }
+  - { zone: LK08, lat: 7.4167, lng: 81.8167, note: Kalmunai }
+  - { zone: LK08, lat: 7.2167, lng: 81.8500, note: Akkaraipattu }
+  # LK09 Trincomalee
+  - { zone: LK09, lat: 8.5874, lng: 81.2152, note: Trincomalee }
+  - { zone: LK09, lat: 8.4833, lng: 81.2333, note: Kinniya }
+  # LK10 Badulla, Monaragala
+  - { zone: LK10, lat: 6.9934, lng: 81.0550, note: Badulla }
+  - { zone: LK10, lat: 6.8728, lng: 81.3507, note: Monaragala }
+  # LK11 Ratnapura, Kegalle
+  - { zone: LK11, lat: 6.6828, lng: 80.3992, note: Ratnapura }
+  - { zone: LK11, lat: 7.2513, lng: 80.3464, note: Kegalle }
+  # LK12 Galle, Matara
+  - { zone: LK12, lat: 6.0269, lng: 80.2170, note: Galle Fort }
+  - { zone: LK12, lat: 5.9549, lng: 80.5550, note: Matara }
+  # LK13 Hambantota
+  - { zone: LK13, lat: 6.1241, lng: 81.1185, note: Hambantota }
+  - { zone: LK13, lat: 6.2833, lng: 81.2833, note: Tissamaharama }
