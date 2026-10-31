@@ -277,10 +277,15 @@ NO_SHAPE_OK = {
     'ID': {'PAP29': 'Kab. Yapen Waropen, split in 2002 into zones of their own'},
     'TR': {'TR9676': "Konya's city districts have their own zones"},
     'BA': {'BA104': 'Žepa, a village in Rogatica'},
+    # Awqaf areas with no published location (oil fields, a border-guard
+    # post, small villages and valleys): places there take the nearest area.
+    'AE': {z: 'location not published' for z in (
+        'AE3', 'AE8', 'AE9', 'AE10', 'AE20', 'AE21', 'AE22', 'AE28', 'AE29', 'AE30',
+        'AE37', 'AE47', 'AE49', 'AE54', 'AE55', 'AE56', 'AE57')},
 }
 NO_SHAPE_OK_STATES = {'BA': {'Sandžak'}}  # outside Bosnia's map
 # Known gaps being fixed: reported, but don't fail the check yet.
-KNOWN_GAPS = {'AE'}
+KNOWN_GAPS = set()
 
 
 def check_zone_structure(countries_filter):

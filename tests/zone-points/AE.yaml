@@ -1,0 +1,48 @@
+# Location → zone checks for the UAE (python3 scripts/verify_data.py zones AE).
+# Main towns of Awqaf's areas, the islands and mountain tops
+# (scripts/patch_ae_zones.py), and places near the edges between areas.
+points:
+  # Abu Dhabi
+  - { zone: AE1, lat: 24.4539, lng: 54.3773, note: Abu Dhabi city }
+  - { zone: AE1, lat: 24.3500, lng: 54.5000, note: Musaffah }
+  - { zone: AE1, lat: 24.4950, lng: 54.6070, note: Yas Island }
+  - { zone: AE1, lat: 24.3870, lng: 54.5550, note: Khalifa City }
+  - { zone: AE2, lat: 24.2075, lng: 55.7447, note: Al Ain }
+  - { zone: AE2, lat: 24.1300, lng: 55.7600, note: Green Mubazzarah (below Jebel Hafeet) }
+  - { zone: AE15, lat: 24.0590, lng: 55.7780, note: Jebel Hafeet summit }
+  - { zone: AE25, lat: 23.6520, lng: 53.7050, note: Madinat Zayed }
+  - { zone: AE27, lat: 24.1100, lng: 52.7300, note: Al Ruwais }
+  - { zone: AE11, lat: 23.1360, lng: 53.7880, note: Liwa }
+  - { zone: AE14, lat: 24.1000, lng: 53.4800, note: Al Mirfa }
+  - { zone: AE12, lat: 23.8367, lng: 52.8064, note: Ghayathi }
+  - { zone: AE13, lat: 24.0333, lng: 51.7500, note: Al Sila }
+  - { zone: AE31, lat: 24.4667, lng: 55.3333, note: Sweihan }
+  - { zone: AE4, lat: 24.4900, lng: 52.3100, note: Dalma island }
+  - { zone: AE6, lat: 25.1500, lng: 52.8750, note: Das island }
+  - { zone: AE7, lat: 24.8817, lng: 53.0717, note: Zirku island }
+  # Dubai
+  - { zone: AE32, lat: 25.1972, lng: 55.2744, note: Downtown Dubai }
+  - { zone: AE32, lat: 25.0800, lng: 55.1400, note: Dubai Marina }
+  - { zone: AE32, lat: 25.2532, lng: 55.3657, note: Dubai airport }
+  - { zone: AE60, lat: 24.7980, lng: 56.1210, note: Hatta }
+  # Sharjah
+  - { zone: AE33, lat: 25.3463, lng: 55.4209, note: Sharjah city }
+  - { zone: AE34, lat: 25.2880, lng: 55.8820, note: Al Dhaid }
+  - { zone: AE35, lat: 24.9700, lng: 55.7900, note: Al Madam }
+  - { zone: AE36, lat: 25.3390, lng: 56.3560, note: Khor Fakkan }
+  - { zone: AE36, lat: 25.0740, lng: 56.3550, note: Kalba }
+  - { zone: AE39, lat: 25.2320, lng: 54.2180, note: Sir Bu Nair island }
+  - { zone: AE40, lat: 25.8742, lng: 55.0331, note: Abu Musa island }
+  # Ajman, Umm Al Quwain
+  - { zone: AE41, lat: 25.4052, lng: 55.5136, note: Ajman }
+  - { zone: AE42, lat: 24.8190, lng: 56.0710, note: Masfout }
+  - { zone: AE43, lat: 25.3270, lng: 55.9930, note: Al Manama }
+  - { zone: AE44, lat: 25.5647, lng: 55.5552, note: Umm Al Quwain }
+  # Ras Al Khaimah
+  - { zone: AE45, lat: 25.7895, lng: 55.9432, note: Ras Al Khaimah city }
+  - { zone: AE46, lat: 26.0270, lng: 56.0880, note: Sha'am }
+  - { zone: AE50, lat: 25.9436, lng: 56.1267, note: Jebel Jais }
+  - { zone: AE51, lat: 26.2650, lng: 55.3070, note: Greater Tunb }
+  # Fujairah
+  - { zone: AE52, lat: 25.1288, lng: 56.3265, note: Fujairah city }
+  - { zone: AE53, lat: 25.6200, lng: 56.2700, note: Dibba }

@@ -1,0 +1,2477 @@
+{
+ "source": "https://internationalprayertime.awqaf.gov.ae/api/v1/location/emirates?lang=en (2026-10-31); coordinates from OpenStreetMap Nominatim, kept only inside the right emirate",
+ "places": [
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Musaffah",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.36578,
+   "lng": 54.49571
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Ain City",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.22487,
+   "lng": 55.74522
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Zayed City",
+   "awqaf_area": 57,
+   "zone": "AE25",
+   "lat": 23.65154,
+   "lng": 53.70197
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Bani Yas",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.30648,
+   "lng": 54.63486
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Shamkhah",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.37831,
+   "lng": 54.70437
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Rawda",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.46899,
+   "lng": 54.37252
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Ruwais",
+   "awqaf_area": 61,
+   "zone": "AE27",
+   "lat": 24.11214,
+   "lng": 52.74258
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Ghantoot",
+   "awqaf_area": 40,
+   "zone": "AE24",
+   "lat": 24.86473,
+   "lng": 54.90083
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Rahbah",
+   "awqaf_area": 40,
+   "zone": "AE24",
+   "lat": 24.59938,
+   "lng": 54.69182
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Shahama",
+   "awqaf_area": 40,
+   "zone": "AE24",
+   "lat": 24.52408,
+   "lng": 54.67865
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Saadiyat",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.54597,
+   "lng": 54.44369
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Raha Beach",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.48593,
+   "lng": 54.60094
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Yas Island",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.4864,
+   "lng": 54.60907
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Dalma Island",
+   "awqaf_area": 46,
+   "zone": "AE4",
+   "lat": 24.48051,
+   "lng": 52.31463
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Mafraq",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.32884,
+   "lng": 54.60618
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Mohamed Bin Zayed City",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.34037,
+   "lng": 54.55161
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Riyadh",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.35255,
+   "lng": 54.73298
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Wathba",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.2817,
+   "lng": 54.6617
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Falah",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.42531,
+   "lng": 54.72991
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Shawamekh",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.35841,
+   "lng": 54.65734
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Mushrif",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.44109,
+   "lng": 54.38422
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Hisn",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.4825,
+   "lng": 54.35085
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al Mirfa",
+   "awqaf_area": 58,
+   "zone": "AE14",
+   "lat": 24.10235,
+   "lng": 53.47906
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Liwa",
+   "awqaf_area": 56,
+   "zone": "AE11",
+   "lat": 23.13583,
+   "lng": 53.7881
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Khalidiya",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.47585,
+   "lng": 54.3475
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Maqta' Abu Dhabi",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.39605,
+   "lng": 54.51794
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Bateen",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.45138,
+   "lng": 54.33797
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Reef",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.46644,
+   "lng": 54.65689
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Mina",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.50517,
+   "lng": 54.37519
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al Wahda",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.46528,
+   "lng": 54.37917
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Corniche",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.48576,
+   "lng": 54.348
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Ghadeer",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.84265,
+   "lng": 55.02757
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Bahyah Abu Dhabi",
+   "awqaf_area": 40,
+   "zone": "AE24",
+   "lat": 24.53279,
+   "lng": 54.67819
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Dhannah",
+   "awqaf_area": 61,
+   "zone": "AE27",
+   "lat": 24.16976,
+   "lng": 52.62821
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Shakhbout City",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.3595,
+   "lng": 54.63233
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Nahdah",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.31554,
+   "lng": 54.71956
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Seef",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.44584,
+   "lng": 54.59184
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Masdar",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.43652,
+   "lng": 54.62001
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Sas Al Nakhl",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.44338,
+   "lng": 54.50773
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Bain Al-Jesrain",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.40598,
+   "lng": 54.50436
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Shelaylah",
+   "awqaf_area": 40,
+   "zone": "AE24",
+   "lat": 24.61518,
+   "lng": 54.64754
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Sila'",
+   "awqaf_area": 50,
+   "zone": "AE13",
+   "lat": 24.09652,
+   "lng": 51.75202
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Sweihan",
+   "awqaf_area": 63,
+   "zone": "AE31",
+   "lat": 24.38259,
+   "lng": 55.46774
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Ghuwaifat",
+   "awqaf_area": 50,
+   "zone": "AE13",
+   "lat": 24.12898,
+   "lng": 51.61909
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Khaznah",
+   "awqaf_area": 54,
+   "zone": "AE19",
+   "lat": 24.14256,
+   "lng": 55.16035
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Sad",
+   "awqaf_area": 54,
+   "zone": "AE19",
+   "lat": 24.22082,
+   "lng": 55.43701
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Salamat",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.17199,
+   "lng": 55.54143
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Jimi",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.25096,
+   "lng": 55.73553
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Khibeesi",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.22982,
+   "lng": 55.699
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Qou'",
+   "awqaf_area": 51,
+   "zone": "AE16",
+   "lat": 23.41519,
+   "lng": 55.42935
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Aamerah",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.23319,
+   "lng": 55.55435
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Maqam",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.18581,
+   "lng": 55.62942
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Towayya",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.26052,
+   "lng": 55.7037
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Zakhir",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.12804,
+   "lng": 55.68017
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Mazyad",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.04254,
+   "lng": 55.86485
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Fou'ah",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.34274,
+   "lng": 55.808
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Jebel Hafeet",
+   "awqaf_area": 52,
+   "zone": "AE15",
+   "lat": 24.05796,
+   "lng": 55.78086
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Green Mubazzarah",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.10253,
+   "lng": 55.75042
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Jahili",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.21209,
+   "lng": 55.75315
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Hili",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.28712,
+   "lng": 55.76753
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Neyadat",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.21508,
+   "lng": 55.789
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Dhahir",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.08954,
+   "lng": 55.85042
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Mu'tarid",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.22076,
+   "lng": 55.74167
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Markhaniyyah",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.21522,
+   "lng": 55.65909
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Kuwaitat",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.23277,
+   "lng": 55.77407
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Twam",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.20411,
+   "lng": 55.65049
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Hiyar",
+   "awqaf_area": 63,
+   "zone": "AE31",
+   "lat": 24.5773,
+   "lng": 55.67771
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Nahil",
+   "awqaf_area": 63,
+   "zone": "AE31",
+   "lat": 24.47937,
+   "lng": 55.53421
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Wagan",
+   "awqaf_area": 51,
+   "zone": "AE16",
+   "lat": 23.63855,
+   "lng": 55.53844
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Remah",
+   "awqaf_area": 54,
+   "zone": "AE19",
+   "lat": 24.1834,
+   "lng": 55.28372
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "'Asharij",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.19555,
+   "lng": 55.66995
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Shiwayb",
+   "awqaf_area": 47,
+   "zone": "AE18",
+   "lat": 24.72747,
+   "lng": 55.77019
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Dhahrah",
+   "awqaf_area": 43,
+   "zone": "AE17",
+   "lat": 23.96771,
+   "lng": 55.47764
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Dahmaa'",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.26283,
+   "lng": 55.66935
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Nabbagh",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.30538,
+   "lng": 55.68821
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Qattarah",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.26246,
+   "lng": 55.75682
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Mas'oudi",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.28528,
+   "lng": 55.74433
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Falaj Hazza'",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "lat": 24.18713,
+   "lng": 55.72702
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Das Island",
+   "awqaf_area": 45,
+   "zone": "AE6",
+   "lat": 25.14193,
+   "lng": 52.87754
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al Reem Island",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.49537,
+   "lng": 54.40524
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al Maryah Island",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "lat": 24.50298,
+   "lng": 54.38997
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Rashidiya Dubai",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.2154,
+   "lng": 55.37943
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Fahidi",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.25821,
+   "lng": 55.29748
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Khawaneej",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.22698,
+   "lng": 55.52156
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Nad Al-Sheba",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.14563,
+   "lng": 55.36427
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Nad Al-Hamar",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.20189,
+   "lng": 55.37637
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Nad Shamma",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.22441,
+   "lng": 55.37787
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Mizhar",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.2427,
+   "lng": 55.46108
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Ruwayyah",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.10419,
+   "lng": 55.38582
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Garhoud",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.24948,
+   "lng": 55.33998
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Nahda Dubai",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.29637,
+   "lng": 55.37946
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Oud Metha",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.24393,
+   "lng": 55.31589
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Hatta",
+   "awqaf_area": 71,
+   "zone": "AE60",
+   "lat": 24.79756,
+   "lng": 56.12064
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Mankhool",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.24951,
+   "lng": 55.29548
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Karama",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.24821,
+   "lng": 55.30506
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Jaffiliya",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.23763,
+   "lng": 55.28694
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Hudaiba",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.24283,
+   "lng": 55.27921
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Jumeirah",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.20696,
+   "lng": 55.2475
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Bada'",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.22023,
+   "lng": 55.27715
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Safa",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.15563,
+   "lng": 55.22852
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Wasl",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.19593,
+   "lng": 55.25574
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Umm Suqeim",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.15391,
+   "lng": 55.2075
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Jebel Ali",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 24.9776,
+   "lng": 55.09107
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Mushrif",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.26691,
+   "lng": 55.29602
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Naif",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.27176,
+   "lng": 55.31032
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Rigga Dubai",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.26453,
+   "lng": 55.31173
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Twar",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.26243,
+   "lng": 55.37949
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Qusais",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.27014,
+   "lng": 55.38594
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Baraha",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.28099,
+   "lng": 55.31953
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Muteena",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.27415,
+   "lng": 55.32256
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Oud Al-Muteena",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.27482,
+   "lng": 55.44534
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Hor Al-Anz",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.2783,
+   "lng": 55.3395
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Abu Hail",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.28603,
+   "lng": 55.32887
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Muhaisnah",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.2445,
+   "lng": 55.4181
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Wadi Al-Amardi",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.20929,
+   "lng": 55.48791
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Wadi Al-Safa",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.08254,
+   "lng": 55.34085
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Palm Jumeirah",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.11733,
+   "lng": 55.1351
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Zabeel",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.20983,
+   "lng": 55.29797
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Qouz",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.14226,
+   "lng": 55.22345
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Manara",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.14482,
+   "lng": 55.21445
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Umm Al Sheif",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.12668,
+   "lng": 55.20792
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Sufouh",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.11959,
+   "lng": 55.18248
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Dubai Marina",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.07864,
+   "lng": 55.13525
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Thanya",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.14108,
+   "lng": 55.20322
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Ras Al-Khor",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.19396,
+   "lng": 55.33924
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Warqa",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.18902,
+   "lng": 55.43083
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Mirdif",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.22184,
+   "lng": 55.42315
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Wadi Shabak",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.10792,
+   "lng": 55.41388
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Yalayis",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 24.99583,
+   "lng": 55.29591
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Saih Shuaib",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 24.92304,
+   "lng": 55.01074
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Warsan",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.15392,
+   "lng": 55.40829
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Nazwa",
+   "awqaf_area": 70,
+   "zone": "AE59",
+   "lat": 25.0053,
+   "lng": 55.66173
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Madinat Hind",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.06603,
+   "lng": 55.40514
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Ghadeer Al-Tair",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.15091,
+   "lng": 55.27201
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Jaddaf",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.22144,
+   "lng": 55.33194
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Dubai International City",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.13127,
+   "lng": 55.41926
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Mamzar Dubai",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.2858,
+   "lng": 55.35297
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Awir",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "lat": 25.17745,
+   "lng": 55.56953
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Lahbab",
+   "awqaf_area": 70,
+   "zone": "AE59",
+   "lat": 25.04154,
+   "lng": 55.59238
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Lisaili",
+   "awqaf_area": 70,
+   "zone": "AE59",
+   "lat": 24.93067,
+   "lng": 55.47325
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Margham",
+   "awqaf_area": 70,
+   "zone": "AE59",
+   "lat": 24.89952,
+   "lng": 55.62545
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Margab",
+   "awqaf_area": 70,
+   "zone": "AE59",
+   "lat": 24.80924,
+   "lng": 55.60939
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Faqa'",
+   "awqaf_area": 70,
+   "zone": "AE59",
+   "lat": 24.82031,
+   "lng": 55.57609
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Khor Fakkan",
+   "awqaf_area": 88,
+   "zone": "AE36",
+   "lat": 25.34917,
+   "lng": 56.34781
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Dhaid",
+   "awqaf_area": 87,
+   "zone": "AE34",
+   "lat": 25.27092,
+   "lng": 55.87682
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Kalba",
+   "awqaf_area": 88,
+   "zone": "AE36",
+   "lat": 25.0513,
+   "lng": 56.35422
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Dibba Al-Hisn",
+   "awqaf_area": 72,
+   "zone": "AE53",
+   "lat": 25.61774,
+   "lng": 56.26893
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Hamriya Sharjah",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.48331,
+   "lng": 55.53219
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Mleiha",
+   "awqaf_area": 89,
+   "zone": "AE35",
+   "lat": 25.13518,
+   "lng": 55.8843
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Madam",
+   "awqaf_area": 89,
+   "zone": "AE35",
+   "lat": 24.91202,
+   "lng": 55.7763
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Batayih",
+   "awqaf_area": 87,
+   "zone": "AE34",
+   "lat": 25.27931,
+   "lng": 55.73804
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Azra",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.37063,
+   "lng": 55.4457
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Badee'",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.29753,
+   "lng": 55.57568
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Qara'in",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.31373,
+   "lng": 55.54392
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Falaj",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.35709,
+   "lng": 55.43476
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Wasit",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.3553,
+   "lng": 55.45977
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al Qasimia",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.34629,
+   "lng": 55.39697
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Juraina",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.29133,
+   "lng": 55.50071
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Majaz",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.3478,
+   "lng": 55.38384
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Muwafja",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.3516,
+   "lng": 55.47115
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Jubail",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.35241,
+   "lng": 55.38098
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Faihaa'",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.34769,
+   "lng": 55.40237
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Hazana",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.37101,
+   "lng": 55.42166
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Soor",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.34931,
+   "lng": 55.38597
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Samnan",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.33375,
+   "lng": 55.4231
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Fisht",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.38325,
+   "lng": 55.406
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "University City",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.34454,
+   "lng": 55.40322
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Darari",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.32861,
+   "lng": 55.44158
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Noaf",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.268,
+   "lng": 55.48841
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Mansoura",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.34636,
+   "lng": 55.38949
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Ramlah - Sharjah",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.48331,
+   "lng": 55.53219
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Riqaibah",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.22302,
+   "lng": 55.6136
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Yarmouk",
+   "awqaf_area": 88,
+   "zone": "AE36",
+   "lat": 25.33982,
+   "lng": 56.34467
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Manakh",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.35244,
+   "lng": 55.3963
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Musalla",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.06212,
+   "lng": 56.35279
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Qasba",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.32276,
+   "lng": 55.37669
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Taawun",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.30825,
+   "lng": 55.37311
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Muwailih",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.29608,
+   "lng": 55.48817
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Mamzar, Sharjah",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.30859,
+   "lng": 55.36715
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Khan",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.31439,
+   "lng": 55.37539
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Ramtha",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.35634,
+   "lng": 55.446
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Sabkha",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.38013,
+   "lng": 55.43213
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Saj'a",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.32324,
+   "lng": 55.64215
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Yash",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.34178,
+   "lng": 55.46397
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Jazzat",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.36335,
+   "lng": 55.42705
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Abu Shaghara",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.33415,
+   "lng": 55.39272
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Rolla",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.3543,
+   "lng": 55.38872
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Majara",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.36497,
+   "lng": 55.38881
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Nahda",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.30846,
+   "lng": 55.37699
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Ghubaiba",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.3452,
+   "lng": 55.4133
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Rafa'a",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.34505,
+   "lng": 55.39365
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Ghuwair",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.30499,
+   "lng": 55.38795
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Tarfa",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.32445,
+   "lng": 55.4506
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Talaa",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.31001,
+   "lng": 55.42133
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Shahba",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "lat": 25.33439,
+   "lng": 55.4305
+  },
+  {
+   "emirate": "Ajman",
+   "name": "Ajman City",
+   "awqaf_area": 66,
+   "zone": "AE41",
+   "lat": 25.39366,
+   "lng": 55.44514
+  },
+  {
+   "emirate": "Ajman",
+   "name": "Al-Nuaimia",
+   "awqaf_area": 66,
+   "zone": "AE41",
+   "lat": 25.38309,
+   "lng": 55.44741
+  },
+  {
+   "emirate": "Ajman",
+   "name": "Al-Hamidiya",
+   "awqaf_area": 66,
+   "zone": "AE41",
+   "lat": 25.40809,
+   "lng": 55.51399
+  },
+  {
+   "emirate": "Ajman",
+   "name": "Al-Bustan",
+   "awqaf_area": 66,
+   "zone": "AE41",
+   "lat": 25.41272,
+   "lng": 55.44815
+  },
+  {
+   "emirate": "Ajman",
+   "name": "Al-Zawraa",
+   "awqaf_area": 66,
+   "zone": "AE41",
+   "lat": 25.4298,
+   "lng": 55.48399
+  },
+  {
+   "emirate": "Ajman",
+   "name": "Al-Tala",
+   "awqaf_area": 66,
+   "zone": "AE41",
+   "lat": 25.36939,
+   "lng": 55.52155
+  },
+  {
+   "emirate": "Ajman",
+   "name": "Al-Rashidiya Ajman",
+   "awqaf_area": 66,
+   "zone": "AE41",
+   "lat": 25.39401,
+   "lng": 55.45482
+  },
+  {
+   "emirate": "Ajman",
+   "name": "Masfout",
+   "awqaf_area": 68,
+   "zone": "AE42",
+   "lat": 24.81543,
+   "lng": 56.0971
+  },
+  {
+   "emirate": "Ajman",
+   "name": "Al-Yasmeen",
+   "awqaf_area": 66,
+   "zone": "AE41",
+   "lat": 25.37265,
+   "lng": 55.57546
+  },
+  {
+   "emirate": "Um Al Quwain",
+   "name": "Al-Salamah",
+   "awqaf_area": 94,
+   "zone": "AE44",
+   "lat": 25.49415,
+   "lng": 55.57849
+  },
+  {
+   "emirate": "Um Al Quwain",
+   "name": "Al-Hawiyah",
+   "awqaf_area": 94,
+   "zone": "AE44",
+   "lat": 25.57867,
+   "lng": 55.55804
+  },
+  {
+   "emirate": "Um Al Quwain",
+   "name": "Al-Ramla, Umm Al Quwain",
+   "awqaf_area": 94,
+   "zone": "AE44",
+   "lat": 25.50066,
+   "lng": 55.5662
+  },
+  {
+   "emirate": "Um Al Quwain",
+   "name": "Falaj Al-Mualla",
+   "awqaf_area": 94,
+   "zone": "AE44",
+   "lat": 25.36939,
+   "lng": 55.85474
+  },
+  {
+   "emirate": "Um Al Quwain",
+   "name": "Al-Rashidiya, Umm Al Quwain",
+   "awqaf_area": 94,
+   "zone": "AE44",
+   "lat": 25.39233,
+   "lng": 55.83635
+  },
+  {
+   "emirate": "Um Al Quwain",
+   "name": "Al-Ras",
+   "awqaf_area": 94,
+   "zone": "AE44",
+   "lat": 25.54743,
+   "lng": 55.71531
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Al-Mataf",
+   "awqaf_area": 82,
+   "zone": "AE45",
+   "lat": 25.8364,
+   "lng": 55.9886
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Al-Nakhil",
+   "awqaf_area": 82,
+   "zone": "AE45",
+   "lat": 25.78865,
+   "lng": 55.97759
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Al-Araibi",
+   "awqaf_area": 82,
+   "zone": "AE45",
+   "lat": 25.77868,
+   "lng": 55.97564
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Khuzam",
+   "awqaf_area": 82,
+   "zone": "AE45",
+   "lat": 25.76408,
+   "lng": 55.93432
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Ghalilah",
+   "awqaf_area": 83,
+   "zone": "AE46",
+   "lat": 25.9975,
+   "lng": 56.07429
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Jebel Jais",
+   "awqaf_area": 80,
+   "zone": "AE50",
+   "lat": 25.84675,
+   "lng": 56.09867
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Al-Fahlain",
+   "awqaf_area": 82,
+   "zone": "AE45",
+   "lat": 25.67804,
+   "lng": 55.99457
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Julphar",
+   "awqaf_area": 82,
+   "zone": "AE45",
+   "lat": 25.83058,
+   "lng": 55.98527
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Khatt",
+   "awqaf_area": 82,
+   "zone": "AE45",
+   "lat": 25.63478,
+   "lng": 55.98838
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Al-Jeer",
+   "awqaf_area": 83,
+   "zone": "AE46",
+   "lat": 26.03567,
+   "lng": 56.09792
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Al-Rams",
+   "awqaf_area": 82,
+   "zone": "AE45",
+   "lat": 25.86822,
+   "lng": 56.01457
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Khor Khwair",
+   "awqaf_area": 83,
+   "zone": "AE46",
+   "lat": 25.96588,
+   "lng": 56.05433
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Difta",
+   "awqaf_area": 84,
+   "zone": "AE48",
+   "lat": 25.26715,
+   "lng": 56.17784
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Al-Burairat",
+   "awqaf_area": 82,
+   "zone": "AE45",
+   "lat": 25.76322,
+   "lng": 56.01384
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Al-Dhait",
+   "awqaf_area": 82,
+   "zone": "AE45",
+   "lat": 25.72033,
+   "lng": 55.96503
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Al-Jazirah Al-Hamra",
+   "awqaf_area": 82,
+   "zone": "AE45",
+   "lat": 25.68408,
+   "lng": 55.82308
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Shokah",
+   "awqaf_area": 84,
+   "zone": "AE48",
+   "lat": 25.09564,
+   "lng": 56.03052
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Sha'am",
+   "awqaf_area": 83,
+   "zone": "AE46",
+   "lat": 26.03298,
+   "lng": 56.11643
+  },
+  {
+   "emirate": "Fujairah",
+   "name": "Al-Bidyah",
+   "awqaf_area": 72,
+   "zone": "AE53",
+   "lat": 25.438,
+   "lng": 56.3427
+  },
+  {
+   "emirate": "Fujairah",
+   "name": "Sakamkam",
+   "awqaf_area": 73,
+   "zone": "AE52",
+   "lat": 25.16316,
+   "lng": 56.33672
+  },
+  {
+   "emirate": "Fujairah",
+   "name": "Qidfa",
+   "awqaf_area": 73,
+   "zone": "AE52",
+   "lat": 25.30152,
+   "lng": 56.36257
+  },
+  {
+   "emirate": "Fujairah",
+   "name": "Dibba Al-Fujairah",
+   "awqaf_area": 72,
+   "zone": "AE53",
+   "lat": 25.59933,
+   "lng": 56.28432
+  },
+  {
+   "emirate": "Fujairah",
+   "name": "Al-Farfar",
+   "awqaf_area": 73,
+   "zone": "AE52",
+   "lat": 25.15056,
+   "lng": 56.26832
+  },
+  {
+   "emirate": "Fujairah",
+   "name": "Safad",
+   "awqaf_area": 73,
+   "zone": "AE52",
+   "lat": 25.22298,
+   "lng": 56.32308
+  },
+  {
+   "emirate": "Fujairah",
+   "name": "Sharm",
+   "awqaf_area": 72,
+   "zone": "AE53",
+   "lat": 25.4708,
+   "lng": 56.34893
+  },
+  {
+   "emirate": "Fujairah",
+   "name": "Al-Faseel",
+   "awqaf_area": 73,
+   "zone": "AE52",
+   "lat": 25.14321,
+   "lng": 56.34677
+  },
+  {
+   "emirate": "Fujairah",
+   "name": "Dadna",
+   "awqaf_area": 72,
+   "zone": "AE53",
+   "lat": 25.5226,
+   "lng": 56.3583
+  }
+ ],
+ "skipped": [
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Khalifah City",
+   "awqaf_area": 36,
+   "zone": "AE1",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Hameem",
+   "awqaf_area": 39,
+   "zone": null,
+   "skipped": "area number not matched"
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Sayh Al-Sedeirah",
+   "awqaf_area": 40,
+   "zone": "AE24",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Al-Manaseer",
+   "awqaf_area": 37,
+   "zone": "AE2",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Zerkou Island",
+   "awqaf_area": 65,
+   "zone": "AE7",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Abu Dhabi",
+   "name": "Dilma Island",
+   "awqaf_area": 46,
+   "zone": "AE4",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Dubai",
+   "name": "World Islands",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Yafrah",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Wahida",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Adhba",
+   "awqaf_area": 69,
+   "zone": "AE32",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Quraitisah",
+   "awqaf_area": 70,
+   "zone": "AE59",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Al-Marmoum",
+   "awqaf_area": 70,
+   "zone": "AE59",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Dubai",
+   "name": "Sayh Al-Salam",
+   "awqaf_area": 70,
+   "zone": "AE59",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Ramaqiyah",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Rahmaniyah",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Helwan",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Qadisiyah",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Shaghrafa",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Zubayr",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Kshisha",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Umm Tarfa",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Suwaihat",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Jaada",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Maysaloun",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Atain",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Nasiriyah",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Mirqab",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Siyouh",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Zahiah Sharjah",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Hoshi",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Butina",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Qulai'ah",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Nakhilat",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Heerah",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Tai",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Naba'a",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Al-Aabaar",
+   "awqaf_area": 91,
+   "zone": "AE33",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Sir Bu Na'ir Island",
+   "awqaf_area": 92,
+   "zone": "AE39",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Sharjah",
+   "name": "Abu Musa Island",
+   "awqaf_area": 86,
+   "zone": "AE40",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Ajman",
+   "name": "Mazra'a",
+   "awqaf_area": 68,
+   "zone": "AE42",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Ajman",
+   "name": "Al-Hilyu",
+   "awqaf_area": 66,
+   "zone": "AE41",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Ajman",
+   "name": "Al-Muwayhat",
+   "awqaf_area": 66,
+   "zone": "AE41",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Ajman",
+   "name": "Mushayrif",
+   "awqaf_area": 66,
+   "zone": "AE41",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Ajman",
+   "name": "Al-Sewaan",
+   "awqaf_area": 66,
+   "zone": "AE41",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Ajman",
+   "name": "Al-Zahya Ajman",
+   "awqaf_area": 66,
+   "zone": "AE41",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Ajman",
+   "name": "Al-Owan",
+   "awqaf_area": 66,
+   "zone": "AE41",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Ajman",
+   "name": "Al-Alia",
+   "awqaf_area": 66,
+   "zone": "AE41",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Ajman",
+   "name": "Liwara",
+   "awqaf_area": 66,
+   "zone": "AE41",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Ajman",
+   "name": "Al-Ramila",
+   "awqaf_area": 66,
+   "zone": "AE41",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Ajman",
+   "name": "Al-Jarf",
+   "awqaf_area": 66,
+   "zone": "AE41",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Ajman",
+   "name": "Al-Raqayeb",
+   "awqaf_area": 66,
+   "zone": "AE41",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Ajman",
+   "name": "Al-Safiya",
+   "awqaf_area": 66,
+   "zone": "AE41",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Ajman",
+   "name": "Al-Manamah",
+   "awqaf_area": 67,
+   "zone": "AE43",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Um Al Quwain",
+   "name": "Al-Labsah",
+   "awqaf_area": 94,
+   "zone": "AE44",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Um Al Quwain",
+   "name": "Al-Raafah",
+   "awqaf_area": 94,
+   "zone": "AE44",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Um Al Quwain",
+   "name": "Al-Bayda",
+   "awqaf_area": 94,
+   "zone": "AE44",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Um Al Quwain",
+   "name": "Lamaghdar",
+   "awqaf_area": 94,
+   "zone": "AE44",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Um Al Quwain",
+   "name": "Al-Rigga, Umm Al Quwain",
+   "awqaf_area": 94,
+   "zone": "AE44",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Um Al Quwain",
+   "name": "Al-Maqta' - Umm Al Quwain",
+   "awqaf_area": 94,
+   "zone": "AE44",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Um Al Quwain",
+   "name": "Al-Raa'fah",
+   "awqaf_area": 94,
+   "zone": "AE44",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Um Al Quwain",
+   "name": "Al-Rawdah",
+   "awqaf_area": 94,
+   "zone": "AE44",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Um Al Quwain",
+   "name": "Al-Hamra",
+   "awqaf_area": 94,
+   "zone": "AE44",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Al-Kharan",
+   "awqaf_area": 82,
+   "zone": "AE45",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Al-Maireed",
+   "awqaf_area": 82,
+   "zone": "AE45",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Al-Qussaidat",
+   "awqaf_area": 82,
+   "zone": "AE45",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Al-Hamraniah",
+   "awqaf_area": 82,
+   "zone": "AE45",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Al-Huwailat",
+   "awqaf_area": 81,
+   "zone": null,
+   "skipped": "area number not matched"
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Dahhan",
+   "awqaf_area": 82,
+   "zone": "AE45",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Greater Tunb",
+   "awqaf_area": 85,
+   "zone": "AE51",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Al-Maamoura",
+   "awqaf_area": 82,
+   "zone": "AE45",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Al-Daqdaga",
+   "awqaf_area": 82,
+   "zone": "AE45",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Masafi Ras Al Khaimah",
+   "awqaf_area": 84,
+   "zone": "AE48",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Lesser Tunb",
+   "awqaf_area": 85,
+   "zone": "AE51",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Ras AlKhaimah",
+   "name": "Al-Ghub",
+   "awqaf_area": 82,
+   "zone": "AE45",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Fujairah",
+   "name": "Al-‘Ikkamiyah",
+   "awqaf_area": 72,
+   "zone": "AE53",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Fujairah",
+   "name": "Al-Ghurfah",
+   "awqaf_area": 73,
+   "zone": "AE52",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Fujairah",
+   "name": "Al-Fqait",
+   "awqaf_area": 72,
+   "zone": "AE53",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Fujairah",
+   "name": "Masafi Al-Fujairah",
+   "awqaf_area": 75,
+   "zone": "AE55",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Fujairah",
+   "name": "Al-Sarm",
+   "awqaf_area": 74,
+   "zone": null,
+   "skipped": "area number not matched"
+  },
+  {
+   "emirate": "Fujairah",
+   "name": "Al-Bathnah",
+   "awqaf_area": 73,
+   "zone": "AE52",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Fujairah",
+   "name": "Mirbih",
+   "awqaf_area": 88,
+   "zone": "AE36",
+   "skipped": "not found in the emirate"
+  },
+  {
+   "emirate": "Fujairah",
+   "name": "Seeji",
+   "awqaf_area": 75,
+   "zone": "AE55",
+   "skipped": "not found in the emirate"
+  }
+ ]
+}
