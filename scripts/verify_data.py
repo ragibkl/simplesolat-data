@@ -7,6 +7,7 @@ Runs all checks and reports a summary:
 - Next month data availability
 - Prayer time ordering (imsak < fajr < syuruk [< dhuha] < dhuhr < asr < maghrib < isha)
 - Day count per month
+- Calculation methods: data/methods.yaml is well formed (needs pyyaml)
 - Location → zone: the points in tests/zone-points/<CC>.yaml must find their
   zone through the country's geojson and mapping, as the app does
 
@@ -15,6 +16,7 @@ Usage:
   python3 scripts/verify_data.py 2026         # check specific year
   python3 scripts/verify_data.py 2026 MY ID   # check specific year and countries
   python3 scripts/verify_data.py zones MY     # only the location → zone checks
+  python3 scripts/verify_data.py methods      # only the calculation methods check
 
 Exits with code 1 if any issues found.
 """
@@ -250,6 +252,52 @@ def check_zone_points(countries_filter):
     return checked, failures
 
 
+METHOD_KEYS = {'label', 'fajr_angle', 'isha_angle', 'isha_interval', 'maghrib_angle',
+               'adjustments', 'rounding'}
+ADJUSTMENT_KEYS = {'fajr', 'sunrise', 'dhuhr', 'asr', 'maghrib', 'isha'}
+
+
+def check_methods():
+    """Check data/methods.yaml. Returns a list of problems."""
+    import yaml
+    doc = yaml.safe_load(open(os.path.join(ROOT, 'data', 'methods.yaml')))
+    methods = doc.get('methods') or {}
+    problems = []
+    if doc.get('default') not in methods:
+        problems.append(f"default {doc.get('default')!r} is not a method")
+    for name, m in methods.items():
+        unknown = set(m) - METHOD_KEYS
+        if unknown:
+            problems.append(f"{name}: unknown keys {sorted(unknown)}")
+        if not m.get('label'):
+            problems.append(f"{name}: no label")
+        if not isinstance(m.get('fajr_angle'), (int, float)):
+            problems.append(f"{name}: fajr_angle missing")
+        if ('isha_angle' in m) == ('isha_interval' in m):
+            problems.append(f"{name}: needs exactly one of isha_angle, isha_interval")
+        bad = set(m.get('adjustments') or {}) - ADJUSTMENT_KEYS
+        if bad:
+            problems.append(f"{name}: unknown adjustments {sorted(bad)}")
+        if m.get('rounding', 'nearest') not in ('nearest', 'up'):
+            problems.append(f"{name}: rounding must be nearest or up")
+    for cc, name in (doc.get('countries') or {}).items():
+        if not re.fullmatch(r'[A-Z]{2}', str(cc)):
+            problems.append(f"country {cc!r} is not an ISO 3166-1 alpha-2 code")
+        if name not in methods:
+            problems.append(f"{cc}: method {name!r} doesn't exist")
+    return problems
+
+
+def report_methods(problems):
+    if problems:
+        print(f"FAIL  Calculation methods: {len(problems)} problems")
+        for p in problems:
+            print(f"        {p}")
+        return True
+    print("OK    Calculation methods")
+    return False
+
+
 def main():
     country_files = discover_countries()
 
@@ -263,6 +311,9 @@ def main():
             countries_filter.add(arg.upper())
 
     has_issues = False
+
+    if 'methods' in sys.argv[1:]:
+        sys.exit(1 if report_methods(check_methods()) else 0)
 
     if 'zones' in sys.argv[1:]:
         checked, failures = check_zone_points(countries_filter)
@@ -326,7 +377,14 @@ def main():
     else:
         print(f"OK    Day counts: all correct")
 
-    # 6. Location → zone
+    # 6. Calculation methods (skipped without pyyaml)
+    try:
+        if report_methods(check_methods()):
+            has_issues = True
+    except ImportError:
+        print("SKIP  Calculation methods: pyyaml not installed")
+
+    # 7. Location → zone
     checked, failures = check_zone_points(countries_filter)
     if report_zone_points(checked, failures):
         has_issues = True

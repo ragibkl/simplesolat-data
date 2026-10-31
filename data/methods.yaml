@@ -1,0 +1,127 @@
+# Calculation methods for places without an official timetable.
+#
+# countries.yaml lists the countries with official (published) timetables;
+# everywhere else, apps calculate the times on the device with the method
+# listed here for the country (ISO 3166-1 alpha-2), or the default.
+#
+# Each method is the solar-geometry parameters, so any prayer-times library
+# can use them (in adhan: start from CalculationMethod.Other() and set these):
+#   fajr_angle:    sun angle below the horizon for Fajr (degrees)
+#   isha_angle:    sun angle below the horizon for Isha (degrees), or
+#   isha_interval: Isha a fixed number of minutes after Maghrib
+#   maghrib_angle: Maghrib at a sun angle instead of sunset (optional)
+#   adjustments:   minutes added per time (fajr, sunrise, dhuhr, asr,
+#                  maghrib, isha), part of the method (optional)
+#   rounding:      nearest (default) or up
+# Asr uses the Shafi'i shadow ratio everywhere.
+#
+# The values match adhan-js 4.4's built-in methods of the same name, plus a
+# few regional ones.
+
+default: MuslimWorldLeague
+
+methods:
+  MuslimWorldLeague:
+    label: Muslim World League
+    fajr_angle: 18
+    isha_angle: 17
+    adjustments: { dhuhr: 1 }
+  UmmAlQura:
+    label: Umm Al-Qura
+    fajr_angle: 18.5
+    isha_interval: 90
+  Egyptian:
+    label: Egyptian
+    fajr_angle: 19.5
+    isha_angle: 17.5
+    adjustments: { dhuhr: 1 }
+  Karachi:
+    label: Karachi
+    fajr_angle: 18
+    isha_angle: 18
+    adjustments: { dhuhr: 1 }
+  NorthAmerica:
+    label: ISNA
+    fajr_angle: 15
+    isha_angle: 15
+    adjustments: { dhuhr: 1 }
+  Dubai:
+    label: Dubai
+    fajr_angle: 18.2
+    isha_angle: 18.2
+    adjustments: { sunrise: -3, dhuhr: 3, asr: 3, maghrib: 3 }
+  Qatar:
+    label: Qatar
+    fajr_angle: 18
+    isha_interval: 90
+  Kuwait:
+    label: Kuwait
+    fajr_angle: 18
+    isha_angle: 17.5
+  Turkey:
+    label: Turkey
+    fajr_angle: 18
+    isha_angle: 17
+    adjustments: { sunrise: -7, dhuhr: 5, asr: 4, maghrib: 7 }
+  Tehran:
+    label: Tehran
+    fajr_angle: 17.7
+    isha_angle: 14
+    maghrib_angle: 4.5
+  Singapore:
+    label: Singapore
+    fajr_angle: 20
+    isha_angle: 18
+    adjustments: { dhuhr: 1 }
+    rounding: up
+  Jordan:
+    label: Jordan
+    fajr_angle: 18
+    isha_angle: 18
+  Algeria:
+    label: Algeria
+    fajr_angle: 18
+    isha_angle: 17
+  Tunisia:
+    label: Tunisia
+    fajr_angle: 18
+    isha_angle: 18
+  France:
+    label: UOIF
+    fajr_angle: 12
+    isha_angle: 12
+  Russia:
+    label: Russia
+    fajr_angle: 16
+    isha_angle: 15
+  Morocco:
+    label: Morocco
+    fajr_angle: 19
+    isha_angle: 17
+  Portugal:
+    label: Lisbon
+    fajr_angle: 18
+    isha_interval: 77
+
+countries:
+  SA: UmmAlQura
+  AE: Dubai
+  EG: Egyptian
+  TR: Turkey
+  PK: Karachi
+  QA: Qatar
+  KW: Kuwait
+  US: NorthAmerica
+  CA: NorthAmerica
+  IR: Tehran
+  JO: Jordan
+  DZ: Algeria
+  TN: Tunisia
+  FR: France
+  RU: Russia
+  MA: Morocco
+  PT: Portugal
+  # Gulf: follow Umm Al-Qura
+  BH: UmmAlQura
+  OM: UmmAlQura
+  YE: UmmAlQura
