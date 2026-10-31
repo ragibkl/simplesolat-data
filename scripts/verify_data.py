@@ -272,6 +272,53 @@ def check_zone_points(countries_filter):
     return checked, failures, nearby
 
 
+# Zones with no shape on purpose (never found by location; chosen by hand).
+NO_SHAPE_OK = {
+    'ID': {'PAP29': 'Kab. Yapen Waropen, split in 2002 into zones of their own'},
+    'TR': {'TR9676': "Konya's city districts have their own zones"},
+    'BA': {'BA104': 'Žepa, a village in Rogatica'},
+}
+NO_SHAPE_OK_STATES = {'BA': {'Sandžak'}}  # outside Bosnia's map
+# Known gaps being fixed: reported, but don't fail the check yet.
+KNOWN_GAPS = {'AE'}
+
+
+def check_zone_structure(countries_filter):
+    """Every map shape must have a zone, and every zone a shape (unless
+    listed above). Returns (failures, warnings)."""
+    failures, warnings = [], []
+    for path in sorted(glob.glob(os.path.join(ROOT, 'data', 'zones', '*.yaml'))):
+        cc = os.path.basename(path)[:-5]
+        if countries_filter and cc not in countries_filter:
+            continue
+        files = country_map_files(cc)
+        if not files:
+            continue
+        geojson_path, mapping_path, prop = files
+        features = json.load(open(geojson_path))['features']
+        mapping = json.load(open(mapping_path))
+        problems = []
+        for f in features:
+            key = f['properties'].get(prop)
+            if not f.get('geometry'):
+                problems.append(f"{cc} shape {f['properties'].get('shapeName')} has no geometry")
+            elif key not in mapping:
+                problems.append(f"{cc} shape {f['properties'].get('shapeName')} ({key}) has no zone")
+        mapped = {v['zone'] for v in mapping.values()}
+        text = open(path).read()
+        for code, state in re.findall(r'- code: (\S+)\n(?:    .+\n)*?    state: (.+)\n', text):
+            if code in mapped or code in NO_SHAPE_OK.get(cc, {}) \
+                    or state in NO_SHAPE_OK_STATES.get(cc, set()):
+                continue
+            problems.append(f"{cc} zone {code} has no shape (never found by location)")
+        if cc in KNOWN_GAPS:
+            if problems:
+                warnings.append(f"{cc}: {len(problems)} known gaps, e.g. {problems[0]}")
+        else:
+            failures += problems
+    return failures, warnings
+
+
 METHOD_KEYS = {'label', 'fajr_angle', 'isha_angle', 'isha_interval', 'maghrib_angle',
                'adjustments', 'rounding'}
 ADJUSTMENT_KEYS = {'fajr', 'sunrise', 'dhuhr', 'asr', 'maghrib', 'isha'}
@@ -336,9 +383,18 @@ def main():
         sys.exit(1 if report_methods(check_methods()) else 0)
 
     if 'zones' in sys.argv[1:]:
+        structure, warnings = check_zone_structure(countries_filter)
+        for w in warnings:
+            print(f"WARN  {w}")
+        if structure:
+            print(f"FAIL  Shapes ↔ zones: {len(structure)} problems")
+            for f in structure:
+                print(f"        {f}")
+        else:
+            print("OK    Shapes ↔ zones: every shape has a zone, every zone a shape")
         checked, failures, nearby = check_zone_points(countries_filter)
         report_zone_points(checked, failures, nearby)
-        sys.exit(1 if failures else 0)
+        sys.exit(1 if failures or structure else 0)
 
     # 1. Zone collisions
     total_zones, collisions = check_collisions(country_files)

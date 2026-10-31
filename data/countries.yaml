@@ -52,7 +52,7 @@ countries:
     name: Bosnia and Herzegovina
     source: Islamic Community in BiH (Vaktija)
     geojson: https://simplesolat-data.netlify.app/geojson/BA-adm3-geojson-20260612.json
-    mapping: https://simplesolat-data.netlify.app/mappings/BA-adm3-mapping-20260612.json
+    mapping: https://simplesolat-data.netlify.app/mappings/BA-adm3-mapping-20261102.json
     shape_property: shapeID
 
   - code: AL
