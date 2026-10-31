@@ -1,0 +1,52 @@
+# Location → zone checks for Indonesia (python3 scripts/verify_data.py zones ID).
+# Provincial capitals and big cities, Kemenag's island zones and Sofifi (with
+# their regencies' main islands, which must keep the regency's zone),
+# Kepulauan Seribu, and the lakes (scripts/patch_id_zones.py).
+points:
+  # Cities
+  - { zone: DKI02, lat: -6.1754, lng: 106.8272, note: Jakarta (Monas) }
+  - { zone: JBR22, lat: -6.5971, lng: 106.8060, note: Kota Bogor }
+  - { zone: JBR25, lat: -6.4025, lng: 106.7942, note: Depok }
+  - { zone: JBR21, lat: -6.2383, lng: 106.9756, note: Bekasi }
+  - { zone: BTN07, lat: -6.1781, lng: 106.6300, note: Kota Tangerang }
+  - { zone: JBR19, lat: -6.9175, lng: 107.6191, note: Bandung }
+  - { zone: JTG33, lat: -6.9667, lng: 110.4167, note: Semarang }
+  - { zone: DIY05, lat: -7.7956, lng: 110.3695, note: Yogyakarta }
+  - { zone: JTM38, lat: -7.2575, lng: 112.7521, note: Surabaya }
+  - { zone: BAL09, lat: -8.6705, lng: 115.2126, note: Denpasar }
+  - { zone: NTB10, lat: -8.5833, lng: 116.1167, note: Mataram }
+  - { zone: NTT22, lat: -10.1772, lng: 123.6070, note: Kupang }
+  - { zone: ACH19, lat: 5.5483, lng: 95.3238, note: Banda Aceh }
+  - { zone: SMU28, lat: 3.5952, lng: 98.6722, note: Medan }
+  - { zone: SMB14, lat: -0.9471, lng: 100.4172, note: Padang }
+  - { zone: RIA12, lat: 0.5071, lng: 101.4478, note: Pekanbaru }
+  - { zone: SMS16, lat: -2.9761, lng: 104.7754, note: Palembang }
+  - { zone: KRI06, lat: 1.1301, lng: 104.0529, note: Batam }
+  - { zone: KRI07, lat: 0.9186, lng: 104.4554, note: Tanjung Pinang }
+  - { zone: KBR13, lat: -0.0263, lng: 109.3425, note: Pontianak }
+  - { zone: KTM08, lat: -1.2379, lng: 116.8529, note: Balikpapan }
+  - { zone: SSL22, lat: -5.1477, lng: 119.4327, note: Makassar }
+  - { zone: SUT14, lat: 1.4748, lng: 124.8421, note: Manado }
+  - { zone: MLA10, lat: -3.6954, lng: 128.1814, note: Ambon }
+  - { zone: PAP30, lat: -2.5337, lng: 140.7181, note: Jayapura }
+  # Island zones, and their regencies' main islands
+  - { zone: KRI08, lat: -1.2082, lng: 105.2665, note: Pekajang }
+  - { zone: KRI04, lat: -0.2167, lng: 104.6167, note: Daik (Lingga) }
+  - { zone: KRI09, lat: 4.7221, lng: 107.9796, note: Pulau Laut }
+  - { zone: KRI10, lat: 2.9960, lng: 107.7796, note: Pulau Midai }
+  - { zone: KRI11, lat: 2.5207, lng: 109.0695, note: Pulau Serasan }
+  - { zone: KRI05, lat: 3.9450, lng: 108.3870, note: Ranai (Natuna) }
+  - { zone: KRI12, lat: 0.9869, lng: 107.5802, note: Pulau Tambelan }
+  - { zone: KRI01, lat: 1.0700, lng: 104.2200, note: Tanjung Uban (Bintan) }
+  - { zone: MLU09, lat: 0.7348, lng: 127.5760, note: Sofifi }
+  - { zone: MLU11, lat: 0.6833, lng: 127.4000, note: Tidore }
+  # Kepulauan Seribu (no geometry in geoBoundaries)
+  - { zone: DKI01, lat: -5.7457, lng: 106.6140, note: Pulau Pramuka }
+  - { zone: DKI01, lat: -5.9770, lng: 106.7060, note: Pulau Untung Jawa }
+  # Lakes (shapes with no zone of their own)
+  - { zone: SMU19, lat: 2.6800, lng: 98.8800, note: Danau Toba }
+  - { zone: JBR02, lat: -6.7400, lng: 107.3000, note: Waduk Cirata }
+  - { zone: JTG24, lat: -7.2800, lng: 110.8200, note: Waduk Kedungombo }
+  - { zone: SMB12, lat: -0.6100, lng: 100.5400, note: Danau Singkarak }
+  - { zone: SUT08, lat: 1.2300, lng: 124.9000, note: Danau Tondano }
+  - { zone: SMS11, lat: -4.8700, lng: 103.9300, note: Danau Ranau }

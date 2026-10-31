@@ -1960,30 +1960,40 @@ zones:
     state: Kepulauan Riau
     location: Pekajang Kab. Lingga
     timezone: Asia/Jakarta
+    shapes:
+      - Pekajang
 
   - code: KRI09
     country: ID
     state: Kepulauan Riau
     location: Pulau Laut Kab. Natuna
     timezone: Asia/Jakarta
+    shapes:
+      - Pulau Laut
 
   - code: KRI10
     country: ID
     state: Kepulauan Riau
     location: Pulau Midai Kab. Natuna
     timezone: Asia/Jakarta
+    shapes:
+      - Pulau Midai
 
   - code: KRI11
     country: ID
     state: Kepulauan Riau
     location: Pulau Serasan Kab. Natuna
     timezone: Asia/Jakarta
+    shapes:
+      - Pulau Serasan
 
   - code: KRI12
     country: ID
     state: Kepulauan Riau
     location: Pulau Tambelan Kab. Bintan
     timezone: Asia/Jakarta
+    shapes:
+      - Pulau Tambelan
 
   - code: LPG01
     country: ID
@@ -2262,6 +2272,8 @@ zones:
     state: Maluku Utara
     location: Kota Sofifi
     timezone: Asia/Jayapura
+    shapes:
+      - Kota Sofifi
 
   - code: MLU10
     country: ID
@@ -2764,6 +2776,8 @@ zones:
     state: Papua
     location: Kab. Yapen Waropen
     timezone: Asia/Jayapura
+    # No shape: the regency split in 2002 into Kepulauan Yapen and Waropen
+    # (their own zones); kept because Kemenag still lists it.
 
   - code: PAP30
     country: ID

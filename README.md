@@ -107,13 +107,13 @@ Every zone of a country for one month in one file: `{"SGR01": [ ...entries ], ..
 GET /geojson/{CC}-{adm}-geojson-{date}.json
 ```
 
-Administrative boundary data for GPS-to-zone resolution, from [geoBoundaries](https://www.geoboundaries.org/). Unmodified, except Malaysia: JAKIM zones that a district map can't express (Zon Khas hilltops, Rompin's mukim split, Belum and Temengor, Tioman, Pulau Aur, Putrajaya) are carved out of the districts as their own shapes by `scripts/patch_my_zones.py` (sources and reasoning in the script; mukims from geoBoundaries ADM3, CC BY 4.0). Thanks to Afiq Hazwan (MySolat) for reporting them.
+Administrative boundary data for GPS-to-zone resolution, from [geoBoundaries](https://www.geoboundaries.org/). Unmodified, except Malaysia and Indonesia. Malaysia: JAKIM zones that a district map can't express (Zon Khas hilltops, Rompin's mukim split, Belum and Temengor, Tioman, Pulau Aur, Putrajaya) are carved out of the districts as their own shapes by `scripts/patch_my_zones.py` (sources and reasoning in the script; mukims from geoBoundaries ADM3, CC BY 4.0). Thanks to Afiq Hazwan (MySolat) for reporting them. Indonesia: Kemenag's remote island zones and Kota Sofifi are carved out of their regencies, Kepulauan Seribu (no geometry upstream) gets a box over its islands, and lake shapes join a neighbouring regency, by `scripts/patch_id_zones.py`.
 
 Older dated files stay published for apps that still point to them.
 
 ### Location → zone tests
 
-`tests/zone-points/{CC}.yaml` lists points and the zone each must resolve to (Malaysia, Brunei and Sri Lanka so far; for Malaysia: one per JAKIM zone, every special zone, and nearby towns that must keep their normal zone). `python3 scripts/verify_data.py zones` checks them the way the app does (point in polygon, else the nearest shape within about 4 km, then mapping), and CI runs it whenever a map, mapping or zone list changes.
+`tests/zone-points/{CC}.yaml` lists points and the zone each must resolve to (Malaysia, Brunei, Sri Lanka and Indonesia so far; for Malaysia: one per JAKIM zone, every special zone, and nearby towns that must keep their normal zone). `python3 scripts/verify_data.py zones` checks them the way the app does (point in polygon, else the nearest shape within about 4 km, then mapping), and CI runs it whenever a map, mapping or zone list changes.
 
 ### Mappings
 

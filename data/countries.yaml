@@ -16,8 +16,8 @@ countries:
   - code: ID
     name: Indonesia
     source: Kemenag (equran.id)
-    geojson: https://simplesolat-data.netlify.app/geojson/ID-adm2-geojson-20260402.json
-    mapping: https://simplesolat-data.netlify.app/mappings/ID-adm2-mapping-20260402.json
+    geojson: https://simplesolat-data.netlify.app/geojson/ID-adm2-geojson-20261102.json
+    mapping: https://simplesolat-data.netlify.app/mappings/ID-adm2-mapping-20261102.json
     shape_property: shapeName
 
   - code: BN
