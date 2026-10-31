@@ -93,6 +93,14 @@ Examples:
 - `/prayer-times/BA/BA77/2026-01.json` — Sarajevo, January 2026
 - `/prayer-times/AL/AL11203/2026-01.json` — Tiranë, January 2026
 
+### Whole-country monthly files
+
+```
+GET /prayer-times/{CC}/{YYYY-MM}.json
+```
+
+Every zone of a country for one month in one file: `{"SGR01": [ ...entries ], ...}`, each zone's entries exactly as in its own file. For apps that keep a whole country on the phone (offline travel): one request per country per month (about 11 KB compressed for Malaysia, 100 KB for Indonesia, 200 KB for Turkey). Generated at deploy by `scripts/build_country_files.py` from the per-zone files, which stay the source.
+
 ### GeoJSON
 
 ```

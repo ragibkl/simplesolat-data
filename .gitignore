@@ -6,3 +6,6 @@ __pycache__/
 
 # Local investigation/research docs (kept out of the repo)
 report/
+
+# Whole-country monthly files, generated at deploy (scripts/build_country_files.py)
+data/prayer-times/*/[0-9][0-9][0-9][0-9]-[0-9][0-9].json
