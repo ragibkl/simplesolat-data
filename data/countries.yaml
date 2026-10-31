@@ -37,8 +37,8 @@ countries:
   - code: AE
     name: United Arab Emirates
     source: AWQAF
-    geojson: https://simplesolat-data.netlify.app/geojson/AE-adm1-geojson-20261102.json
-    mapping: https://simplesolat-data.netlify.app/mappings/AE-adm1-mapping-20261102.json
+    geojson: https://simplesolat-data.netlify.app/geojson/AE-adm1-geojson-20261103.json
+    mapping: https://simplesolat-data.netlify.app/mappings/AE-adm1-mapping-20261103.json
     shape_property: shapeName
 
   - code: TR
@@ -51,8 +51,8 @@ countries:
   - code: BA
     name: Bosnia and Herzegovina
     source: Islamic Community in BiH (Vaktija)
-    geojson: https://simplesolat-data.netlify.app/geojson/BA-adm3-geojson-20260612.json
-    mapping: https://simplesolat-data.netlify.app/mappings/BA-adm3-mapping-20261102.json
+    geojson: https://simplesolat-data.netlify.app/geojson/BA-adm3-geojson-20261103.json
+    mapping: https://simplesolat-data.netlify.app/mappings/BA-adm3-mapping-20261103.json
     shape_property: shapeID
 
   - code: AL

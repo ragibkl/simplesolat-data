@@ -1,0 +1,174 @@
+{
+  "Abu Dhabi": {
+    "zone": "AE1",
+    "state": "Abu Dhabi"
+  },
+  "Al Ain": {
+    "zone": "AE2",
+    "state": "Abu Dhabi"
+  },
+  "Dalma": {
+    "zone": "AE4",
+    "state": "Abu Dhabi"
+  },
+  "Arzanah": {
+    "zone": "AE5",
+    "state": "Abu Dhabi"
+  },
+  "Das": {
+    "zone": "AE6",
+    "state": "Abu Dhabi"
+  },
+  "Zirku": {
+    "zone": "AE7",
+    "state": "Abu Dhabi"
+  },
+  "Liwa (Mezaira'a)": {
+    "zone": "AE11",
+    "state": "Abu Dhabi"
+  },
+  "Ghayathi": {
+    "zone": "AE12",
+    "state": "Abu Dhabi"
+  },
+  "Al Sila": {
+    "zone": "AE13",
+    "state": "Abu Dhabi"
+  },
+  "Al Mirfa": {
+    "zone": "AE14",
+    "state": "Abu Dhabi"
+  },
+  "Jebel Hafeet summit": {
+    "zone": "AE15",
+    "state": "Abu Dhabi"
+  },
+  "Al Wagan, Al Qua'a": {
+    "zone": "AE16",
+    "state": "Abu Dhabi"
+  },
+  "Al Dhahra": {
+    "zone": "AE17",
+    "state": "Abu Dhabi"
+  },
+  "Al Shuwaib": {
+    "zone": "AE18",
+    "state": "Abu Dhabi"
+  },
+  "Al Khazna, Al Sad": {
+    "zone": "AE19",
+    "state": "Abu Dhabi"
+  },
+  "Al Khatam": {
+    "zone": "AE23",
+    "state": "Abu Dhabi"
+  },
+  "Al Bahia, Ghantoot": {
+    "zone": "AE24",
+    "state": "Abu Dhabi"
+  },
+  "Madinat Zayed": {
+    "zone": "AE25",
+    "state": "Abu Dhabi"
+  },
+  "Al Hamra / Barakah": {
+    "zone": "AE26",
+    "state": "Abu Dhabi"
+  },
+  "Al Ruwais": {
+    "zone": "AE27",
+    "state": "Abu Dhabi"
+  },
+  "Sweihan": {
+    "zone": "AE31",
+    "state": "Abu Dhabi"
+  },
+  "Dubai": {
+    "zone": "AE32",
+    "state": "Dubai"
+  },
+  "Sharjah": {
+    "zone": "AE33",
+    "state": "Sharjah"
+  },
+  "Al Dhaid": {
+    "zone": "AE34",
+    "state": "Sharjah"
+  },
+  "Al Madam": {
+    "zone": "AE35",
+    "state": "Sharjah"
+  },
+  "Khor Fakkan, Kalba": {
+    "zone": "AE36",
+    "state": "Sharjah"
+  },
+  "Wadi Al Helo": {
+    "zone": "AE38",
+    "state": "Sharjah"
+  },
+  "Sir Bu Nair": {
+    "zone": "AE39",
+    "state": "Sharjah"
+  },
+  "Abu Musa": {
+    "zone": "AE40",
+    "state": "Sharjah"
+  },
+  "Ajman": {
+    "zone": "AE41",
+    "state": "Ajman"
+  },
+  "Masfout": {
+    "zone": "AE42",
+    "state": "Ajman"
+  },
+  "Al Manama": {
+    "zone": "AE43",
+    "state": "Ajman"
+  },
+  "Umm Al Quwain": {
+    "zone": "AE44",
+    "state": "Um Al Quwain"
+  },
+  "Ras Al Khaimah": {
+    "zone": "AE45",
+    "state": "Ras AlKhaimah"
+  },
+  "Sha'am, Ghalilah": {
+    "zone": "AE46",
+    "state": "Ras AlKhaimah"
+  },
+  "Masafi": {
+    "zone": "AE48",
+    "state": "Ras AlKhaimah"
+  },
+  "Jebel Jais": {
+    "zone": "AE50",
+    "state": "Ras AlKhaimah"
+  },
+  "Greater Tunb": {
+    "zone": "AE51",
+    "state": "Ras AlKhaimah"
+  },
+  "Fujairah": {
+    "zone": "AE52",
+    "state": "Fujairah"
+  },
+  "Dibba": {
+    "zone": "AE53",
+    "state": "Fujairah"
+  },
+  "Wadi Saham": {
+    "zone": "AE58",
+    "state": "Fujairah"
+  },
+  "Dubai desert (Lahbab, Al Faqa, Margham)": {
+    "zone": "AE59",
+    "state": "Dubai"
+  },
+  "Hatta": {
+    "zone": "AE60",
+    "state": "Dubai"
+  }
+}
