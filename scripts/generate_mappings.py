@@ -42,7 +42,8 @@ def find_geojson(cc):
     matches = glob.glob(pattern)
     if not matches:
         return None, None
-    path = matches[0]
+    # The newest file (older ones stay published for apps that still use them).
+    path = max(matches)
     m = re.search(r'-(\d{8})\.json$', path)
     datestamp = m.group(1) if m else None
     return path, datestamp

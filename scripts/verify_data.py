@@ -7,15 +7,19 @@ Runs all checks and reports a summary:
 - Next month data availability
 - Prayer time ordering (imsak < fajr < syuruk [< dhuha] < dhuhr < asr < maghrib < isha)
 - Day count per month
+- Location → zone: the points in tests/zone-points/<CC>.yaml must find their
+  zone through the country's geojson and mapping, as the app does
 
 Usage:
   python3 scripts/verify_data.py              # check all countries, current year
   python3 scripts/verify_data.py 2026         # check specific year
   python3 scripts/verify_data.py 2026 MY ID   # check specific year and countries
+  python3 scripts/verify_data.py zones MY     # only the location → zone checks
 
 Exits with code 1 if any issues found.
 """
 
+import glob
 import json
 import os
 import re
@@ -173,6 +177,79 @@ def check_day_counts(countries_filter):
     return issues
 
 
+def country_map_files(cc):
+    """The geojson and mapping files (in data/) and shape property that
+    countries.yaml lists for a country, or None."""
+    text = open(os.path.join(ROOT, 'data', 'countries.yaml')).read()
+    block = re.search(rf'- code: {cc}\n(.*?)(?=\n  - code:|\Z)', text, re.S)
+    if not block:
+        return None
+    fields = dict(re.findall(r'^\s+(\w+): (.+)$', block.group(1), re.M))
+    path = lambda url: os.path.join(ROOT, 'data', url.split('.app/', 1)[1])
+    return path(fields['geojson']), path(fields['mapping']), fields['shape_property']
+
+
+def _in_ring(x, y, ring):
+    inside = False
+    j = len(ring) - 1
+    for i in range(len(ring)):
+        xi, yi = ring[i][0], ring[i][1]
+        xj, yj = ring[j][0], ring[j][1]
+        if (yi > y) != (yj > y) and x < (xj - xi) * (y - yi) / (yj - yi) + xi:
+            inside = not inside
+        j = i
+    return inside
+
+
+def _in_polygon(x, y, rings):
+    return _in_ring(x, y, rings[0]) and not any(_in_ring(x, y, h) for h in rings[1:])
+
+
+def shapes_at(features, lat, lng):
+    """Every feature containing the point (more than one means overlapping
+    shapes, which the app may resolve either way)."""
+    found = []
+    for f in features:
+        g = f.get('geometry')
+        if not g:
+            continue
+        polys = [g['coordinates']] if g['type'] == 'Polygon' else g['coordinates']
+        if any(_in_polygon(lng, lat, p) for p in polys):
+            found.append(f)
+    return found
+
+
+def check_zone_points(countries_filter):
+    """Look up each test point's zone. Returns (checked, failures)."""
+    checked, failures = 0, []
+    for path in sorted(glob.glob(os.path.join(ROOT, 'tests', 'zone-points', '*.yaml'))):
+        cc = os.path.basename(path)[:-5]
+        if countries_filter and cc not in countries_filter:
+            continue
+        files = country_map_files(cc)
+        if not files:
+            failures.append(f"{cc}: not in countries.yaml")
+            continue
+        geojson_path, mapping_path, prop = files
+        features = json.load(open(geojson_path))['features']
+        mapping = json.load(open(mapping_path))
+        for line in open(path):
+            m = re.search(r'zone: (\w+), lat: ([-\d.]+), lng: ([-\d.]+), note: (.*?) \}', line)
+            if not m:
+                continue
+            want, lat, lng, note = m.group(1), float(m.group(2)), float(m.group(3)), m.group(4)
+            checked += 1
+            found = shapes_at(features, lat, lng)
+            zones = sorted({mapping.get(f['properties'].get(prop), {}).get('zone', '?') for f in found})
+            if len(found) > 1:
+                names = ', '.join(f['properties'].get(prop, '?') for f in found)
+                failures.append(f"{cc} {note} ({lat}, {lng}): overlapping shapes {names}")
+            elif zones != [want]:
+                got = zones[0] if zones else 'no shape'
+                failures.append(f"{cc} {note} ({lat}, {lng}): want {want}, got {got}")
+    return checked, failures
+
+
 def main():
     country_files = discover_countries()
 
@@ -186,6 +263,11 @@ def main():
             countries_filter.add(arg.upper())
 
     has_issues = False
+
+    if 'zones' in sys.argv[1:]:
+        checked, failures = check_zone_points(countries_filter)
+        report_zone_points(checked, failures)
+        sys.exit(1 if failures else 0)
 
     # 1. Zone collisions
     total_zones, collisions = check_collisions(country_files)
@@ -244,8 +326,23 @@ def main():
     else:
         print(f"OK    Day counts: all correct")
 
+    # 6. Location → zone
+    checked, failures = check_zone_points(countries_filter)
+    if report_zone_points(checked, failures):
+        has_issues = True
+
     if has_issues:
         sys.exit(1)
+
+
+def report_zone_points(checked, failures):
+    if failures:
+        print(f"FAIL  Location → zone: {len(failures)} of {checked} points wrong")
+        for f in failures:
+            print(f"        {f}")
+        return True
+    print(f"OK    Location → zone: {checked} points")
+    return False
 
 
 if __name__ == '__main__':

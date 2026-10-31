@@ -1,10 +1,12 @@
 zones:
+
   - code: JHR01
     country: MY
     state: Johor
     location: Pulau Aur dan Pulau Pemanggil
     timezone: Asia/Kuala_Lumpur
-    shapes: []
+    shapes:
+      - Pulau Aur dan Pulau Pemanggil
 
   - code: JHR02
     country: MY
@@ -96,7 +98,8 @@ zones:
     state: Kedah
     location: Puncak Gunung Jerai
     timezone: Asia/Kuala_Lumpur
-    shapes: []
+    shapes:
+      - Zon Khas Gunung Jerai
 
   - code: KTN01
     country: MY
@@ -166,7 +169,8 @@ zones:
     state: Pahang
     location: Pulau Tioman
     timezone: Asia/Kuala_Lumpur
-    shapes: []
+    shapes:
+      - Pulau Tioman
 
   - code: PHG02
     country: MY
@@ -204,7 +208,10 @@ zones:
     state: Pahang
     location: Genting Sempah, Janda Baik, Bukit Tinggi
     timezone: Asia/Kuala_Lumpur
-    shapes: []
+    shapes:
+      - Zon Khas Bukit Tinggi
+      - Zon Khas Genting Sempah
+      - Zon Khas Janda Baik
 
   - code: PHG06
     country: MY
@@ -213,13 +220,16 @@ zones:
     timezone: Asia/Kuala_Lumpur
     shapes:
       - Cameron Highlands
+      - Zon Khas Genting Highlands
+      - Zon Khas Bukit Fraser
 
   - code: PHG07
     country: MY
     state: Pahang
     location: Zon Khas Daerah Rompin, (Mukim Rompin, Mukim Endau, Mukim Pontian)
     timezone: Asia/Kuala_Lumpur
-    shapes: []
+    shapes:
+      - Rompin (Zon Khas)
 
   - code: PLS01
     country: MY
@@ -248,8 +258,6 @@ zones:
     timezone: Asia/Kuala_Lumpur
     shapes:
       - Batang Padang
-      - Kerian
-      - Kinta
       - Muallim
 
   - code: PRK02
@@ -258,9 +266,9 @@ zones:
     location: Kuala Kangsar, Sg. Siput , Ipoh, Batu Gajah, Kampar
     timezone: Asia/Kuala_Lumpur
     shapes:
-      - Hilir Perak
       - Kampar
       - Kuala Kangsar
+      - Kinta
 
   - code: PRK03
     country: MY
@@ -275,7 +283,8 @@ zones:
     state: Perak
     location: Temengor, Belum
     timezone: Asia/Kuala_Lumpur
-    shapes: []
+    shapes:
+      - Belum dan Temengor
 
   - code: PRK05
     country: MY
@@ -286,6 +295,7 @@ zones:
       - Bagan Datuk
       - Manjung
       - Perak Tengah
+      - Hilir Perak
 
   - code: PRK06
     country: MY
@@ -295,13 +305,15 @@ zones:
     shapes:
       - Larut dan Matang
       - Selama
+      - Kerian
 
   - code: PRK07
     country: MY
     state: Perak
     location: Bukit Larut
     timezone: Asia/Kuala_Lumpur
-    shapes: []
+    shapes:
+      - Zon Khas Bukit Larut
 
   - code: SBH01
     country: MY
@@ -356,7 +368,8 @@ zones:
     state: Sabah
     location: Gunung Kinabalu
     timezone: Asia/Kuala_Lumpur
-    shapes: []
+    shapes:
+      - Zon Khas Gunung Kinabalu
 
   - code: SBH07
     country: MY
@@ -494,7 +507,8 @@ zones:
     state: Sarawak
     location: Zon Khas (Kampung Patarikan)
     timezone: Asia/Kuala_Lumpur
-    shapes: []
+    shapes:
+      - Zon Khas Kampung Patarikan
 
   - code: SGR01
     country: MY
@@ -569,6 +583,7 @@ zones:
     timezone: Asia/Kuala_Lumpur
     shapes:
       - Kuala Lumpur
+      - Putrajaya
 
   - code: WLY02
     country: MY
