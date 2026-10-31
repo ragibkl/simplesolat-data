@@ -321,6 +321,7 @@ zones:
     timezone: Europe/Istanbul
     shapes:
       - 54988432B86037969006851  # Aksaray merkez
+      - 54988432B56294268584472  # Sultanhanı (no zone of its own)
 
   - code: TR9192
     country: TR
@@ -3943,8 +3944,7 @@ zones:
     state: KONYA
     location: KONYA
     timezone: Europe/Istanbul
-    shapes:
-      - 54988432B56294268584472  # Sultanhanı
+    # No shape: Konya's city districts (Selçuklu, Meram, Karatay) have their own.
 
   - code: TR9677
     country: TR

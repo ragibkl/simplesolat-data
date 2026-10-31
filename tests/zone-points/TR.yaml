@@ -24,3 +24,4 @@ points:
   - { zone: TR9185, lat: 39.7191, lng: 43.0503, note: Ağrı }
   - { zone: TR9185, lat: 39.6167, lng: 42.9917, note: Hamur }
   - { zone: TR9187, lat: 39.5472, lng: 44.0842, note: Doğubayazıt }
+  - { zone: TR9193, lat: 38.2500, lng: 33.5500, note: Sultanhanı (Aksaray) }
