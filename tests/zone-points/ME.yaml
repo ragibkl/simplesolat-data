@@ -1,0 +1,9 @@
+# Location → zone checks for Montenegro (python3 scripts/verify_data.py zones ME).
+# Only Sandžak's towns have an official timetable (the Islamic Community in
+# BiH's vaktija); elsewhere finds no shape (calculated times).
+points:
+  - { zone: ME115, lat: 42.8442, lng: 20.1667, note: Rožaje }
+  - { zone: ME107, lat: 43.0383, lng: 19.7475, note: Bijelo Polje }
+  - { zone: ME112, lat: 43.3567, lng: 19.3583, note: Pljevlja }
+  - { zone: ME111, lat: 42.5969, lng: 19.9450, note: Plav }
+  - { zone: ME108, lat: 42.5619, lng: 19.8339, note: Gusinje }

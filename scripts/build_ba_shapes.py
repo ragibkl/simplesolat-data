@@ -3,8 +3,8 @@
 Build data/zones/BA.yaml shape assignments from geoBoundaries BIH ADM3.
 
 Bosnia's vaktija has 118 locations; geoBoundaries BIH ADM3 has 142 municipalities
-(one of which, "Republika Srpska", is a non-municipality catch-all polygon we
-drop). Mapping is keyed on shapeID, not shapeName, because two municipalities
+(one of which, labelled "Republika Srpska", is actually Višegrad's municipality;
+it's mapped to Višegrad via OVERRIDES, and the published map renames it). Mapping is keyed on shapeID, not shapeName, because two municipalities
 share the name "Novi Grad" (Sarajevo's and the RS one) — the same reason Turkey
 uses shapeID. Assignment:
 
@@ -14,7 +14,7 @@ uses shapeID. Assignment:
   4. nearest-centroid fallback: leftover municipalities inherit the zone of the
      geographically nearest already-anchored municipality
 
-Municipalities absent from geoBoundaries (Višegrad, Žepa) and the Sandžak
+Žepa (a village in Rogatica, absent from geoBoundaries) and the Sandžak
 locations (RS/ME, not in BIH geojson) get no shapes — manual selection only.
 
 Usage: python3 scripts/build_ba_shapes.py /path/to/geoBoundaries-BIH-ADM3.geojson
@@ -28,12 +28,13 @@ import unicodedata
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
-EXCLUDE = {"Republika Srpska"}  # catch-all polygon, not a municipality
+EXCLUDE = set()
 SANDZAK = {
     "Bijelo Polje", "Gusinje", "Nova Varoš", "Novi Pazar", "Plav", "Pljevlja",
     "Priboj", "Prijepolje", "Rožaje", "Sjenica", "Tutin",
 }
 OVERRIDES = {  # vaktija location -> geoBoundaries shapeName(s) (unique names only)
+    "Višegrad": ["Republika Srpska"],  # geoBoundaries' label for Višegrad's municipality
     "Sarajevo": ["Centar", "Stari Grad", "Novo Sarajevo", "Ilidža", "Vogošća"],
     "Bosanski Brod": ["Brod"],
     "Bosanska Gradiška": ["Gradiška"],
@@ -141,7 +142,7 @@ def write_zones(vak, zone_shapes):
         "# Bosnia (Islamic Community in BiH — Vaktija) zones.",
         "# Locations from sources/vaktija/vaktija.json; shapes (shapeID, like TR) from",
         "# geoBoundaries BIH ADM3 via scripts/build_ba_shapes.py. Sandžak (state: Sandžak)",
-        "# is in RS/ME — no BIH geojson, manual selection only. Višegrad & Žepa are absent",
+        "# is in RS/ME — no BIH geojson, manual selection only. Žepa is absent",
         "# from geoBoundaries (manual only).",
         "zones:",
     ]

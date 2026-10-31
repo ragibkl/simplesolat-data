@@ -55,6 +55,20 @@ countries:
     mapping: https://simplesolat-data.netlify.app/mappings/BA-adm3-mapping-20261103.json
     shape_property: shapeID
 
+  - code: RS
+    name: Serbia
+    source: Islamic Community in BiH (Vaktija)
+    geojson: https://simplesolat-data.netlify.app/geojson/RS-adm2-geojson-20261103.json
+    mapping: https://simplesolat-data.netlify.app/mappings/RS-adm2-mapping-20261103.json
+    shape_property: shapeName
+
+  - code: ME
+    name: Montenegro
+    source: Islamic Community in BiH (Vaktija)
+    geojson: https://simplesolat-data.netlify.app/geojson/ME-adm1-geojson-20261103.json
+    mapping: https://simplesolat-data.netlify.app/mappings/ME-adm1-mapping-20261103.json
+    shape_property: shapeName
+
   - code: AL
     name: Albania
     source: KMSH (Diyanet)
