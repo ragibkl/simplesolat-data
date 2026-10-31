@@ -75,3 +75,17 @@ countries:
     geojson: https://simplesolat-data.netlify.app/geojson/AL-adm2-geojson-20260612.json
     mapping: https://simplesolat-data.netlify.app/mappings/AL-adm2-mapping-20260612.json
     shape_property: shapeID
+
+  - code: SA
+    name: Saudi Arabia
+    source: KACST (Umm al-Qura)
+    geojson: https://simplesolat-data.netlify.app/geojson/SA-adm0-geojson-20261103.json
+    mapping: https://simplesolat-data.netlify.app/mappings/SA-adm0-mapping-20261103.json
+    shape_property: shapeName
+
+  - code: QA
+    name: Qatar
+    source: Ministry of Awqaf and Islamic Affairs (Qatar)
+    geojson: https://simplesolat-data.netlify.app/geojson/QA-adm0-geojson-20261103.json
+    mapping: https://simplesolat-data.netlify.app/mappings/QA-adm0-mapping-20261103.json
+    shape_property: shapeName

@@ -1,0 +1,27 @@
+# Location → zone checks for Saudi Arabia (python3 scripts/verify_data.py zones SA).
+# The big cities at KACST's own points (each must find its own zone, also on
+# the coast after simplifying the map), and two places between cities.
+points:
+  - { zone: SA1001, lat: 24.6700, lng: 46.6900, note: Riyadh }
+  - { zone: SA1002, lat: 21.4267, lng: 39.8317, note: Mecca }
+  - { zone: SA1003, lat: 24.5400, lng: 39.6300, note: Medina }
+  - { zone: SA74, lat: 21.5000, lng: 39.1700, note: Jeddah }
+  - { zone: SA1005, lat: 26.4400, lng: 50.1000, note: Dammam }
+  - { zone: SA80, lat: 26.2600, lng: 50.2100, note: Al Khobar }
+  - { zone: SA109, lat: 21.2500, lng: 40.4000, note: Taif }
+  - { zone: SA1006, lat: 18.2200, lng: 42.5100, note: Abha }
+  - { zone: SA1007, lat: 28.4000, lng: 36.5800, note: Tabuk }
+  - { zone: SA1008, lat: 27.5200, lng: 41.7000, note: Hail }
+  - { zone: SA1004, lat: 26.3500, lng: 43.9600, note: Buraydah }
+  - { zone: SA1010, lat: 16.8900, lng: 42.5400, note: Jazan }
+  - { zone: SA1011, lat: 17.5200, lng: 44.2000, note: Najran }
+  - { zone: SA1012, lat: 20.0100, lng: 41.4700, note: Al Bahah }
+  - { zone: SA1009, lat: 30.9900, lng: 41.0200, note: Arar }
+  - { zone: SA1013, lat: 29.9700, lng: 40.2000, note: Sakaka }
+  - { zone: SA28, lat: 24.1500, lng: 47.3200, note: Al Kharj }
+  - { zone: SA38, lat: 26.5500, lng: 37.9600, note: Al Ula }
+  - { zone: SA118, lat: 24.0900, lng: 38.0700, note: Yanbu }
+  - { zone: SA10, lat: 25.4080, lng: 49.6132, note: Al Hofuf }
+  - { zone: SA75, lat: 27.0000, lng: 49.6600, note: Al Jubail }
+  - { zone: SA78, lat: 18.3100, lng: 42.7300, note: Khamis Mushait }
+  - { zone: SA91, lat: 26.5600, lng: 50.0000, note: Al Qatif }

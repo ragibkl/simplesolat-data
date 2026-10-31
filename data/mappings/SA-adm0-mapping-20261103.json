@@ -1,0 +1,694 @@
+{
+  "Abqaiq": {
+    "zone": "SA2",
+    "state": "Eastern Province"
+  },
+  "Abu Arish": {
+    "zone": "SA3",
+    "state": "Jazan"
+  },
+  "Ad Diriyah": {
+    "zone": "SA4",
+    "state": "Riyadh"
+  },
+  "Afif": {
+    "zone": "SA5",
+    "state": "Riyadh"
+  },
+  "Ahad Al Masarihah": {
+    "zone": "SA6",
+    "state": "Jazan"
+  },
+  "Ahad Rafidah": {
+    "zone": "SA7",
+    "state": "Asir"
+  },
+  "Qaryat Al Ulya": {
+    "zone": "SA8",
+    "state": "Eastern Province"
+  },
+  "Al Aflaj": {
+    "zone": "SA9",
+    "state": "Riyadh"
+  },
+  "Al Hofuf": {
+    "zone": "SA10",
+    "state": "Eastern Province"
+  },
+  "Al Edabi": {
+    "zone": "SA11",
+    "state": "Jazan"
+  },
+  "Al Aqiq": {
+    "zone": "SA12",
+    "state": "Al Bahah"
+  },
+  "Al Aridhah": {
+    "zone": "SA13",
+    "state": "Jazan"
+  },
+  "Alasyah": {
+    "zone": "SA14",
+    "state": "Qassim"
+  },
+  "Al Badayea": {
+    "zone": "SA15",
+    "state": "Qassim"
+  },
+  "Al Bukayriyah": {
+    "zone": "SA17",
+    "state": "Qassim"
+  },
+  "Addayer": {
+    "zone": "SA18",
+    "state": "Jazan"
+  },
+  "Al Ghat": {
+    "zone": "SA19",
+    "state": "Riyadh"
+  },
+  "Al Ghazalah": {
+    "zone": "SA20",
+    "state": "Hail"
+  },
+  "Al Qurayyat": {
+    "zone": "SA21",
+    "state": "Al Jouf"
+  },
+  "Al Quwaiiyah": {
+    "zone": "SA22",
+    "state": "Riyadh"
+  },
+  "Al Hariq": {
+    "zone": "SA23",
+    "state": "Riyadh"
+  },
+  "Alharth": {
+    "zone": "SA24",
+    "state": "Jazan"
+  },
+  "Al Henakiyah": {
+    "zone": "SA25",
+    "state": "Madinah"
+  },
+  "Al Jumum": {
+    "zone": "SA26",
+    "state": "Makkah"
+  },
+  "Al Kamil": {
+    "zone": "SA27",
+    "state": "Makkah"
+  },
+  "Al Kharj": {
+    "zone": "SA28",
+    "state": "Riyadh"
+  },
+  "Al Khurma": {
+    "zone": "SA29",
+    "state": "Makkah"
+  },
+  "Al Lith": {
+    "zone": "SA30",
+    "state": "Makkah"
+  },
+  "Mahd Al Thahab": {
+    "zone": "SA31",
+    "state": "Madinah"
+  },
+  "Al Makhwah": {
+    "zone": "SA32",
+    "state": "Al Bahah"
+  },
+  "Al Mithnab": {
+    "zone": "SA33",
+    "state": "Qassim"
+  },
+  "Almajaridah": {
+    "zone": "SA34",
+    "state": "Asir"
+  },
+  "Almandaq": {
+    "zone": "SA35",
+    "state": "Al Bahah"
+  },
+  "Al Namas": {
+    "zone": "SA36",
+    "state": "Asir"
+  },
+  "Nairyah": {
+    "zone": "SA37",
+    "state": "Eastern Province"
+  },
+  "Al Ula": {
+    "zone": "SA38",
+    "state": "Madinah"
+  },
+  "Aldarb": {
+    "zone": "SA39",
+    "state": "Jazan"
+  },
+  "Alqura": {
+    "zone": "SA40",
+    "state": "Al Bahah"
+  },
+  "Al Reeth": {
+    "zone": "SA41",
+    "state": "Jazan"
+  },
+  "Ar Rass": {
+    "zone": "SA42",
+    "state": "Qassim"
+  },
+  "Ash Shinan": {
+    "zone": "SA43",
+    "state": "Hail"
+  },
+  "Al Wajh": {
+    "zone": "SA44",
+    "state": "Tabuk"
+  },
+  "Umluj": {
+    "zone": "SA45",
+    "state": "Tabuk"
+  },
+  "An Nabhaniyah": {
+    "zone": "SA46",
+    "state": "Qassim"
+  },
+  "As Sulayyil": {
+    "zone": "SA48",
+    "state": "Riyadh"
+  },
+  "Az Zulfi": {
+    "zone": "SA49",
+    "state": "Riyadh"
+  },
+  "Badr": {
+    "zone": "SA50",
+    "state": "Madinah"
+  },
+  "Badr Al Janoub": {
+    "zone": "SA51",
+    "state": "Najran"
+  },
+  "Baish": {
+    "zone": "SA52",
+    "state": "Jazan"
+  },
+  "Baljurashi": {
+    "zone": "SA53",
+    "state": "Al Bahah"
+  },
+  "Baqaa": {
+    "zone": "SA54",
+    "state": "Hail"
+  },
+  "Belqarn": {
+    "zone": "SA55",
+    "state": "Asir"
+  },
+  "Bishah": {
+    "zone": "SA56",
+    "state": "Asir"
+  },
+  "Duba": {
+    "zone": "SA59",
+    "state": "Tabuk"
+  },
+  "Dhahran Al Janub": {
+    "zone": "SA60",
+    "state": "Asir"
+  },
+  "Damad": {
+    "zone": "SA61",
+    "state": "Jazan"
+  },
+  "Dhurma": {
+    "zone": "SA62",
+    "state": "Riyadh"
+  },
+  "Dumah Al Jandal": {
+    "zone": "SA63",
+    "state": "Al Jouf"
+  },
+  "Al Duwadimi": {
+    "zone": "SA64",
+    "state": "Riyadh"
+  },
+  "Farasan Island": {
+    "zone": "SA65",
+    "state": "Jazan"
+  },
+  "Al Qunfudhah": {
+    "zone": "SA66",
+    "state": "Makkah"
+  },
+  "Hubuna": {
+    "zone": "SA67",
+    "state": "Najran"
+  },
+  "Hafar Al Batin": {
+    "zone": "SA68",
+    "state": "Eastern Province"
+  },
+  "Haql": {
+    "zone": "SA70",
+    "state": "Tabuk"
+  },
+  "Howtat Bani Tamim": {
+    "zone": "SA71",
+    "state": "Riyadh"
+  },
+  "Huraymila": {
+    "zone": "SA72",
+    "state": "Riyadh"
+  },
+  "Jeddah": {
+    "zone": "SA74",
+    "state": "Makkah"
+  },
+  "Al Jubail": {
+    "zone": "SA75",
+    "state": "Eastern Province"
+  },
+  "Khafji": {
+    "zone": "SA76",
+    "state": "Eastern Province"
+  },
+  "Khaybar": {
+    "zone": "SA77",
+    "state": "Madinah"
+  },
+  "Khamis Mushait": {
+    "zone": "SA78",
+    "state": "Asir"
+  },
+  "Al Kharkhir": {
+    "zone": "SA79",
+    "state": "Najran"
+  },
+  "Al Khobar": {
+    "zone": "SA80",
+    "state": "Eastern Province"
+  },
+  "Khbash": {
+    "zone": "SA81",
+    "state": "Najran"
+  },
+  "Khulais": {
+    "zone": "SA82",
+    "state": "Makkah"
+  },
+  "Muhayil": {
+    "zone": "SA84",
+    "state": "Asir"
+  },
+  "Al Majmaah": {
+    "zone": "SA85",
+    "state": "Riyadh"
+  },
+  "Al Muzahimiyah": {
+    "zone": "SA87",
+    "state": "Riyadh"
+  },
+  "Unayzah": {
+    "zone": "SA89",
+    "state": "Qassim"
+  },
+  "Uyun Al Jawa": {
+    "zone": "SA90",
+    "state": "Qassim"
+  },
+  "Al Qatif": {
+    "zone": "SA91",
+    "state": "Eastern Province"
+  },
+  "Qilwah": {
+    "zone": "SA92",
+    "state": "Al Bahah"
+  },
+  "Rabigh": {
+    "zone": "SA93",
+    "state": "Makkah"
+  },
+  "Rafha": {
+    "zone": "SA94",
+    "state": "Northern Borders"
+  },
+  "Rumah": {
+    "zone": "SA95",
+    "state": "Riyadh"
+  },
+  "Ranyah": {
+    "zone": "SA96",
+    "state": "Makkah"
+  },
+  "Ras Tanura": {
+    "zone": "SA97",
+    "state": "Eastern Province"
+  },
+  "Rojal": {
+    "zone": "SA98",
+    "state": "Asir"
+  },
+  "Riyadh Al Khabra": {
+    "zone": "SA100",
+    "state": "Qassim"
+  },
+  "Sabya": {
+    "zone": "SA101",
+    "state": "Jazan"
+  },
+  "Samtah": {
+    "zone": "SA103",
+    "state": "Jazan"
+  },
+  "Sarat Abidah": {
+    "zone": "SA104",
+    "state": "Asir"
+  },
+  "Shagra": {
+    "zone": "SA105",
+    "state": "Riyadh"
+  },
+  "Sharorah": {
+    "zone": "SA106",
+    "state": "Najran"
+  },
+  "Ash Shimasiyah": {
+    "zone": "SA107",
+    "state": "Qassim"
+  },
+  "Taif": {
+    "zone": "SA109",
+    "state": "Makkah"
+  },
+  "Tathleeth": {
+    "zone": "SA110",
+    "state": "Asir"
+  },
+  "Tayma": {
+    "zone": "SA111",
+    "state": "Tabuk"
+  },
+  "Thadig": {
+    "zone": "SA112",
+    "state": "Riyadh"
+  },
+  "Thar": {
+    "zone": "SA113",
+    "state": "Najran"
+  },
+  "Turbah": {
+    "zone": "SA114",
+    "state": "Makkah"
+  },
+  "Turaif": {
+    "zone": "SA115",
+    "state": "Northern Borders"
+  },
+  "Wadi ad-Dawasir": {
+    "zone": "SA116",
+    "state": "Riyadh"
+  },
+  "Yadamah": {
+    "zone": "SA117",
+    "state": "Najran"
+  },
+  "Yanbu": {
+    "zone": "SA118",
+    "state": "Madinah"
+  },
+  "Al Hayr": {
+    "zone": "SA150",
+    "state": "Riyadh"
+  },
+  "Ad Dilam": {
+    "zone": "SA151",
+    "state": "Riyadh"
+  },
+  "Marat": {
+    "zone": "SA152",
+    "state": "Riyadh"
+  },
+  "Adham": {
+    "zone": "SA154",
+    "state": "Makkah"
+  },
+  "Maysan": {
+    "zone": "SA155",
+    "state": "Makkah"
+  },
+  "Al Ardhiyat": {
+    "zone": "SA157",
+    "state": "Makkah"
+  },
+  "Al 'Is": {
+    "zone": "SA158",
+    "state": "Madinah"
+  },
+  "Uqlat As Suqur": {
+    "zone": "SA159",
+    "state": "Qassim"
+  },
+  "Dariyah": {
+    "zone": "SA160",
+    "state": "Qassim"
+  },
+  "Dhahran": {
+    "zone": "SA161",
+    "state": "Eastern Province"
+  },
+  "Tarut": {
+    "zone": "SA164",
+    "state": "Eastern Province"
+  },
+  "Al Mubarraz": {
+    "zone": "SA165",
+    "state": "Eastern Province"
+  },
+  "Bariq": {
+    "zone": "SA166",
+    "state": "Asir"
+  },
+  "Tanumah": {
+    "zone": "SA167",
+    "state": "Asir"
+  },
+  "Tarib": {
+    "zone": "SA168",
+    "state": "Asir"
+  },
+  "Al Harajah": {
+    "zone": "SA169",
+    "state": "Asir"
+  },
+  "Al Amwah": {
+    "zone": "SA170",
+    "state": "Asir"
+  },
+  "Al Birk": {
+    "zone": "SA171",
+    "state": "Asir"
+  },
+  "Al Hait": {
+    "zone": "SA173",
+    "state": "Hail"
+  },
+  "As Sulaymi": {
+    "zone": "SA174",
+    "state": "Hail"
+  },
+  "Mawqaq": {
+    "zone": "SA175",
+    "state": "Hail"
+  },
+  "Simira'": {
+    "zone": "SA176",
+    "state": "Hail"
+  },
+  "Ash Shamli": {
+    "zone": "SA177",
+    "state": "Hail"
+  },
+  "Al 'Uwayqiliyah": {
+    "zone": "SA178",
+    "state": "Northern Borders"
+  },
+  "Fayfa": {
+    "zone": "SA179",
+    "state": "Jazan"
+  },
+  "Harub": {
+    "zone": "SA180",
+    "state": "Jazan"
+  },
+  "At Tuwal": {
+    "zone": "SA181",
+    "state": "Jazan"
+  },
+  "Al Hajrah": {
+    "zone": "SA182",
+    "state": "Al Bahah"
+  },
+  "Ghamid Az Zinad": {
+    "zone": "SA183",
+    "state": "Al Bahah"
+  },
+  "Tubarjal": {
+    "zone": "SA184",
+    "state": "Al Jouf"
+  },
+  "Tumair": {
+    "zone": "SA185",
+    "state": "Riyadh"
+  },
+  "Jalajil": {
+    "zone": "SA186",
+    "state": "Riyadh"
+  },
+  "Hawtat Sudayr": {
+    "zone": "SA187",
+    "state": "Riyadh"
+  },
+  "Rawdat Sudayr": {
+    "zone": "SA188",
+    "state": "Riyadh"
+  },
+  "Thuwal": {
+    "zone": "SA189",
+    "state": "Makkah"
+  },
+  "Layla": {
+    "zone": "SA190",
+    "state": "Riyadh"
+  },
+  "Al Uyaynah": {
+    "zone": "SA191",
+    "state": "Riyadh"
+  },
+  "Malham": {
+    "zone": "SA192",
+    "state": "Riyadh"
+  },
+  "Sudus": {
+    "zone": "SA193",
+    "state": "Riyadh"
+  },
+  "Dhahban": {
+    "zone": "SA194",
+    "state": "Makkah"
+  },
+  "Al Busur": {
+    "zone": "SA195",
+    "state": "Qassim"
+  },
+  "Al Quwarah": {
+    "zone": "SA196",
+    "state": "Qassim"
+  },
+  "Ar Rayn": {
+    "zone": "SA197",
+    "state": "Riyadh"
+  },
+  "Al Muwayh": {
+    "zone": "SA198",
+    "state": "Makkah"
+  },
+  "Bahrah": {
+    "zone": "SA199",
+    "state": "Makkah"
+  },
+  "Wadi Al Fara": {
+    "zone": "SA200",
+    "state": "Madinah"
+  },
+  "Abanat": {
+    "zone": "SA201",
+    "state": "Qassim"
+  },
+  "Al Ahsa": {
+    "zone": "SA202",
+    "state": "Eastern Province"
+  },
+  "Al Udayd": {
+    "zone": "SA203",
+    "state": "Eastern Province"
+  },
+  "Al Bayda": {
+    "zone": "SA204",
+    "state": "Eastern Province"
+  },
+  "Al Farshah": {
+    "zone": "SA205",
+    "state": "Asir"
+  },
+  "Al Bada": {
+    "zone": "SA206",
+    "state": "Tabuk"
+  },
+  "Bani Hasan": {
+    "zone": "SA207",
+    "state": "Al Bahah"
+  },
+  "Suwayr": {
+    "zone": "SA208",
+    "state": "Al Jouf"
+  },
+  "Ras Tannurah": {
+    "zone": "SA209",
+    "state": "Eastern Province"
+  },
+  "Riyadh": {
+    "zone": "SA1001",
+    "state": "Riyadh"
+  },
+  "Mecca": {
+    "zone": "SA1002",
+    "state": "Makkah"
+  },
+  "Medina": {
+    "zone": "SA1003",
+    "state": "Madinah"
+  },
+  "Buraydah": {
+    "zone": "SA1004",
+    "state": "Qassim"
+  },
+  "Dammam": {
+    "zone": "SA1005",
+    "state": "Eastern Province"
+  },
+  "Abha": {
+    "zone": "SA1006",
+    "state": "Asir"
+  },
+  "Tabuk": {
+    "zone": "SA1007",
+    "state": "Tabuk"
+  },
+  "Hail": {
+    "zone": "SA1008",
+    "state": "Hail"
+  },
+  "Arar": {
+    "zone": "SA1009",
+    "state": "Northern Borders"
+  },
+  "Jazan": {
+    "zone": "SA1010",
+    "state": "Jazan"
+  },
+  "Najran": {
+    "zone": "SA1011",
+    "state": "Najran"
+  },
+  "Al Bahah": {
+    "zone": "SA1012",
+    "state": "Al Bahah"
+  },
+  "Sakaka": {
+    "zone": "SA1013",
+    "state": "Al Jouf"
+  }
+}

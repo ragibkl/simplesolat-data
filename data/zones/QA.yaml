@@ -1,0 +1,9 @@
+# Qatar (Ministry of Awqaf and Islamic Affairs): one national timetable.
+zones:
+  - code: QA01
+    country: QA
+    state: Qatar
+    location: Qatar
+    timezone: Asia/Qatar
+    shapes:
+      - Qatar

@@ -1,0 +1,37 @@
+name: Fetch Awqaf (QA)
+
+on:
+  schedule:
+    - cron: '0 4 27 * *'
+  workflow_dispatch:
+
+jobs:
+  fetch:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v7
+
+      - uses: actions/setup-python@v7
+        with:
+          python-version: '3.12'
+
+      - name: Fetch prayer times
+        run: python3 scripts/fetch_qatar.py
+
+      - name: Verify next month data
+        run: python3 scripts/verify_data.py next-month QA
+
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add data/prayer-times/QA/
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            git commit -m "fetch QA prayer times (automated)"
+            git pull --rebase
+            git push
+          fi
