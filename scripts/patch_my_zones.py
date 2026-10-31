@@ -48,11 +48,14 @@ MUKIMS = os.path.join(ROOT, 'sources', 'geoboundaries', 'MYS-ADM3-selected.geojs
 CIRCLES = [
     ('Zon Khas Gunung Jerai', 5.7875, 100.4417, 2.5),      # JAKIM, 1,214 m
     ('Zon Khas Bukit Larut', 4.8667, 100.8000, 2.5),       # JAKIM, 945 m
-    ('Zon Khas Gunung Kinabalu', 6.0833, 116.5333, 4.0),   # JAKIM
+    # JAKIM's point (6°05'N 116°32'E) is rounded to minutes, 2.9 km west of
+    # the summit: centred on Low's Peak so Laban Rata and Timpohon Gate are in.
+    ('Zon Khas Gunung Kinabalu', 6.0753, 116.5586, 4.0),
     ('Zon Khas Bukit Tinggi', 3.3833, 101.8250, 2.5),      # JAKIM 686 m and Afiq's point
     ('Zon Khas Genting Sempah', 3.3167, 101.7833, 2.0),
     ('Zon Khas Janda Baik', 3.3200, 101.8500, 2.5),
-    ('Zon Khas Genting Highlands', 3.4239, 101.7933, 2.5),
+    # Wide enough for the whole township: Awana (Skyway base), Gohtong Jaya.
+    ('Zon Khas Genting Highlands', 3.4239, 101.7933, 3.0),
     ('Zon Khas Bukit Fraser', 3.7167, 101.7500, 2.5),
     # Between JAKIM's reference point and Afiq's (Merapok), 6.5 km apart.
     ('Zon Khas Kampung Patarikan', 4.9406, 115.5080, 3.5),
