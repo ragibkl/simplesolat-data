@@ -1,0 +1,402 @@
+{
+  "Ibra": {
+    "zone": "OM1",
+    "state": "Oman"
+  },
+  "Abu toboul": {
+    "zone": "OM2",
+    "state": "Oman"
+  },
+  "Adam": {
+    "zone": "OM3",
+    "state": "Oman"
+  },
+  "Izki": {
+    "zone": "OM4",
+    "state": "Oman"
+  },
+  "Alashkhara": {
+    "zone": "OM5",
+    "state": "Oman"
+  },
+  "Afi": {
+    "zone": "OM6",
+    "state": "Oman"
+  },
+  "Bukha": {
+    "zone": "OM7",
+    "state": "Oman"
+  },
+  "Bidbid": {
+    "zone": "OM8",
+    "state": "Oman"
+  },
+  "Bediya": {
+    "zone": "OM9",
+    "state": "Oman"
+  },
+  "Barka": {
+    "zone": "OM10",
+    "state": "Oman"
+  },
+  "Alburaimi": {
+    "zone": "OM11",
+    "state": "Oman"
+  },
+  "Albashair": {
+    "zone": "OM12",
+    "state": "Oman"
+  },
+  "Aal wahiba": {
+    "zone": "OM13",
+    "state": "Oman"
+  },
+  "Bahla": {
+    "zone": "OM14",
+    "state": "Oman"
+  },
+  "Thamrait": {
+    "zone": "OM15",
+    "state": "Oman"
+  },
+  "Aljazir": {
+    "zone": "OM16",
+    "state": "Oman"
+  },
+  "Jebal": {
+    "zone": "OM17",
+    "state": "Oman"
+  },
+  "Aljabel Alakhdhar (Seeq)": {
+    "zone": "OM18",
+    "state": "Oman"
+  },
+  "Jabel shams": {
+    "zone": "OM19",
+    "state": "Oman"
+  },
+  "Jeddat Alharasees": {
+    "zone": "OM20",
+    "state": "Oman"
+  },
+  "Jalan bani bu Hassan": {
+    "zone": "OM21",
+    "state": "Oman"
+  },
+  "Jalan bani bu Ali": {
+    "zone": "OM22",
+    "state": "Oman"
+  },
+  "Jamma": {
+    "zone": "OM23",
+    "state": "Oman"
+  },
+  "Habrout": {
+    "zone": "OM24",
+    "state": "Oman"
+  },
+  "Alhabbi": {
+    "zone": "OM25",
+    "state": "Oman"
+  },
+  "Hig": {
+    "zone": "OM26",
+    "state": "Oman"
+  },
+  "Alhashman": {
+    "zone": "OM27",
+    "state": "Oman"
+  },
+  "Alhalaniat": {
+    "zone": "OM28",
+    "state": "Oman"
+  },
+  "Alhamra": {
+    "zone": "OM29",
+    "state": "Oman"
+  },
+  "Alkhaboura": {
+    "zone": "OM30",
+    "state": "Oman"
+  },
+  "Khasab": {
+    "zone": "OM31",
+    "state": "Oman"
+  },
+  "Khadhrafi": {
+    "zone": "OM32",
+    "state": "Oman"
+  },
+  "Alkhuair (Dhahra)": {
+    "zone": "OM33",
+    "state": "Oman"
+  },
+  "Kheela": {
+    "zone": "OM34",
+    "state": "Oman"
+  },
+  "Daba": {
+    "zone": "OM35",
+    "state": "Oman"
+  },
+  "Adduqum": {
+    "zone": "OM36",
+    "state": "Oman"
+  },
+  "Dama wa tayin": {
+    "zone": "OM37",
+    "state": "Oman"
+  },
+  "Ras Alhad": {
+    "zone": "OM38",
+    "state": "Oman"
+  },
+  "Ras madraka": {
+    "zone": "OM39",
+    "state": "Oman"
+  },
+  "Rakhyaut": {
+    "zone": "OM40",
+    "state": "Oman"
+  },
+  "Al Rustaq": {
+    "zone": "OM41",
+    "state": "Oman"
+  },
+  "Raisout": {
+    "zone": "OM42",
+    "state": "Oman"
+  },
+  "Sadah": {
+    "zone": "OM43",
+    "state": "Oman"
+  },
+  "Samail": {
+    "zone": "OM44",
+    "state": "Oman"
+  },
+  "Samad Asshan": {
+    "zone": "OM45",
+    "state": "Oman"
+  },
+  "Snaw": {
+    "zone": "OM46",
+    "state": "Oman"
+  },
+  "Assenaina": {
+    "zone": "OM47",
+    "state": "Oman"
+  },
+  "Alsuaiq": {
+    "zone": "OM48",
+    "state": "Oman"
+  },
+  "Shaleem": {
+    "zone": "OM50",
+    "state": "Oman"
+  },
+  "Shenas": {
+    "zone": "OM51",
+    "state": "Oman"
+  },
+  "Alshuaimia": {
+    "zone": "OM52",
+    "state": "Oman"
+  },
+  "Sohar": {
+    "zone": "OM53",
+    "state": "Oman"
+  },
+  "Saham": {
+    "zone": "OM54",
+    "state": "Oman"
+  },
+  "Srab": {
+    "zone": "OM55",
+    "state": "Oman"
+  },
+  "Sarfeet": {
+    "zone": "OM56",
+    "state": "Oman"
+  },
+  "Salalah": {
+    "zone": "OM57",
+    "state": "Oman"
+  },
+  "Sur": {
+    "zone": "OM58",
+    "state": "Oman"
+  },
+  "Dhalkout": {
+    "zone": "OM59",
+    "state": "Oman"
+  },
+  "Dhank": {
+    "zone": "OM60",
+    "state": "Oman"
+  },
+  "Taqa": {
+    "zone": "OM61",
+    "state": "Oman"
+  },
+  "Ibri": {
+    "zone": "OM62",
+    "state": "Oman"
+  },
+  "Alawabi": {
+    "zone": "OM63",
+    "state": "Oman"
+  },
+  "Fahoud": {
+    "zone": "OM64",
+    "state": "Oman"
+  },
+  "Alqabil (Sharqia)": {
+    "zone": "OM65",
+    "state": "Oman"
+  },
+  "Alqabil (Dhahra)": {
+    "zone": "OM66",
+    "state": "Oman"
+  },
+  "Qarn Alalam": {
+    "zone": "OM67",
+    "state": "Oman"
+  },
+  "Quraiat": {
+    "zone": "OM68",
+    "state": "Oman"
+  },
+  "Qalhat": {
+    "zone": "OM69",
+    "state": "Oman"
+  },
+  "Alkamil walwafi": {
+    "zone": "OM70",
+    "state": "Oman"
+  },
+  "Kahnat": {
+    "zone": "OM71",
+    "state": "Oman"
+  },
+  "Liwa": {
+    "zone": "OM72",
+    "state": "Oman"
+  },
+  "Lima": {
+    "zone": "OM73",
+    "state": "Oman"
+  },
+  "Mahadhah": {
+    "zone": "OM74",
+    "state": "Oman"
+  },
+  "Muhout": {
+    "zone": "OM75",
+    "state": "Oman"
+  },
+  "Madha": {
+    "zone": "OM76",
+    "state": "Oman"
+  },
+  "Merbat": {
+    "zone": "OM77",
+    "state": "Oman"
+  },
+  "Marmoul": {
+    "zone": "OM78",
+    "state": "Oman"
+  },
+  "Almazyouna": {
+    "zone": "OM79",
+    "state": "Oman"
+  },
+  "Muscat": {
+    "zone": "OM80",
+    "state": "Oman"
+  },
+  "Almasana": {
+    "zone": "OM81",
+    "state": "Oman"
+  },
+  "Maseera": {
+    "zone": "OM82",
+    "state": "Oman"
+  },
+  "Almudhaibi": {
+    "zone": "OM83",
+    "state": "Oman"
+  },
+  "Muqshen": {
+    "zone": "OM84",
+    "state": "Oman"
+  },
+  "Manah": {
+    "zone": "OM85",
+    "state": "Oman"
+  },
+  "Nafi": {
+    "zone": "OM86",
+    "state": "Oman"
+  },
+  "Nakhal": {
+    "zone": "OM87",
+    "state": "Oman"
+  },
+  "Nizwa": {
+    "zone": "OM88",
+    "state": "Oman"
+  },
+  "Nemr": {
+    "zone": "OM89",
+    "state": "Oman"
+  },
+  "Harweel": {
+    "zone": "OM90",
+    "state": "Oman"
+  },
+  "Haima": {
+    "zone": "OM91",
+    "state": "Oman"
+  },
+  "Wadi Al Maawil": {
+    "zone": "OM92",
+    "state": "Oman"
+  },
+  "Wadi bani Khalid": {
+    "zone": "OM93",
+    "state": "Oman"
+  },
+  "Wadi hibi": {
+    "zone": "OM94",
+    "state": "Oman"
+  },
+  "Alwasit (Dhahra)": {
+    "zone": "OM95",
+    "state": "Oman"
+  },
+  "Alwasil (Sharqia)": {
+    "zone": "OM96",
+    "state": "Oman"
+  },
+  "Yanqul": {
+    "zone": "OM97",
+    "state": "Oman"
+  },
+  "Khazzan": {
+    "zone": "OM98",
+    "state": "Oman"
+  },
+  "Wadi Alhaitham": {
+    "zone": "OM99",
+    "state": "Oman"
+  },
+  "Haifudh": {
+    "zone": "OM100",
+    "state": "Oman"
+  },
+  "Daleel": {
+    "zone": "OM101",
+    "state": "Oman"
+  }
+}
