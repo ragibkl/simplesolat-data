@@ -1,6 +1,6 @@
 # simplesolat-data
 
-Centralized prayer times data for Malaysia, Singapore, Indonesia, Brunei, Sri Lanka, Turkey, UAE, Bosnia, and Albania.
+Centralized prayer times data for Malaysia, Singapore, Indonesia, Brunei, Sri Lanka, Turkey, UAE, Bosnia, Albania, and the Sandžak towns of Serbia and Montenegro.
 
 Data is served via Netlify at:
 
@@ -113,7 +113,7 @@ Older dated files stay published for apps that still point to them.
 
 ### Location → zone tests
 
-`tests/zone-points/{CC}.yaml` lists points and the zone each must resolve to (Malaysia, Brunei, Sri Lanka, Indonesia, Turkey, Bosnia and the UAE; for Malaysia: one per JAKIM zone, every special zone, and nearby towns that must keep their normal zone). `python3 scripts/verify_data.py zones` also checks that every map shape has a zone and every zone a shape (exceptions listed in the script), and checks the points the way the app does (point in polygon, else the nearest shape within about 4 km, then mapping), and CI runs it whenever a map, mapping or zone list changes.
+`tests/zone-points/{CC}.yaml` lists points and the zone each must resolve to (every country with more than one zone except Albania; for Malaysia: one per JAKIM zone, every special zone, and nearby towns that must keep their normal zone). `python3 scripts/verify_data.py zones` also checks that every map shape has a zone and every zone a shape (exceptions listed in the script), and checks the points the way the app does (point in polygon, else the nearest shape within about 4 km, then mapping), and CI runs it whenever a map, mapping or zone list changes.
 
 ### Mappings
 
@@ -157,6 +157,8 @@ Maps geojson shape property to zone code and state. Derived from zone files via 
 | AL | [KMSH](https://kmsh.al) (Diyanet data, via [namaz.kmsh.al](https://namaz.kmsh.al)) | Web scrape | Manual, yearly |
 
 **Note on BA (Bosnia):** The authority is the **Islamic Community in Bosnia & Herzegovina (IZ BiH / Rijaset)**, which publishes the official Vaktija. Unlike the others, this Vaktija is a **perpetual** table — Sarajevo base times plus fixed per-city/month offsets that repeat every year (only DST varies) — so it's committed as a static dataset (`sources/vaktija/vaktija.json`) and regenerated offline per year via `scripts/fetch_vaktija.py`, with no runtime API. The data comes from the long-standing, canonical [vaktija.ba](https://vaktija.ba) (500k+ users), whose tabular structure matches the official IZ BiH takvim; we treat it as the authoritative source.
+
+**Note on RS and ME (Serbia, Montenegro):** Only Sandžak. The IZ BiH Vaktija also covers 11 Sandžak towns (6 in Serbia, 5 in Montenegro), published as zones `RS{id}` / `ME{id}` (same vaktija location ids, same times as the `BA{id}` copies, which stay for existing users). Their maps hold only those municipalities (geoBoundaries SRB ADM2 / MNE ADM1, ODbL, via `scripts/build_sandzak_shapes.py`), so the rest of either country finds no zone and gets calculated times.
 
 **Note on AL (Albania):** The authority is the **Muslim Community of Albania (KMSH)**, which publishes **Diyanet's** (Turkey, Presidency of Religious Affairs) prayer times for Albanian cities on its own site ([namaz.kmsh.al](https://namaz.kmsh.al)) — verified by an exact match to Diyanet's data. So Albania is fetched from Diyanet's international database using the **same scraper as Turkey** (`scripts/fetch_diyanet.py AL`), just with the 20 Albanian city IDs. Zone codes are `AL{diyanetId}`.
 

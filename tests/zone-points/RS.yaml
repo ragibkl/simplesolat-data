@@ -1,0 +1,10 @@
+# Location → zone checks for Serbia (python3 scripts/verify_data.py zones RS).
+# Only Sandžak's towns have an official timetable (the Islamic Community in
+# BiH's vaktija); elsewhere finds no shape (calculated times).
+points:
+  - { zone: RS110, lat: 43.1367, lng: 20.5122, note: Novi Pazar }
+  - { zone: RS117, lat: 42.9928, lng: 20.3378, note: Tutin }
+  - { zone: RS116, lat: 43.2719, lng: 20.0042, note: Sjenica }
+  - { zone: RS114, lat: 43.3897, lng: 19.6486, note: Prijepolje }
+  - { zone: RS113, lat: 43.5814, lng: 19.5250, note: Priboj }
+  - { zone: RS109, lat: 43.4600, lng: 19.8100, note: Nova Varoš }

@@ -1,0 +1,22 @@
+{
+  "Bijelo Polje": {
+    "zone": "ME107",
+    "state": "Sandžak"
+  },
+  "Gusinje": {
+    "zone": "ME108",
+    "state": "Sandžak"
+  },
+  "Plav": {
+    "zone": "ME111",
+    "state": "Sandžak"
+  },
+  "Pljevlja": {
+    "zone": "ME112",
+    "state": "Sandžak"
+  },
+  "Rožaje": {
+    "zone": "ME115",
+    "state": "Sandžak"
+  }
+}

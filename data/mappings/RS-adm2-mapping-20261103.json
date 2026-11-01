@@ -1,0 +1,26 @@
+{
+  "Nova Varoš": {
+    "zone": "RS109",
+    "state": "Sandžak"
+  },
+  "Novi Pazar": {
+    "zone": "RS110",
+    "state": "Sandžak"
+  },
+  "Priboj": {
+    "zone": "RS113",
+    "state": "Sandžak"
+  },
+  "Prijepolje": {
+    "zone": "RS114",
+    "state": "Sandžak"
+  },
+  "Sjenica": {
+    "zone": "RS116",
+    "state": "Sandžak"
+  },
+  "Tutin": {
+    "zone": "RS117",
+    "state": "Sandžak"
+  }
+}
