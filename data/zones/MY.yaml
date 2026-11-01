@@ -129,7 +129,7 @@ zones:
   - code: MLK01
     country: MY
     state: Melaka
-    location: SELURUH NEGERI MELAKA
+    location: Seluruh Negeri Melaka
     timezone: Asia/Kuala_Lumpur
     shapes:
       - Alor Gajah
@@ -216,7 +216,7 @@ zones:
   - code: PHG06
     country: MY
     state: Pahang
-    location: Cameron Highlands, Genting Higlands, Bukit Fraser
+    location: Cameron Highlands, Genting Highlands, Bukit Fraser
     timezone: Asia/Kuala_Lumpur
     shapes:
       - Cameron Highlands
