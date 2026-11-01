@@ -150,11 +150,15 @@ Maps geojson shape property to zone code and state. Derived from zone files via 
 | SG | [data.gov.sg](https://data.gov.sg) | API | CI monthly (27th/28th) |
 | ID | [EQuran.id](https://equran.id) | API | CI monthly (27th/28th) |
 | BN | [KHEU Taqwim PDF](https://www.mora.gov.bn) | PDF | Manual, yearly |
-| LK | [ACJU PDFs](https://www.acju.lk/prayer-times/) | PDF | Manual, yearly |
+| LK | [ACJU PDFs](https://www.acju.lk/prayer-times/) | PDF (perpetual table) | Offline, `fetch_acju.py <year>` |
 | TR | [Diyanet](https://namazvakitleri.diyanet.gov.tr) | Web scrape | CI monthly (27th/28th) |
 | AE | [AWQAF](https://www.awqaf.gov.ae) | API | CI monthly (27th/28th) |
 | BA | [IZ BiH Vaktija](https://vaktija.ba) (via [vaktija.ba dataset](https://github.com/vaktija/vaktija.ba)) | Static dataset | Offline, regenerate yearly |
-| AL | [KMSH](https://kmsh.al) (Diyanet data, via [namaz.kmsh.al](https://namaz.kmsh.al)) | Web scrape | Manual, yearly |
+| AL | [KMSH](https://kmsh.al) (Diyanet data, via [namaz.kmsh.al](https://namaz.kmsh.al)) | Web scrape | CI monthly (with TR) |
+| RS, ME | [IZ BiH Vaktija](https://vaktija.ba) (Sandžak towns) | Static dataset | Offline, regenerate yearly |
+| SA | [KACST Umm al-Qura](https://www.ummulqura.org.sa) | API | CI monthly (27th) |
+| QA | [Ministry of Awqaf](https://www.islam.gov.qa) | API | CI monthly (27th) |
+| OM | [Ministry of Endowments and Religious Affairs](https://www.mara.gov.om) (official method) | Generated | CI monthly (27th) |
 
 **Note on BA (Bosnia):** The authority is the **Islamic Community in Bosnia & Herzegovina (IZ BiH / Rijaset)**, which publishes the official Vaktija. Unlike the others, this Vaktija is a **perpetual** table — Sarajevo base times plus fixed per-city/month offsets that repeat every year (only DST varies) — so it's committed as a static dataset (`sources/vaktija/vaktija.json`) and regenerated offline per year via `scripts/fetch_vaktija.py`, with no runtime API. The data comes from the long-standing, canonical [vaktija.ba](https://vaktija.ba) (500k+ users), whose tabular structure matches the official IZ BiH takvim; we treat it as the authoritative source.
 
@@ -220,11 +224,13 @@ playwright install chromium  # needed for Turkey, Albania, and UAE fetch scripts
 
 The scripts and the way the data is put together are under the [MIT License](LICENSE). The data itself comes from the sources listed in [Data sources](#data-sources) and keeps their terms: prayer times belong to the authorities that publish them.
 
+Singapore: contains information from Muslim Prayer Timetable (consolidated) accessed from [data.gov.sg](https://data.gov.sg/datasets/d_a6a206cba471fe04b62dd886ef5eaf22/view), which is made available under the terms of the [Singapore Open Data Licence version 1.0](https://data.gov.sg/open-data-licence).
+
 The boundary files come from geoBoundaries, and each keeps the licence geoBoundaries gives it:
 
 | File | Licence |
 |------|---------|
-| AE adm1, LK adm2, SG adm0, TR adm2 | [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/) |
+| AE adm1, LK adm2, SG adm0, TR adm2, RS adm2, ME adm1, SA adm0, QA adm0, OM adm0 | [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/) |
 | AL adm2 | [CC BY 2.5](https://creativecommons.org/licenses/by/2.5/) |
 | MY adm2 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
 | ID adm2 | [CC BY 3.0 IGO](https://creativecommons.org/licenses/by/3.0/igo/) |
