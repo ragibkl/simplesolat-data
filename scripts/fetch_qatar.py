@@ -5,8 +5,7 @@ Fetch Qatar's prayer times from the Ministry of Awqaf and Islamic Affairs
 any date.
 
 The ministry publishes fajr, sunrise, dhuhr, asr, maghrib and isha. There's
-no imsak, so imsak is fajr - 10 min (as for Singapore, and as the app showed
-for Qatar's calculated times before).
+no separate imsak, so imsak = fajr (as for the UAE and Saudi Arabia).
 
 Writes data/prayer-times/QA/QA01/{year}-{month}.json for this year and next
 (months already complete are skipped).
@@ -49,9 +48,7 @@ def fetch_day(y, m, d):
         raise RuntimeError(f"asked for {y}-{m}-{d}, got {g['date']}")
     times = {NAMES[t["prayerTimeName"]]: f"{t['time']['hour']:02d}:{t['time']['minutes']:02d}"
              for t in data["times"] if t["prayerTimeName"] in NAMES}
-    h, mi = map(int, times["fajr"].split(":"))
-    imsak = (h * 60 + mi - 10) % 1440
-    return {"date": f"{y}-{m:02d}-{d:02d}", "imsak": f"{imsak // 60:02d}:{imsak % 60:02d}",
+    return {"date": f"{y}-{m:02d}-{d:02d}", "imsak": times["fajr"],
             "fajr": times["fajr"], "syuruk": times["syuruk"], "dhuhr": times["dhuhr"],
             "asr": times["asr"], "maghrib": times["maghrib"], "isha": times["isha"]}
 

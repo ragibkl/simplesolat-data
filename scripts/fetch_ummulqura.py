@@ -9,8 +9,8 @@ its API computes the authority's times for a point, so we ask it only for
 those official points. Each one is a zone (SA{id}).
 
 KACST publishes fajr, sunrise, dhuhr, asr, maghrib and isha (Ramadan isha
-included). There's no imsak, so imsak is fajr - 10 min (as for Qatar and
-Singapore).
+included). There's no separate imsak: the fast starts at fajr, so imsak =
+fajr (as for the UAE and Turkey).
 
 Usage:
   python3 scripts/fetch_ummulqura.py [year ...]   # this year and next by default
@@ -43,12 +43,6 @@ def cities():
     return json.load(open(CITIES, encoding="utf-8"))
 
 
-def minus10(t):
-    h, m = map(int, t.split(":"))
-    x = (h * 60 + m - 10) % 1440
-    return f"{x // 60:02d}:{x % 60:02d}"
-
-
 def fetch_year(city, y):
     for attempt in range(4):
         try:
@@ -66,7 +60,7 @@ def fetch_year(city, y):
         g, p = d["gregorianDate"], d["prayerTimes"]
         months.setdefault(g["month"], []).append({
             "date": f"{g['year']}-{g['month']:02d}-{g['day']:02d}",
-            "imsak": minus10(p["fajr"]), "fajr": p["fajr"], "syuruk": p["sunrise"],
+            "imsak": p["fajr"], "fajr": p["fajr"], "syuruk": p["sunrise"],
             "dhuhr": p["dhuhr"], "asr": p["asr"], "maghrib": p["maghrib"], "isha": p["isha"],
         })
     return months
