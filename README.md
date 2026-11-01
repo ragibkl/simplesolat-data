@@ -1,6 +1,6 @@
 # simplesolat-data
 
-Centralized prayer times data for Malaysia, Singapore, Indonesia, Brunei, Sri Lanka, Turkey, UAE, Bosnia, Albania, Saudi Arabia, Qatar, and the Sandžak towns of Serbia and Montenegro.
+Centralized prayer times data for Malaysia, Singapore, Indonesia, Brunei, Sri Lanka, Turkey, UAE, Bosnia, Albania, Saudi Arabia, Qatar, Oman, and the Sandžak towns of Serbia and Montenegro.
 
 Data is served via Netlify at:
 
@@ -163,6 +163,8 @@ Maps geojson shape property to zone code and state. Derived from zone files via 
 **Note on SA (Saudi Arabia):** The authority is **KACST**, which publishes the official **Umm al-Qura** calendar ([ummulqura.org.sa](https://www.ummulqura.org.sa)). It lists 173 official cities and governorates with coordinates (`sources/ummulqura/cities.json`) and its API computes the times for a point, so `scripts/fetch_ummulqura.py` asks it only for those official points (zones `SA{id}`, whole years ahead). The map splits the country by nearest official city (`scripts/patch_sa_zones.py`, geoBoundaries SAU ADM0, ODbL). KACST publishes no separate imsak (the fast starts at fajr): imsak = fajr.
 
 **Note on QA (Qatar):** The authority is the **Ministry of Awqaf and Islamic Affairs** ([islam.gov.qa](https://www.islam.gov.qa)), one national timetable (zone `QA01`), fetched a day per call by `scripts/fetch_qatar.py`; Fridays list Jummah in place of Dhuhr. No separate imsak: imsak = fajr. Map: geoBoundaries QAT ADM0 (ODbL) via `scripts/build_qa_map.py`.
+
+**Note on OM (Oman):** The **Ministry of Endowments and Religious Affairs** publishes no timetable: its official app ("تقويم عُمان") computes the times on the phone for 101 official cities. `scripts/fetch_oman.py` is a line-by-line port of that calculation (fajr/isha 18°, Shafi'i asr, UTC+4, +5 min on dhuhr, asr and maghrib, the app's rounding), run for the ministry's cities (`sources/mara/cities.json`) and published as tables, like Bosnia's vaktija; checked against the app's own code (768/768 city-days identical). Five cities in the app's table have decimal degrees in the minutes columns, which the app misreads (times 1–4 min early); we use their real positions. No imsak or duha in the app: imsak = fajr. Map: nearest official city (`scripts/patch_om_zones.py`, geoBoundaries OMN ADM0, ODbL).
 
 **Note on AL (Albania):** The authority is the **Muslim Community of Albania (KMSH)**, which publishes **Diyanet's** (Turkey, Presidency of Religious Affairs) prayer times for Albanian cities on its own site ([namaz.kmsh.al](https://namaz.kmsh.al)) — verified by an exact match to Diyanet's data. So Albania is fetched from Diyanet's international database using the **same scraper as Turkey** (`scripts/fetch_diyanet.py AL`), just with the 20 Albanian city IDs. Zone codes are `AL{diyanetId}`.
 
