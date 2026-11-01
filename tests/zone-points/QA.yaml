@@ -1,0 +1,6 @@
+# Location → zone checks for Qatar (python3 scripts/verify_data.py zones QA).
+points:
+  - { zone: QA01, lat: 25.2854, lng: 51.5310, note: Doha }
+  - { zone: QA01, lat: 25.6839, lng: 51.5058, note: Al Khor }
+  - { zone: QA01, lat: 25.4246, lng: 50.7857, note: Dukhan }
+  - { zone: QA01, lat: 24.9900, lng: 51.5450, note: Mesaieed }
