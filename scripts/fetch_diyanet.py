@@ -373,6 +373,15 @@ def main():
             total_errors += 1
             continue
 
+        # The page shows one year's table, not always the one asked for
+        # (TR9875 still showed 2026 in November when asked for 2027): keep
+        # only rows from the requested year.
+        records = [r for r in records if r["date"].startswith(f"{year}-")]
+        if not records:
+            print(f"  NOT YET: {province}/{dist_name} has no {year} table")
+            total_errors += 1
+            continue
+
         # Group by month and write
         from collections import defaultdict
         by_month = defaultdict(list)
