@@ -1,6 +1,6 @@
 # simplesolat-data
 
-Centralized prayer times data for Malaysia, Singapore, Indonesia, Brunei, Sri Lanka, Turkey, UAE, Bosnia, Albania, Saudi Arabia, Qatar, and the Sandžak towns of Serbia and Montenegro.
+Centralized prayer times data for Malaysia, Singapore, Indonesia, Brunei, Sri Lanka, Turkey, UAE, Bosnia, Albania, Saudi Arabia, Qatar, Oman, and the Sandžak towns of Serbia and Montenegro.
 
 Data is served via Netlify at:
 
@@ -150,11 +150,15 @@ Maps geojson shape property to zone code and state. Derived from zone files via 
 | SG | [data.gov.sg](https://data.gov.sg) | API | CI monthly (27th/28th) |
 | ID | [EQuran.id](https://equran.id) | API | CI monthly (27th/28th) |
 | BN | [KHEU Taqwim PDF](https://www.mora.gov.bn) | PDF | Manual, yearly |
-| LK | [ACJU PDFs](https://www.acju.lk/prayer-times/) | PDF | Manual, yearly |
+| LK | [ACJU PDFs](https://www.acju.lk/prayer-times/) | PDF (perpetual table) | Offline, `fetch_acju.py <year>` |
 | TR | [Diyanet](https://namazvakitleri.diyanet.gov.tr) | Web scrape | CI monthly (27th/28th) |
 | AE | [AWQAF](https://www.awqaf.gov.ae) | API | CI monthly (27th/28th) |
 | BA | [IZ BiH Vaktija](https://vaktija.ba) (via [vaktija.ba dataset](https://github.com/vaktija/vaktija.ba)) | Static dataset | Offline, regenerate yearly |
-| AL | [KMSH](https://kmsh.al) (Diyanet data, via [namaz.kmsh.al](https://namaz.kmsh.al)) | Web scrape | Manual, yearly |
+| AL | [KMSH](https://kmsh.al) (Diyanet data, via [namaz.kmsh.al](https://namaz.kmsh.al)) | Web scrape | CI monthly (with TR) |
+| RS, ME | [IZ BiH Vaktija](https://vaktija.ba) (Sandžak towns) | Static dataset | Offline, regenerate yearly |
+| SA | [KACST Umm al-Qura](https://www.ummulqura.org.sa) | API | CI monthly (27th) |
+| QA | [Ministry of Awqaf](https://www.islam.gov.qa) | API | CI monthly (27th) |
+| OM | [Ministry of Endowments and Religious Affairs](https://www.mara.gov.om) (official method) | Generated | CI monthly (27th) |
 
 **Note on BA (Bosnia):** The authority is the **Islamic Community in Bosnia & Herzegovina (IZ BiH / Rijaset)**, which publishes the official Vaktija. Unlike the others, this Vaktija is a **perpetual** table — Sarajevo base times plus fixed per-city/month offsets that repeat every year (only DST varies) — so it's committed as a static dataset (`sources/vaktija/vaktija.json`) and regenerated offline per year via `scripts/fetch_vaktija.py`, with no runtime API. The data comes from the long-standing, canonical [vaktija.ba](https://vaktija.ba) (500k+ users), whose tabular structure matches the official IZ BiH takvim; we treat it as the authoritative source.
 
@@ -163,6 +167,8 @@ Maps geojson shape property to zone code and state. Derived from zone files via 
 **Note on SA (Saudi Arabia):** The authority is **KACST**, which publishes the official **Umm al-Qura** calendar ([ummulqura.org.sa](https://www.ummulqura.org.sa)). It lists 173 official cities and governorates with coordinates (`sources/ummulqura/cities.json`) and its API computes the times for a point, so `scripts/fetch_ummulqura.py` asks it only for those official points (zones `SA{id}`, whole years ahead). The map splits the country by nearest official city (`scripts/patch_sa_zones.py`, geoBoundaries SAU ADM0, ODbL). KACST publishes no separate imsak (the fast starts at fajr): imsak = fajr.
 
 **Note on QA (Qatar):** The authority is the **Ministry of Awqaf and Islamic Affairs** ([islam.gov.qa](https://www.islam.gov.qa)), one national timetable (zone `QA01`), fetched a day per call by `scripts/fetch_qatar.py`; Fridays list Jummah in place of Dhuhr. No separate imsak: imsak = fajr. Map: geoBoundaries QAT ADM0 (ODbL) via `scripts/build_qa_map.py`.
+
+**Note on OM (Oman):** The **Ministry of Endowments and Religious Affairs** publishes no timetable: its official app ("تقويم عُمان") computes the times on the phone for 101 official cities. `scripts/fetch_oman.py` is a line-by-line port of that calculation (fajr/isha 18°, Shafi'i asr, UTC+4, +5 min on dhuhr, asr and maghrib, the app's rounding), run for the ministry's cities (`sources/mara/cities.json`) and published as tables, like Bosnia's vaktija; checked against the app's own code (768/768 city-days identical). Five cities in the app's table have decimal degrees in the minutes columns, which the app misreads (times 1–4 min early); we use their real positions. No imsak or duha in the app: imsak = fajr. Map: nearest official city (`scripts/patch_om_zones.py`, geoBoundaries OMN ADM0, ODbL).
 
 **Note on AL (Albania):** The authority is the **Muslim Community of Albania (KMSH)**, which publishes **Diyanet's** (Turkey, Presidency of Religious Affairs) prayer times for Albanian cities on its own site ([namaz.kmsh.al](https://namaz.kmsh.al)) — verified by an exact match to Diyanet's data. So Albania is fetched from Diyanet's international database using the **same scraper as Turkey** (`scripts/fetch_diyanet.py AL`), just with the 20 Albanian city IDs. Zone codes are `AL{diyanetId}`.
 
@@ -218,11 +224,13 @@ playwright install chromium  # needed for Turkey, Albania, and UAE fetch scripts
 
 The scripts and the way the data is put together are under the [MIT License](LICENSE). The data itself comes from the sources listed in [Data sources](#data-sources) and keeps their terms: prayer times belong to the authorities that publish them.
 
+Singapore: contains information from Muslim Prayer Timetable (consolidated) accessed from [data.gov.sg](https://data.gov.sg/datasets/d_a6a206cba471fe04b62dd886ef5eaf22/view), which is made available under the terms of the [Singapore Open Data Licence version 1.0](https://data.gov.sg/open-data-licence).
+
 The boundary files come from geoBoundaries, and each keeps the licence geoBoundaries gives it:
 
 | File | Licence |
 |------|---------|
-| AE adm1, LK adm2, SG adm0, TR adm2 | [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/) |
+| AE adm1, LK adm2, SG adm0, TR adm2, RS adm2, ME adm1, SA adm0, QA adm0, OM adm0 | [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/) |
 | AL adm2 | [CC BY 2.5](https://creativecommons.org/licenses/by/2.5/) |
 | MY adm2 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
 | ID adm2 | [CC BY 3.0 IGO](https://creativecommons.org/licenses/by/3.0/igo/) |

@@ -2,7 +2,7 @@ zones:
   - code: BRN01
     country: BN
     state: Brunei-Muara
-    location: Daerah Brunei-Muara
+    location: Brunei-Muara
     timezone: Asia/Brunei
     shapes:
       - Brunei-Muara
@@ -10,7 +10,7 @@ zones:
   - code: BRN02
     country: BN
     state: Tutong
-    location: Daerah Tutong
+    location: Tutong
     timezone: Asia/Brunei
     shapes:
       - Tutong
@@ -18,7 +18,7 @@ zones:
   - code: BRN03
     country: BN
     state: Belait
-    location: Daerah Belait
+    location: Belait
     timezone: Asia/Brunei
     shapes:
       - Belait
@@ -26,7 +26,7 @@ zones:
   - code: BRN04
     country: BN
     state: Temburong
-    location: Daerah Temburong
+    location: Temburong
     timezone: Asia/Brunei
     shapes:
       - Temburong

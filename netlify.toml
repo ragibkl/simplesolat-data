@@ -3,3 +3,6 @@
 [build]
   publish = "data"
   command = "python3 scripts/build_country_files.py"
+  # Each production deploy costs credits: skip it unless the served data (or
+  # how it's built) changed. Exit 0 = nothing to deploy.
+  ignore = "git diff --quiet $CACHED_COMMIT_REF $COMMIT_REF -- data/ scripts/build_country_files.py netlify.toml"

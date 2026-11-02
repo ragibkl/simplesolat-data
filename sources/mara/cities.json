@@ -1,0 +1,914 @@
+{
+ "source": "Ministry of Endowments and Religious Affairs (Oman), app \"تقويم عُمان\" (om.gov.mara.omanical 8.0.14), assets/mcal59.sqlite table cities",
+ "cities": [
+  {
+   "id": 1,
+   "name_en": "Ibra",
+   "name_ar": "إبراء",
+   "lat_deg": 22,
+   "lat_min": 43,
+   "lon_deg": 58,
+   "lon_min": 31
+  },
+  {
+   "id": 2,
+   "name_en": "Abu toboul",
+   "name_ar": "أبو الطبول",
+   "lat_deg": 21,
+   "lat_min": 10,
+   "lon_deg": 55,
+   "lon_min": 49
+  },
+  {
+   "id": 3,
+   "name_en": "Adam",
+   "name_ar": "أدم",
+   "lat_deg": 22,
+   "lat_min": 22,
+   "lon_deg": 57,
+   "lon_min": 31
+  },
+  {
+   "id": 4,
+   "name_en": "Izki",
+   "name_ar": "إزكي",
+   "lat_deg": 22,
+   "lat_min": 56,
+   "lon_deg": 57,
+   "lon_min": 47
+  },
+  {
+   "id": 5,
+   "name_en": "Alashkhara",
+   "name_ar": "الأشخرة",
+   "lat_deg": 21,
+   "lat_min": 51,
+   "lon_deg": 59,
+   "lon_min": 33
+  },
+  {
+   "id": 6,
+   "name_en": "Afi",
+   "name_ar": "أفي",
+   "lat_deg": 23,
+   "lat_min": 27,
+   "lon_deg": 57,
+   "lon_min": 48
+  },
+  {
+   "id": 7,
+   "name_en": "Bukha",
+   "name_ar": "بخاء",
+   "lat_deg": 26,
+   "lat_min": 8,
+   "lon_deg": 56,
+   "lon_min": 9
+  },
+  {
+   "id": 8,
+   "name_en": "Bidbid",
+   "name_ar": "بدبد",
+   "lat_deg": 23,
+   "lat_min": 25,
+   "lon_deg": 58,
+   "lon_min": 7
+  },
+  {
+   "id": 9,
+   "name_en": "Bediya",
+   "name_ar": "بدية",
+   "lat_deg": 22,
+   "lat_min": 26,
+   "lon_deg": 58,
+   "lon_min": 48
+  },
+  {
+   "id": 10,
+   "name_en": "Barka",
+   "name_ar": "بركاء",
+   "lat_deg": 23,
+   "lat_min": 41,
+   "lon_deg": 57,
+   "lon_min": 52
+  },
+  {
+   "id": 11,
+   "name_en": "Alburaimi",
+   "name_ar": "البريمي",
+   "lat_deg": 24,
+   "lat_min": 15,
+   "lon_deg": 55,
+   "lon_min": 47
+  },
+  {
+   "id": 12,
+   "name_en": "Albashair",
+   "name_ar": "البشائر",
+   "lat_deg": 22,
+   "lat_min": 35,
+   "lon_deg": 57,
+   "lon_min": 33
+  },
+  {
+   "id": 13,
+   "name_en": "Aal wahiba",
+   "name_ar": "بلدان آل وهيبة",
+   "lat_deg": 22,
+   "lat_min": 14,
+   "lon_deg": 58,
+   "lon_min": 47
+  },
+  {
+   "id": 14,
+   "name_en": "Bahla",
+   "name_ar": "بهلاء",
+   "lat_deg": 22,
+   "lat_min": 58,
+   "lon_deg": 57,
+   "lon_min": 17
+  },
+  {
+   "id": 15,
+   "name_en": "Thamrait",
+   "name_ar": "ثمريت",
+   "lat_deg": 17,
+   "lat_min": 38,
+   "lon_deg": 54,
+   "lon_min": 1
+  },
+  {
+   "id": 16,
+   "name_en": "Aljazir",
+   "name_ar": "الجازر",
+   "lat_deg": 18,
+   "lat_min": 35,
+   "lon_deg": 56,
+   "lon_min": 35
+  },
+  {
+   "id": 17,
+   "name_en": "Jebal",
+   "name_ar": "جبال",
+   "lat_deg": 22,
+   "lat_min": 9,
+   "lon_deg": 56,
+   "lon_min": 1
+  },
+  {
+   "id": 18,
+   "name_en": "Aljabel Alakhdhar",
+   "name_ar": "الجبل الأخضر",
+   "lat_deg": 23,
+   "lat_min": 4,
+   "lon_deg": 57,
+   "lon_min": 39
+  },
+  {
+   "id": 19,
+   "name_en": "Jabel shams",
+   "name_ar": "جبل شمس",
+   "lat_deg": 23,
+   "lat_min": 14,
+   "lon_deg": 57,
+   "lon_min": 15
+  },
+  {
+   "id": 20,
+   "name_en": "Jeddat Alharasees",
+   "name_ar": "جدة الحراسيس",
+   "lat_deg": 19,
+   "lat_min": 57,
+   "lon_deg": 56,
+   "lon_min": 32
+  },
+  {
+   "id": 21,
+   "name_en": "Jalan bani bu Hassan ",
+   "name_ar": "جعلان بني بو حسن",
+   "lat_deg": 22,
+   "lat_min": 4,
+   "lon_deg": 59,
+   "lon_min": 16
+  },
+  {
+   "id": 22,
+   "name_en": "Jalan bani bu Ali",
+   "name_ar": "جعلان بني بو علي",
+   "lat_deg": 22,
+   "lat_min": 0,
+   "lon_deg": 59,
+   "lon_min": 20
+  },
+  {
+   "id": 23,
+   "name_en": "Jamma",
+   "name_ar": "جما",
+   "lat_deg": 23,
+   "lat_min": 33,
+   "lon_deg": 57,
+   "lon_min": 33
+  },
+  {
+   "id": 24,
+   "name_en": "Habrout",
+   "name_ar": "حبروت",
+   "lat_deg": 17,
+   "lat_min": 26,
+   "lon_deg": 54,
+   "lon_min": 6
+  },
+  {
+   "id": 25,
+   "name_en": "Alhabbi",
+   "name_ar": "الحبي",
+   "lat_deg": 22,
+   "lat_min": 38,
+   "lon_deg": 57,
+   "lon_min": 20
+  },
+  {
+   "id": 26,
+   "name_en": "Hig",
+   "name_ar": "حج",
+   "lat_deg": 20,
+   "lat_min": 46,
+   "lon_deg": 58,
+   "lon_min": 18
+  },
+  {
+   "id": 27,
+   "name_en": "Alhashman",
+   "name_ar": "الحشمان",
+   "lat_deg": 18,
+   "lat_min": 15,
+   "lon_deg": 53,
+   "lon_min": 38
+  },
+  {
+   "id": 28,
+   "name_en": "Alhalaniat",
+   "name_ar": "الحلانيات",
+   "lat_deg": 17,
+   "lat_min": 30,
+   "lon_deg": 56,
+   "lon_min": 0
+  },
+  {
+   "id": 29,
+   "name_en": "Alhamra",
+   "name_ar": "الحمراء",
+   "lat_deg": 23,
+   "lat_min": 6,
+   "lon_deg": 57,
+   "lon_min": 17
+  },
+  {
+   "id": 30,
+   "name_en": "Alkhaboura",
+   "name_ar": "الخابورة",
+   "lat_deg": 23,
+   "lat_min": 57,
+   "lon_deg": 57,
+   "lon_min": 5
+  },
+  {
+   "id": 31,
+   "name_en": "Khasab",
+   "name_ar": "خصب",
+   "lat_deg": 26,
+   "lat_min": 10,
+   "lon_deg": 56,
+   "lon_min": 14
+  },
+  {
+   "id": 32,
+   "name_en": "Khadhrafi",
+   "name_ar": "خضرفي",
+   "lat_deg": 16,
+   "lat_min": 41,
+   "lon_deg": 53,
+   "lon_min": 9
+  },
+  {
+   "id": 33,
+   "name_en": "Alkhuair (Dhahra)",
+   "name_ar": "الخوير (الظاهرة)",
+   "lat_deg": 22,
+   "lat_min": 52,
+   "lon_deg": 55,
+   "lon_min": 21
+  },
+  {
+   "id": 34,
+   "name_en": "Kheela",
+   "name_ar": "خيلة",
+   "lat_deg": 22,
+   "lat_min": 13,
+   "lon_deg": 55,
+   "lon_min": 32
+  },
+  {
+   "id": 35,
+   "name_en": "Daba",
+   "name_ar": "دبا",
+   "lat_deg": 25,
+   "lat_min": 38,
+   "lon_deg": 56,
+   "lon_min": 15
+  },
+  {
+   "id": 36,
+   "name_en": "Adduqum",
+   "name_ar": "الدقم",
+   "lat_deg": 19,
+   "lat_min": 38,
+   "lon_deg": 57,
+   "lon_min": 40
+  },
+  {
+   "id": 37,
+   "name_en": "Dama wa tayin",
+   "name_ar": "دماء والطائيين",
+   "lat_deg": 23,
+   "lat_min": 2,
+   "lon_deg": 58,
+   "lon_min": 35
+  },
+  {
+   "id": 38,
+   "name_en": "Ras Alhad",
+   "name_ar": "رأس الحد",
+   "lat_deg": 22,
+   "lat_min": 31,
+   "lon_deg": 59,
+   "lon_min": 47
+  },
+  {
+   "id": 39,
+   "name_en": "Ras madraka",
+   "name_ar": "رأس مدركة",
+   "lat_deg": 18,
+   "lat_min": 58,
+   "lon_deg": 57,
+   "lon_min": 46
+  },
+  {
+   "id": 40,
+   "name_en": "Rakhyaut",
+   "name_ar": "رخيوت",
+   "lat_deg": 16,
+   "lat_min": 44,
+   "lon_deg": 53,
+   "lon_min": 25
+  },
+  {
+   "id": 41,
+   "name_en": "Al Rustaq",
+   "name_ar": "الرستاق",
+   "lat_deg": 23,
+   "lat_min": 26,
+   "lon_deg": 57,
+   "lon_min": 25
+  },
+  {
+   "id": 42,
+   "name_en": "Raisout",
+   "name_ar": "ريسوت",
+   "lat_deg": 16,
+   "lat_min": 58,
+   "lon_deg": 53,
+   "lon_min": 59
+  },
+  {
+   "id": 43,
+   "name_en": "Sadah",
+   "name_ar": "سدح",
+   "lat_deg": 17,
+   "lat_min": 3,
+   "lon_deg": 55,
+   "lon_min": 3
+  },
+  {
+   "id": 44,
+   "name_en": "Samail",
+   "name_ar": "سمائل",
+   "lat_deg": 23,
+   "lat_min": 17,
+   "lon_deg": 57,
+   "lon_min": 58
+  },
+  {
+   "id": 45,
+   "name_en": "Samad Asshan",
+   "name_ar": "سمد الشأن",
+   "lat_deg": 22,
+   "lat_min": 48,
+   "lon_deg": 58,
+   "lon_min": 9
+  },
+  {
+   "id": 46,
+   "name_en": "Snaw",
+   "name_ar": "سناو",
+   "lat_deg": 22,
+   "lat_min": 30,
+   "lon_deg": 58,
+   "lon_min": 1
+  },
+  {
+   "id": 47,
+   "name_en": "Assenaina",
+   "name_ar": "السنينة",
+   "lat_deg": 23,
+   "lat_min": 36,
+   "lon_deg": 55,
+   "lon_min": 57
+  },
+  {
+   "id": 48,
+   "name_en": "Alsuaiq",
+   "name_ar": "السويق",
+   "lat_deg": 23,
+   "lat_min": 49,
+   "lon_deg": 57,
+   "lon_min": 25
+  },
+  {
+   "id": 49,
+   "name_en": "Seeq",
+   "name_ar": "سيق",
+   "lat_deg": 23,
+   "lat_min": 4,
+   "lon_deg": 57,
+   "lon_min": 39
+  },
+  {
+   "id": 50,
+   "name_en": "Shaleem",
+   "name_ar": "شليم",
+   "lat_deg": 18,
+   "lat_min": 6,
+   "lon_deg": 55,
+   "lon_min": 38
+  },
+  {
+   "id": 51,
+   "name_en": "Shenas",
+   "name_ar": "شناص",
+   "lat_deg": 24,
+   "lat_min": 43,
+   "lon_deg": 56,
+   "lon_min": 27
+  },
+  {
+   "id": 52,
+   "name_en": "Alshuaimia",
+   "name_ar": "الشويمية",
+   "lat_deg": 17,
+   "lat_min": 53,
+   "lon_deg": 55,
+   "lon_min": 36
+  },
+  {
+   "id": 53,
+   "name_en": "sohar",
+   "name_ar": "صحار",
+   "lat_deg": 24,
+   "lat_min": 21,
+   "lon_deg": 56,
+   "lon_min": 42
+  },
+  {
+   "id": 54,
+   "name_en": "Saham",
+   "name_ar": "صحم",
+   "lat_deg": 24,
+   "lat_min": 9,
+   "lon_deg": 56,
+   "lon_min": 51
+  },
+  {
+   "id": 55,
+   "name_en": "Srab",
+   "name_ar": "صراب",
+   "lat_deg": 20,
+   "lat_min": 9,
+   "lon_deg": 57,
+   "lon_min": 48
+  },
+  {
+   "id": 56,
+   "name_en": "Sarfeet",
+   "name_ar": "صرفيت",
+   "lat_deg": 16,
+   "lat_min": 40,
+   "lon_deg": 53,
+   "lon_min": 6
+  },
+  {
+   "id": 57,
+   "name_en": "Salalah",
+   "name_ar": "صلالة",
+   "lat_deg": 17,
+   "lat_min": 2,
+   "lon_deg": 54,
+   "lon_min": 5
+  },
+  {
+   "id": 58,
+   "name_en": "Sur",
+   "name_ar": "صور",
+   "lat_deg": 22,
+   "lat_min": 33,
+   "lon_deg": 59,
+   "lon_min": 29
+  },
+  {
+   "id": 59,
+   "name_en": "Dhalkout",
+   "name_ar": "ضلكوت",
+   "lat_deg": 16,
+   "lat_min": 42,
+   "lon_deg": 53,
+   "lon_min": 12
+  },
+  {
+   "id": 60,
+   "name_en": "Dhank",
+   "name_ar": "ضنك",
+   "lat_deg": 23,
+   "lat_min": 32,
+   "lon_deg": 56,
+   "lon_min": 15
+  },
+  {
+   "id": 61,
+   "name_en": "Taqa",
+   "name_ar": "طاقة",
+   "lat_deg": 17,
+   "lat_min": 2,
+   "lon_deg": 54,
+   "lon_min": 23
+  },
+  {
+   "id": 62,
+   "name_en": "Ibri",
+   "name_ar": "عبري",
+   "lat_deg": 23,
+   "lat_min": 13,
+   "lon_deg": 56,
+   "lon_min": 28
+  },
+  {
+   "id": 63,
+   "name_en": "Alawabi",
+   "name_ar": "العوابي",
+   "lat_deg": 23,
+   "lat_min": 18,
+   "lon_deg": 57,
+   "lon_min": 32
+  },
+  {
+   "id": 64,
+   "name_en": "Fahoud",
+   "name_ar": "فهود",
+   "lat_deg": 22,
+   "lat_min": 19,
+   "lon_deg": 56,
+   "lon_min": 30
+  },
+  {
+   "id": 65,
+   "name_en": "Alqabil (Sharqia)",
+   "name_ar": "القابل الشرقية",
+   "lat_deg": 22,
+   "lat_min": 34,
+   "lon_deg": 58,
+   "lon_min": 41
+  },
+  {
+   "id": 66,
+   "name_en": "Alqabil (Dhahra)",
+   "name_ar": "القابل الظاهرة",
+   "lat_deg": 23,
+   "lat_min": 59,
+   "lon_deg": 55,
+   "lon_min": 49
+  },
+  {
+   "id": 67,
+   "name_en": "Qarn Alalam",
+   "name_ar": "قرن العلم",
+   "lat_deg": 21,
+   "lat_min": 18,
+   "lon_deg": 57,
+   "lon_min": 5
+  },
+  {
+   "id": 68,
+   "name_en": "Quraiat",
+   "name_ar": "قريات",
+   "lat_deg": 23,
+   "lat_min": 16,
+   "lon_deg": 58,
+   "lon_min": 54
+  },
+  {
+   "id": 69,
+   "name_en": "Qalhat",
+   "name_ar": "قلهات",
+   "lat_deg": 22,
+   "lat_min": 42,
+   "lon_deg": 59,
+   "lon_min": 22
+  },
+  {
+   "id": 70,
+   "name_en": "Alkamil walwafi",
+   "name_ar": "الكامل والوافي",
+   "lat_deg": 22,
+   "lat_min": 12,
+   "lon_deg": 59,
+   "lon_min": 12
+  },
+  {
+   "id": 71,
+   "name_en": "Kahnat",
+   "name_ar": "كهنات",
+   "lat_deg": 23,
+   "lat_min": 32,
+   "lon_deg": 56,
+   "lon_min": 46
+  },
+  {
+   "id": 72,
+   "name_en": "Liwa",
+   "name_ar": "لوى",
+   "lat_deg": 24,
+   "lat_min": 30,
+   "lon_deg": 56,
+   "lon_min": 35
+  },
+  {
+   "id": 73,
+   "name_en": "Lima",
+   "name_ar": "ليماء",
+   "lat_deg": 25,
+   "lat_min": 56,
+   "lon_deg": 56,
+   "lon_min": 25
+  },
+  {
+   "id": 74,
+   "name_en": "Mahadhah",
+   "name_ar": "محضة",
+   "lat_deg": 24,
+   "lat_min": 24,
+   "lon_deg": 55,
+   "lon_min": 57
+  },
+  {
+   "id": 75,
+   "name_en": "Muhout",
+   "name_ar": "محوت",
+   "lat_deg": 20,
+   "lat_min": 45,
+   "lon_deg": 58,
+   "lon_min": 17
+  },
+  {
+   "id": 76,
+   "name_en": "Madha",
+   "name_ar": "مدحاء",
+   "lat_deg": 25,
+   "lat_min": 17,
+   "lon_deg": 56,
+   "lon_min": 19
+  },
+  {
+   "id": 77,
+   "name_en": "Merbat",
+   "name_ar": "مرباط",
+   "lat_deg": 16,
+   "lat_min": 59,
+   "lon_deg": 54,
+   "lon_min": 42
+  },
+  {
+   "id": 78,
+   "name_en": "Marmoul",
+   "name_ar": "مرمول",
+   "lat_deg": 18,
+   "lat_min": 10,
+   "lon_deg": 55,
+   "lon_min": 14
+  },
+  {
+   "id": 79,
+   "name_en": "Almazyouna",
+   "name_ar": "المزيونة",
+   "lat_deg": 17,
+   "lat_min": 50,
+   "lon_deg": 52,
+   "lon_min": 39
+  },
+  {
+   "id": 80,
+   "name_en": "Muscat",
+   "name_ar": "مسقط",
+   "lat_deg": 23,
+   "lat_min": 35,
+   "lon_deg": 58,
+   "lon_min": 16
+  },
+  {
+   "id": 81,
+   "name_en": "Almasana",
+   "name_ar": "المصنعة",
+   "lat_deg": 23,
+   "lat_min": 44,
+   "lon_deg": 57,
+   "lon_min": 37
+  },
+  {
+   "id": 82,
+   "name_en": "Maseera",
+   "name_ar": "مصيرة",
+   "lat_deg": 20,
+   "lat_min": 25,
+   "lon_deg": 58,
+   "lon_min": 45
+  },
+  {
+   "id": 83,
+   "name_en": "Almudhaibi",
+   "name_ar": "المضيبي",
+   "lat_deg": 22,
+   "lat_min": 34,
+   "lon_deg": 58,
+   "lon_min": 7
+  },
+  {
+   "id": 84,
+   "name_en": "Muqshen",
+   "name_ar": "مقشن",
+   "lat_deg": 19,
+   "lat_min": 33,
+   "lon_deg": 54,
+   "lon_min": 53
+  },
+  {
+   "id": 85,
+   "name_en": "Manah",
+   "name_ar": "منح",
+   "lat_deg": 22,
+   "lat_min": 47,
+   "lon_deg": 57,
+   "lon_min": 35
+  },
+  {
+   "id": 86,
+   "name_en": "Nafi",
+   "name_ar": "نافي",
+   "lat_deg": 21,
+   "lat_min": 23,
+   "lon_deg": 58,
+   "lon_min": 19
+  },
+  {
+   "id": 87,
+   "name_en": "Nakhal",
+   "name_ar": "نخل",
+   "lat_deg": 23,
+   "lat_min": 40,
+   "lon_deg": 57,
+   "lon_min": 82
+  },
+  {
+   "id": 88,
+   "name_en": "Nizwa",
+   "name_ar": "نزوى",
+   "lat_deg": 22,
+   "lat_min": 55,
+   "lon_deg": 57,
+   "lon_min": 31
+  },
+  {
+   "id": 89,
+   "name_en": "Nemr",
+   "name_ar": "نمر",
+   "lat_deg": 18,
+   "lat_min": 34,
+   "lon_deg": 55,
+   "lon_min": 52
+  },
+  {
+   "id": 90,
+   "name_en": "Harweel",
+   "name_ar": "هرويل",
+   "lat_deg": 18,
+   "lat_min": 2,
+   "lon_deg": 54,
+   "lon_min": 38
+  },
+  {
+   "id": 91,
+   "name_en": "Haima",
+   "name_ar": "هيماء",
+   "lat_deg": 19,
+   "lat_min": 57,
+   "lon_deg": 56,
+   "lon_min": 16
+  },
+  {
+   "id": 92,
+   "name_en": "Wadi Al Maawil",
+   "name_ar": "وادي المعاول",
+   "lat_deg": 23,
+   "lat_min": 46,
+   "lon_deg": 57,
+   "lon_min": 82
+  },
+  {
+   "id": 93,
+   "name_en": "Wadi bani Khalid",
+   "name_ar": "وادي بني خالد",
+   "lat_deg": 22,
+   "lat_min": 34,
+   "lon_deg": 59,
+   "lon_min": 5
+  },
+  {
+   "id": 94,
+   "name_en": "Wadi hibi",
+   "name_ar": "وادي حيبي",
+   "lat_deg": 23,
+   "lat_min": 54,
+   "lon_deg": 56,
+   "lon_min": 33
+  },
+  {
+   "id": 95,
+   "name_en": "Alwasit (Dhahra)",
+   "name_ar": "الواسط الظاهرة",
+   "lat_deg": 24,
+   "lat_min": 12,
+   "lon_deg": 56,
+   "lon_min": 16
+  },
+  {
+   "id": 96,
+   "name_en": "Alwasil (Sharqia)",
+   "name_ar": "الواصل الشرقية",
+   "lat_deg": 22,
+   "lat_min": 30,
+   "lon_deg": 58,
+   "lon_min": 44
+  },
+  {
+   "id": 97,
+   "name_en": "Yanqul",
+   "name_ar": "ينقل",
+   "lat_deg": 23,
+   "lat_min": 35,
+   "lon_deg": 56,
+   "lon_min": 32
+  },
+  {
+   "id": 98,
+   "name_en": "Khazzan",
+   "name_ar": "خزان",
+   "lat_deg": 21,
+   "lat_min": 62,
+   "lon_deg": 56,
+   "lon_min": 42
+  },
+  {
+   "id": 99,
+   "name_en": "Wadi Alhaitham",
+   "name_ar": "وادي الهيثم",
+   "lat_deg": 22,
+   "lat_min": 84,
+   "lon_deg": 56,
+   "lon_min": 2
+  },
+  {
+   "id": 100,
+   "name_en": "Haifudh",
+   "name_ar": "حيفظ",
+   "lat_deg": 23,
+   "lat_min": 32,
+   "lon_deg": 58,
+   "lon_min": 74
+  },
+  {
+   "id": 101,
+   "name_en": "Daleel",
+   "name_ar": "حقل دليل",
+   "lat_deg": 22,
+   "lat_min": 46,
+   "lon_deg": 55,
+   "lon_min": 48
+  }
+ ]
+}

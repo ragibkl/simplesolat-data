@@ -2,7 +2,7 @@ zones:
   - code: SGP01
     country: SG
     state: Singapore
-    location: Seluruh Singapura
+    location: Singapore
     timezone: Asia/Singapore
     shapes:
       - Singapore

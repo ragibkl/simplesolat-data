@@ -277,6 +277,7 @@ NO_SHAPE_OK = {
     'ID': {'PAP29': 'Kab. Yapen Waropen, split in 2002 into zones of their own'},
     'TR': {'TR9676': "Konya's city districts have their own zones"},
     'BA': {'BA104': 'Žepa, a village in Rogatica'},
+    'OM': {'OM49': 'Seeq: same point as OM18 Aljabel Alakhdhar'},
     # Awqaf areas with no published location (oil fields, a border-guard
     # post, small villages and valleys): places there take the nearest area.
     'AE': {z: 'location not published' for z in (

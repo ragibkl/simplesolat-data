@@ -5,7 +5,13 @@ Extract ACJU prayer times from PDF files.
 Reads sources/acju/sources.yaml for PDF URLs, downloads if not present,
 extracts prayer times, and writes to data/prayer-times/LK/{zone}/{year}-{month}.json.
 
-Usage: python3 scripts/extract_acju.py
+ACJU's tables are perpetual: each month's PDF gives day-by-day times with no
+year (1-Jan, 2-Jan, ..., 29-Feb), the same every year. So one set of PDFs
+makes any year:
+
+Usage:
+  python3 scripts/fetch_acju.py              # the years listed in sources.yaml
+  python3 scripts/fetch_acju.py 2027 2028    # these years, from the same PDFs
 """
 
 import calendar
@@ -180,6 +186,9 @@ def main():
 
     entries = parse_sources_yaml(SOURCES_YAML)
     print(f"Found {len(entries)} PDF sources")
+    years = [a for a in sys.argv[1:] if a.isdigit() and len(a) == 4]
+    if years:
+        entries = [{**e, 'year': y} for y in years for e in entries]
 
     # Filter to entries that need processing
     to_process = []
@@ -191,7 +200,8 @@ def main():
             total_skipped += 1
         else:
             entry['_out_path'] = out_path
-            entry['_pdf_path'] = os.path.join(CACHE_DIR, f"{entry['zone']}-{entry['year']}-{entry['month']}.pdf")
+            # One PDF per zone and month (the table has no year).
+            entry['_pdf_path'] = os.path.join(CACHE_DIR, f"{entry['zone']}-{entry['month']}.pdf")
             to_process.append(entry)
 
     if not to_process:

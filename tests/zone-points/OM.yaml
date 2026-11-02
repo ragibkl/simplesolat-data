@@ -1,0 +1,24 @@
+# Location → zone checks for Oman (python3 scripts/verify_data.py zones OM).
+# The ministry's own city points (Musandam and Madha included), including the
+# five whose coordinates the app misreads (scripts/fetch_oman.py DECIMAL_TYPOS).
+points:
+  - { zone: OM80, lat: 23.5833, lng: 58.2667, note: Muscat }
+  - { zone: OM57, lat: 17.0333, lng: 54.0833, note: Salalah }
+  - { zone: OM53, lat: 24.3500, lng: 56.7000, note: Sohar }
+  - { zone: OM88, lat: 22.9167, lng: 57.5167, note: Nizwa }
+  - { zone: OM58, lat: 22.5500, lng: 59.4833, note: Sur }
+  - { zone: OM62, lat: 23.2167, lng: 56.4667, note: Ibri }
+  - { zone: OM31, lat: 26.1667, lng: 56.2333, note: Khasab }
+  - { zone: OM35, lat: 25.6333, lng: 56.2500, note: Daba }
+  - { zone: OM76, lat: 25.2833, lng: 56.3167, note: Madha }
+  - { zone: OM11, lat: 24.2500, lng: 55.7833, note: Alburaimi }
+  - { zone: OM41, lat: 23.4333, lng: 57.4167, note: Al Rustaq }
+  - { zone: OM10, lat: 23.6833, lng: 57.8667, note: Barka }
+  - { zone: OM36, lat: 19.6333, lng: 57.6667, note: Adduqum }
+  - { zone: OM82, lat: 20.4167, lng: 58.7500, note: Maseera }
+  - { zone: OM87, lat: 23.4000, lng: 57.8200, note: Nakhal }
+  - { zone: OM100, lat: 23.3200, lng: 58.7400, note: Haifudh }
+  - { zone: OM18, lat: 23.0667, lng: 57.6500, note: Aljabel Alakhdhar }
+  - { zone: OM18, lat: 23.0667, lng: 57.6500, note: Seeq }
+  - { zone: OM19, lat: 23.2333, lng: 57.2500, note: Jabel shams }
+  - { zone: OM77, lat: 16.9833, lng: 54.7000, note: Merbat }

@@ -89,3 +89,10 @@ countries:
     geojson: https://simplesolat-data.netlify.app/geojson/QA-adm0-geojson-20261103.json
     mapping: https://simplesolat-data.netlify.app/mappings/QA-adm0-mapping-20261103.json
     shape_property: shapeName
+
+  - code: OM
+    name: Oman
+    source: Ministry of Endowments and Religious Affairs (official method)
+    geojson: https://simplesolat-data.netlify.app/geojson/OM-adm0-geojson-20261103.json
+    mapping: https://simplesolat-data.netlify.app/mappings/OM-adm0-mapping-20261103.json
+    shape_property: shapeName
