@@ -148,7 +148,7 @@ def check_prayer_order(countries_filter):
 
 
 def check_day_counts(countries_filter):
-    """Validate day counts per month."""
+    """Validate day counts per month, and that each row is in the file's month."""
     issues = []
     prayer_dir = os.path.join(ROOT, "data", "prayer-times")
 
@@ -176,6 +176,11 @@ def check_day_counts(countries_filter):
                     expected = (date(year, month + 1, 1) - date(year, month, 1)).days
                 if len(data) != expected:
                     issues.append(f"{cc}/{zone}/{f}: {len(data)} days, expected {expected}")
+                # Every row must belong to the file's month (a fetcher once
+                # filed a 2026 table as 2027).
+                wrong = [r.get('date') for r in data if not str(r.get('date', '')).startswith(f[:7])]
+                if wrong:
+                    issues.append(f"{cc}/{zone}/{f}: {len(wrong)} rows from another month, e.g. {wrong[0]}")
     return issues
 
 
@@ -450,13 +455,20 @@ def main():
 
     # 5. Day counts
     day_issues = check_day_counts(countries_filter)
-    if day_issues:
-        print(f"WARN  Day counts: {len(day_issues)} partial months")
-        for d in day_issues[:5]:
+    wrong_month = [d for d in day_issues if "from another month" in d]
+    partial = [d for d in day_issues if d not in wrong_month]
+    if wrong_month:
+        print(f"FAIL  Dates: {len(wrong_month)} files hold rows from another month")
+        for d in wrong_month[:5]:
             print(f"        {d}")
-        if len(day_issues) > 5:
-            print(f"        ... and {len(day_issues) - 5} more")
-    else:
+        has_issues = True
+    if partial:
+        print(f"WARN  Day counts: {len(partial)} partial months")
+        for d in partial[:5]:
+            print(f"        {d}")
+        if len(partial) > 5:
+            print(f"        ... and {len(partial) - 5} more")
+    if not day_issues:
         print(f"OK    Day counts: all correct")
 
     # 6. Calculation methods (skipped without pyyaml)
