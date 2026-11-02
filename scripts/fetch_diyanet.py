@@ -362,6 +362,9 @@ def main():
         # Fold any remaining non-ASCII (e.g. Albanian ë) — Diyanet routes by id,
         # the slug is cosmetic, but the URL must be ASCII-safe for curl.
         slug = unicodedata.normalize("NFKD", slug).encode("ascii", "ignore").decode()
+        # Only letters, digits and hyphens: a dot ("M.EREĞLİSİ") makes the
+        # server treat the path as a file and answer 404.
+        slug = re.sub(r"[^a-z0-9-]+", "-", slug).strip("-")
         url = f"{BASE_URL}/{dist_id}/prayer-time-for-{slug}"
 
         records, status = fetch_records_with_retry(url, cookie_str)
