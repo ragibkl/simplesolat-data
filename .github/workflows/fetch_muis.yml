@@ -4,6 +4,8 @@ on:
   schedule:
     - cron: '0 3 27 * *'
     - cron: '0 3 28 * *'
+    # Weekly (Mondays) Nov–Jan, while next year's timetables trickle in
+    - cron: '0 3 * 11,12,1 1'
   workflow_dispatch:
 
 jobs:
