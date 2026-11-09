@@ -30,6 +30,8 @@ needed ones copied to sources/geoboundaries/MYS-ADM3-selected.geojson.
 
 Usage (needs shapely):
   python3 scripts/patch_my_zones.py data/geojson/MY-adm2-geojson-20260402.json 20261101
+  python3 scripts/patch_my_zones.py <base districts> <date> [prefix, default adm2]
+(scripts/build_my_map.py runs it on the OpenStreetMap districts with prefix osm.)
 """
 
 import json
@@ -78,6 +80,7 @@ def parts(geom):
 
 def main():
     base_path, date = sys.argv[1], sys.argv[2]
+    prefix = sys.argv[3] if len(sys.argv) > 3 else 'adm2'
     base = json.load(open(base_path))
     districts = {f['properties']['shapeName']: shape(f['geometry']) for f in base['features']}
     mukims = {}
@@ -152,7 +155,7 @@ def main():
             return {k: rounded(v) for k, v in obj.items()}
         return obj
 
-    out = os.path.join(ROOT, 'data', 'geojson', f'MY-adm2-geojson-{date}.json')
+    out = os.path.join(ROOT, 'data', 'geojson', f'MY-{prefix}-geojson-{date}.json')
     with open(out, 'w') as fh:
         json.dump({**base, 'features': rounded(features)}, fh, separators=(',', ':'))
     print(f'wrote {out}: {len(features)} shapes ({len(clean)} zone shapes added)')

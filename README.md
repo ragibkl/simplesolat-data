@@ -107,7 +107,7 @@ Every zone of a country for one month in one file: `{"SGR01": [ ...entries ], ..
 GET /geojson/{CC}-{adm}-geojson-{date}.json
 ```
 
-Administrative boundary data for GPS-to-zone resolution, from [geoBoundaries](https://www.geoboundaries.org/). Unmodified, except Malaysia, Indonesia and the UAE. Malaysia: JAKIM zones that a district map can't express (Zon Khas hilltops, Rompin's mukim split, Belum and Temengor, Tioman, Pulau Aur, Putrajaya) are carved out of the districts as their own shapes by `scripts/patch_my_zones.py` (sources and reasoning in the script; mukims from geoBoundaries ADM3, CC BY 4.0). Thanks to Afiq Hazwan (MySolat) for reporting them. simplesolat's original Malaysian zone map came from [mptwaktusolat's jakim.geojson](https://github.com/mptwaktusolat/jakim.geojson) by Muhammad Fareez Iqmal, which inspired this dataset. Indonesia: Kemenag's remote island zones and Kota Sofifi are carved out of their regencies, Kepulauan Seribu (no geometry upstream) gets a box over its islands, and lake shapes join a neighbouring regency, by `scripts/patch_id_zones.py`. UAE: the emirate map is split into Awqaf's areas by the nearest town in Awqaf's own town list (`sources/awqaf/places.json`), with islands and mountain tops as small circles, by `scripts/patch_ae_zones.py`.
+Administrative boundary data for GPS-to-zone resolution, from [geoBoundaries](https://www.geoboundaries.org/) (Malaysia: from OpenStreetMap, see below). Unmodified, except Malaysia, Indonesia and the UAE. Malaysia: since 2026-11-09 the districts come from OpenStreetMap (`scripts/fetch_osm_my_districts.py`, then `scripts/build_my_map.py`), checked against DOSM's official district map (`scripts/crosscheck_my_map.py`) and the test points; geoBoundaries' older outlines put parts of Telupid, Beluran, Tenom, Subis and Padawan in the wrong zone (thanks to Yusuf of Solatla for the comparison that found them). JAKIM zones that a district map can't express (Zon Khas hilltops, Rompin's mukim split, Belum and Temengor, Tioman, Pulau Aur, Putrajaya) are carved out of the districts as their own shapes by `scripts/patch_my_zones.py` (sources and reasoning in the script; mukims from geoBoundaries ADM3, CC BY 4.0). Thanks to Afiq Hazwan (MySolat) for reporting them. simplesolat's original Malaysian zone map came from [mptwaktusolat's jakim.geojson](https://github.com/mptwaktusolat/jakim.geojson) by Muhammad Fareez Iqmal, which inspired this dataset. Indonesia: Kemenag's remote island zones and Kota Sofifi are carved out of their regencies, Kepulauan Seribu (no geometry upstream) gets a box over its islands, and lake shapes join a neighbouring regency, by `scripts/patch_id_zones.py`. UAE: the emirate map is split into Awqaf's areas by the nearest town in Awqaf's own town list (`sources/awqaf/places.json`), with islands and mountain tops as small circles, by `scripts/patch_ae_zones.py`.
 
 Older dated files stay published for apps that still point to them.
 
@@ -226,13 +226,15 @@ The scripts and the way the data is put together are under the [MIT License](LIC
 
 Singapore: contains information from Muslim Prayer Timetable (consolidated) accessed from [data.gov.sg](https://data.gov.sg/datasets/d_a6a206cba471fe04b62dd886ef5eaf22/view), which is made available under the terms of the [Singapore Open Data Licence version 1.0](https://data.gov.sg/open-data-licence).
 
-The boundary files come from geoBoundaries, and each keeps the licence geoBoundaries gives it:
+Malaysia's map (`MY-osm-geojson-*`, from 2026-11-09) is built from OpenStreetMap districts by `scripts/build_my_map.py`: district boundaries © [OpenStreetMap contributors](https://www.openstreetmap.org/copyright), and the built map is published under the [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/). The Rompin mukims inside it come from geoBoundaries MYS ADM3 ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)). The file carries this credit in its `attribution` field.
+
+The other boundary files come from geoBoundaries, and each keeps the licence geoBoundaries gives it:
 
 | File | Licence |
 |------|---------|
 | AE adm1, LK adm2, SG adm0, TR adm2, RS adm2, ME adm1, SA adm0, QA adm0, OM adm0 | [ODbL 1.0](https://opendatacommons.org/licenses/odbl/1-0/) |
 | AL adm2 | [CC BY 2.5](https://creativecommons.org/licenses/by/2.5/) |
-| MY adm2 | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
+| MY adm2 (older files, up to 2026-11-02) | [CC BY 3.0](https://creativecommons.org/licenses/by/3.0/) |
 | ID adm2 | [CC BY 3.0 IGO](https://creativecommons.org/licenses/by/3.0/igo/) |
 | BA adm3, BN adm1 | Public domain |
 
