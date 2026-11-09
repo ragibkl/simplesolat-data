@@ -108,3 +108,22 @@ points:
   - { zone: WLY01, lat: 3.1390, lng: 101.6869, note: Kuala Lumpur }
   - { zone: WLY01, lat: 2.9264, lng: 101.6964, note: Putrajaya }
   - { zone: WLY02, lat: 5.2831, lng: 115.2308, note: Labuan }
+  # Reported by Yusuf (Solatla), Nov 2026, and checked against OpenStreetMap
+  # and DOSM: district borders the old geoBoundaries map had wrong in Borneo,
+  # border points it had right, and coastal points just off the map.
+  - { zone: SBH02, lat: 5.7500, lng: 117.0000, note: Telupid (was Ranau) }
+  - { zone: SBH02, lat: 6.2500, lng: 117.0000, note: Beluran (was Ranau) }
+  - { zone: SBH09, lat: 5.0000, lng: 116.0000, note: Tenom (was Keningau) }
+  - { zone: SWK02, lat: 3.5000, lng: 113.5000, note: Subis (was Bintulu) }
+  - { zone: SWK08, lat: 1.2000, lng: 110.4000, note: Kampung Sira, Padawan (was Serian) }
+  - { zone: SWK08, lat: 1.2500, lng: 110.3500, note: Kampung Simpok, Padawan (was Serian) }
+  - { zone: SBH01, lat: 5.5500, lng: 118.0000, note: Sandakan district edge (was Kinabatangan) }
+  - { zone: SBH04, lat: 4.2448, lng: 117.8912, note: Tawau }
+  - { zone: SBH03, lat: 5.2500, lng: 119.2500, note: Dent Peninsula }
+  - { zone: PRK05, lat: 4.0000, lng: 101.0000, note: Hilir Perak border }
+  - { zone: PRK02, lat: 4.5000, lng: 101.0000, note: Kinta border }
+  - { zone: PRK06, lat: 5.0000, lng: 100.5000, note: Bagan Serai, Kerian }
+  - { zone: PHG03, lat: 4.5000, lng: 102.2500, note: Jerantut border }
+  - { zone: PHG06, lat: 3.7117, lng: 101.7380, note: Bukit Fraser town }
+  - { zone: JHR03, lat: 1.3250, lng: 103.4400, note: Kukup stilt village (nearest district) }
+  - { zone: TRG02, lat: 5.9100, lng: 102.7400, note: Pulau Perhentian (nearest district) }
