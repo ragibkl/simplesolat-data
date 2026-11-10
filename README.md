@@ -111,6 +111,10 @@ Administrative boundary data for GPS-to-zone resolution, from [geoBoundaries](ht
 
 Older dated files stay published for apps that still point to them.
 
+### World map (country of a location)
+
+`geojson/world-adm0-20261028.json`: every country's outline (Natural Earth 1:10m admin-0 countries, public domain, simplified; properties `ISO_A2`, `NAME`), the same map the app bundles. Apps and the API use it to find the country of a location outside the official zones, then the calculation method for that country from `methods.yaml`. Rebuilt by the app repo's `scripts/build-countries-adm0.sh`.
+
 ### Location → zone tests
 
 `tests/zone-points/{CC}.yaml` lists points and the zone each must resolve to (every country with more than one zone except Albania; for Malaysia: one per JAKIM zone, every special zone, and nearby towns that must keep their normal zone). `python3 scripts/verify_data.py zones` also checks that every map shape has a zone and every zone a shape (exceptions listed in the script), and checks the points the way the app does (point in polygon, else the nearest shape within about 4 km, then mapping), and CI runs it whenever a map, mapping or zone list changes.
