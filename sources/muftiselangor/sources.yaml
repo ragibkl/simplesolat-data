@@ -1,0 +1,58 @@
+# Jabatan Mufti Negeri Selangor: prayer timetables per district.
+# Source page: https://www.muftiselangor.gov.my/takwim-solat/
+# From 2027 the mufti publishes one timetable per district (9 districts)
+# instead of three zones. JAKIM's e-Solat has no 2027 data for Selangor yet,
+# so these zones (MFSGR01-09) come straight from the issuing authority.
+# Zone order follows the order of the takwim page.
+pdfs:
+  - year: "2027"
+    zone: MFSGR01
+    district: HULU SELANGOR
+    url: https://www.muftiselangor.gov.my/wp-content/uploads/2026/10/HULU-SELANGOR.pdf
+  - year: "2027"
+    zone: MFSGR02
+    district: GOMBAK
+    url: https://www.muftiselangor.gov.my/wp-content/uploads/2026/10/GOMBAK-JADUAL-WAKTU-SOLAT-2027.pdf
+  - year: "2027"
+    zone: MFSGR03
+    district: PETALING
+    url: https://www.muftiselangor.gov.my/wp-content/uploads/2026/10/PETALING.pdf
+  - year: "2027"
+    zone: MFSGR04
+    district: HULU LANGAT
+    url: https://www.muftiselangor.gov.my/wp-content/uploads/2026/10/HULU-LANGAT-JADUAL-WAKTU-SOLAT-2027.pdf
+  - year: "2027"
+    zone: MFSGR05
+    district: SEPANG
+    url: https://www.muftiselangor.gov.my/wp-content/uploads/2026/10/SEPANG-JADUAL-WAKTU-SOLAT-2027.pdf
+  - year: "2027"
+    zone: MFSGR06
+    district: SABAK BERNAM
+    url: https://www.muftiselangor.gov.my/wp-content/uploads/2026/10/SABAK-BERNAM-JADUAL-WAKTU-SOLAT-2027.pdf
+  - year: "2027"
+    zone: MFSGR07
+    district: KUALA SELANGOR
+    url: https://www.muftiselangor.gov.my/wp-content/uploads/2026/10/KUALA-SELANGOR.pdf
+  - year: "2027"
+    zone: MFSGR08
+    district: KLANG
+    url: https://www.muftiselangor.gov.my/wp-content/uploads/2026/10/KLANG-.pdf
+  - year: "2027"
+    zone: MFSGR09
+    district: KUALA LANGAT
+    url: https://www.muftiselangor.gov.my/wp-content/uploads/2026/10/KUALA-LANGAT-JADUAL-WAKTU-SOLAT-2027.pdf
+
+# Before 2027 each district takes the times of the JAKIM zone it was part of
+# (the mufti's own 2026 tables ZON 1-3 match JAKIM's SGR01-03; checked
+# 2026-11-12: 3 differences of 1 minute in 7,665 times).
+legacy:
+  "2026":
+    MFSGR01: SGR01
+    MFSGR02: SGR01
+    MFSGR03: SGR01
+    MFSGR04: SGR01
+    MFSGR05: SGR01
+    MFSGR06: SGR02
+    MFSGR07: SGR02
+    MFSGR08: SGR03
+    MFSGR09: SGR03

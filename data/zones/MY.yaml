@@ -540,6 +540,73 @@ zones:
       - Klang
       - Kuala Langat
 
+  # Selangor's district timetables from 2027 (Jabatan Mufti Negeri Selangor,
+  # sources/muftiselangor). Not on the map yet: SGR01-03 stay in use until the
+  # map switches to these zones (planned for December 2026).
+
+  - code: MFSGR01
+    country: MY
+    state: Selangor
+    location: Hulu Selangor
+    timezone: Asia/Kuala_Lumpur
+    source: Mufti Selangor
+
+  - code: MFSGR02
+    country: MY
+    state: Selangor
+    location: Gombak
+    timezone: Asia/Kuala_Lumpur
+    source: Mufti Selangor
+
+  - code: MFSGR03
+    country: MY
+    state: Selangor
+    location: Petaling
+    timezone: Asia/Kuala_Lumpur
+    source: Mufti Selangor
+
+  - code: MFSGR04
+    country: MY
+    state: Selangor
+    location: Hulu Langat
+    timezone: Asia/Kuala_Lumpur
+    source: Mufti Selangor
+
+  - code: MFSGR05
+    country: MY
+    state: Selangor
+    location: Sepang
+    timezone: Asia/Kuala_Lumpur
+    source: Mufti Selangor
+
+  - code: MFSGR06
+    country: MY
+    state: Selangor
+    location: Sabak Bernam
+    timezone: Asia/Kuala_Lumpur
+    source: Mufti Selangor
+
+  - code: MFSGR07
+    country: MY
+    state: Selangor
+    location: Kuala Selangor
+    timezone: Asia/Kuala_Lumpur
+    source: Mufti Selangor
+
+  - code: MFSGR08
+    country: MY
+    state: Selangor
+    location: Klang
+    timezone: Asia/Kuala_Lumpur
+    source: Mufti Selangor
+
+  - code: MFSGR09
+    country: MY
+    state: Selangor
+    location: Kuala Langat
+    timezone: Asia/Kuala_Lumpur
+    source: Mufti Selangor
+
   - code: TRG01
     country: MY
     state: Terengganu

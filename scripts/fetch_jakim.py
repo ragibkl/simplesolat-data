@@ -36,7 +36,9 @@ MONTHS = {
 
 
 def parse_zones():
-    """Read MY zone codes from data/zones/MY.yaml."""
+    """Read JAKIM's zone codes from data/zones/MY.yaml: every zone except
+    those with a `source:` of their own (e.g. MFSGR01-09, from the Selangor
+    mufti), which JAKIM doesn't publish."""
     zones = []
     zones_path = os.path.join(ROOT, "data", "zones", "MY.yaml")
     with open(zones_path) as f:
@@ -44,6 +46,8 @@ def parse_zones():
             m = re.match(r'\s+- code:\s+(\S+)', line)
             if m:
                 zones.append(m.group(1))
+            elif re.match(r'\s+source:\s+\S', line) and zones:
+                zones.pop()
     return zones
 
 
