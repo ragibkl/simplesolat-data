@@ -1,0 +1,28 @@
+# Pejabat Mufti Negeri Sabah: Takwim Waktu Solat 1448H (2026-2027), one poster
+# per zone. Source page: https://mufti.sabah.gov.my/takwim-cerapan/
+# The posters say their source is JAKIM's Panel Pakar Falak, and their zones
+# are JAKIM's SBH01-09 (Zon 1-9). Used only for months JAKIM's e-Solat hasn't
+# published yet; those months are listed in sources/provisional.json so that
+# fetch_jakim.py replaces them once JAKIM publishes.
+# Note: the Zon 9 poster is uploaded as "Zon-8-1.pdf".
+hijri_year: 1448
+first_day: "2026-06-17"   # 1 Muharram 1448
+pdfs:
+  - zone: SBH01
+    url: https://mufti.sabah.gov.my/wp-content/uploads/2026/09/Zon-1-.pdf
+  - zone: SBH02
+    url: https://mufti.sabah.gov.my/wp-content/uploads/2026/09/Zon-2.pdf
+  - zone: SBH03
+    url: https://mufti.sabah.gov.my/wp-content/uploads/2026/09/Zon-3.pdf
+  - zone: SBH04
+    url: https://mufti.sabah.gov.my/wp-content/uploads/2026/09/Zon-4.pdf
+  - zone: SBH05
+    url: https://mufti.sabah.gov.my/wp-content/uploads/2026/09/Zon-5-.pdf
+  - zone: SBH06
+    url: https://mufti.sabah.gov.my/wp-content/uploads/2026/09/Zon-6.pdf
+  - zone: SBH07
+    url: https://mufti.sabah.gov.my/wp-content/uploads/2026/09/Zon-7.pdf
+  - zone: SBH08
+    url: https://mufti.sabah.gov.my/wp-content/uploads/2026/09/Zon-8-.pdf
+  - zone: SBH09
+    url: https://mufti.sabah.gov.my/wp-content/uploads/2026/09/Zon-8-1.pdf

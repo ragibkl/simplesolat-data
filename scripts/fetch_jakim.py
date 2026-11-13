@@ -25,6 +25,7 @@ from urllib.parse import urlencode
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 API_URL = "https://www.e-solat.gov.my/index.php"
+PROVISIONAL = os.path.join(ROOT, "sources", "provisional.json")
 
 MONTHS = {
     "Jan": "01", "Feb": "02", "Mar": "03", "Apr": "04",
@@ -130,6 +131,17 @@ def main():
     zones = parse_zones()
     print(f"Found {len(zones)} zones, fetching years: {', '.join(years)}")
 
+    # Months filled from another source until JAKIM publishes them (e.g.
+    # Sabah from the state mufti's poster): JAKIM's version replaces them.
+    provisional = {}
+    if os.path.exists(PROVISIONAL):
+        with open(PROVISIONAL) as f:
+            provisional = json.load(f)
+
+    def is_final(path, year, month, zone_code):
+        return (f"MY/{zone_code}/{year}-{month}" not in provisional
+                and month_complete(path, str(year), month, require_field="dhuha"))
+
     total_written = 0
     total_skipped = 0
     total_fetched = 0
@@ -139,7 +151,7 @@ def main():
             # Check if all 12 months already exist with full data
             out_dir = os.path.join(ROOT, "data", "prayer-times", "MY", zone_code)
             all_complete = all(
-                month_complete(os.path.join(out_dir, f"{year}-{m:02d}.json"), str(year), f"{m:02d}", require_field="dhuha")
+                is_final(os.path.join(out_dir, f"{year}-{m:02d}.json"), year, f"{m:02d}", zone_code)
                 for m in range(1, 13)
             )
             if all_complete:
@@ -176,7 +188,7 @@ def main():
             # Write per-month files
             for month in sorted(by_month.keys()):
                 out_path = os.path.join(out_dir, f"{year}-{month}.json")
-                if month_complete(out_path, str(year), month, require_field="dhuha"):
+                if is_final(out_path, year, month, zone_code):
                     total_skipped += 1
                     continue
 
@@ -199,10 +211,16 @@ def main():
                 with open(out_path, 'w') as f:
                     json.dump(prayer_times, f, indent=2)
                     f.write('\n')
+                if provisional.pop(f"MY/{zone_code}/{year}-{month}", None):
+                    print(f"  {zone_code}/{year}-{month}: JAKIM's timetable replaces the provisional one")
 
                 total_written += 1
 
             print(f"  {zone_code}/{year}: {len(records)} days → {len(by_month)} months")
+
+    with open(PROVISIONAL, "w") as f:
+        json.dump(provisional, f, indent=2)
+        f.write("\n")
 
     print(f"\nDone: {total_written} written, {total_skipped} skipped, {total_fetched} API calls")
 
