@@ -64,7 +64,10 @@ A zone may have its own `source` when its times come from a different authority 
     location: Petaling
     timezone: Asia/Kuala_Lumpur
     source: Mufti Selangor
+    hidden: true
 ```
+
+`hidden: true` marks a zone that is in the data ahead of a map change: apps shouldn't list it in zone pickers or zone pages yet (the MFSGR zones until the Selangor map switch in December 2026).
 
 Zone codes follow the authority. Authorities redraw their zones from time to time (JAKIM moved Rompin from PHG02 into the new PHG07 in 2025), and the maps follow them, so look the zone up from the location again rather than storing it once. Codes we create ourselves (like `MFSGR`) are never reused for another place.
 
