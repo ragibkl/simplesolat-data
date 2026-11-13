@@ -55,6 +55,22 @@ zones:
 
 Available files: `MY.yaml`, `SG.yaml`, `ID.yaml`, `BN.yaml`, `LK.yaml`, `TR.yaml`, `AE.yaml`, `BA.yaml`, `AL.yaml`
 
+A zone may have its own `source` when its times come from a different authority than the rest of the country (otherwise the country's `source` applies). Today only Selangor's district zones have one:
+
+```yaml
+  - code: MFSGR03
+    country: MY
+    state: Selangor
+    location: Petaling
+    timezone: Asia/Kuala_Lumpur
+    source: Mufti Selangor
+    hidden: true
+```
+
+`hidden: true` marks a zone that is in the data ahead of a map change: apps shouldn't list it in zone pickers or zone pages yet (the MFSGR zones until the Selangor map switch in December 2026).
+
+Zone codes follow the authority. Authorities redraw their zones from time to time (JAKIM moved Rompin from PHG02 into the new PHG07 in 2025), and the maps follow them, so look the zone up from the location again rather than storing it once. Codes we create ourselves (like `MFSGR`) are never reused for another place.
+
 ### Prayer times
 
 ```
@@ -151,6 +167,7 @@ Maps geojson shape property to zone code and state. Derived from zone files via 
 | Country | Source | Type | Update frequency |
 |---------|--------|------|-----------------|
 | MY | [JAKIM e-solat](https://www.e-solat.gov.my) | API | CI monthly (27th/28th) |
+| MY (Selangor districts, `MFSGR01`–`09`) | [Jabatan Mufti Negeri Selangor](https://www.muftiselangor.gov.my/takwim-solat/) | PDF | Manual, yearly (`fetch_muftiselangor.py`) |
 | SG | [data.gov.sg](https://data.gov.sg) | API | CI monthly (27th/28th) |
 | ID | [EQuran.id](https://equran.id) | API | CI monthly (27th/28th) |
 | BN | [KHEU Taqwim PDF](https://www.mora.gov.bn) | PDF | Manual, yearly |
@@ -167,6 +184,8 @@ Maps geojson shape property to zone code and state. Derived from zone files via 
 **Note on BA (Bosnia):** The authority is the **Islamic Community in Bosnia & Herzegovina (IZ BiH / Rijaset)**, which publishes the official Vaktija. Unlike the others, this Vaktija is a **perpetual** table — Sarajevo base times plus fixed per-city/month offsets that repeat every year (only DST varies) — so it's committed as a static dataset (`sources/vaktija/vaktija.json`) and regenerated offline per year via `scripts/fetch_vaktija.py`, with no runtime API. The data comes from the long-standing, canonical [vaktija.ba](https://vaktija.ba) (500k+ users), whose tabular structure matches the official IZ BiH takvim; we treat it as the authoritative source.
 
 **Note on RS and ME (Serbia, Montenegro):** Only Sandžak. The IZ BiH Vaktija also covers 11 Sandžak towns (6 in Serbia, 5 in Montenegro), published as zones `RS{id}` / `ME{id}` (same vaktija location ids, same times as the `BA{id}` copies, which stay for existing users). Their maps hold only those municipalities (geoBoundaries SRB ADM2 / MNE ADM1, ODbL, via `scripts/build_sandzak_shapes.py`), so the rest of either country finds no zone and gets calculated times.
+
+**Note on Selangor (MY):** From 1 January 2027 **Jabatan Mufti Negeri Selangor** publishes one timetable per district (9 districts) instead of three zones. JAKIM's e-Solat has no 2027 data for Selangor and no district codes yet, so `scripts/fetch_muftiselangor.py` reads the mufti's district PDFs (`sources/muftiselangor/sources.yaml`) into zones `MFSGR01`–`09` (`source: Mufti Selangor`; no Dhuha, which the takwim doesn't publish). For 2026 each district zone is a copy of the JAKIM zone it belonged to (the mufti's own 2026 tables match JAKIM's SGR01–03: 3 differences of 1 minute in 7,665 times). The map keeps SGR01–03 until it switches to the district zones in December 2026. If JAKIM publishes Selangor 2027 with its own codes, the map moves to those.
 
 **Note on SA (Saudi Arabia):** The authority is **KACST**, which publishes the official **Umm al-Qura** calendar ([ummulqura.org.sa](https://www.ummulqura.org.sa)). It lists 173 official cities and governorates with coordinates (`sources/ummulqura/cities.json`) and its API computes the times for a point, so `scripts/fetch_ummulqura.py` asks it only for those official points (zones `SA{id}`, whole years ahead). The map splits the country by nearest official city (`scripts/patch_sa_zones.py`, geoBoundaries SAU ADM0, ODbL). KACST publishes no separate imsak (the fast starts at fajr): imsak = fajr.
 

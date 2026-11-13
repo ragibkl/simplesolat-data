@@ -283,6 +283,8 @@ NO_SHAPE_OK = {
     'TR': {'TR9676': "Konya's city districts have their own zones"},
     'BA': {'BA104': 'Žepa, a village in Rogatica'},
     'OM': {'OM49': 'Seeq: same point as OM18 Aljabel Alakhdhar'},
+    # Selangor's 2027 district zones: on the map from the December 2026 switch.
+    'MY': {f'MFSGR{i:02d}': 'not on the map until the switch' for i in range(1, 10)},
     # Awqaf areas with no published location (oil fields, a border-guard
     # post, small villages and valleys): places there take the nearest area.
     'AE': {z: 'location not published' for z in (
