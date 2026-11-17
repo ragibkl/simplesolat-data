@@ -30,6 +30,20 @@ countries:
 
 The `shape_property` field tells consumers which geojson property to use as the mapping key (`shapeName` for most countries, `shapeID` for Turkey due to duplicate district names).
 
+A country may also have `maps`: the map in force on each date, each entry applying from its `from` date until the next. Use it when you look up zones for a given date (the simplesolat API does). `geojson` and `mapping` stay the map apps use today, which can switch to a new map a little before its `from` date. Malaysia: Selangor's districts move to the Mufti Selangor district zones on 2027-01-01.
+
+```yaml
+    maps:
+      - from: "2026-01-01"
+        geojson: https://simplesolat-data.netlify.app/geojson/MY-osm-geojson-20261109.json
+        mapping: https://simplesolat-data.netlify.app/mappings/MY-osm-mapping-20261109.json
+      - from: "2027-01-01"
+        geojson: https://simplesolat-data.netlify.app/geojson/MY-osm-geojson-20261109.json
+        mapping: https://simplesolat-data.netlify.app/mappings/MY-osm-mapping-20270101.json
+```
+
+A dated mapping that only moves some shapes is built from the previous one by `scripts/build_remap.py` (source: `sources/remaps/*.yaml`). Test points for it live in `tests/zone-points/{CC}@{from}.yaml`.
+
 ### Zones
 
 ```
@@ -186,7 +200,7 @@ Maps geojson shape property to zone code and state. Derived from zone files via 
 
 **Note on RS and ME (Serbia, Montenegro):** Only Sandžak. The IZ BiH Vaktija also covers 11 Sandžak towns (6 in Serbia, 5 in Montenegro), published as zones `RS{id}` / `ME{id}` (same vaktija location ids, same times as the `BA{id}` copies, which stay for existing users). Their maps hold only those municipalities (geoBoundaries SRB ADM2 / MNE ADM1, ODbL, via `scripts/build_sandzak_shapes.py`), so the rest of either country finds no zone and gets calculated times.
 
-**Note on Sabah (MY):** When JAKIM's e-Solat hasn't published a Sabah month yet, `scripts/fetch_muftisabah.py` fills it from the Sabah mufti's yearly poster (Takwim Waktu Solat 1448H, one per zone; their zones are JAKIM's SBH01–09 and they name JAKIM's Panel Pakar Falak as the source). The poster's merged cells are read by their borders; every day JAKIM has already published must match (1448H: 14,248 of 14,256 times identical, 8 off by 1 minute at the edge of a merged cell). Only whole months without a file are written, and they're listed in `sources/provisional.json`, so `fetch_jakim.py` replaces them as soon as JAKIM publishes. 1448H covers 17 Jun 2026 – 5 Jun 2027, so it fills January–May 2027.
+**Note on Sabah (MY):** When JAKIM's e-Solat hasn't published a Sabah month yet, `scripts/fetch_muftisabah.py` fills it from the Sabah mufti's yearly poster (Takwim Waktu Solat 1448H, one per zone; their zones are JAKIM's SBH01–09 and they name JAKIM's Panel Pakar Falak as the source). The poster's merged cells are read by their borders; every day JAKIM has already published must match (1448H: 14,248 of 14,256 times identical, 8 off by 1 minute at the edge of a merged cell). Only whole months without a file are written, and they're listed in `sources/provisional.json`, so `fetch_jakim.py` replaces them as soon as JAKIM publishes. 1448H covers 17 Jun 2026 – 5 Jun 2027, so it fills January–May 2027. Their days carry `"provisional": true`; JAKIM's days don't.
 
 **Note on Selangor (MY):** From 1 January 2027 **Jabatan Mufti Negeri Selangor** publishes one timetable per district (9 districts) instead of three zones. JAKIM's e-Solat has no 2027 data for Selangor and no district codes yet, so `scripts/fetch_muftiselangor.py` reads the mufti's district PDFs (`sources/muftiselangor/sources.yaml`) into zones `MFSGR01`–`09` (`source: Mufti Selangor`; no Dhuha, which the takwim doesn't publish). For 2026 each district zone is a copy of the JAKIM zone it belonged to (the mufti's own 2026 tables match JAKIM's SGR01–03: 3 differences of 1 minute in 7,665 times). The map keeps SGR01–03 until it switches to the district zones in December 2026. If JAKIM publishes Selangor 2027 with its own codes, the map moves to those.
 

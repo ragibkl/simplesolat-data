@@ -184,15 +184,22 @@ def check_day_counts(countries_filter):
     return issues
 
 
-def country_map_files(cc):
+def country_map_files(cc, date=None):
     """The geojson and mapping files (in data/) and shape property that
-    countries.yaml lists for a country, or None."""
+    countries.yaml lists for a country, or None. With a date, the entry of
+    the country's dated `maps` list that starts on that date."""
     text = open(os.path.join(ROOT, 'data', 'countries.yaml')).read()
     block = re.search(rf'- code: {cc}\n(.*?)(?=\n  - code:|\Z)', text, re.S)
     if not block:
         return None
-    fields = dict(re.findall(r'^\s+(\w+): (.+)$', block.group(1), re.M))
+    # Only the country's own fields (4 spaces), not those inside `maps`.
+    fields = dict(re.findall(r'^ {4}(\w+): (.+)$', block.group(1), re.M))
     path = lambda url: os.path.join(ROOT, 'data', url.split('.app/', 1)[1])
+    if date:
+        entry = re.search(rf'- from: "{date}"\n\s+geojson: (\S+)\n\s+mapping: (\S+)', block.group(1))
+        if not entry:
+            return None
+        return path(entry.group(1)), path(entry.group(2)), fields['shape_property']
     return path(fields['geojson']), path(fields['mapping']), fields['shape_property']
 
 
@@ -246,13 +253,16 @@ def check_zone_points(countries_filter):
     nearby lists the points found only by the app's nearby search."""
     checked, failures, nearby = 0, [], []
     for path in sorted(glob.glob(os.path.join(ROOT, 'tests', 'zone-points', '*.yaml'))):
-        cc = os.path.basename(path)[:-5]
+        # MY.yaml tests the map apps use; MY@2027-01-01.yaml the dated map
+        # from that date.
+        cc, _, date = os.path.basename(path)[:-5].partition('@')
         if countries_filter and cc not in countries_filter:
             continue
-        files = country_map_files(cc)
+        files = country_map_files(cc, date or None)
         if not files:
-            failures.append(f"{cc}: not in countries.yaml")
+            failures.append(f"{cc}{'@' + date if date else ''}: not in countries.yaml")
             continue
+        label = f"{cc}@{date}" if date else cc
         geojson_path, mapping_path, prop = files
         features = json.load(open(geojson_path))['features']
         mapping = json.load(open(mapping_path))
@@ -266,14 +276,14 @@ def check_zone_points(countries_filter):
             if not found:
                 found = nearby_shapes(features, lat, lng)
                 if found:
-                    nearby.append(f"{cc} {note}")
+                    nearby.append(f"{label} {note}")
             zones = sorted({mapping.get(f['properties'].get(prop), {}).get('zone', '?') for f in found})
             if len(found) > 1:
                 names = ', '.join(f['properties'].get(prop, '?') for f in found)
-                failures.append(f"{cc} {note} ({lat}, {lng}): overlapping shapes {names}")
+                failures.append(f"{label} {note} ({lat}, {lng}): overlapping shapes {names}")
             elif zones != [want]:
                 got = zones[0] if zones else 'no shape'
-                failures.append(f"{cc} {note} ({lat}, {lng}): want {want}, got {got}")
+                failures.append(f"{label} {note} ({lat}, {lng}): want {want}, got {got}")
     return checked, failures, nearby
 
 
