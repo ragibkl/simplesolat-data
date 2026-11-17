@@ -5,6 +5,16 @@ countries:
     geojson: https://simplesolat-data.netlify.app/geojson/MY-osm-geojson-20261109.json
     mapping: https://simplesolat-data.netlify.app/mappings/MY-osm-mapping-20261109.json
     shape_property: shapeName
+    # The map in force on each date, for consumers that pick by date (the API).
+    # geojson/mapping above stay what apps use today. Each entry applies from
+    # its date until the next one.
+    maps:
+      - from: "2026-01-01"
+        geojson: https://simplesolat-data.netlify.app/geojson/MY-osm-geojson-20261109.json
+        mapping: https://simplesolat-data.netlify.app/mappings/MY-osm-mapping-20261109.json
+      - from: "2027-01-01"
+        geojson: https://simplesolat-data.netlify.app/geojson/MY-osm-geojson-20261109.json
+        mapping: https://simplesolat-data.netlify.app/mappings/MY-osm-mapping-20270101.json
 
   - code: SG
     name: Singapore

@@ -14,8 +14,8 @@ times, days run on from 1 Muharram without gaps, times are in order, and
 every day that JAKIM has already published must match JAKIM (within 1
 minute on at most 1% of times: see below).
 
-Writes only whole Gregorian months that have no file yet, and lists them in
-sources/provisional.json, so fetch_jakim.py replaces them once JAKIM
+Writes only whole Gregorian months that have no file yet, marks every day
+in them "provisional": true, and lists them in sources/provisional.json, so fetch_jakim.py replaces them once JAKIM
 publishes. Never overwrites JAKIM's files.
 
 Usage: python3 scripts/fetch_muftisabah.py [--check]
@@ -181,7 +181,10 @@ def main():
             d = first + timedelta(days=i)
             if [times[f] for f in FIELDS] != sorted(times[f] for f in FIELDS):
                 raise ValueError(f"{zone} {d}: times not in order {times}")
-            by_month[(d.year, d.month)].append({"date": d.isoformat(), **{f: times[f] for f in FIELDS}})
+            # "provisional": these days are replaced by JAKIM's when it
+            # publishes (consumers may say so; the API passes it on).
+            by_month[(d.year, d.month)].append(
+                {"date": d.isoformat(), **{f: times[f] for f in FIELDS}, "provisional": True})
 
         # Every day JAKIM has published must match exactly (except months
         # we wrote ourselves earlier).

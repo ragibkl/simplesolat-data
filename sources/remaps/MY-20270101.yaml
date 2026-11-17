@@ -1,0 +1,16 @@
+# Malaysia's zone mapping from 1 January 2027: the same district map, with
+# Selangor's 9 districts moved from JAKIM's SGR01-03 to the district zones
+# MFSGR01-09 (Jabatan Mufti Negeri Selangor's district timetables from 2027).
+# Built by scripts/build_remap.py; listed in countries.yaml under `maps`.
+base: mappings/MY-osm-mapping-20261109.json
+out: mappings/MY-osm-mapping-20270101.json
+set:
+  Ulu Selangor: MFSGR01
+  Gombak: MFSGR02
+  Petaling: MFSGR03
+  Ulu Langat: MFSGR04
+  Sepang: MFSGR05
+  Sabak Bernam: MFSGR06
+  Kuala Selangor: MFSGR07
+  Klang: MFSGR08
+  Kuala Langat: MFSGR09
